@@ -1,0 +1,3635 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reinforcement Learning with TensorFlow: A beginner’s guide to designing self-learning systems with TensorFlow and OpenAI Gym | Sayon Dutta | download</title>
+<base href="/">
+
+                        <meta charset="utf-8">		                       
+                        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <meta name="title" content="Reinforcement Learning with TensorFlow: A beginner’s guide to designing self-learning systems with TensorFlow and OpenAI Gym | Sayon Dutta | download">
+			<meta name="description" content="Reinforcement Learning with TensorFlow: A beginner’s guide to designing self-learning systems with TensorFlow and OpenAI Gym | Sayon Dutta | download | B–OK. Download books for free. Find books">
+			<meta name="robots" content="index,all">
+			<meta name="distribution" content="global">
+			<meta http-equiv="cache-control" content="no-cache">
+			<meta http-equiv="pragma" content="no-cache">
+
+                        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+                        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+                        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+                        <link rel="manifest" href="/manifest.json">
+                        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+                        <meta name="apple-mobile-web-app-title" content="Z-Library">
+                        <meta name="application-name" content="Z-Library">
+                        <meta name="theme-color" content="#ffffff">
+
+                        <meta name="propeller" content="49c350d528ba144cace841cac74260ab">
+	
+<!-- CSS SET -->
+<link rel="stylesheet" type="text/css" href="/css/bootstrap/css/bootstrap.min.css?version=0.167" >
+<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css?version=0.167" >
+<link rel="stylesheet" type="text/css" href="/css/root.css?version=0.167" >
+<link rel="stylesheet" type="text/css" href="/ext/bootstrap-tagsinput/bootstrap-tagsinput.css?version=0.167" >
+<link rel="stylesheet" type="text/css" href="/ext/spin/spin.css?version=0.167" >
+<!-- JS SET --> 
+<script type="text/javascript" language="JavaScript" src="https://code.jquery.com/jquery-2.2.4.min.js?version=0.167"></script>
+<script type="text/javascript" language="JavaScript" src="https://cdnjs.cloudflare.com/ajax/libs/mouse0270-bootstrap-notify/3.1.7/bootstrap-notify.min.js?version=0.167"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/underscore.js?version=0.167"></script>
+<script type="text/javascript" language="JavaScript" src="/css/bootstrap/js/bootstrap.min.js?version=0.167"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/zlibrary/zlibrary-notify.js?version=0.167"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/zlibrary/user.js?version=0.167"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/typeahead.js?version=0.167"></script>
+<script type="text/javascript" language="JavaScript" src="/ext/bootstrap-tagsinput/bootstrap-tagsinput.min.js?version=0.167"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/zlibrary/tags-input.js?version=0.167"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/zlibrary/book.js?version=0.167"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/zlibrary/zlibrary-response.js?version=0.167"></script>
+<script type="text/javascript" language="JavaScript" src="/ext/spin/spin.js?version=0.167"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/zlibrary/zlibrary-spinner.js?version=0.167"></script>
+<link REL="SHORTCUT ICON" HREF="/favicon.ico">
+        <link rel="search" type="application/opensearchdescription+xml" href="/search.xml" title="Search for books in the library B-OK.org" />
+    </head>
+    <body style="margin:0px;padding:0px;" class="books/details">
+        <table border="0" height="100%" width="100%" style="height:100%;" cellpadding="0" cellspacing="0"><tbody>
+                <tr style="height:10px;">
+                    <td>
+                        <div class="container-fluid">
+                            
+<div class="row">
+    <div class="col-md-12">
+        <div id="colorBoxes" class="darkShadow">
+            <ul>
+                <li style="background: #49afd0;">
+                    <a href="/">
+                        4,875,682                        books                    </a>
+                </li>
+
+                <li style="background: #8ecd51;">
+                    <a href="http://booksc.xyz">
+                        75,840,596                        articles                    </a>
+                </li>
+
+                <li style="background: #90a5a8;">for free</li>
+            </ul>
+        </div>
+
+
+
+        <div role="navigation" class="navbar-default" style="background-color: transparent;">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" style="">
+                                            <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign in <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://singlelogin.org?from=b-ok.cc">Login</a></li>
+                                <li><a href="https://singlelogin.org/registration.php">Registration</a></li>
+                            </ul>
+                        </li>
+                    
+
+                    
+                    <li>
+                                                    <a href="/howtodonate.php" id="howToDonateMainLink" data-autoopen="true" data-placement="bottom"
+                                   title="Alipay is <span style='white-space: nowrap;'>available now</span>"
+                                   style="color:#8EB46A;">Donate</a>
+                                <script>
+                                    $(window).on("load", function () {
+                                        $('#howToDonateMainLink')
+                                                .tooltip({'html': true, 'trigger': 'manual'})
+                                                .tooltip('show')
+
+                                        $('#howToDonateMainLink').next('.tooltip').click(function () {
+                                            $('#howToDonateMainLink').tooltip('hide')
+                                            document.cookie = "donation_tooltip=50; expires=Tue, 19 Jan 2038 03:14:07 GMT"
+                                        });
+                                    });
+
+                                    document.cookie = "donation_tooltip=2; expires=Tue, 19 Jan 2038 03:14:07 GMT"
+                                </script>
+                                                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span style="font-size: 120%;" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                                                    </a>
+                        <ul class="dropdown-menu">
+                                                        <li class="dropdown-header">Books</li>
+                                                            <li><a href="/book-add.php">Add book</a></li>
+                                <li><a href="/categories">Categories</a></li>
+                                <li><a href="/popular.php">Most Popular</a></li>
+                                                        <li><a href="/recently.php">Recently Added</a></li>
+                                                        <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Z-Library Project</li>
+                            <li><a href="/top-zlibrarians.php">Top Z-Librarians</a></li>
+                            <li><a href="/blog/">Blog</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="container" style="max-width: 1000px;padding-bottom: 40px;">
+                            <div class="row">
+                                <div class="col-md-12 itemFullText">
+                                    
+
+<style>
+    .adFixW iframe{
+        width:100%;
+    }
+</style>
+
+<div class="bcNav">
+    <a href="/" title="Ebook library B-OK.org">Main</a> <i></i>
+        Reinforcement Learning with TensorFlow: A beginner’s guide to designing self-learning systems with..</div>
+
+<div itemscope itemtype="http://schema.org/Book">
+    <div class="row cardBooks">
+        <div class="col-md-3">
+            <a itemprop="image"  class="lightbox details-book-cover" href="//dl181.zlibcdn.com/covers/books/b8/c2/d0/b8c2d0b2a631b59526bc9b5ec421ddcf.jpg">
+                <img src="//dl181.zlibcdn.com/covers/books/b8/c2/d0/b8c2d0b2a631b59526bc9b5ec421ddcf.jpg" alt="Book cover Reinforcement Learning with TensorFlow: A beginner’s guide to designing self-learning systems with TensorFlow and OpenAI Gym" />
+            </a>
+        </div>
+
+        <div class="col-md-9">
+            <h1 itemprop="name" style="color: #000; line-height: 140%;" class="moderatorPanelToggler">
+                Reinforcement Learning with TensorFlow: A beginner’s guide to designing self-learning systems with TensorFlow and OpenAI Gym            </h1>
+
+            <i><a  itemprop="author" class="color1" title="Find all the author's book" href="/g/Sayon Dutta">Sayon Dutta</a></i>
+
+            
+            <div style="overflow: hidden; zoom: 1; margin-top: 30px;">
+<div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2018
+                </div>
+                <div class="bookProperty property_publisher">
+                    <span>Publisher:</span>
+                    Packt Publishing
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property_pages">
+                    <span>Pages:</span>
+                    <span title="Pages paperback">319</span> / <span title="Pages in file">327</span>
+                </div>
+                <div class="bookProperty property_isbn 10">
+                    <span>ISBN 10:</span>
+                    1788835727
+                </div>
+                <div class="bookProperty property_isbn 13">
+                    <span>ISBN 13:</span>
+                    978-1-78883-572-5
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 8.28 MB
+                </div></div>            </div>
+        </div>
+    </div>
+
+    <div style="margin:30px 0 15px 0;">
+        <a class="btn btn-primary dlButton" href="/dl/3579949/f123de" target="" rel="nofollow"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download  (pdf, 8.28 MB)</a>
+                <a class="btn btn-default" href="ireader/3579949" target="_blank" rel="nofollow">Preview</a>        <div class="btn-group" id="sendToEmailButtonBox">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Send-to-Kindle or Email <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu"><li><a href="http://singlelogin.org?from=b-ok.cc" target="blank">Please login to your account first</a></li></ul>
+</div>
+            <button type="button"
+                    class="btn btn-default btn-savebook-disabled"
+                    data-placement="top"
+                    title="Using this feature you can save and organize your favourite books. But before you need to <br><a href='http://singlelogin.org?from=b-ok.cc'>log in</a> or <a href='//singlelogin.org/registration.php'>create an account</a>"
+                    >Save for later</button>
+        
+            </div>
+
+    <div class="cBox1" id="sentToEmailInfo" style="display:none;">
+        The file will be sent to your email address. It may take up to 1-5 minutes before you receive it.
+    </div>
+
+    <div class="cBox1" id="sentToEmailInfoKindle" style="display:none;">
+        The file will be sent to your Kindle account. It may takes up to 1-5 minutes before you received it.
+        <br/>Please note you need to add our <b style="color:#EF404E">NEW</b> email <b>km@bookmail.org</b> to approved e-mail addresses.
+        <a target="blank" href="https://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=201974240">Read more</a>.
+    </div>
+
+    <script type="text/javascript">
+		var pubId=155949;
+		var siteId=580494;
+		var kadId=2152454;
+		var kadwidth=970;
+		var kadheight=250;
+		var kadtype=1;
+		var kadGdpr=""; <!-- set to 1 if inventory is GDPR compliant -->
+		var kadGdprConsent=""; <!-- Insert user GDPR consent string here for GDPR compliant inventory -->
+		var kadpageurl= "https%3A%2F%2Fb-ok.cc%2F";
+</script>
+<script type="text/javascript" src="https://ads.pubmatic.com/AdServer/js/showad.js"></script>
+    <div id="converterCurrentStatusesBox" class="cBox1" style="display:none;"></div>
+
+</div>
+
+<div class="modal fade modal-fullscreen-md-down" id="form-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" style="width: 1100px;">
+        <div class="modal-content" id="form-modal-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="scripts/jquery.lightbox-0.5.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+
+<script type="text/javascript">
+            const availableTags = [];
+            const CurrentBook = new Book({"id":"3579949","title":"Reinforcement Learning with TensorFlow: A beginner\u2019s guide to designing self-learning systems with TensorFlow and OpenAI Gym"})
+            const CurrentUser = new User(null)
+            const tags = new TagsInput($('#inputTags'), CurrentUser, CurrentBook.id, availableTags)
+
+
+            $(function () {
+                $('a.lightbox').lightBox({
+                    containerResizeSpeed: 1
+                });
+            });
+
+            $(function () {
+                // read more
+                var height = 300;
+                if ($('.termsCloud').height() > 0)
+                {
+                    height = height - $('.termsCloud').height();
+                }
+
+                if (height < 225) {
+                    height = 225; // min height
+                }
+
+                // prevent bad line-brake
+                height = Math.floor(height / parseFloat($('#bookDescriptionBox').css('line-height'))) * parseFloat($('#bookDescriptionBox').css('line-height')) + 10; //10 - padding-bottom of box
+
+                if ($('#bookDescriptionBox').height() > height)
+                {
+                    $('#bookDescriptionBox').css('overflow', 'hidden');
+                    $('#bookDescriptionBox').css('height', height);
+                    $('<div style="text-align:center; cursor:pointer;font-size: 12px; height:25px;" class="moreBtn"><div style="display:inline-block;border-top: 1px dashed #333; width:75%; margin-top: 15px;"><span style="display:inline-block;position:relative;top:-13px;padding:0 30px; background: #F6F6F6;">click to read more</span></div></div>').insertAfter("#bookDescriptionBox");
+                }
+
+                $('.moreBtn, #bookDescriptionBox').click(function () {
+                    $('#bookDescriptionBox').css('height', 'auto');
+                    $('#bookDescriptionBox').css('overflow', 'auto');
+                    $('.moreBtn').remove();
+                });
+
+                $('#btnSaveBook').click(function () {
+                    CurrentUser.saveReadLater(CurrentBook.id, "book")
+                })
+
+                $('#btnUnsaveBook').click(function () {
+                    CurrentUser
+                            .deleteReadLater(CurrentBook.id)
+                            .then(response => {
+                                $('#btnSaveBook').removeClass('hidden')
+                                $('#btnUnsaveBook').addClass('hidden')
+                                tags.clear()
+                            })
+                })
+            });
+
+            // converter links
+            $('.converterLink').click(function (e) {
+                $('#converterCurrentStatusesBox').show();
+                $('#converterCurrentStatusesBox').html('Refreshing..');
+
+                $.RPC('ConvertationTools::rpcConvert', {'book_id': $(this).data('book-id'), 'convertTo': $(this).data('convert-to')}).done(function (e) {
+                    convertationStatusesAutoupdaterObserver();
+                }).fail(function (a, b) {
+                    $('#converterCurrentStatusesBox').html('<span class="error">' + b.errors.message() + '</span>');
+                });
+            });
+
+            $('.sendToEmailButton').click(function () {
+                $.RPC('sendToKindle', {'book_id': $(this).data('id'), 'mode': $(this).data('mode')}).done(function (e) {
+                    if (e.response.status) {
+                        //alert('Sent to ' + e.response.email);
+                    }
+                }).fail(function (a, b) {
+                    $('#sentToEmailInfo').html(b.errors.message());
+                    $('#sentToEmailInfoKindle').html(b.errors.message());
+                });
+
+                if ($(this).data('kindle'))
+                {
+                    $('#sentToEmailInfoKindle').show('slow');
+                } else {
+                    $('#sentToEmailInfo').show('slow');
+                }
+                $('#sendToEmailButtonBox').hide('slow');
+            });
+
+            $(document).on("click", ".sendToEmailAfterConversion", function () {
+                $.RPC('sendToKindle', {'book_id': $(this).data('id'), 'mode': 'kindle', 'convertedTo': $(this).data('format')})
+                        .done(function (e) {
+                        })
+                        .fail(function (a, b) {
+                            $('#sentToEmailInfo').html(b.errors.message());
+                            $('#sentToEmailInfoKindle').html(b.errors.message());
+                        });
+
+                $('#sentToEmailInfoKindle').show('slow');
+                $(this).replaceWith('[sent to kindle]');
+            });
+
+            //$('[data-toggle="tooltip"]').tooltip({'html': true});
+            $(window).on("load", function () {
+                $('[data-toggle="tooltip"]').tooltip({'html': true});
+                $('[data-autoopen="true"]').tooltip('show');
+                $('.btn-savebook-disabled').tooltip({
+                    'html': true,
+                    'trigger': 'manual',
+                });
+
+                $('.btn-savebook-disabled').mouseover(function () {
+                    $(this).tooltip('show')
+                });
+
+                $('.btn-savebook-disabled').click(function () {
+                    $(this).tooltip('hide')
+                });
+            });
+
+            var convertationStatusesAutoupdaterRuned = false;
+            function convertationStatusesAutoupdaterObserver()
+            {
+                if (convertationStatusesAutoupdaterRuned)
+                {
+                    return;
+                } else {
+                    convertationStatusesAutoupdaterRuned = true;
+                    convertationStatusesAutoupdater();
+                }
+            }
+
+            function convertationStatusesAutoupdater()
+            {
+                rpcUrl = '/rpc/ConvertationTools::getCurrentJobsStatuses?clear=1&gg_text_mode=1&bookId=' + CurrentBook.id;
+                $.ajaxSetup({cache: false}); // This part addresses an IE bug.  without it, IE will only load the first number and will never refresh
+
+
+                $.ajax({
+                    url: rpcUrl,
+                    datatype: 'html'
+                }).done(function (response) {
+                    $('#converterCurrentStatusesBox').html(response);
+                    if (response.search('progress') === -1)
+                    {
+                        convertationStatusesAutoupdaterRuned = false;
+                        return;
+                    }
+                    setTimeout(convertationStatusesAutoupdater, 15000);
+                }).error(function () {
+                    setTimeout(convertationStatusesAutoupdater, 15000);
+                });
+            }
+
+            function iOSversion()
+            {
+                const isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/);
+                if (isSafari) {
+                    const version = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/)
+                    return [parseInt(version[1], 10), parseInt(version[2], 10), parseInt(version[3] || 0, 10)]
+                }
+
+                return [];
+            }
+
+                if (iOSversion()[0] >= 13) {
+                    $('.dlButton').click(function () {
+                        const iosNotify = $.notify('message', {
+                            template: '<div data-notify="container" class="col-xs-12 col-sm-3" style="padding: 5px;">' +
+                                    '<div data-notify="message" class="alert" style="background: #fff; border: 2px solid #fda8a8;">' +
+                                    '<img src="/img/safary-download-hint.png" style="width: 100%; margin-bottom: 8px;">' +
+                                    'Hint for Safari iOS 13 users: all your downloads are hidden under the arrow icon to the right of the browser address bar.<br>' +
+                                    '<div class="text-right"><a href="javascript://" id="btnIosNotifyClose" style="color: #337ab7;">Hide</a></div>' +
+                                    '</div>' +
+                                    '</div>',
+                            offset: {
+                                x: 0,
+                                y: 25,
+                            },
+                            delay: 0,
+                            onClose: function () {
+                                document.cookie = "ios_download_tooltip=1; expires=Tue, 19 Jan 2038 03:14:07 GMT"
+                            }
+                        })
+
+                        $('#btnIosNotifyClose').click(function () {
+                            document.cookie = "ios_download_tooltip=5; expires=Tue, 19 Jan 2038 03:14:07 GMT"
+                            iosNotify.close()
+                        })
+                    })
+                }
+
+            if ($('#converterCurrentStatusesBox').html().length)
+            {
+                convertationStatusesAutoupdaterObserver();
+                //$('#converterCurrentStatusesBox').css('display', 'block');
+                $('#converterCurrentStatusesBox').show();
+            }
+</script>
+
+<h2 class="color1" style="margin-top:20px;">You may be interested in</h2>
+<div style="background: #49AFD0; height:2px; width: 100%; margin-bottom: 20px;">&nbsp;</div>
+<script src="/scripts/freewall.js"></script><div id="bMosaicBox" style="display:none">
+        <div class="brick" style="width:14%;">
+            <a href="/book/1205971/10fd57" title="Algorithms for Reinforcement Learning  ">
+                <img src="//dl181.zlibcdn.com/covers/books/b6/b3/b3/b6b3b3aebbbfe8578bab8f9be356408b.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/2031354/22fce9" title="Machine Learning: The Art and Science of Algorithms that Make Sense of Data">
+                <img src="//dl181.zlibcdn.com/covers/books/de/1a/b7/de1ab76fcd279de458c4d16cda1fb6d7.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/2517389/42917f" title="Statistical Reinforcement Learning: Modern Machine Learning Approaches">
+                <img src="//dl181.zlibcdn.com/covers/books/ed/c5/39/edc539121d83c4acd4255431bb28a5ac.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/2619760/9442a4" title="Numerical Algorithms: Methods for Computer Vision, Machine Learning, and Graphics">
+                <img src="//dl181.zlibcdn.com/covers/books/fe/23/34/fe2334473cf6e8596c53f9356bc26203.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/2718415/0b492b" title="Machine Learning For Dummies">
+                <img src="//dl181.zlibcdn.com/covers/books/31/06/fc/3106fc3e11b5babf818f7441430c2776.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/2750062/3fb44f" title="TensorFlow for Machine Intelligence: A Hands-On Introduction to Learning Algorithms">
+                <img src="//dl181.zlibcdn.com/covers/books/7c/43/33/7c4333e23a6bf64508f7c848e13ce5fb.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/2827254/77ff6e" title="Python Machine Learning: Machine Learning and Deep Learning with Python, scikit-learn, and TensorFlow">
+                <img src="//dl181.zlibcdn.com/covers/books/96/89/ca/9689ca71655d051b9b9c87b7e2be28c1.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3415668/c31f94" title="Basics for Linear Algebra for Machine Learning - Discover the Mathematical Language of Data in Python">
+                <img src="//dl181.zlibcdn.com/covers/books/aa/63/36/aa6336b23f772f63e5bedc91bdf02fe6.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3420300/0dd593" title=" Reinforcement Learning : With Open AI, TensorFlow and Keras Using Python">
+                <img src="//dl181.zlibcdn.com/covers/books/91/43/ab/9143abf85e8b67239d1e4972115319fe.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3428386/2977a9" title="Practical Reinforcement Learning">
+                <img src="//dl181.zlibcdn.com/covers/books/85/31/ab/8531abed8ef04a58c598059ad52397db.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3555108/d84346" title="Statistics for Machine Learning: Techniques for exploring supervised, unsupervised, and reinforcement learning models with Python and R">
+                <img src="//dl181.zlibcdn.com/covers/books/d6/6c/a1/d66ca13d06423c30b6bbd858c6cb744e.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3561897/fc6721" title="Deep Reinforcement Learning Hands-On: Apply modern RL methods, with deep Q-networks, value iteration, policy gradients, TRPO, AlphaGo Zero and more">
+                <img src="//dl181.zlibcdn.com/covers/books/ff/34/33/ff34332eeb273ac2b8ea0e4916260d9b.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3579919/8057f9" title="Deep Learning with Applications Using Python: Chatbots and Face, Object, and Speech Recognition with Tensorflow and Keras">
+                <img src="//dl181.zlibcdn.com/covers/books/6f/b2/7c/6fb27c2f7eaa1d90f1add8e8d26a0aa7.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3606405/f316a4" title="Machine Learning with Python Cookbook: Practical Solutions from Preprocessing to Deep Learning">
+                <img src="//dl181.zlibcdn.com/covers/books/1b/8a/00/1b8a00c4b487665f8c785761b3bb8f4b.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3608321/f88298" title="Hands-On Transfer Learning with Python Implement Advanced Deep Learning and Neural Network Models Using TensorFlow and Keras">
+                <img src="//dl181.zlibcdn.com/covers/books/61/e0/69/61e069123d081ae6cf3dad746302d813.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3609464/823957" title="Python Reinforcement Learning Projects">
+                <img src="//dl181.zlibcdn.com/covers/books/8a/22/cc/8a22ccc4f94e0a5a98e16b22a2b1f959.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3610113/bddca8" title="Mastering Predictive Analytics with scikit-learn and TensorFlow">
+                <img src="//dl181.zlibcdn.com/covers/books/28/35/37/2835379a6027af4010dd4021fd62ced4.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3618784/7a2193" title="Practical Computer Vision: Extract insightful information from images using TensorFlow, Keras, and OpenCV">
+                <img src="//dl181.zlibcdn.com/covers/books/11/6f/5e/116f5eb2ec6103fa660ab696eb9d70e9.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3629127/aaf49e" title="Keras Reinforcement Learning Projects">
+                <img src="//dl181.zlibcdn.com/covers/books/52/f2/70/52f270dd8ac4f82da9bdf25ead92cab5.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3629128/8c245d" title="Keras Deep Learning Cookbook: Over 80 Recipes for Implementing Deep Neural Networks in Python">
+                <img src="//dl181.zlibcdn.com/covers/books/1d/b0/2a/1db02a22ae55dea1c646433e37acffb2.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3631866/caf032" title="Reinforcement Learning: An Introduction, 2nd Edition">
+                <img src="//dl181.zlibcdn.com/covers/books/65/02/b7/6502b74ce247c4cd4d4fb54747ad7c7e.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3640070/5f03d8" title="Learn Keras for Deep Neural Networks: A Fast-Track Approach to Modern Deep Learning with Python">
+                <img src="//dl181.zlibcdn.com/covers/books/b5/e2/04/b5e204bc896af00c4438f87da58c3d54.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3640071/00dfb7" title="Practical Computer Vision Applications Using Deep Learning with CNNs: With Detailed Examples in Python Using TensorFlow and Kivy">
+                <img src="//dl181.zlibcdn.com/covers/books/0b/1c/4f/0b1c4f7f8c429e6492328a7a68133b25.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3649126/4409f0" title="Numerical Python: Scientific Computing and Data Science Applications with Numpy, SciPy and Matplotlib">
+                <img src="//dl181.zlibcdn.com/covers/books/2f/25/24/2f25249c71ab98c720b019fed27de501.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3679818/325ce3" title="Foundations of Machine Learning">
+                <img src="//dl181.zlibcdn.com/covers/books/14/95/44/1495446fc912817f0cd2986905eb8389.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3681492/07d64c" title="Natural Language Processing Recipes: Unlocking Text Data with Machine Learning and Deep Learning using Python">
+                <img src="//dl181.zlibcdn.com/covers/books/9b/16/91/9b1691f0fff162547d59be6d1819ccad.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3695207/5a2496" title="Hands-On Reinforcement Learning with Python: Master reinforcement and deep reinforcement learning using OpenAI Gym and TensorFlow">
+                <img src="//dl181.zlibcdn.com/covers/books/50/01/6b/50016b13e3953957430bb3d4f9e91d2f.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3697912/d54b5b" title="Introduction to Python for Science and Engineering">
+                <img src="//dl181.zlibcdn.com/covers/books/4f/a9/b4/4fa9b456523c1ae35379c7eabd787196.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div></div><script>
+    $('#bMosaicBox').css('display', 'block');
+
+    var wall = new Freewall('#bMosaicBox');
+    wall.reset({
+        selector: '.brick',
+        keepOrder: true,
+        //animate: true,
+        cellW: $($('.brick')[0]).outerWidth(),
+        cellH: 'auto',
+        gutterX: 8,
+        gutterY: 8,
+        fixSize: false,
+        onResize: function () {
+            wall.fitWidth();
+        }
+    });
+
+    wall.container.find('img').load(function () {
+        wall.fitWidth();
+    });
+
+    wall.fitWidth();
+
+</script><h2 class="color1" style="margin-top:20px;">Most frequently terms</h2>
+<div style="background: #49AFD0; height:2px; width: 100%; margin-bottom: 20px;">&nbsp;</div>
+<div class="termsCloud"><div class="termWrap "><a class="color1" href="/terms/?q=reinforcement+learning" target="_blank">reinforcement learning</a><sup title="Frequency in the text">459</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=neural" target="_blank">neural</a><sup title="Frequency in the text">230</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=networks" target="_blank">networks</a><sup title="Frequency in the text">208</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=reward" target="_blank">reward</a><sup title="Frequency in the text">202</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=fow" target="_blank">fow</a><sup title="Frequency in the text">189</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=output" target="_blank">output</a><sup title="Frequency in the text">165</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=input" target="_blank">input</a><sup title="Frequency in the text">160</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=uif" target="_blank">uif</a><sup title="Frequency in the text">158</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=parameters" target="_blank">parameters</a><sup title="Frequency in the text">144</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=neural+network" target="_blank">neural network</a><sup title="Frequency in the text">129</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=algorithms" target="_blank">algorithms</a><sup title="Frequency in the text">121</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=gradient" target="_blank">gradient</a><sup title="Frequency in the text">109</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=alphago" target="_blank">alphago</a><sup title="Frequency in the text">103</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=pct" target="_blank">pct</a><sup title="Frequency in the text">101</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=neural+networks" target="_blank">neural networks</a><sup title="Frequency in the text">90</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=gps" target="_blank">gps</a><sup title="Frequency in the text">88</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=openai+gym" target="_blank">openai gym</a><sup title="Frequency in the text">88</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=deep+reinforcement" target="_blank">deep reinforcement</a><sup title="Frequency in the text">87</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=portfolio" target="_blank">portfolio</a><sup title="Frequency in the text">86</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=asynchronous" target="_blank">asynchronous</a><sup title="Frequency in the text">85</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=algorithm" target="_blank">algorithm</a><sup title="Frequency in the text">85</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=rewards" target="_blank">rewards</a><sup title="Frequency in the text">85</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=bdujpo" target="_blank">bdujpo</a><sup title="Frequency in the text">82</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=deep+reinforcement+learning" target="_blank">deep reinforcement learning</a><sup title="Frequency in the text">80</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=episode" target="_blank">episode</a><sup title="Frequency in the text">79</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=policy+gradients" target="_blank">policy gradients</a><sup title="Frequency in the text">77</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=vector" target="_blank">vector</a><sup title="Frequency in the text">75</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=probability" target="_blank">probability</a><sup title="Frequency in the text">75</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=layers" target="_blank">layers</a><sup title="Frequency in the text">71</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=xjui" target="_blank">xjui</a><sup title="Frequency in the text">69</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=tqbdf" target="_blank">tqbdf</a><sup title="Frequency in the text">68</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=tibqf" target="_blank">tibqf</a><sup title="Frequency in the text">68</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=critic" target="_blank">critic</a><sup title="Frequency in the text">64</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=weights" target="_blank">weights</a><sup title="Frequency in the text">62</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=optimal" target="_blank">optimal</a><sup title="Frequency in the text">62</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=actor" target="_blank">actor</a><sup title="Frequency in the text">61</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=architectures+and+frameworks" target="_blank">architectures and frameworks</a><sup title="Frequency in the text">60</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=tubuf" target="_blank">tubuf</a><sup title="Frequency in the text">59</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=boe" target="_blank">boe</a><sup title="Frequency in the text">59</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=representation" target="_blank">representation</a><sup title="Frequency in the text">59</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=autonomous+driving" target="_blank">autonomous driving</a><sup title="Frequency in the text">56</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=bdujpot" target="_blank">bdujpot</a><sup title="Frequency in the text">54</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=markov+decision" target="_blank">markov decision</a><sup title="Frequency in the text">54</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=target+parameters" target="_blank">target parameters</a><sup title="Frequency in the text">52</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=parameters+changed" target="_blank">parameters changed</a><sup title="Frequency in the text">52</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=target+parameters+changed" target="_blank">target parameters changed</a><sup title="Frequency in the text">52</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=efg" target="_blank">efg</a><sup title="Frequency in the text">51</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=monte+carlo" target="_blank">monte carlo</a><sup title="Frequency in the text">50</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=cnn" target="_blank">cnn</a><sup title="Frequency in the text">50</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=mfbsojoh" target="_blank">mfbsojoh</a><sup title="Frequency in the text">50</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=epsilon" target="_blank">epsilon</a><sup title="Frequency in the text">49</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=supervised" target="_blank">supervised</a><sup title="Frequency in the text">49</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=frameworks+chapter" target="_blank">frameworks chapter</a><sup title="Frequency in the text">48</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=tdpqf" target="_blank">tdpqf</a><sup title="Frequency in the text">48</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=networks+chapter" target="_blank">networks chapter</a><sup title="Frequency in the text">47</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=sbuf" target="_blank">sbuf</a><sup title="Frequency in the text">46</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=qeg" target="_blank">qeg</a><sup title="Frequency in the text">46</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=tftt" target="_blank">tftt</a><sup title="Frequency in the text">45</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=mdp" target="_blank">mdp</a><sup title="Frequency in the text">45</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=hmpcbm" target="_blank">hmpcbm</a><sup title="Frequency in the text">44</sup></div></div>
+<link rel="stylesheet" type="text/css" href="css/jscomments/jscomments.css">
+
+<div style="background: #49AFD0; height:2px; width: 100%; margin:40px 0 40px 0;">&nbsp;</div>
+
+
+<div id="jscommentsRootBox">
+    <div class="jscommentsFormBox">
+        <div style="width:65%; float:left;">
+            <form id="jscommentsForm" target="uploader" action="rpc.php" method="POST">
+                <input type="hidden" name="book_id" value="3579949">
+                <input type="hidden" name="action" value="addReview">
+                <input type="hidden" name="rx" value="0">
+                <input id="jscommentsNamefield" name="name" type="textfield" placeholder="Your Name" value="" onchange="if (this.value) {
+                            $(this).removeClass('error');
+                        }"/>
+                <textarea id="jscommentsTextarea" name="text" placeholder="Write a Review"  onchange="if (this.value) {
+                            $(this).removeClass('error');}"></textarea>
+                <br clear="all" />
+                <a href="#" onclick="onReviewSubmit();
+                        return false;" id="jscommentsButton">Post a Review</a><img id="jscommentsLoader" src="css/jscomments/loader.gif" style="position: relative; left: -35px; display: none;"/>
+            </form>
+        </div>
+        <div style="width:35%; float:left;" class="jscommentsFormHelp">
+            <div style="padding:10px 0 0 20px;  border-left:1px solid #ccc;">
+                You can write a book review and share your experiences. Other readers will always be interested in your opinion of the books you've read. Whether you've loved the book or not, if you give your honest and detailed thoughts then people will find new books that are right for them.
+            </div>
+        </div>
+    </div>
+    <div id="jscommentsCommentsBox"></div>
+</div>
+
+<script>
+    $('#jscommentsForm')[0].rx.value = 12;
+
+    function onReviewSubmit()
+    {
+        $('#jscommentsForm')[0].submit();
+
+        $('#jscommentsButton').css('width', $('#jscommentsButton').width() + 'px');
+        $('#jscommentsButton').data('originaltxt', $('#jscommentsButton')[0].innerHTML);
+        $('#jscommentsButton').text('Posting..'); // simulate server request
+        $('#jscommentsNamefield').attr("disabled", "disabled");
+        $('#jscommentsTextarea').attr("disabled", "disabled");
+        $('#jscommentsLoader').show();
+
+    }
+
+    function onReviewSubmitFailure()
+    {
+        $('#jscommentsButton').text($('#jscommentsButton').data('originaltxt'));
+        $('#jscommentsButton').css('width', '');
+        $('#jscommentsNamefield').removeAttr("disabled");
+        $('#jscommentsTextarea').removeAttr("disabled");
+        $('#jscommentsLoader').hide();
+    }
+
+</script><div style="display: none;">
+<div id="searchResultBox"><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" data-book_id="3579950" itemscope itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">1</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td class="itemCover">
+                    <div style="min-height:130px;">
+                        <a href="/book/3579950/cab817"><img class="cover lazy" alt="" data-src="//dl181.zlibcdn.com/covers100/books/43/4d/ca/434dcad7a98a01a2fa3a900b6ca58766.jpg" data-srcset="//dl181.zlibcdn.com/covers100/books/43/4d/ca/434dcad7a98a01a2fa3a900b6ca58766.jpg 1x, //dl181.zlibcdn.com/covers200/books/43/4d/ca/434dcad7a98a01a2fa3a900b6ca58766.jpg 2x" /></a>
+                    </div>
+                </td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/3579950/cab817" style="text-decoration: underline;">Bruxelles Brussel Tour Guide</a></h3>
+                                <div class="authors"><a  itemprop="author" class="color1" title="Find all the author's book" href="/g/C. Christian">C. Christian</a></div>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td colspan="99" style="vertical-align: bottom;">
+                                <div class="tags-container"></div>
+                                
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    french
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 3.05 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" data-book_id="3579948" itemscope itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">2</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td class="itemCover">
+                    <div style="min-height:130px;">
+                        <a href="/book/3579948/56e413"><img class="cover lazy" alt="" data-src="//dl181.zlibcdn.com/covers100/books/bd/06/d3/bd06d3d712227aa258efec7b640bfa18.jpg" data-srcset="//dl181.zlibcdn.com/covers100/books/bd/06/d3/bd06d3d712227aa258efec7b640bfa18.jpg 1x, //dl181.zlibcdn.com/covers200/books/bd/06/d3/bd06d3d712227aa258efec7b640bfa18.jpg 2x" /></a>
+                    </div>
+                </td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/3579948/56e413" style="text-decoration: underline;">R DEEP LEARNING PROJECTS : master the techniques to train and deploy neural networks in r</a></h3>
+                                <div class="authors"><a  itemprop="author" class="color1" title="Find all the author's book" href="/g/LIU">LIU</a>, <a  itemprop="author" class="color1" title="Find all the author's book" href="/g/YUXI (HAYDEN). MALDONADO PABLO">YUXI (HAYDEN). MALDONADO PABLO</a></div>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td colspan="99" style="vertical-align: bottom;">
+                                <div class="tags-container"></div>
+                                
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2018
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 7.17 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div><center></center></div><script type="text/javascript" src="/scripts/jquery.lazy.min.js"></script>
+<script>
+    $(function () {
+        $(".lazy").Lazy({
+            effect: "fadeIn",
+            effectTime: 1000,
+            beforeLoad: function(element) {
+                $(element).css({"border-width": "0px"});
+            },
+            afterLoad: function(element) {
+                $(element).css({"border-width": "1px"});
+            }
+        });
+    });
+</script><pre>Reinforcement Learning with
+TensorFlow
+
+&quot;CFHJOOFS THVJEFUPEFTJHOJOHTFMGMFBSOJOHTZTUFNTXJUI
+5FOTPS'MPXBOE0QFO&quot;*(ZN
+
+Sayon Dutta
+
+BIRMINGHAM - MUMBAI
+
+Reinforcement Learning with TensorFlow
+Copyright a 2018 Packt Publishing
+All rights reserved. No part of this book may be reproduced, stored in a retrieval system, or transmitted in any form
+or by any means, without the prior written permission of the publisher, except in the case of brief quotations
+embedded in critical articles or reviews.
+Every effort has been made in the preparation of this book to ensure the accuracy of the information presented.
+However, the information contained in this book is sold without warranty, either express or implied. Neither the
+author, nor Packt Publishing or its dealers and distributors, will be held liable for any damages caused or alleged to
+have been caused directly or indirectly by this book.
+Packt Publishing has endeavored to provide trademark information about all of the companies and products
+mentioned in this book by the appropriate use of capitals. However, Packt Publishing cannot guarantee the accuracy
+of this information.
+Commissioning Editor: Amey Varangaonkar
+Acquisition Editor: Viraj Madhav
+Content Development Editor: Aaryaman Singh, Varun Sony
+Technical Editor: Dharmendra Yadav
+Copy Editors: Safis Editing
+Project Coordinator: Manthan Patel
+Proofreader: Safis Editing
+Indexer: Tejal Daruwale Soni
+Graphics: Tania Dutta
+Production Coordinator: Shantanu Zagade
+First published: April 2018
+Production reference: 1200418
+Published by Packt Publishing Ltd.
+Livery Place
+35 Livery Street
+Birmingham
+B3 2PB, UK.
+ISBN 978-1-78883-572-5
+
+XXXQBDLUQVCDPN
+
+NBQUJP
+
+Mapt is an online digital library that gives you full access to over 5,000 books and videos, as
+well as industry leading tools to help you plan your personal development and advance
+your career. For more information, please visit our website.
+
+Why subscribe?
+Spend less time learning and more time coding with practical eBooks and Videos
+from over 4,000 industry professionals
+Improve your learning with Skill Plans built especially for you
+Get a free eBook or video every month
+Mapt is fully searchable
+Copy and paste, print, and bookmark content
+
+PacktPub.com
+Did you know that Packt offers eBook versions of every book published, with PDF and
+ePub files available? You can upgrade to the eBook version at XXX1BDLU1VCDPN and as a
+print book customer, you are entitled to a discount on the eBook copy. Get in touch with us
+at TFSWJDF!QBDLUQVCDPN for more details.
+At XXX1BDLU1VCDPN, you can also read a collection of free technical articles, sign up for a
+range of free newsletters, and receive exclusive discounts and offers on Packt books and
+eBooks.
+
+Contributors
+About the author
+Sayon Dutta is an Artificial Intelligence researcher and developer. A graduate from IIT
+Kharagpur, he owns the software copyright for Mobile Irrigation Scheduler. At present, he
+is an AI engineer at Wissen Technology. He co-founded an AI startup Marax AI Inc.,
+focused on AI-powered customer churn prediction. With over 2.5 years of experience in AI,
+he invests most of his time implementing AI research papers for industrial use cases, and
+weightlifting.
+I would extend my gratitude to Maa and Baba for everything, especially for teaching me
+that life is all about hustle and the key to enjoyment is getting used to it; my brothers
+Arnav, Kedia, Rawat, Abhishek Singh, and Garg for helping me in my lowest times.
+Thanks to the Packt team, especially Viraj for reaching out, and Aaryaman and Varun for
+guiding me throughout. Thanks to the AI community and my readers.
+
+About the reviewer
+Narotam Singh has been in Indian Meteorological Department, Ministry of Earth Sciences,
+India, since 1996. He has been actively involved with various technical programs and
+training of officers of GoI in IT and communication. He did his PG in electronics in 1996,
+and Diploma and PG diploma in computer engineering in 1994 and 1997 respectively. He is
+working in the enigmatic field of neural networks, deep learning, and machine learning app
+development in iOS with Core ML.
+
+Packt is searching for authors like you
+If you're interested in becoming an author for Packt, please visit BVUIPSTQBDLUQVCDPN and
+apply today. We have worked with thousands of developers and tech professionals, just
+like you, to help them share their insight with the global tech community. You can make a
+general application, apply for a specific hot topic that we are recruiting an author for, or
+submit your own idea.
+
+Table of Contents
+Preface
+
+1
+
+Chapter 1: Deep Learning – Architectures and Frameworks
+Deep learning
+Activation functions for deep learning
+The sigmoid function
+The tanh function
+The softmax function
+The rectified linear unit function
+How to choose the right activation function
+
+Logistic regression as a neural network
+Notation
+Objective
+The cost function
+The gradient descent algorithm
+The computational graph
+Steps to solve logistic regression using gradient descent
+What is xavier initialization?
+Why do we use xavier initialization?
+
+The neural network model
+Recurrent neural networks
+Long Short Term Memory Networks
+Convolutional neural networks
+The LeNet-5 convolutional neural network
+The AlexNet model
+The VGG-Net model
+The Inception model
+
+Limitations of deep learning
+The vanishing gradient problem
+The exploding gradient problem
+Overcoming the limitations of deep learning
+
+Reinforcement learning
+Basic terminologies and conventions
+Optimality criteria
+The value function for optimality
+The policy model for optimality
+
+The Q-learning approach to reinforcement learning
+Asynchronous advantage actor-critic
+
+Introduction to TensorFlow and OpenAI Gym
+Basic computations in TensorFlow
+An introduction to OpenAI Gym
+
+The pioneers and breakthroughs in reinforcement learning
+
+7
+8
+13
+13
+15
+16
+17
+20
+20
+22
+23
+24
+25
+26
+26
+28
+29
+29
+33
+37
+39
+43
+44
+45
+45
+46
+46
+47
+47
+47
+49
+50
+50
+51
+51
+52
+53
+54
+58
+59
+
+Table of Contents
+
+David Silver
+Pieter Abbeel
+Google DeepMind
+The AlphaGo program
+Libratus
+
+Summary
+Chapter 2: Training Reinforcement Learning Agents Using OpenAI Gym
+The OpenAI Gym
+Understanding an OpenAI Gym environment
+
+Programming an agent using an OpenAI Gym environment
+Q-Learning
+The Epsilon-Greedy approach
+
+Using the Q-Network for real-world applications
+
+Summary
+Chapter 3: Markov Decision Process
+Markov decision processes
+The Markov property
+The S state set
+Actions
+Transition model
+Rewards
+Policy
+The sequence of rewards - assumptions
+The infinite horizons
+Utility of sequences
+
+The Bellman equations
+Solving the Bellman equation to find policies
+An example of value iteration using the Bellman equation
+Policy iteration
+
+Partially observable Markov decision processes
+State estimation
+Value iteration in POMDPs
+
+Training the FrozenLake-v0 environment using MDP
+Summary
+Chapter 4: Policy Gradients
+The policy optimization method
+Why policy optimization methods?
+Why stochastic policy?
+Example 1 - rock, paper, scissors
+Example 2 - state aliased grid-world
+
+Policy objective functions
+Policy Gradient Theorem
+
+Temporal difference rule
+[ ii ]
+
+59
+60
+60
+60
+60
+61
+62
+63
+64
+65
+66
+67
+72
+77
+78
+79
+79
+80
+80
+81
+82
+82
+83
+83
+84
+86
+87
+88
+93
+93
+94
+95
+95
+100
+101
+102
+103
+103
+104
+104
+106
+107
+109
+
+Table of Contents
+
+TD(1) rule
+TD(0) rule
+TD() rule
+
+Policy gradients
+The Monte Carlo policy gradient
+Actor-critic algorithms
+Using a baseline to reduce variance
+Vanilla policy gradient
+
+Agent learning pong using policy gradients
+Summary
+Chapter 5: Q-Learning and Deep Q-Networks
+Why reinforcement learning?
+Model based learning and model free learning
+Monte Carlo learning
+Temporal difference learning
+On-policy and off-policy learning
+
+Q-learning
+The exploration exploitation dilemma
+Q-learning for the mountain car problem in OpenAI gym
+
+Deep Q-networks
+Using a convolution neural network instead of a single layer neural network
+Use of experience replay
+Separate target network to compute the target Q-values
+Advancements in deep Q-networks and beyond
+Double DQN
+Dueling DQN
+
+Deep Q-network for mountain car problem in OpenAI gym
+Deep Q-network for Cartpole problem in OpenAI gym
+Deep Q-network for Atari Breakout in OpenAI gym
+
+The Monte Carlo tree search algorithm
+Minimax and game trees
+The Monte Carlo Tree Search
+
+The SARSA algorithm
+SARSA algorithm for mountain car problem in OpenAI gym
+
+Summary
+Chapter 6: Asynchronous Methods
+Why asynchronous methods?
+Asynchronous one-step Q-learning
+Asynchronous one-step SARSA
+Asynchronous n-step Q-learning
+Asynchronous advantage actor critic
+A3C for Pong-v0 in OpenAI gym
+Summary
+[ iii ]
+
+109
+110
+111
+112
+112
+113
+114
+115
+116
+124
+125
+125
+128
+129
+130
+130
+130
+132
+132
+138
+139
+139
+140
+141
+141
+142
+142
+150
+154
+166
+166
+168
+169
+170
+173
+175
+177
+179
+180
+182
+184
+186
+191
+
+Table of Contents
+
+Chapter 7: Robo Everything – Real Strategy Gaming
+Real-time strategy games
+Reinforcement learning and other approaches
+Online case-based planning
+Drawbacks to real-time strategy games
+
+Why reinforcement learning?
+
+Reinforcement learning in RTS gaming
+Deep autoencoder
+How is reinforcement learning better?
+
+Summary
+Chapter 8: AlphaGo – Reinforcement Learning at Its Best
+What is Go?
+Go versus chess
+How did DeepBlue defeat Gary Kasparov?
+Why is the game tree approach no good for Go?
+
+AlphaGo – mastering Go
+Monte Carlo Tree Search
+Architecture and properties of AlphaGo
+Energy consumption analysis – Lee Sedol versus AlphaGo
+
+AlphaGo Zero
+Architecture and properties of AlphaGo Zero
+Training process in AlphaGo Zero
+
+Summary
+Chapter 9: Reinforcement Learning in Autonomous Driving
+Machine learning for autonomous driving
+Reinforcement learning for autonomous driving
+Creating autonomous driving agents
+Why reinforcement learning ?
+
+Proposed frameworks for autonomous driving
+Spatial aggregation
+Sensor fusion
+Spatial features
+
+Recurrent temporal aggregation
+Planning
+
+DeepTraffic – MIT simulator for autonomous driving
+Summary
+Chapter 10: Financial Portfolio Management
+Introduction
+Problem definition
+Data preparation
+Reinforcement learning
+Further improvements
+[ iv ]
+
+192
+192
+193
+194
+196
+197
+197
+198
+199
+200
+201
+204
+206
+206
+207
+208
+209
+210
+213
+213
+215
+216
+218
+219
+220
+223
+224
+226
+227
+229
+229
+229
+230
+231
+232
+234
+235
+238
+239
+241
+243
+246
+
+Table of Contents
+
+Summary
+Chapter 11: Reinforcement Learning in Robotics
+Reinforcement learning in robotics
+Evolution of reinforcement learning
+
+Challenges in robot reinforcement learning
+High dimensionality problem
+Real-world challenges
+Issues due to model uncertainty
+What's the final objective a robot wants to achieve?
+
+Open questions and practical challenges
+Open questions
+Practical challenges for robotic reinforcement learning
+
+Key takeaways
+Summary
+Chapter 12: Deep Reinforcement Learning in Ad Tech
+Computational advertising challenges and bidding strategies
+Business models used in advertising
+Sponsored-search advertisements
+Search-advertisement management
+Adwords
+
+Bidding strategies of advertisers
+
+Real-time bidding by reinforcement learning in display advertising
+Summary
+Chapter 13: Reinforcement Learning in Image Processing
+Hierarchical object detection with deep reinforcement learning
+Related works
+Region-based convolution neural networks
+Spatial pyramid pooling networks
+Fast R-CNN
+Faster R-CNN
+You Look Only Once
+Single Shot Detector
+
+Hierarchical object detection model
+State
+Actions
+Reward
+Model and training
+Training specifics
+
+Summary
+Chapter 14: Deep Reinforcement Learning in NLP
+Text summarization
+Deep reinforced model for Abstractive Summarization
+Neural intra-attention model
+
+[v]
+
+246
+247
+248
+249
+251
+252
+253
+254
+255
+256
+256
+258
+258
+259
+261
+262
+263
+263
+263
+264
+264
+265
+268
+269
+270
+271
+271
+272
+272
+273
+274
+275
+275
+276
+276
+277
+277
+278
+280
+281
+282
+284
+284
+
+Table of Contents
+Intra-temporal attention on input sequence while decoding
+Intra-decoder attention
+Token generation and pointer
+
+Hybrid learning objective
+Supervised learning with teacher forcing
+Policy learning
+Mixed training objective function
+
+Text question answering
+Mixed objective and deep residual coattention for Question Answering
+Deep residual coattention encoder
+Mixed objective using self-critical policy learning
+
+Summary
+Appendix A: Further topics in Reinforcement Learning
+Continuous action space algorithms
+Trust region policy optimization
+Deterministic policy gradients
+
+Scoring mechanism in sequential models in NLP
+BLEU
+What is BLEU score and what does it do?
+
+ROUGE
+
+Summary
+Other Books You May Enjoy
+
+284
+285
+287
+288
+288
+289
+290
+290
+294
+294
+295
+296
+297
+297
+298
+298
+299
+299
+300
+304
+306
+307
+
+Index
+
+310
+
+[ vi ]
+
+Preface
+Reinforcement learning (RL) allows you to develop smart, quick, and self-learning systems
+in your business surroundings. It is an effective method to train your learning agents and
+solve a variety of problems in artificial intelligencebfrom games, self-driving cars, and
+robots to enterprise applications that range from data center energy saving (cooling data
+centers) to smart warehousing solutions.
+The book covers the major advancements and successes achieved in deep reinforcement
+learning by synergizing deep neural network architectures with reinforcement learning.
+The book also introduces readers to the concept of Reinforcement Learning, its advantages
+and why it's gaining so much popularity. It discusses MDPs, Monte Carlo tree searches,
+policy and value iteration, temporal difference learning such as Q-learning, and SARSA.
+You will use TensorFlow and OpenAI Gym to build simple neural network models that
+learn from their own actions. You will also see how reinforcement learning algorithms play
+a role in games, image processing, and NLP.
+By the end of this book, you will have a firm understanding of what reinforcement learning
+is and how to put your knowledge to practical use by leveraging the power of TensorFlow
+and OpenAI Gym.
+
+Who this book is for
+If you want to get started with reinforcement learning using TensorFlow in the most
+practical way, this book will be a useful resource. The book assumes prior knowledge of
+traditional machine learning and linear algebra, as well as some understanding of the
+TensorFlow framework. No previous experience of reinforcement learning and deep neural
+networks is required.
+
+What this book covers
+$IBQUFS, Deep Reinforcement ` Architectures and Frameworks, covers the relevant and
+common deep learning architectures, basics of logistic regression, neural networks, RNN,
+LSTMs, and CNNs. We also cover an overview of reinforcement learning, the various
+technologies, frameworks, tools, and techniques, along with what has been achieved so far,
+the future, and various interesting applications.
+
+Preface
+$IBQUFS, Training Reinforcement Learning Agents Using OpenAI Gym, explains that OpenAI
+Gym is a toolkit for developing and comparing reinforcement learning algorithms. It
+supports teaching agents everything from walking to playing games such as Pong or
+Breakout. In this chapter, we learn how to use the OpenAI Gym framework to program
+interesting RL applications.
+$IBQUFS, Markov Decision Process, discusses the fundamental concepts behind
+
+reinforcement learning such as MDP, Bellman Value functions, POMDP, concepts of value
+iteration, reward's sequence, and training a reinforcement learning agent using value
+iteration in an MDP environment from OpenAI Gym.
+$IBQUFS, Policy Gradients, shows a way of implementing reinforcement learning systems
+by directly deriving the policies. Policy gradients are faster and can work in continuous
+state-action spaces. We cover the basics of policy gradient such as policy objective functions,
+temporal difference rule, policy gradients, and actor-critic algorithms. We learn to apply a
+policy gradient algorithm to train an agent to play the game of Pong.
+$IBQUFS, Q-Learning and Deep Q-Networks, explains that algorithms such as State-Action-
+
+Reward-State-Action (SARSA), MCTS, and DQN have enabled a new era of RL, including
+AlphaGo. In this chapter, we take a look at the building blocks of Q-Learning and applying
+deep neural networks (such as CNNs) to create DQN. We also implement SARSA, Qlearning, and DQN to create agents to play the games of Mountain Car, Cartpole, and Atari
+Breakout.
+$IBQUFS, Asynchronous Methods, teaches asynchronous methods: asynchronous one-step
+
+Q-learning, asynchronous one-step SARSA, asynchronous n-step Q-learning, and
+asynchronous advantage actor-critic (A3C). A3C is a state-of-the-art deep reinforcement
+learning framework. We also implement A3C to create a reinforcement learning agent.
+$IBQUFS, Robo Everything ` Real Strategy Gaming, brings together the RL foundations,
+technologies, and frameworks together to develop RL pipelines and systems. We will also
+discuss the system-level strategies to make reinforcement learning problems easier to solve
+(shaping, curriculum learning, apprenticeship learning, building blocks, and
+multiconcepts).
+$IBQUFS, AlphaGo ` Reinforcement Learning at Its Best, covers one of the most successful
+
+stories: the success of AI in playing and winning the game of Go against the world
+champion. In this chapter, we look at the algorithms, architectures, pipelines, hardware,
+training methodologies, and game strategies employed by AlphaGo.
+
+[2]
+
+Preface
+$IBQUFS, Reinforcement Learning in Autonomous Driving, illustrates one of the most
+interesting applications of RL, that is, autonomous driving. There are many use cases such
+as multi-lane merging and driving policies for negotiating roundabouts. We cover the
+challenges in autonomous driving and discuss proposed research-based solutions. We also
+introduce the famous MIT Deep Traffic simulator to test our reinforcement learning
+framework.
+$IBQUFS, Financial Portfolio Management, covers the application of RL techniques in the
+
+financial world. Many predict that AI will be the norm in asset management, trading desks,
+and portfolio management.
+$IBQUFS, Reinforcement Learning in Robotics, shows another interesting domain in which
+RL has found a lot of applicationsbrobotics. The challenges of implementing RL in robotics
+and the probable solutions are covered.
+$IBQUFS, Deep Reinforcement Learning in Ad Tech, covers topics such as computational
+advertising challenges, bidding strategies, and real-time bidding by reinforcement learning
+in display advertising.
+$IBQUFS, Reinforcement Learning in Image Processing, is about the most famous domain in
+
+computer visionbobject detectionband how reinforcement learning is trying to solve it.
+$IBQUFS, Deep Reinforcement Learning in NLP , illustrates the use of reinforcement
+learning in text summarization and question answering, which will give you a basic idea of
+how researchers are reaping the benefits of reinforcement learning in these domains.
+&quot;QQFOEJY&quot;, Further topics in Reinforcement Learning, has an introductory overview of some
+
+of the topics that were out of the scope of this book. But we mention them in brief and end
+these topics with external links for you to explore them further.
+
+To get the most out of this book
+The following are the requirements to get the most out of this book:
+Python and TensorFlow
+Linear algebra as a prerequisite for neural networks
+Installation bundle: Python, TensorFlow, and OpenAI gym (shown in $IBQUFS
+, Deep Learning ` Architectures and Frameworks and $IBQUFS, Training
+Reinforcement Learning Agents Using OpenAI Gym)
+
+[3]
+
+Preface
+
+Download the example code files
+You can download the example code files for this book from your account at
+XXXQBDLUQVCDPN. If you purchased this book elsewhere, you can visit
+XXXQBDLUQVCDPNTVQQPSU and register to have the files emailed directly to you.
+You can download the code files by following these steps:
+1.
+2.
+3.
+4.
+
+Log in or register at XXXQBDLUQVCDPN.
+Select the SUPPORT tab.
+Click on Code Downloads &amp; Errata.
+Enter the name of the book in the Search box and follow the onscreen
+instructions.
+
+Once the file is downloaded, please make sure that you unzip or extract the folder using the
+latest version of:
+WinRAR/7-Zip for Windows
+Zipeg/iZip/UnRarX for Mac
+7-Zip/PeaZip for Linux
+The code bundle for the book is also hosted on GitHub at IUUQTHJUIVCDPN
+1BDLU1VCMJTIJOH3FJOGPSDFNFOU-FBSOJOHXJUI5FOTPS'MPX. In case there's an update to
+the code, it will be updated on the existing GitHub repository.
+We also have other code bundles from our rich catalog of books and videos available
+at IUUQTHJUIVCDPN1BDLU1VCMJTIJOH. Check them out!
+
+Download the color images
+We also provide a PDF file that has color images of the screenshots/diagrams used in this
+book. You can download it here: IUUQXXXQBDLUQVCDPNTJUFTEFGBVMUGJMFT
+EPXOMPBET3FJOGPSDFNFOU-FBSOJOHXJUI5FOTPS'MPX@$PMPS*NBHFTQEG.
+
+[4]
+
+Preface
+
+Conventions used
+There are a number of text conventions used throughout this book.
+$PEF*O5FYU: Indicates code words in text, database table names, folder names, filenames,
+file extensions, pathnames, dummy URLs, user input, and Twitter handles. Here is an
+example: &quot;The TJHNPJE Y and SFMV Y refer to the functions performing sigmoid and
+ReLU activation calculations respectively.&quot;
+
+A block of code is set as follows:
+EFGEJTDSFUJ[BUJPO FOWPCT 
+FOW@MPXFOWPCTFSWBUJPO@TQBDFMPX
+FOW@IJHIFOWPCTFSWBUJPO@TQBDFIJHI
+
+Any command-line input or output is written as follows:
+Episode
+Episode
+Episode
+Episode
+
+1
+2
+3
+4
+
+completed
+completed
+completed
+completed
+
+with
+with
+with
+with
+
+total
+total
+total
+total
+
+reward
+reward
+reward
+reward
+
+8433.30289388
+3072.93369963
+1230.81734028
+2182.31111239
+
+in
+in
+in
+in
+
+26839 steps
+8811 steps
+4395 steps
+6629 steps
+
+Bold: Indicates a new term, an important word, or words that you see onscreen. For
+example, words in menus or dialog boxes appear in the text like this. Here is an example:
+&quot;Select System info from the Administration panel.&quot;
+Warnings or important notes appear like this.
+
+Tips and tricks appear like this.
+
+[5]
+
+Preface
+
+Get in touch
+Feedback from our readers is always welcome.
+General feedback: Email GFFECBDL!QBDLUQVCDPN and mention the book title in the
+subject of your message. If you have questions about any aspect of this book, please email
+us at RVFTUJPOT!QBDLUQVCDPN.
+Errata: Although we have taken every care to ensure the accuracy of our content, mistakes
+do happen. If you have found a mistake in this book, we would be grateful if you would
+report this to us. Please visit XXXQBDLUQVCDPNTVCNJUFSSBUB, selecting your book,
+clicking on the Errata Submission Form link, and entering the details.
+Piracy: If you come across any illegal copies of our works in any form on the Internet, we
+would be grateful if you would provide us with the location address or website name.
+Please contact us at DPQZSJHIU!QBDLUQVCDPN with a link to the material.
+If you are interested in becoming an author: If there is a topic that you have expertise in
+and you are interested in either writing or contributing to a book, please visit
+BVUIPSTQBDLUQVCDPN.
+
+Reviews
+Please leave a review. Once you have read and used this book, why not leave a review on
+the site that you purchased it from? Potential readers can then see and use your unbiased
+opinion to make purchase decisions, we at Packt can understand what you think about our
+products, and our authors can see your feedback on their book. Thank you!
+For more information about Packt, please visit QBDLUQVCDPN.
+
+[6]
+
+1
+Deep Learning – Architectures
+and Frameworks
+Artificial neural networks are computational systems that provide us with important tools
+to solve challenging machine learning tasks, ranging from image recognition to speech
+translation. Recent breakthroughs, such as Google DeepMind's AlphaGo defeating the best
+Go players or Carnegie Mellon University's Libratus defeating the world's best professional
+poker players, have demonstrated the advancement in the algorithms; these algorithms
+learn a narrow intelligence like a human would and achieve superhuman-level
+performance. In plain speech, artificial neural networks are a loose representation of the
+human brain that we can program in a computer; to be precise, it's an approach inspired by
+our knowledge of the functions of the human brain. A key concept of neural networks is to
+create a representation space of the input data and then solve the problem in that space; that
+is, warping the data from its current state in such a way that it can be represented in a
+different state where it can solve the concerned problem statement (say, a classification or
+regression). Deep learning means multiple hidden representations, that is, a neural network
+with many layers to create more effective representations of the data. Each layer refines the
+information received from the previous one.
+Reinforcement learning, on the other hand, is another wing of machine learning, which is a
+technique to learn any kind of activity that follows a sequence of actions. A reinforcement
+learning agent gathers the information from the environment and creates a representation
+of the states; it then performs an action that results in a new state and a reward (that is,
+quantifiable feedback from the environment telling us whether the action was good or bad).
+This phenomenon continues until the agent is able to improve the performance beyond a
+certain threshold, that is, maximizing the expected value of the rewards. At each step, these
+actions can be chosen randomly, can be fixed, or can be supervised using a neural network.
+The supervision of predicting action using a deep neural network opens a new domain,
+called deep reinforcement learning. This forms the base of AlphaGo, Libratus, and many
+other breakthrough research in the field of artificial intelligence.
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+We will cover the following topics in this chapter:
+Deep learning
+Reinforcement learning
+Introduction to TensorFlow and OpenAI Gym
+The influential researchers and projects in reinforcement learning
+
+Deep learning
+Deep learning refers to training large neural networks. Let's first discuss some basic use
+cases of neural networks and why deep learning is creating such a furore even though these
+neural networks have been here for decades.
+Following are the examples of supervised learning in neural networks:
+Inputs(x)
+
+Output(y)
+
+Application
+domain
+
+Suggested neural network
+approach
+
+House features
+
+Price of the house
+
+Real estate
+
+Standard neural network with
+rectified linear unit in the output
+layer
+
+Online advertising
+
+Standard neural network with
+binary classification
+
+Image object
+
+Classifying from
+100 different
+objects, that is
+(1,2,.....,100)
+
+Photo tagging
+
+Convolutional neural network
+(since image, that is, spatial data)
+
+Audio
+
+Text transcript
+
+Recurrent neural network (since
+Speech recognition both input-output are sequential
+data)
+
+English
+
+Chinese
+
+Machine
+translation
+
+Recurrent neural network (since
+the input is a sequential data)
+
+Image, radar
+information
+
+Position of other
+cars
+
+Autonomous
+driving
+
+Customized hybrid/complex
+neural network
+
+Ad and user info
+Yes(1) or No(0)
+Click on ad ?
+
+[8]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+We will go into the details of the previously-mentioned neural networks in the coming
+sections of this chapter, but first we must understand that different types of neural
+networks are used based on the objective of the problem statement.
+Supervised learning is an approach in machine learning where an agent is trained using
+pairs of input features and their corresponding output/target values (also called labels).
+Traditional machine learning algorithms worked very well for the structured data, where
+most of the input features were very well defined. This is not the case with the unstructured
+data, such as audio, image, and text, where the data is a signal, pixels, and letters,
+respectively. It's harder for the computers to make sense of the unstructured data than the
+structured data. The neural network's ability to make predictions based on this
+unstructured data is the key reason behind their popularity and generate economic value.
+First, it's the scale at the present moment, that is the scale of data, computational power and
+new algorithms, which is driving the progress in deep learning. It's been over four decades
+of internet, resulting in an enormous amount of digital footprints accumulating and
+growing. During that period, research and technological development helped to expand the
+storage and processing ability of computational systems. Currently, owing to these heavy
+computational systems and massive amounts of data, we are able to verify discoveries in
+the field of artificial intelligence done over the past three decades.
+Now, what do we need to implement deep learning?
+First, we need a large amount of data.
+Second, we need to train a reasonably large neural network.
+So, why not train a large neural network on small amounts of data?
+
+[9]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+Think back to your data structure lessons, where the utility of the structure is to sufficiently
+handle a particular type of value. For example, you will not store a scalar value in a variable
+that has the tensor data type. Similarly, these large neural networks create distinct
+representations and develop comprehending patterns given the high volume of data, as
+shown in the following graph:
+
+Please refer to the preceding graphical representation of data versus performance of
+different machine learning algorithms for the following inferences:
+1. We see that the performance of traditional machine learning algorithms
+converges after a certain time as they are not able to absorb distinct
+representations with data volume beyond a threshold.
+2. Check the bottom left part of the graph, near the origin. This is the region where
+the relative ordering of the algorithms is not well defined. Due to the small data
+size, the inner representations are not that distinct. As a result, the performance
+metrics of all the algorithms coincide. At this level, performance is directly
+proportional to better feature engineering. But these hand engineered features fail
+with the increase in data size. That's where deep neural networks come in as they
+are able to capture better representations from large amounts of data.
+
+[ 10 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+Therefore, we can conclude that one shouldn't fit a deep learning architecture in to any
+encountered data. The volume and variety of the data obtained indicate which algorithm to
+apply. Sometimes small data works better with traditional machine learning algorithms
+rather than deep neural networks.
+Deep learning problem statements and algorithms can be further segregated into four
+different segments based on their area of research and application:
+General deep learning: Densely-connected layers or fully-connected networks
+Sequence models: Recurrent neural networks, Long Short Term Memory
+Networks, Gated Recurrent Units, and so on
+Spatial data models (images, for example): Convolutional neural networks,
+Generative Adversarial Networks
+Others: Unsupervised learning, reinforcement learning, sparse encoding, and so
+on
+Presently, the industry is mostly driven by the first three segments, but the future of
+Artificial Intelligence rests on the advancements in the fourth segment. Walking down the
+journey of advancements in machine learning, we can see that until now, these learning
+models were giving real numbers as output, for example, movie reviews (sentiment score)
+and image classification (class object). But now, as well as, other type of outputs are being
+generated, for example, image captioning (input: image, output: text), machine translation
+(input: text, output: text), and speech recognition (input: audio, output: text).
+Human-level performance is necessary and being commonly applied in deep learning.
+Human-level accuracy becomes constant after some time converging to the highest possible
+point. This point is called the Optimal Error Rate (also known as the Bayes Error Rate, that
+is, the lowest possible error rate for any classifier of a random outcome).
+The reason behind this is that a lot of problems have a theoretical limit in performance
+owing to the noise in the data. Therefore, human-level accuracy is a good approach to
+improving your models by doing error analysis. This is done by incorporating human-level
+error, training set error, and validation set error to estimate bias variance effects, that is, the
+underfitting and overfitting conditions.
+
+[ 11 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+The scale of data, type of algorithm, and performance metrics are a set of approaches that
+help us to benchmark the level of improvements with respect to different machine learning
+algorithms. Thereby, governing the crucial decision of whether to invest in deep learning or
+go with the traditional machine learning approaches.
+A basic perceptron with some input features (three, here in the following diagram) looks as
+follows:
+
+The preceding diagram sets the basic approach of what a neural network looks like if we
+have input in the first layer and output in the next. Let's try to interpret it a bit. Here:
+X1, X2, and X3 are input feature variables, that is, the dimension of input here is 3
+(considering there's no bias variable).
+W1, W2, and W3 are the corresponding weights associated with feature variables.
+When we talk about the training of neural networks, we mean to say the training
+of weights. Thus, these form the parameters of our small neural network.
+The function in the output layer is an activation function applied over the
+aggregation of the information received from the previous layer. This function
+creates a representation state that corresponds to the actual output. The series of
+processes from the input layer to the output layer resulting into a predicted
+output is called forward propagation.
+The error value between the output from the activation function and actual
+output is minimized through multiple iterations.
+
+[ 12 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+Minimization of the error only happens if we change the value of the weights
+(going from the output layer toward the input layer) in the direction that can
+minimize our error function. This process is termed backpropagation, as we are
+moving in the opposite direction.
+Now, keeping these basics in mind, let's go into demystifying the neural networks further
+using logistic regression as a neural network and try to create a neural network with one
+hidden layer.
+
+Activation functions for deep learning
+Activation functions are the integral units of artificial neural networks. They decide
+whether a particular neuron is activated or not, that is, whether the information received by
+the neuron is relevant or not. The activation function performs nonlinear transformation on
+the receiving signal (data).
+We will discuss some of the popular activation functions in the following sections.
+
+The sigmoid function
+Sigmoid is a smooth and continuously differentiable function. It results in nonlinear output.
+The sigmoid function is represented here:
+
+Please, look at the observations in the following graph of the sigmoid function. The function
+ranges from 0 to 1. Observing the curve of the function, we see that the gradient is very high
+when x values between -3 and 3, but becomes flat beyond that. Thus, we can say that small
+changes in x near these points will bring large changes in the value of the sigmoid function.
+Therefore, the function goals in pushing the values of the sigmoid function towards the
+extremes.
+
+[ 13 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+Therefore, it's being used in classification problems:
+
+Looking at the gradient of the following sigmoid function, we observe a smooth curve
+dependent on x. Since the gradient curve is continuous, it's easy to backpropagate the error
+and update the parameters, that is,
+and :
+
+[ 14 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+Sigmoids are widely used but its disadvantage is that the function goes flat beyond +3 and
+-3. Thus, whenever the function falls in that region, the gradients tends to approach zero
+and the learning of our neural network comes to a halt.
+Since the sigmoid function outputs values from 0 to 1, that is, all positive, it's non
+symmetrical around the origin and all output signals are positive, that is, of the same sign.
+To tackle this, the sigmoid function has been scaled to the tanh function, which we will
+study next. Moreover, since the gradient results in a very small value, it's susceptible to the
+vanishing gradient problem (which we will discuss later in this chapter).
+
+The tanh function
+Tanh is a continuous function symmetric around the origin; it ranges from -1 to 1. The
+tanh function is represented as follows:
+
+Thus the output signals will be both positive and negative thereby, adding to the
+segregation of the signals around the origin. As mentioned earlier, it is continuous and also
+non linear plus differentiable at all points. We can observe these properties in the graph of
+the tanh function in the following diagram. Though symmetrical, it becomes flat beyond -2
+and 2:
+
+[ 15 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+Now looking at the gradient curve of the following tanh function, we observe it being
+steeper than the sigmoid function. The tanh function also has the vanishing gradient
+problem:
+
+The softmax function
+The softmax function is mainly used to handle classification problems and preferably used
+in the output layer, outputting the probabilities of the output classes. As seen earlier, while
+solving the binary logistic regression, we witnessed that the sigmoid function was able to
+handle only two classes. In order to handle multi-class we need a function that can generate
+values for all the classes and those values follow the rules of probability. This objective is
+fulfilled by the softmax function, which shrinks the outputs for each class between 0 and 1
+and divides them by the sum of the outputs for all the classes:
+
+[ 16 ]
+
+Deep Learning – Architectures and Frameworks
+
+For examples,
+
+Chapter 1
+
+, where x refers to four classes.
+
+Then, the softmax function will gives results (rounded to three decimal places) as:
+
+Thus, we see the probabilities of all the classes. Since the output of every classifier demands
+probabilistic values for all the classes, the softmax function becomes the best candidate for
+the outer layer activation function of the classifier.
+
+The rectified linear unit function
+The rectified linear unit, better known as ReLU, is the most widely used activation
+function:
+
+[ 17 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+The ReLU function has the advantage of being non linear. Thus, backpropagation is easy
+and can therefore stack multiple hidden layers activated by the ReLU function, where for
+x&lt;=0, the function f(x) = 0 and for x&gt;0, f(x)=x.
+
+The main advantage of the ReLU function over other activation functions is that it does not
+activate all the neurons at the same time. This can be observed from the preceding graph of
+the ReLU function, where we see that if the input is negative it outputs zero and the neuron
+does not activate. This results in a sparse network, and fast and easy computation.
+
+[ 18 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+&amp;GTKXCVKXGITCRJQH4G.7UJQYUH Z  HQTZ CPFH Z  HQTZ!
+
+Looking at the preceding gradients graph of ReLU preceding, we can see the negative side
+of the graph shows a constant zero. Therefore, activations falling in that region will have
+zero gradients and therefore, weights will not get updated. This leads to inactivity of the
+nodes/neurons as they will not learn. To overcome this problem, we have Leaky ReLUs,
+which modify the function as:
+
+
+
+This prevents the gradient from becoming zero in the negative side and the weight training
+continues, but slowly, owing to the low value of .
+
+[ 19 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+How to choose the right activation function
+The activation function is decided depending upon the objective of the problem statement
+and the concerned properties. Some of the inferences are as follows:
+Sigmoid functions work very well in the case of shallow networks and binary
+classifiers. Deeper networks may lead to vanishing gradients.
+The ReLU function is the most widely used, and try using Leaky ReLU to avoid
+the case of dead neurons. Thus, start with ReLU, then move to another activation
+function if ReLU doesn't provide good results.
+Use softmax in the outer layer for the multi-class classification.
+Avoid using ReLU in the outer layer.
+
+Logistic regression as a neural network
+Logistic regression is a classifier algorithm. Here, we try to predict the probability of the
+output classes. The class with the highest probability becomes the predicted output. The
+error between the actual and predicted output is calculated using cross-entropy and
+minimized through backpropagation. Check the following diagram for binary logistic
+regression and multi-class logistic regression. The difference is based on the problem
+statement. If the unique number of output classes is two then it's called binary
+classification, if it's more than two then it's called multi-class classification. If there are no
+hidden layers, we use the sigmoid function for the binary classification and we get the
+architecture for binary logistic regression. Similarly, if there are no hidden layers and we
+use use the softmax function for the multi-class classification, we get the architecture for
+multi-class logistic regression.
+Now a question arises, why not use the sigmoid function for multi-class logistic regression ?
+The answer, which is true for all predicted output layers of any neural network, is that the
+predicted outputs should follow a probability distribution. In normal terms, say the output
+has N classes. This will result in N probabilities for an input data having, say, d dimensions.
+Thus, the sum of the N probabilities for this one input data should be 1 and each of those
+probabilities should be between 0 and 1 inclusive.
+
+[ 20 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+On the one hand, the summation of the sigmoid function for N different classes may not be
+1 in the majority of cases. Therefore, in case of binary, the sigmoid function is applied to
+obtain the probability of one class, that is, p(y = 1|x), and for the other class the probability,
+that is, p(y = 0|x) = 1 a p(y = 1|x). On the other hand, the output of a softmax function is
+values satisfying the probability distribution properties. In the diagram,
+sigmoid function:
+
+refers to the
+
+A follow-up question might also arise: what if we use softmax in binary logistic regression?
+As mentioned previously, as long as your predicted output follows the rules of probability
+distribution, everything is fine. Later, we will discuss cross entropy and the importance of
+probability distribution as a building block for any machine learning problem especially
+dealing with classification tasks.
+
+[ 21 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+A probability distribution is valid if the probabilities of all the values in
+the distribution are between 0 and 1, inclusive, and the sum of those
+probabilities must be 1.
+Logistic regression can be viewed in a very small neural network. Let's try to go through a
+step-by-step process to implement a binary logistic regression, as shown here:
+
+Notation
+Let the data be of the form
+,
+
+, where:
+
+(number of classes = 2 because it's a binary classification)
+
+is 'n' dimensional, that is,
+diagram)
+
+(refers to the preceding
+
+[ 22 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+The number of training examples is m. Thus the training set looks as follows:
+.
+m = size of training dataset.
+And, since
+
+, where, each
+.
+
+Therefore,
+is a matrix of size n * m, that is, number of features *
+number of training examples.
+, a vector of m outputs, where, each
+Parameters : Weights
+, and bias
+where
+and is a scalar value.
+
+.
+
+,
+
+Objective
+The objective of any supervised classification learning algorithm is to predict the correct
+class with higher probability. Therefore, for each g
+given
+predicted output, that is, the probability
+
+, we have to calculate the
+. Therefore,
+.
+
+Referring to binary logistic regression in the preceding diagram:
+Predicted output, that is,
+value of
+between 0 and 1.
+This means, when
+.
+When
+
+. Here, the sigmoid function shrinks the
+
+, the sigmoid function of this, that is
+
+, the sigmoid function of this, that is,
+
+[ 23 ]
+
+.
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+Once we have calculated , that is, the predicted output, we are done with our forward
+propagation task. Now, we will calculate the error value using the cost function and try to
+backpropagate to minimize our error value by changing the values of our parameters, W
+and b, through gradient descent.
+
+The cost function
+The cost function is a metric that determines how well or poorly a machine learning
+algorithm performed with regards to the actual training output and the predicted output. If
+you remember linear regression, where the sum of squares of errors was used as the loss
+function, that is,
+. This works better in a convex curve, but in the case
+of classification, the curve is non convex; as a result, the gradient descent doesn't work well
+and doesn't tend to global optimum. Therefore, we use cross-entropy loss which fits better
+in classification tasks as the cost function.
+py as loss function (for
+Cross entropy
+
+input data), that is,
+
+, where C refers to different output classes.
+Thus, cost function = Average
+g cross entropy
+py loss (for the whole dataset),
+that is,
+
+.
+
+In case of binary logistic regression, output classes are only two, that is, 0 and 1, since the
+sum of class values will always be 1. Therefore (for
+input data), if one class is
+, the
+other will be
+. Similarly, since the probability of class
+is
+(prediction), then the
+probability of the other class, that is,
+, will be
+.
+Therefore, the loss function modifies to
+If
+, that is,
+large, that is, closer to 1.
+
+=-
+
+, where:
+. Therefore, to minimize
+
+If
+, that is,
+=be small, that is, closer to 0.
+
+,
+
+. Therefore, to minimize
+
+[ 24 ]
+
+should be
+
+,
+
+should
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+Loss function applies to a single example whereas cost function applies on the whole
+training lot. Thus, the cost function for this case will be:
+
+The gradient descent algorithm
+The gradient descent algorithm is an optimization algorithm to find the minimum of the
+function using first order derivatives, that is, we differentiate functions with respect to their
+parameters to first order only. Here, the objective of the gradient descent algorithm would
+be to minimize the cost function
+with regards to and .
+This approach includes following steps for numerous iterations to minimize
+
+:
+
+used in the above equations refers to the learning rate. The learning rate is the speed at
+which the learning agent adapts to new knowledge. Thus, , that is, the learning rate is a
+hyperparameter that needs to be assigned as a scalar value or as a function of time. In this
+way, in every iteration, the values of
+and are updated as mentioned in the preceding
+formula until the value of the cost function reaches an acceptable minimum value.
+The gradient descent algorithm means moving down the slope. The slope of the the curve is
+represented by the cost function with regards to the parameters. The gradient, that is, the
+slope, gives the direction of increasing slope if it's positive, and decreasing if it's negative.
+Thus, we use a negative sign to multiply with our slope since we have to go opposite to the
+direction of the increasing slope and toward the direction of the decreasing.
+
+[ 25 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+Using the optimum learning rate, , the descent is controlled and we don't overshoot the
+local minimum. If the learning rate, , is very small, then convergence will take more time,
+while if it's very high then it might overshoot and miss the minimum and diverge owing to
+the large number of iterations:
+
+The computational graph
+A basic neural network consists of forward propagation followed by a backward
+propagation. As a result, it consists of a series of steps that includes the values of different
+nodes, weights, and biases, as well as derivatives of cost function with regards to all the
+weights and biases. In order to keep track of these processes, the computational graph
+comes into the picture. The computational graph also keeps track of chain rule
+differentiation irrespective of the depth of the neural network.
+
+Steps to solve logistic regression using gradient
+descent
+Putting together all the building blocks we've just covered, let's try to solve a binary logistic
+regression with two input features.
+
+[ 26 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+The basic steps to compute are:
+1. Calculate
+2. Calculate
+
+, the predicted output
+
+3. Calculate the cost function:
+Say we have two input features, that is, two dimensions and m samples dataset. Therefore,
+the following would be the case:
+1.
+2. Weights
+
+and bias
+
+3. Therefore,
+4. Calculate
+
+, and,
+(average loss over all the examples)
+
+5. Calculating the derivative with regards to W1, W2 and
+
+that is
+
+,
+
+and
+
+, respectively
+6. Modify
+
+and
+
+as mentioned in the preceding gradient descent section
+
+The pseudo code of the preceding m samples dataset are:
+1. Initialize the value of the learning rate, , and the number of epochs, e
+2. Loop over many number of epochs e' (where each time a full dataset will pass in
+batches)
+3. Initialize J (cost function) and b (bias) as 0, and for W1 and W2, you can go for
+random normal or xavier initialization (explained in the next section)
+
+[ 27 ]
+
+Deep Learning – Architectures and Frameworks
+
+Here, a is , dw1 is
+m examples.
+
+, dw2 is
+
+Chapter 1
+
+and db is
+
+. Each iteration contains a loop iterating over
+
+The pseudo code for the same is given here:
+XYBWJFSJOJUJBMJ[BUJPOXYBWJFSJOJUJBMJ[BUJPOFc
+GPSKdUPF
++EXEXEC
+GPSJdUPN
+[XY&lt;J&gt; XY&lt;J&gt; C
+Be [
+++&lt;Z&lt;J&gt;MPHB  Z MPH B &gt;
+EXEX  BZ&lt;J&gt;  Y&lt;J&gt;
+EXEX  BZ&lt;J&gt;  Y&lt;J&gt;
+ECEC  BZ&lt;J&gt;
+++N
+EXEXN
+EXEXN
+ECECN
+XXc EX
+XXc EX
+
+8IBUJTYBWJFSJOJUJBMJ[BUJPO
+Xavier Initialization is the initialization of weights in the neural networks, as a random
+variable following the Gaussian distribution where the variance
+being given by
+
+Where, is the number of units in the current layer, that is, the incoming signal units, and
+is the number of units in the next layer, that is, the outgoing resulting signal units. In
+short,
+is the shape of .
+
+[ 28 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+8IZEPXFVTFYBWJFSJOJUJBMJ[BUJPO
+The following factors call for the application of xavier initialization:
+If the weights in a network start very small, most of the signals will shrink and
+become dormant at the activation function in the later layers
+If the weights start very large, most of the signals will massively grow and pass
+through the activation functions in the later layers
+Thus, xavier initialization helps in generating optimal weights, such that the signals are
+within optimal range, thereby minimizing the chances of the signals getting neither too
+small nor too large.
+The derivation of the preceding formula is beyond the scope of this book. Feel free to
+search here (IUUQBOEZMKPOFTUVNCMSDPNQPTUBOFYQMBOBUJPOPG
+YBWJFSJOJUJBMJ[BUJPO) and go through the derivation for a better understanding.
+
+The neural network model
+A neural network model is similar to the preceding logistic regression model. The only
+difference is the addition of hidden layers between the input and output layers. Let's
+consider a single hidden layer neural network for classification to understand the process as
+shown in the following diagram:
+
+[ 29 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+Here, Layer 0 is the input layer, Layer 1 is the hidden layer, and Layer 2 is the output layer.
+This is also known as two layered neural networks, owing to the fact that when we count
+the number of layers in a neural network, we don't consider input layer as the first layer.
+Thus, input layer is considered as Layer 0 and then successive layers get the notation of
+Layer 1, Layer 2, and so on.
+Now, a basic question which comes to mind: why the layers between the input and output
+layer termed as hidden layers ?
+This is because the values of the nodes in the hidden layers are not present in the training
+set. As we have seen, at every node two calculations happen. These are:
+Aggregation of the input signals from previous layers
+Subjecting the aggregated signal to an activation to create deeper inner
+representations, which in turn are the values of the corresponding hidden nodes
+Referring to the preceding diagram, we have three input features,
+, and
+. The node
+showing value 1 is regarded as the bias unit. Each layer, except the output, generally has a
+bias unit. Bias units can be regarded as an intercept term and play an important role in
+shifting the activation function left or right. Remember, the number of hidden layers and
+nodes in them are hyperparameters that we define at the start. Here, we have defined the
+number of hidden layers to be one and the number of hidden nodes to be three,
+and
+
+,
+
+. Thus, we can say we have three input units, three hidden units, and three output
+
+units (
+, and
+, since we have out of three classes to predict). This will give us the
+shape of weights and biases associated with the layers. For example, Layer 0 has 3 units and
+Layer 1 has 3. The shape of the weight matrix and bias vector associated with Layer i is
+given by:
+
+[ 30 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+Therefore, the shapes of :
+will be
+
+and
+
+will be
+
+will be
+
+and
+
+will be
+
+Now, let's understand the following notation:
+: Here, it refers to the value of weight connecting node a in Layer i to node
+d in Layer i+1
+: Here, it refers to the value of the bias connecting the bias unit node in
+Layer i to node d in Layer i+1
+Therefore, the nodes in the hidden layers can be calculated in the following way:
+
+Where, the f function refers to the activation function. Remember the logistic regression
+where we used sigmoid and softmax a the activation function for binary and multi-class
+logistic regression respectively.
+Similarly, we can calculate the output unit, as so:
+
+This brings us to an end of the forward propagation process. Our next task is to train the
+neural network (that is, train the weights and biases parameters) through backpropagation.
+
+[ 31 ]
+
+Deep Learning – Architectures and Frameworks
+
+Let the actual output classes be
+
+and
+
+Chapter 1
+
+.
+
+Recalling the cost function section in linear regression, we used cross entropy to formulate
+our cost function. Since, the cost function is defined by,
+
+where, C = 3,
+
+and m = number of examples
+
+Since this is a classification problem, for each example the output will have only one output
+class as 1 and the rest would be zero. For example, for i, it would be:
+
+Thus, cost function
+Now, our goal is to minimize the cost function with regards to and . In order to train
+our given neural network, first randomly initialize
+and . Then we will try to optimize
+through gradient descent where we will update
+and accordingly at the learning
+rate, , in the following manner:
+
+[ 32 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+After setting up this structure, we have to perform these optimization steps (of updating
+and ) repeatedly for numerous iterations to train our neural network.
+This brings us to the end of the basic of neural networks, which forms the basic building
+block of any neural network, shallow or deep. Our next frontier will be to understand some
+of the famous deep neural network architectures, such as recurrent neural networks
+(RNNs) and convolutional neural networks (CNNs). Apart from that, we will also have a
+look at the benchmarked deep neural network architectures such as AlexNet, VGG-net, and
+Inception.
+
+Recurrent neural networks
+Recurrent neural networks, abbreviated as RNNs, is used in cases of sequential data,
+whether as an input, output, or both. The reason RNNs became so effective is because of
+their architecture to aggregate the learning from the past datasets and use that along with
+the new data to enhance the learning. This way, it captures the sequence of events, which
+wasn't possible in a feed forward neural network nor in earlier approaches of statistical time
+series analysis.
+Consider time series data such as stock market, audio, or video datasets, where the
+sequence of events matters a lot. Thus, in this case, apart from the collective learning from
+the whole data, the order of learning from the data encountered over time matters. This will
+help to capture the underlying trend.
+The ability to perform sequence based learning is what makes RNNs highly effective. Let's
+take a step back and try to understand the problem. Consider the following data diagram:
+
+[ 33 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+Imagine you have a sequence of events similar to the ones in the diagram, and at each point
+in time you want to make decisions as per the sequence of events. Now, if your sequence is
+reasonably stationary, you can use a classifier with similar weights for any time step but
+here's the glitch. If you run the same classifier separately at different time step data, it will
+not train to similar weights for different time steps. If you run a single classifier on the
+whole dataset containing the data of all the time step then the weights will be same but the
+sequence based learning is hampered. For our solution, we want to share weights over
+different time steps and utilize what we have learned till the last time step, as shown in the
+following diagram:
+
+[ 34 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+As per the problem, we have understood that our neural network should be able to
+consider the learnings from the past. This notion can be seen in the preceding diagrammatic
+representation, where in the first part it shows that at each time step, the network training
+the weights should consider the data learning from the past, and the second part gives the
+solution to that. We use a state representation of the classifier output from the previous time
+step as an input, along with the new time step data to learn the current state representation.
+This state representation can be defined as the collective learning (or summary) of what
+happened till last time step, recursively. The state is not the predicted output from the
+classifier. Instead, when it is subjected to a softmax activation function, it will yield the
+predicted output.
+In order to remember further back, a deeper neural network would be required. Instead, we
+will go for a single model summarizing the past and provide that information, along with
+the new information, to our classifier.
+Thus, at any time step, t, in a recurrent neural network, the following calculations occur :
+.
+and
+
+are weights and biases shared over time.
+
+is the activation function .
+refers to the concatenation of these two information. Say, your input,
+is of shape
+, that is, n samples/rows and d dimensions/columns and
+is
+. Then, your concatenation would result a matrix of shape
+.
+Since, the shape of any hidden state,
+is .
+
+, is
+
+. Therefore, the shape of
+
+Since,
+
+[ 35 ]
+
+is
+
+and
+
+,
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+These operations in a given time step, t, constitute an RNN cell unit. Let's visualize the
+RNN cell at time step t, as shown here:
+
+Once we are done with the calculations till the final time step, our forward propagation task
+is done. The next task would be to minimize the overall loss by backpropagating through
+time to train our recurrent neural network. The total loss of one such sequence is the
+summation of loss across all time steps, that is, if the given sequence of X values and their
+corresponding output sequence of Y values, the loss is given by:
+
+Thus, the cost function of the whole dataset containing 'm' examples would be (where k
+refers to the
+
+example):
+
+[ 36 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+Since the RNNs incorporate the sequential data, backpropagation is extended to
+backpropagation through time. Here, time is a series of ordered time steps connecting one
+to the other, which allows backpropagation through different time steps.
+
+Long Short Term Memory Networks
+RNNs practically fail to handle long term dependencies. As the gap between the output
+data point in the output sequence and the input data point in the input sequence increases,
+RNNs fail in connecting the information between the two. This usually happens in textbased tasks such as machine translation, audio to text, and many more where the length of
+sequences are long.
+Long Short Term Memory Networks, also knows as LSTMs (introduced by Hochreiter and
+Schmidhuber), are capable of handling these long-term dependencies. Take a look at the
+image given here:
+
+The key feature of LSTM is the cell state . This helps the information to flow unchanged.
+We will start with the forget gate layer, which takes the concatenation of of last hidden
+state,
+and
+as the input and trains a neural network that results a number between 0
+and 1 for each number in the last cell state
+, where 1 means to keep the value and 0
+means to forget the value. Thus, this layer is to identify what information to forget from the
+past and results what information to retain.
+
+[ 37 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+Next we come to the input gate layer and tanh layer whose task is to identify what new
+information to add in to one received from the past to update our information, that is, the
+cell state. The tanh layer creates vectors of new values, while the input gate layer identifies
+which of those values to use for the information update. Combining this new information
+with information retained by using the the forget gate layer, ,to update our information,
+that is, cell state :
+
+ 
+
+Thus, the new cell state
+
+is:
+
+Finally, a neural network is trained at the output gate layer,
+cell state
+to output as the hidden state, :
+
+Thus, an LSTM Cell incorporates the last cell state
+time step input
+
+, and outputs the updated cell state
+
+, returning which values of
+
+, last hidden state
+
+and current
+
+and the current hidden state
+
+LSTMs were a breakthrough as people were able to benchmark
+remarkable outcomes with RNNs by incorporating them as the cell unit.
+This was a great step towards the solution for issues concerned with long
+term dependencies.
+
+[ 38 ]
+
+.
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+Convolutional neural networks
+Convolutional neural networks or ConvNets, are deep neural networks that have provided
+successful results in computer vision. They were inspired by the organization and signal
+processing of neurons in the visual cortex of animals, that is, individual cortical neurons
+respond to the stimuli in their concerned small region (of the visual field), called the
+receptive field, and these receptive fields of different neurons overlap altogether covering
+the whole visual field.
+When the input in an input space contains the same kind of information, then we share the
+weights and train those weights jointly for those input. For spatial data, such as images, this
+weight-sharing leads to CNNs. Similarly, for a sequential data, such as text, we witnessed
+this weight-sharing in RNNs.
+CNNs have wide applications in the field of computer vision and natural language
+processing. As far as the industry is concerned, Facebook uses it in their automated imagetagging algorithms, Google in their image search, Amazon in their product
+recommendation systems, Pinterest to personalize the home feeds, and Instagram for image
+search and recommendations.
+Just like a neuron (or node) in a neural network receives the weighted aggregation of the
+signals say input from the last layer which then subjected to an activation function leading
+to an output. Then we backpropagate to minimize our loss function. This is the basic
+operation that is applied to any kind of neural network, so it will work for CNNs.
+Unlike neural networks, where an input is in the form of a vector, CNNs have images as
+input that are multi-channeled, that is, RGB (three channels: red, green, and blue). Say
+there's an image of pixel size a b b, then the actual tensor representation would be of an
+a b b b 3 shape.
+
+[ 39 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+Let's say you have an image similar to the one shown here:
+
+It can be represented as a flat plate that has width, height, and because of the RGB channel,
+it has a depth of three. Now, take a small patch of this image, say 2 b 2, and run a tiny
+neural network on it with an output depth of, say, k. This will result in a representation
+patch of shape 1b 1 b k . Now, slide this neural network horizontally and vertically over the
+whole image without changing the weights results in another image of different width,
+height, and depth k (that is, now we have k channels).
+
+[ 40 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+This integration task is collectively termed as convolution. Generally, ReLUs are used as the
+activation function in these neural networks:
+
+*GTGYGCTGOCRRKPIHGCVWTGOCRU VJCVKU4)$EJCPPGNU VQMHGCVWTGOCRU
+
+[ 41 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+The sliding motion of the patch over the image is called striding, and the number of pixels
+you shift each time, whether horizontally or vertically, is called a stride. Striding if the
+patch doesn't go outside the image space it is regarded as a valid padding. On the other
+hand, if the patch goes outside the image space in order to map the patch size the pixels of
+the patch which are off the space are padded with zeros. This is called same padding.
+
+CNN architecture consists of a series of these convolutional layers. The striding value in
+these convolutional layers if greater than 1 causes spatial reduction. Thus, stride, patch size,
+and the activation function become the hyperparameters. Along with convolutional layers,
+one important layer is sometimes added, it is called the pooling layer. This takes all the
+convolutions in a neighborhood and combines them. One form of pooling is called max
+pooling.
+
+[ 42 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+In max pooling, the feature map looks around all the values in the patch and returns the
+maximum among them. Thus, pooling size (that is, pooling patch/window size) and
+pooling stride are the hyperparameters. The following image depicts the concept of max
+pooling:
+
+Max pooling often yields more accurate results. Similarly, we have average pooling, where
+instead of maximum value we take the average of the values in the pooling window
+providing a low resolution view of the feature map.
+Manipulating the hyperparameters and ordering of the convolutional layers, by pooling
+and fully connected layers, many different variants of CNNs have been created which are
+being used in research and industrial domains. Some of the famous ones among them are
+the LeNet-5, Alexnet, VGG-Net, and Inception model.
+
+5IF-F/FUDPOWPMVUJPOBMOFVSBMOFUXPSL
+
+#TEJKVGEVWTGQH.G0GVHTQO)TCFKGPVDCUGF.GCTPKPI#RRNKGFVQ&amp;QEWOGPV4GEQIPKVKQPD[.G%WPPGVCN JVVR[CPPNGEWPEQOGZFDRWDNKURFHNGEWPRFH
+
+[ 43 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+LeNet-5 is a seven-level convolutional neural network, published by the team comprising of
+Yann LeCunn, Yoshua Bengio, Leon Bottou and Patrick Haffner in 1998 to classify digits,
+which was used by banks to recognize handwritten numbers on checks. The layers are
+ordered as:
+Input image | Convolutional Layer 1(ReLU) | Pooling 1 |Convolutional Layer
+2(ReLU) |Pooling 2 |Fully Connected (ReLU) 1 | Fully Connected 2 | Output
+LeNet-5 had remarkable results, but the ability to process higher-resolution
+images required more convolutional layers, such as in AlexNet, VGG-Net, and
+Inception models.
+
+5IF&quot;MFY/FUNPEFM
+AlexNet, a modification of LeNet, was designed by the group named SuperVision, which
+was composed of Alex Krizhevsky, Geoffrey Hinton, and Ilya Sutskever. AlexNet made
+history by achieving the top-5 error percentage of 15.3%, which was 10 points more than the
+runner-up, in the ImageNet Large Scale Visual Recognition Challenge in 2012.
+The architecture uses five convolutional layers, three max pool layers, and three fully
+connected layers at the end, as shown in the following diagram. There were a total of 60
+million parameters in the model trained on 1.2 million images, which took about five to six
+days on two NVIDIA GTX 580 3GB GPUs. The following image shows the AlexNet model:
+
+#TEJKVGEVWTGQH#NGZ0GVHTQO+OCIG0GVENCUUKaECVKQPYKVJFGGREQPXQNWVKQPCNPGWTCNPGVYQTMUD[*KPVQPGVCN
+JVVRURCRGTUPKRUEERCRGTKOCIGPGVENCUUKaECVKQPYKVJFGGREQPXQNWVKQPCNPGWTCNPGVYQTMURFH
+
+Convolutional Layer 1 | Max Pool Layer 1 | Normalization Layer 1| Convolutional Layer 2
+| Max Pool Layer 2 |Normalization Layer 2 |Convolutional Layer 3 |Convolutional layer 4
+| Convolutional Layer 5 | Max Pool Layer 3 |Fully Connected 6 |Fully Connected 7 |Fully
+Connected 8 | Output
+
+[ 44 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+5IF7((/FUNPEFM
+VGG-Net was introduced by Karen Simonyan and Andrew Zisserman from Visual
+Geometry Group (VGG) of the University of Oxford. They used small convolutional filters
+of size 3 x 3 to train a network of depth 16 and 19. Their team secured first and second place
+in the localization and classification tasks, respectively, of ImageNet Challenge 2014.
+The idea to design a deeper neural network by adding more non-linearity to the model led
+to incorporate smaller filters to make sure the network didn't have too many parameters.
+While training, it was difficult to converge the model, so first a pre-trained simpler neural
+net model was used to initialize the weights of the deeper architecture. However, now we
+can directly use the xavier initialization method instead of training a neural network to
+initialize the weights. Due the depth of the model, it's very slow to train.
+
+5IF*ODFQUJPONPEFM
+Inception was created by the team at Google in 2014. The main idea was to create deeper
+and wider networks while limiting the number of parameters and avoiding overfitting. The
+following image shows the full Inception module:
+
+#TEJKVGEVWTGQH+PEGRVKQPOQFGN PCKXGXGTUKQP HTQOIQKPIFGGRGTYKVJEQPXQNWVKQPUD[5\GIGF[GVCN JVVRUCTZKXQTIRFHRFH
+
+[ 45 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+It applies multiple convolutional layers for a single input and outputs the stacked output of
+each convolution. The size of convolutions used are mainly 1x1, 3x3, and 5x5. This kind of
+architecture allows you to extract multi-level features from the same-sized input. An earlier
+version was also called GoogLeNet, which won the ImageNet challenge in 2014.
+
+Limitations of deep learning
+Deep neural networks are black boxes of weights and biases trained over a large amount of
+data to find hidden patterns through inner representations; it would be impossible for
+humans, and even if it were possible, then scalability would be an issue. Every
+neural probably has a different weight. Thus, they will have different gradients.
+Training happens during backpropagation. Thus, the direction of training is always from
+the later layers (output/right side) to the early layers (input/left side). This results in later
+layers learning very well as compared to the early layers. The deeper the network gets, the
+more the condition deteriorates. This give rise to two possible problems associated with
+deep learning, which are:
+The vanishing gradient problem
+The exploding gradient problem
+
+The vanishing gradient problem
+The vanishing gradient problem is one of the problems associated with the training of
+artificial neural networks when the neurons present in the early layers are not able to learn
+because the gradients that train the weights shrink down to zero. This happens due to the
+greater depth of neural network, along with activation functions with derivatives resulting
+in low value.
+Try the following steps:
+1. Create one hidden layer neural network
+2. Add more hidden layers, one by one
+We observe the gradient with regards to all the nodes, and find that the gradient values get
+relatively smaller when we move from the later layers to the early layers. This condition
+worsens with the further addition of layers. This shows that the early layer neurons are
+learning slowly compared to the later layer neurons. This condition is called the vanishing
+gradient problem.
+
+[ 46 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+The exploding gradient problem
+The exploding gradient problem is another problem associated with the training of artificial
+neural networks when the learning of the neurons present in the early layers diverge
+because the gradients become too large to cause severe changes in weights avoiding
+convergence. This generally happens if weights are not assigned properly.
+While following the steps mentioned for the vanishing gradient problem, we observe that
+the gradients explode in the early layers, that is, they become larger. The phenomenon of
+the early layers diverging is called the exploding gradient problem.
+
+Overcoming the limitations of deep learning
+These two possible problems can be overcome by:
+Minimizing the use of the sigmoid and tanh activation functions
+Using a momentum-based stochastic gradient descent
+Proper initialization of weights and biases, such as xavier initialization
+Regularization (add regularization loss along with data loss and minimize that)
+For more detail, along with mathematical representations of the vanishing
+and exploding gradient, you can read this article: *OUFMMJHFOU4JHOBMT
+6OTUBCMF%FFQ-FBSOJOH8IZBOE)PXUPTPMWFUIFN
+
+Reinforcement learning
+Reinforcement learning is a branch of artificial intelligence that deals with an agent that
+perceives the information of the environment in the form of state spaces and action spaces,
+and acts on the environment thereby resulting in a new state and receiving a reward as
+feedback for that action. This received reward is assigned to the new state. Just like when
+we had to minimize the cost function in order to train our neural network, here the
+reinforcement learning agent has to maximize the overall reward to find the the optimal
+policy to solve a particular task.
+
+[ 47 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+How this is different from supervised and unsupervised learning?
+In supervised learning, the training dataset has input features, X, and their corresponding
+output labels, Y. A model is trained on this training dataset, to which test cases having
+input features, X', are given as the input and the model predicts Y'.
+In unsupervised learning, input features, X, of the training set are given for the training
+purpose. There are no associated Y values. The goal is to create a model that learns to
+segregate the data into different clusters by understanding the underlying pattern and
+thereby, classifying them to find some utility. This model is then further used for the input
+features X' to predict their similarity to one of the clusters.
+Reinforcement learning is different from both supervised and unsupervised. Reinforcement
+learning can guide an agent on how to act in the real world. The interface is broader than
+the training vectors, like in supervised or unsupervised learning. Here is the entire
+environment, which can be real or a simulated world. Agents are trained in a different way,
+where the objective is to reach a goal state, unlike the case of supervised learning where the
+objective is to maximize the likelihood or minimize cost.
+Reinforcement learning agents automatically receive the feedback, that is, rewards from the
+environment, unlike in supervised learning where labeling requires time-consuming human
+effort. One of the bigger advantage of reinforcement learning is that phrasing any task's
+objective in the form of a goal helps in solving a wide variety of problems. For example, the
+goal of a video game agent would be to win the game by achieving the highest score. This
+also helps in discovering new approaches to achieving the goal. For example, when
+AlphaGo became the world champion in Go, it found new, unique ways of winning.
+A reinforcement learning agent is like a human. Humans evolved very slowly; an agent
+reinforces, but it can do that very fast. As far as sensing the environment is concerned,
+neither humans nor and artificial intelligence agents can sense the entire world at once. The
+perceived environment creates a state in which agents perform actions and land in a new
+state, that is, a newly-perceived environment different from the earlier one. This creates a
+state space that can be finite as well as infinite.
+The largest sector interested in this technology is defense. Can reinforcement learning
+agents replace soldiers that not only walk, but fight, and make important decisions?
+
+[ 48 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+Basic terminologies and conventions
+The following are the basic terminologies associated with reinforcement learning:
+Agent: This we create by programming such that it is able to sense the
+environment, perform actions, receive feedback, and try to maximize rewards.
+Environment: The world where the agent resides. It can be real or simulated.
+State: The perception or configuration of the environment that the agent senses.
+State spaces can be finite or infinite.
+Rewards: Feedback the agent receives after any action it has taken. The goal of
+the agent is to maximize the overall reward, that is, the immediate and the future
+reward. Rewards are defined in advance. Therefore, they must be created
+properly to achieve the goal efficiently.
+Actions: Anything that the agent is capable of doing in the given environment.
+Action space can be finite or infinite.
+SAR triple: (state, action, reward) is referred as the SAR triple, represented as (s,
+a, r).
+Episode: Represents one complete run of the whole task.
+Let's deduce the convention shown in the following diagram:
+
+Every task is a sequence of SAR triples. We start from state S(t), perform action A(t) and
+thereby, receive a reward R(t+1), and land on a new state S(t+1). The current state and
+action pair gives rewards for the next step. Since, S(t) and A(t) results in S(t+1), we have a
+new triple of (current state, action, new state), that is, [S(t),A(t),S(t+1)] or (s,a,s').
+
+[ 49 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+Optimality criteria
+The optimality criteria are a measure of goodness of fit of the model created over the data.
+For example, in supervised classification learning algorithms, we have maximum likelihood
+as the optimality criteria. Thus, on the basis of the problem statement and objective
+optimality criteria differs. In reinforcement learning, our major goal is to maximize the
+future rewards. Therefore, we have two different optimality criteria, which are:
+Value function: To quantify a state on the basis of future probable rewards
+Policy: To guide an agent on what action to take in a given state
+We will discuss both of them in detail in the coming topics.
+
+The value function for optimality
+Agents should be able to think about both immediate and future rewards. Therefore, a
+value is assigned to each encountered state that reflects this future information too. This is
+called value function. Here comes the concept of delayed rewards, where being at present
+what actions taken now will lead to potential rewards in future.
+V(s), that is, value of the state is defined as the expected value of rewards to be received in
+future for all the actions taken from this state to subsequent states until the agent reaches
+the goal state. Basically, value functions tell us how good it is to be in this state. The higher
+the value, the better the state.
+Rewards assigned to each (s,a,s') triple is fixed. This is not the case with the value of the
+state; it is subjected to change with every action in the episode and with different episodes
+too.
+One solution comes in mind, instead of the value function, why don't we store the
+knowledge of every possible state?
+The answer is simple: it's time-consuming and expensive, and this cost grows exponentially.
+Therefore, it's better to store the knowledge of the current state, that is, V(s):
+V(s) = E[all future rewards discounted | S(t)=s]
+
+More details on the value function will be covered in $IBQUFS, The Markov Decision Process
+and Partially Observable MDP.
+
+[ 50 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+The policy model for optimality
+Policy is defined as the model that guides the agent with action selection in different states.
+Policy is denoted as .
+is basically the probability of a certain action given a particular
+state:
+
+Thus, a policy map will provide the set of probabilities of different actions given a
+particular state. The policy along with the value function create a solution that helps in
+agent navigation as per the policy and the calculated value of the state.
+
+The Q-learning approach to reinforcement
+learning
+Q-learning is an attempt to learn the value Q(s,a) of a specific action given to the agent in a
+particular state. Consider a table where the number of rows represent the number of states,
+and the number of columns represent the number of actions. This is called a Q-table. Thus,
+we have to learn the value to find which action is the best for the agent in a given state.
+Steps involved in Q-learning:
+1. Initialize the table of Q(s,a) with uniform values (say, all zeros).
+2. Observe the current state, s
+3. Choose an action, a, by epsilon greedy or any other action selection policies, and
+take the action
+4. As a result, a reward, r, is received and a new state, s', is perceived
+5. Update the Q value of the (s,a) pair in the table by using the following Bellman
+equation:
+XIFSF
+
+JTUIFEJTDPVOUJOHGBDUPS
+
+[ 51 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+6. Then, set the value of current state as a new state and repeat the process to
+complete one episode, that is, reaches the terminal state
+7. Run multiple episodes to train the agent
+To simplify, we can say that the Q-value for a given state, s, and action, a, is updated by the
+sum of current reward, r, and the discounted ( ) maximum Q value for the new state
+among all its actions. The discount factor delays the reward from the future compared to
+the present rewards. For example, a reward of 100 today will be worth more than 100 in the
+future. Similarly, a reward of 100 in the future must be worth less than 100 today. Therefore,
+we will discount the future rewards. Repeating this update process continuously results in
+Q-table values converging to accurate measures of the expected future reward for a given
+action in a given state.
+When the volume of the state and action spaces increase, maintaining a Q-table is difficult.
+In the real world, the state spaces are infinitely large. Thus, there's a requirement of another
+approach that can produce Q(s,a) without a Q-table. One solution is to replace the Q-table
+with a function. This function will take the state as the input in the form of a vector, and
+output the vector of Q-values for all the actions in the given state. This function
+approximator can be represented by a neural network to predict the Q-values. Thus, we can
+add more layers and fit in a deep neural network for better prediction of Q-values when the
+state and action space becomes large, which seemed impossible with a Q-table. This gives
+rise to the Q-network and if a deeper neural network, such as a convolutional neural
+network, is used then it results in a deep Q-network (DQN).
+More details on Q-learning and deep Q-networks will be covered in $IBQUFS, Q-Learning
+and Deep Q-Networks.
+
+Asynchronous advantage actor-critic
+The A3C algorithm was published in June 2016 by the combined team of Google DeepMind
+and MILA. It is simpler and has a lighter framework that used the asynchronous gradient
+descent to optimize the deep neural network. It was faster and was able to show good
+results on the multi-core CPU instead of GPU. One of A3C's big advantages is that it can
+work on continuous as well as discrete action spaces. As a result, it has opened the gateway
+for many new challenging problems that have complex state and action spaces.
+
+[ 52 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+We will discuss it at a high note here, but we will dig deeper in $IBQUFS, Asynchronous
+Methods. Let's start with the name, that is, asynchronous advantage actor-critic (A3C)
+algorithm and unpack it to get the basic overview of the algorithm:
+Asynchronous: In DQN, you remember we used a neural network with our agent
+to predict actions. This means there is one agent and it's interacting with one
+environment. What A3C does is create multiple copies of the agent-environment
+to make the agent learn more efficiently. A3C has a global network, and multiple
+worker agents, where each agent has its own set of network parameters and each
+of them interact with their copy of the environment simultaneously without
+interacting with another agent's environment. The reason this works better than a
+single agent is that the experience of each agent is independent of the experience
+of the other agents. Thus, the overall experience from all the worker agents
+results in diverse training.
+Actor-critic: Actor-critic combines the benefits of both value iteration and policy
+iteration. Thus, the network will estimate both a value function, V(s), and a
+policy, f(s), for a given state, s. There will be two separate fully-connected layers
+at the top of the function approximator neural network that will output the value
+and policy of the state, respectively. The agent uses the value, which acts as a
+critic to update the policy, that is, the intelligent actor.
+Advantage: Policy gradients used discounted returns telling the agent whether
+the action was good or bad. Replacing that with Advantage not only quantifies
+the the good or bad status of the action but helps in encouraging and
+discouraging actions better(we will discuss this in $IBQUFS, Policy Gradients).
+
+Introduction to TensorFlow and OpenAI Gym
+TensorFlow is the mathematical library created by the team of Google Brain at Google.
+Thanks to its dataflow programming, it's being heaving used as a deep learning library both
+in research and development sectors. Since its inception in 2015, TensorFlow has grown a
+very big community.
+OpenAI Gym is a reinforcement learning playground created by the team at OpenAI with
+an aim to provide a simple interface, since creating an environment is itself a tedious task in
+reinforcement learning. It provides a good list of environments to test your reinforcement
+learning algorithms in so that you can benchmark them.
+
+[ 53 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+Basic computations in TensorFlow
+The base of TensorFlow is the computational graph, which we discussed earlier in this
+chapter, and tensors. A tensor is an n-dimensional vector. Thus, a scalar and a matrix
+variable is also a tensor. Here, we will try some of the basic computations to start with
+TensorFlow. Please try to implement this section in a python IDE such as Jupyter Notebook.
+For the TensorFlow installation and dependencies please refer to the following link:
+IUUQTXXXUFOTPSGMPXPSHJOTUBMM
+
+Import UFOTPSGMPX by the following command:
+JNQPSUUFOTPSGMPXBTUG
+
+UG[FSPT and UGPOFT are some of the functions that instantiate basic tensors.
+The UG[FSPT takes a tensor shape (that is, a tuple) and returns a tensor of that shape
+with all the values being zero. Similarly, UGPOFT takes a tensor shape but returns a
+tensor of that shape containing only ones. Try the following commands in python shell to
+create a tensor:
+UG[FSPT 
+UG5FOTPS [FSPT TIBQF  EUZQFGMPBU
+UGPOFT 
+UG5FOTPS POFT TIBQF  EUZQFGMPBU
+
+As you can see, TensorFlow returns a reference to the tensor and not the value of the tensor.
+In order to get the value, we can use FWBM or SVO , a function of tensor objects by
+running a session as follows:
+BUG[FSPT 
+XJUIUG4FTTJPO
+TFTTSVO B
+BFWBM
+
+BTTFTT
+
+BSSBZ &lt;&gt;EUZQFGMPBU
+BSSBZ &lt;&gt;EUZQFGMPBU
+
+[ 54 ]
+
+Deep Learning – Architectures and Frameworks
+
+Next come the UGGJMM
+shape and value:
+
+Chapter 1
+
+and UGDPOTUBOU
+
+methods to create a tensor of a certain
+
+BUGGJMM  WBMVF
+CUGDPOTUBOU TIBQF 
+XJUIUG4FTTJPO BTTFTT
+TFTTSVO B
+TFTTSVO C
+BSSBZ &lt;&lt;&gt;
+&lt;&gt;&gt;EUZQFGMPBU
+BSSBZ &lt;&lt;&gt;
+&lt;&gt;&gt;EUZQFGMPBU
+
+Next, we have functions that can randomly initialize a tensor. Among them, the most
+frequently used ones are:
+UGSBOEPN@OPSNBM: Samples random values from the Normal distribution of
+
+specified mean and standard deviation
+UGSBOEPN@VOJGPSN : Samples random values from the Uniform distribution
+of a specified range
+BUGSBOEPN@OPSNBM  NFBOTUEEFW
+CUGSBOEPN@VOJGPSN  NJOWBMNBYWBM
+XJUIUG4FTTJPO BTTFTT
+TFTTSVO B
+TFTTSVO C
+BSSBZ &lt;&lt;&gt;
+&lt;&gt;&gt;EUZQFGMPBU
+BSSBZ &lt;&lt;&gt;
+&lt;&gt;&gt;EUZQFGMPBU
+
+Variables in TensorFlow are holders for tensors and are defined by the function
+UG7BSJBCMF :
+BUG7BSJBCMF UGPOFT
+B
+
+
+
+UG7BSJBCMF 7BSJBCMF TIBQF  EUZQFGMPBU@SFG
+
+[ 55 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+The evaluation fails in case of variables because they have to be explicitly initialized by
+using UGHMPCBM@WBSJBCMFT@JOJUJBMJ[FS within a session:
+BUG7BSJBCMF UGPOFT 
+XJUIUG4FTTJPO BTTFTT
+TFTTSVO UGHMPCBM@WBSJBCMFT@JOJUJBMJ[FS
+BFWBM
+BSSBZ &lt;&lt;&gt;
+&lt;&gt;&gt;EUZQFGMPBU
+
+Next in the queue, we have matrices. Identity matrices are square matrices with ones in the
+diagonal and zeros elsewhere. This can be done with the GVODUJPOUGFZF :
+JEUGFZF  TJ[FPGUIFTRVBSFNBUSJY
+XJUIUG4FTTJPO BTTFTT
+TFTTSVO JE
+BSSBZ &lt;&lt;&gt;
+&lt;&gt;
+&lt;&gt;
+&lt;&gt;&gt;EUZQFGMPBU
+
+Similarly, there are diagonal matrices, which have values in the diagonal and zeros
+elsewhere, as shown here:
+BUGSBOHF 
+NEUGEJBH B
+NEOUGEJBH &lt;&gt;
+XJUIUG4FTTJPO BTTFTT
+TFTTSVO NE
+TFTTSVO NEO
+BSSBZ &lt;&lt;&gt;
+&lt;&gt;
+&lt;&gt;
+&lt;&gt;&gt;EUZQFJOU
+BSSBZ &lt;&lt;&gt;
+&lt;&gt;
+&lt;&gt;
+&lt;&gt;
+&lt;&gt;&gt;EUZQFJOU
+
+[ 56 ]
+
+Deep Learning – Architectures and Frameworks
+
+We use the UGNBUSJY@USBOTQPTF
+here:
+
+Chapter 1
+
+function to transpose the given matrix, as shown
+
+BUGPOFT 
+CUGUSBOTQPTF B
+XJUIUG4FTTJPO BTTFTT
+TFTTSVO B
+TFTTSVO C
+BSSBZ &lt;&lt;&gt;
+&lt;&gt;&gt;EUZQFGMPBU
+BSSBZ &lt;&lt;&gt;
+&lt;&gt;
+&lt;&gt;&gt;EUZQFGMPBU
+
+The next matrix operation is the matrix multiplication function as shown here. This is done
+by the function UGNBUNVM :
+BUGPOFT 
+CUGPOFT 
+DUGNBUNVM BC
+XJUIUG4FTTJPO BTTFTT
+TFTTSVO B
+TFTTSVO C
+TFTTSVO D
+BSSBZ &lt;&lt;&gt;
+&lt;&gt;
+&lt;&gt;&gt;EUZQFGMPBU
+BSSBZ &lt;&lt;&gt;
+&lt;&gt;&gt;EUZQFGMPBU
+BSSBZ &lt;&lt;&gt;
+&lt;&gt;
+&lt;&gt;&gt;EUZQFGMPBU
+
+Reshaping of tensors from one to another is done by using the UGSFTIBQF
+shown here:
+
+function, as
+
+BUGPOFT  JOJUJBMTIBQFJT 
+CUGSFTIBQF B  SFTIBQJOHJUUPBWFDUPSPGTJ[F5IVTTIBQF
+JT 
+DUGSFTIBQF B  SFTIBQJOHUFOTPSBUPTIBQF 
+EUGSFTIBQF C  SFTIBQJOHUFOTPSCUPTIBQF 
+5IVTUFOTPS D BOE E XJMMCFTJNJMBS
+
+[ 57 ]
+
+Deep Learning – Architectures and Frameworks
+XJUIUG4FTTJPO
+TFTTSVO B
+TFTTSVO C
+TFTTSVO D
+TFTTSVO E
+
+Chapter 1
+
+BTTFTT
+
+BSSBZ &lt;&lt;&gt;
+&lt;&gt;&gt;EUZQFGMPBU
+BSSBZ &lt;&gt;EUZQFGMPBU
+BSSBZ &lt;&lt;&lt;&gt;
+&lt;&gt;&gt;
+&lt;&lt;&gt;
+&lt;&gt;&gt;&gt;EUZQFGMPBU
+HU
+BSSBZ &lt;&lt;&lt;&gt;
+&lt;&gt;&gt;
+&lt;&lt;&gt;
+&lt;&gt;&gt;&gt;EUZQFGMPBU
+
+The flow of computation in TensorFlow is represented as a computational graph, which is
+as instance of UG(SBQI. The graph contains tensors and operation objects, and keeps track
+of a series of operations and tensors involved. The default instance of the graph can be
+fetched by UGHFU@EFGBVMU@HSBQI :
+UGHFU@EFGBVMU@HSBQI
+UFOTPSGMPXQZUIPOGSBNFXPSLPQT(SBQIPCKFDUBUYGBFC
+
+We will explore complex operations, the creation of neural networks, and much more in
+TensorFlow in the coming chapters.
+
+An introduction to OpenAI Gym
+The OpenAI Gym, created by the team at OpenAI is a playground of different
+environments where you can develop and compare your reinforcement learning
+algorithms. It is compatible with deep learning libraries such as TensorFlow and Theano.
+
+[ 58 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+OpenAI Gym consists of two parts:
+The gym open-source library: This consists of many environments for different
+test problems where you can test your reinforcement learning algorithms. This
+suffices with the information of state and action spaces.
+The OpenAI Gym service: This allows you to compare the performance of your
+agent with other trained agents.
+For the installation and dependencies, please refer to the following link:
+IUUQTHZNPQFOBJDPNEPDT
+
+With the basics covered, now we can start with the implementation of reinforcement
+learning using the OpenAI Gym from next $IBQUFS, Training Reinforcement Learning
+Agents using OpenAI Gym.
+
+The pioneers and breakthroughs
+in reinforcement learning
+Before going on floor with all the coding, let's shed some light on some of the pioneers,
+industrial leaders, and research breakthroughs in the field of deep reinforcement learning.
+
+David Silver
+Dr. David Silver, with an h-index of 30, heads the research team of reinforcement learning
+at Google DeepMind and is the lead researcher on AlphaGo. David co-founded Elixir
+Studios and then completed his PhD in reinforcement learning from the University of
+Alberta, where he co-introduced the algorithms used in the first master-level 9x9 Go
+programs. After this, he became a lecturer at University College London. He used to consult
+for DeepMind before joining full-time in 2013. David lead the AlphaGo project, which
+became the first program to defeat a top professional player in the game of Go.
+
+[ 59 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+Pieter Abbeel
+Pieter Abbeel is a professor at UC Berkeley and was a Research Scientist at OpenAI. Pieter
+completed his PhD in Computer Science under Andrew Ng. His current research focuses on
+robotics and machine learning, with a particular focus on deep reinforcement learning, deep
+imitation learning, deep unsupervised learning, meta-learning, learning-to-learn, and AI
+safety. Pieter also won the NIPS 2016 Best Paper Award.
+
+Google DeepMind
+Google DeepMind is a British artificial intelligence company founded in September 2010
+and acquired by Google in 2014. They are an industrial leader in the domains of deep
+reinforcement learning and a neural turing machine. They made news in 2016 when the
+AlphaGo program defeated Lee Sedol, 9th dan Go player. Google DeepMind has
+channelized its focus on two big sectors: energy and healthcare.
+Here are some of its projects:
+In July 2016, Google DeepMind and Moorfields Eye Hospital announced their
+collaboration to use eye scans to research early signs of diseases leading to
+blindness
+In August 2016, Google DeepMind announced its collaboration with University
+College London Hospital to research and develop an algorithm to automatically
+differentiate between healthy and cancerous tissues in head and neck areas
+Google DeepMind AI reduced the Google's data center cooling bill by 40%
+
+The AlphaGo program
+As mentioned previously in Google DeepMind, AlphaGo is a computer program that first
+defeated Lee Sedol and then Ke Jie, who at the time was the world No. 1 in Go. In 2017 an
+improved version, AlphaGo zero was launched that defeated AlphaGo 100 games to 0.
+
+Libratus
+Libratus is an artificial intelligence computer program designed by the team led by
+Professor Tuomas Sandholm at Carnegie Mellon University to play Poker. Libratus and its
+predecessor, Claudico, share the same meaning, balanced.
+
+[ 60 ]
+
+Deep Learning – Architectures and Frameworks
+
+Chapter 1
+
+In January 2017, it made history by defeating four of the world's best professional poker
+players in a marathon 20-day poker competition.
+Though Libratus focuses on playing poker, its designers mentioned its ability to learn any
+game that has incomplete information and where opponents are engaging in deception. As
+a result, they have proposed that the system can be applied to problems in cybersecurity,
+business negotiations, or medical planning domains.
+
+Summary
+In this chapter, we covered the building blocks, such as shallow and deep neural networks
+that included logistic regression, single hidden layer neural network, RNNs, LSTMs, CNNs,
+and their other variations. Catering to the these topics, we also covered multiple activation
+functions, how forward and backward propagation works, and the problems associated
+with the training of deep neural networks, such as vanishing and exploding gradients.
+Then, we covered the very basic terminologies in reinforcement learning that we will
+explore in detail in the coming chapters. These were the optimality criteria, which are value
+function and policy. We also gained an understanding of some reinforcement learning
+algorithms, such as Q-learning and A3C algorithms. Then, we covered some basic
+computations in the TensorFlow framework, an introduction to OpenAI Gym, and also
+discussed some of the influential pioneers and research breakthroughs in the field of
+reinforcement learning.
+In the following chapter, we will implement a basic reinforcement learning algorithm to a
+couple of OpenAI Gym framework environments and get a better understanding of OpenAI
+Gym.
+
+[ 61 ]
+
+2
+Training Reinforcement
+Learning Agents Using OpenAI
+Gym
+The OpenAI Gym provides a lot of virtual environments to train your reinforcement
+learning agents. In reinforcement learning, the most difficult task is to create the
+environment. This is where OpenAI Gym comes to the rescue, by providing a lot of toy
+game environments to provide users with a platform to train and benchmark their
+reinforcement learning agents.
+In other words, it provides a playground for the reinforcement learning agent to learn and
+benchmark their performance, where the agent has to learn to navigate from the start state
+to the goal state without undergoing any mishaps.
+Thus, in this chapter, we will be learning to understand and use environments from
+OpenAI Gym and trying to implement basic Q-learning and the Q-network for our agents
+to learn.
+OpenAI Gym provides different types of environments. They are as follows:
+Classic control
+Algorithmic
+Atari
+Board games
+Box2D
+Parameter tuning
+MuJoCo
+Toy text
+Safety
+
+Training Reinforcement Learning Agents Using OpenAI Gym
+
+Chapter 2
+
+Minecraft
+PyGame learning environment
+Soccer
+Doom
+For the details of these broad environment categories and their environmental playground,
+go to IUUQT(ZNPQFOBJDPNFOWT.
+We will cover the following topics in this chapter:
+The OpenAI Gym environment
+Programming an agent using an OpenAI Gym environment
+Using the Q-Network for real-world applications
+
+The OpenAI Gym
+In order to download and install OpenAI Gym, you can use any of the following options:
+$ git clone https://github.com/openai/gym
+$ cd gym
+$ sudo pip install -e . # minimal install
+
+This will do the minimum install. You can later run the following to do a full install:
+$ sudo pip install -e .[all]
+
+You can also fetch Gym as a package for different Python versions as follows:
+For Python 2.7, you can use the following options:
+$ sudo pip install gym
+$ sudo pip install gym[all]
+$ sudo pip install gym[atari]
+installation
+
+# minimal install
+# full install
+#for Atari specific environment
+
+For Python 3.5, you can use the following options:
+$ sudo pip3 install gym
+$ sudo pip3 install gym[all]
+$ sudo pip install gym[atari]
+installation
+
+# minimal install
+# full install
+#for Atari specific environment
+
+[ 63 ]
+
+Training Reinforcement Learning Agents Using OpenAI Gym
+
+Chapter 2
+
+Understanding an OpenAI Gym environment
+To understand the basics of importing Gym packages, loading an environment, and other
+important functions associated with OpenAI Gym, here's an example of a Frozen
+Lake environment.
+Load the Frozen Lake environment in the following way:
+import Gym
+env = Gym.make('FrozenLake-v0')
+environment
+
+#make function of Gym loads the specified
+
+Next, we come to resetting the environment. While performing a reinforcement learning
+task, an agent undergoes learning through multiple episodes. As a result, at the start of each
+episode, the environment needs to be reset so that it comes to its initial situation and the
+agent begins from the start state. The following code shows the process for resetting an
+environment:
+JNQPSU(ZN
+FOW(ZNNBLF 'SP[FO-BLFW
+TFOWSFTFU # resets the environment and returns the start state as a
+value
+QSJOU T
+
+#initial state i</pre></div>                                                                    </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height:60px">
+                    <td id="footer" valign="top">
+                        <div class="container-fluid">
+<!-- footer begin -->
+<div class="row">
+    <div class="col-md-12">
+        <div style="float:left; color:#888; font-size:13px;">
+            <span style="font-style:italic;">Free ebooks since 2009. <a style="margin:0 5px 0 20px" href="mailto:support@bookmail.org">support@bookmail.org</a></span>
+            <span style="margin:0 0 0 15px;"> <a href="/faq.php">FAQ</a></span>
+            <span style="margin:0 0 0 15px;"> <a href="/blog/">Blog</a></span>
+        </div>
+        <div style="float: right;" role="navigation">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/privacy.php">Privacy</a></li>
+                <li><a href="/dmca.php">DMCA</a></li>
+                <li class="dropup">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">English <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a onclick="setLanguage('en'); return false;" href="//en.b-ok.cc/book/3579949/d84a6d/?_ir=1">English</a></li><li><a onclick="setLanguage('ru'); return false;" href="//ru.b-ok.cc/book/3579949/d84a6d/?_ir=1">Русский</a></li><li><a onclick="setLanguage('ua'); return false;" href="//ua.b-ok.cc/book/3579949/d84a6d/?_ir=1">Українська</a></li><li><a onclick="setLanguage('pl'); return false;" href="//pl.b-ok.cc/book/3579949/d84a6d/?_ir=1">Polski</a></li><li><a onclick="setLanguage('it'); return false;" href="//it.b-ok.cc/book/3579949/d84a6d/?_ir=1">Italiano</a></li><li><a onclick="setLanguage('es'); return false;" href="//es.b-ok.cc/book/3579949/d84a6d/?_ir=1">Español</a></li><li><a onclick="setLanguage('zh'); return false;" href="//zh.b-ok.cc/book/3579949/d84a6d/?_ir=1">汉语</a></li><li><a onclick="setLanguage('id'); return false;" href="//id.b-ok.cc/book/3579949/d84a6d/?_ir=1">Bahasa Indonesia</a></li><li><a onclick="setLanguage('in'); return false;" href="//in.b-ok.cc/book/3579949/d84a6d/?_ir=1">हिन्दी</a></li><li><a onclick="setLanguage('pt'); return false;" href="//pt.b-ok.cc/book/3579949/d84a6d/?_ir=1">Português</a></li><li><a onclick="setLanguage('jp'); return false;" href="//jp.b-ok.cc/book/3579949/d84a6d/?_ir=1">日本語</a></li><li><a onclick="setLanguage('de'); return false;" href="//de.b-ok.cc/book/3579949/d84a6d/?_ir=1">Deutsch</a></li><li><a onclick="setLanguage('fr'); return false;" href="//fr.b-ok.cc/book/3579949/d84a6d/?_ir=1">Français</a></li><li><a onclick="setLanguage('th'); return false;" href="//th.b-ok.cc/book/3579949/d84a6d/?_ir=1">ภาษาไทย</a></li><li><a onclick="setLanguage('el'); return false;" href="//el.b-ok.cc/book/3579949/d84a6d/?_ir=1">ελληνικά </a></li><li><a onclick="setLanguage('ar'); return false;" href="//ar.b-ok.cc/book/3579949/d84a6d/?_ir=1">اللغة العربية</a></li>                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <script type="text/javascript" src="/scripts/root.js?version=1x03"></script>
+        <script type="text/javascript" src="/ext/paginator3000/jquery.paginator.3000.js"></script>
+        <script>
+            if (typeof pagerOptions !== "undefined" && pagerOptions) {
+                $('div.paginator').paginator(pagerOptions);
+            }
+        </script>
+        <!-- ggAdditionalHtml -->
+        
+    <script>
+        var Config = {"currentLanguage":"en","L":{"90":"The file is located on an external resource","91":"It is a folder","92":"File from disk storage","93":"File is aviable by direct link","94":"Popular","95":"Limitation of downloading: no more than 2 files at same time","96":"Size","97":" Language","98":"Category","99":"Find all the author's book"}};
+    </script>
+    <!--LiveInternet counter--><script type="text/javascript">
+new Image().src = "//counter.yadro.ru/hit;bookzz?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();</script><!--/LiveInternet-->
+
+<iframe name="uploader" id="uploader" style="border:0px solid #ddd; width:90%; display:none;"></iframe>        <!-- /ggAdditionalHtml -->
+            </body>
+</html>

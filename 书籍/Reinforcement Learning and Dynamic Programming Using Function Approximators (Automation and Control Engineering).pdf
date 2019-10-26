@@ -1,0 +1,3269 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reinforcement Learning and Dynamic Programming Using Function Approximators (Automation and Control Engineering) | Lucian Busoniu, Robert Babuska, Bart De Schutter, Damien Ernst | download</title>
+<base href="/">
+
+                        <meta charset="utf-8">		                       
+                        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <meta name="title" content="Reinforcement Learning and Dynamic Programming Using Function Approximators (Automation and Control Engineering) | Lucian Busoniu, Robert Babuska, Bart De Schutter, Damien Ernst | download">
+			<meta name="description" content="Reinforcement Learning and Dynamic Programming Using Function Approximators (Automation and Control Engineering) | Lucian Busoniu, Robert Babuska, Bart De Schutter, Damien Ernst | download | B–OK. Download books for free. Find books">
+			<meta name="robots" content="index,all">
+			<meta name="distribution" content="global">
+			<meta http-equiv="cache-control" content="no-cache">
+			<meta http-equiv="pragma" content="no-cache">
+
+                        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+                        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+                        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+                        <link rel="manifest" href="/manifest.json">
+                        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+                        <meta name="apple-mobile-web-app-title" content="Z-Library">
+                        <meta name="application-name" content="Z-Library">
+                        <meta name="theme-color" content="#ffffff">
+
+                        <meta name="propeller" content="49c350d528ba144cace841cac74260ab">
+	
+<!-- CSS SET -->
+<link rel="stylesheet" type="text/css" href="/css/bootstrap/css/bootstrap.min.css?version=0.168" >
+<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css?version=0.168" >
+<link rel="stylesheet" type="text/css" href="/css/root.css?version=0.168" >
+<link rel="stylesheet" type="text/css" href="/ext/bootstrap-tagsinput/bootstrap-tagsinput.css?version=0.168" >
+<link rel="stylesheet" type="text/css" href="/ext/spin/spin.css?version=0.168" >
+<!-- JS SET --> 
+<script type="text/javascript" language="JavaScript" src="https://code.jquery.com/jquery-2.2.4.min.js?version=0.168"></script>
+<script type="text/javascript" language="JavaScript" src="https://cdnjs.cloudflare.com/ajax/libs/mouse0270-bootstrap-notify/3.1.7/bootstrap-notify.min.js?version=0.168"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/underscore.js?version=0.168"></script>
+<script type="text/javascript" language="JavaScript" src="/css/bootstrap/js/bootstrap.min.js?version=0.168"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/zlibrary/zlibrary-notify.js?version=0.168"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/zlibrary/user.js?version=0.168"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/typeahead.js?version=0.168"></script>
+<script type="text/javascript" language="JavaScript" src="/ext/bootstrap-tagsinput/bootstrap-tagsinput.min.js?version=0.168"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/zlibrary/tags-input.js?version=0.168"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/zlibrary/book.js?version=0.168"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/zlibrary/zlibrary-response.js?version=0.168"></script>
+<script type="text/javascript" language="JavaScript" src="/ext/spin/spin.js?version=0.168"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/zlibrary/zlibrary-spinner.js?version=0.168"></script>
+<link REL="SHORTCUT ICON" HREF="/favicon.ico">
+        <link rel="search" type="application/opensearchdescription+xml" href="/search.xml" title="Search for books in the library B-OK.org" />
+    </head>
+    <body style="margin:0px;padding:0px;" class="books/details">
+        <table border="0" height="100%" width="100%" style="height:100%;" cellpadding="0" cellspacing="0"><tbody>
+                <tr style="height:10px;">
+                    <td>
+                        <div class="container-fluid">
+                            
+<div class="row">
+    <div class="col-md-12">
+        <div id="colorBoxes" class="darkShadow">
+            <ul>
+                <li style="background: #49afd0;">
+                    <a href="/">
+                        4,876,035                        books                    </a>
+                </li>
+
+                <li style="background: #8ecd51;">
+                    <a href="http://booksc.xyz">
+                        75,840,600                        articles                    </a>
+                </li>
+
+                <li style="background: #90a5a8;">for free</li>
+            </ul>
+        </div>
+
+
+
+        <div role="navigation" class="navbar-default" style="background-color: transparent;">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" style="">
+                                            <li><a href="/profile.php" id="mainUserLink">hba</a></li>
+                    
+
+                    
+                    <li>
+                                                    <a href="/howtodonate.php" id="howToDonateMainLink" data-autoopen="true" data-placement="bottom"
+                                   title="Alipay is <span style='white-space: nowrap;'>available now</span>"
+                                   style="color:#8EB46A;">Donate</a>
+                                <script>
+                                    $(window).on("load", function () {
+                                        $('#howToDonateMainLink')
+                                                .tooltip({'html': true, 'trigger': 'manual'})
+                                                .tooltip('show')
+
+                                        $('#howToDonateMainLink').next('.tooltip').click(function () {
+                                            $('#howToDonateMainLink').tooltip('hide')
+                                            document.cookie = "donation_tooltip=50; expires=Tue, 19 Jan 2038 03:14:07 GMT"
+                                        });
+                                    });
+
+                                    document.cookie = "donation_tooltip=2; expires=Tue, 19 Jan 2038 03:14:07 GMT"
+                                </script>
+                                                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span style="font-size: 120%;" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                            <span style="position:relative; top:-9px; left:-6px;height: 10px;width: 10px; background-color: #8ECD51;border-radius: 50%;display: inline-block;"></span>                        </a>
+                        <ul class="dropdown-menu">
+                                                        <li class="dropdown-header">Books</li>
+                                                            <li><a href="/book-add.php">Add book</a></li>
+                                <li><a href="/categories">Categories</a></li>
+                                <li><a href="/popular.php">Most Popular</a></li>
+                                                        <li><a href="/recently.php">Recently Added</a></li>
+                                                            <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Profile</li>
+                                <li><a href="/profile.php">Profile</a></li>
+                                <li><a href="/profileEdit.php">Edit profile</a></li>
+                                <li><a href="/users/saved_books.php">Saved books</a></li>
+                                                                    <li><a href="/users/recommended.php">Recommended books</a></li>
+                                                                <li><a href="/users/zalerts.php">ZAlerts</a></li>
+                                <li><a href="/users/dstats.php">Download history</a></li>
+                                <li><a href="/users/suggested-corrections.php">Suggested corrections</a></li>
+                                <li><a href="/logout.php">Logout</a></li>
+                                                        <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Z-Library Project</li>
+                            <li><a href="/top-zlibrarians.php">Top Z-Librarians</a></li>
+                            <li><a href="/blog/"><span style="position:relative; margin:0 3px 0 -13px;height: 10px;width: 10px; background-color: #8ECD51;border-radius: 50%;display: inline-block;"></span>Blog</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script>
+        $(window).on("load", function () {
+            $('#mainUserLink').tooltip({
+                'html': true,
+                'title': 'Downloads: 0/10<br/>Will reset in 18h 00m',
+                'placement': 'bottom'
+            });
+        });
+
+    </script>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="container" style="max-width: 1000px;padding-bottom: 40px;">
+                            <div class="row">
+                                <div class="col-md-12 itemFullText">
+                                    
+
+<style>
+    .adFixW iframe{
+        width:100%;
+    }
+</style>
+
+<div class="bcNav">
+    <a href="/" title="Ebook library B-OK.org">Main</a> <i></i>
+        Reinforcement Learning and Dynamic Programming Using Function Approximators (Automation and Control..</div>
+
+<div itemscope itemtype="http://schema.org/Book">
+    <div class="row cardBooks">
+        <div class="col-md-3">
+            <a itemprop="image"  class="lightbox details-book-cover" href="//dl181.zlibcdn.com/covers/books/bd/3e/d4/bd3ed46f4b81d058c270cf5d1a7afb5f.jpg">
+                <img src="//dl181.zlibcdn.com/covers/books/bd/3e/d4/bd3ed46f4b81d058c270cf5d1a7afb5f.jpg" alt="Book cover Reinforcement Learning and Dynamic Programming Using Function Approximators (Automation and Control Engineering)" />
+            </a>
+        </div>
+
+        <div class="col-md-9">
+            <h1 itemprop="name" style="color: #000; line-height: 140%;" class="moderatorPanelToggler">
+                Reinforcement Learning and Dynamic Programming Using Function Approximators (Automation and Control Engineering)            </h1>
+
+            <i><a  itemprop="author" class="color1" title="Find all the author's book" href="/g/Lucian Busoniu">Lucian Busoniu</a>, <a  itemprop="author" class="color1" title="Find all the author's book" href="/g/Robert Babuska">Robert Babuska</a>, <a  itemprop="author" class="color1" title="Find all the author's book" href="/g/Bart De Schutter">Bart De Schutter</a>, <a  itemprop="author" class="color1" title="Find all the author's book" href="/g/Damien Ernst">Damien Ernst</a></i>
+
+                            <div style="padding:10px 0; font-size:10pt" id="bookDescriptionBox"  itemprop="reviewBody">
+                    From household appliances to applications in robotics, engineered systems involving complex dynamics can only be as effective as the algorithms that control them. While Dynamic Programming (DP) has provided researchers with a way to optimally solve decision and control problems involving complex dynamic systems, its practical value was limited by algorithms that lacked the capacity to scale up to realistic problems.   However, in recent years, dramatic developments in Reinforcement Learning (RL), the model-free counterpart of DP, changed our understanding of what is possible. Those developments led to the creation of reliable methods that can be applied even when a mathematical model of the system is unavailable, allowing researchers to solve challenging control problems in engineering, as well as in a variety of other disciplines, including economics, medicine, and artificial intelligence.   Reinforcement Learning and Dynamic Programming Using Function Approximators provides a comprehensive and unparalleled exploration of the field of RL and DP. With a focus on continuous-variable problems, this seminal text details essential developments that have substantially altered the field over the past decade. In its pages, pioneering experts provide a concise introduction to classical RL and DP, followed by an extensive presentation of the state-of-the-art and novel methods in RL and DP with approximation. Combining algorithm development with theoretical guarantees, they elaborate on their work with illustrative examples and insightful comparisons. Three individual chapters are dedicated to representative algorithms from each of the major classes of techniques: value iteration, policy iteration, and policy search. The features and performance of these algorithms are highlighted in extensive experimental studies on a range of control applications.   The recent development of applications involving complex systems has led to a surge of interest in RL and DP methods and the subsequent need for a quality resource on the subject. For graduate students and others new to the field, this book offers a thorough introduction to both the basics and emerging methods. And for those researchers and practitioners working in the fields of optimal and adaptive control, machine learning, artificial intelligence, and operations research, this resource offers a combination of practical algorithms, theoretical analysis, and comprehensive examples that they will be able to adapt and apply to their own work.   Access the authors' website at www.dcsc.tudelft.nl/rlbook/  for additional material, including computer code used in the studies and information concerning new developments.                </div>
+
+            <div style="overflow: hidden; zoom: 1; margin-top: 30px;">
+<div class="bookDetailsBox">
+                <div class="bookProperty property_categories">
+                    <span>Categories:</span>
+                    <a href="Cybernetics-Artificial-Intelligence-cat81" style="color:#000;">Computers\\Cybernetics: Artificial Intelligence</a>
+                </div>
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2010
+                </div>
+                <div class="bookProperty property_edition">
+                    <span>Edition:</span>
+                    1
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property_pages">
+                    <span>Pages:</span>
+                    <span title="Pages paperback">280</span> / <span title="Pages in file">275</span>
+                </div>
+                <div class="bookProperty property_isbn 10">
+                    <span>ISBN 10:</span>
+                    1439821089
+                </div>
+                <div class="bookProperty property_isbn 13">
+                    <span>ISBN 13:</span>
+                    9781439821091
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 8.34 MB
+                </div></div>            </div>
+        </div>
+    </div>
+
+    <div style="margin:30px 0 15px 0;">
+        <a class="btn btn-primary dlButton" href="/dl/919236/820fc2" target="" rel="nofollow"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download  (pdf, 8.34 MB)</a>
+                <a class="btn btn-default" href="ireader/919236" target="_blank" rel="nofollow">Preview</a>        <div class="btn-group" id="sendToEmailButtonBox">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Send-to-Kindle or Email <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu"><li style="cursor: pointer;"><a class="sendToEmailButton" data-id="919236" style="text-decoration:none;">Mail to: <span style="text-decoration: underline;">hanbaoan@buaa.edu.cn</span></a></li><li style="cursor: pointer;"><a target="blank" href="/plans.php" style="text-decoration:none;" rel="nofollow">Send-To-Kindle: <span style="text-decoration: underline;">please upgrade your account</span></a></li><li role="separator" class="divider"></li><li><div style="color:#888; font-size: 90%;padding:5px 20px;display:inline-block;"> Need help? Please read our short guide <a href="/info/howtokindle.php" target="_blank" style="text-decoration: underline;">how to send a book to Kindle</a>.<div></li></ul>
+</div>
+            <div class="btn-group book-tags-container">
+                <a href="javascript://" id="btnUnsaveBook" class="btn btn-default hidden">
+                    Unsave
+                </a>
+                <a href="javascript://" id="btnSaveBook" class="btn btn-default">
+                    Save for later
+                </a>
+
+                <button type="button" id="btnSaveBookDropdown" class="btn btn-default dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                    <span class="caret"></span>
+                    <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu" style="width: 500px;">
+                    <li style="padding: 12px;">
+                        <span style="font-size: 90%; color:#888;">
+                            You can input up to 30 tags in order to
+                            organize your saved books.<br/>
+                            Only letters and space are allowed.
+                        </span>
+                        <br>
+                        <input type="text" id="inputTags" value="" />
+                    </li>
+                </ul>
+            </div>
+            <script type="text/javascript">
+                $(document).click(function (event) {
+                    $target = $(event.target);
+
+                    if (!$target.closest('.book-tags-container').length && !$target.closest('[data-role="remove"]').length) {
+                        $('.book-tags-container').removeClass('open');
+                    }
+                })
+
+                $('#btnSaveBookDropdown').on('click', function (event) {
+                    $(this).parent().addClass('open');
+                    $('.bootstrap-tagsinput input').focus();
+                })
+            </script>
+
+                    <div id="suggestionDropdownContainer" style="position: relative; float: right;">
+                <span style="font-size: 90%; margin-left: 10px;float:right;line-height: 34px;">
+                    Wrong info? <a href="javascript://" class="plink">Suggest a correction</a>
+                    <span class="caret"></span>
+                </span>
+
+                <ul class="dropdown-menu" style="width: 250px; margin-top: -4px;">
+                    <li style="padding: 3px;"><a href="javascript://" id="btnOpenSuggestionModal">Suggest a correction</a></li>
+                    <li style="padding: 3px;"><a href="javascript://" id="btnOpenReportModal">Report a problem</a></li>
+                </ul>
+            </div>
+            <script type="text/javascript">
+                $('#suggestionDropdownContainer').on('mouseover', function (event) {
+                    $('#suggestionDropdownContainer').addClass('open')
+                })
+                $('#suggestionDropdownContainer').on('mouseleave', function (event) {
+                    $('#suggestionDropdownContainer').removeClass('open')
+                })
+            </script>
+    </div>
+
+    <div class="cBox1" id="sentToEmailInfo" style="display:none;">
+        The file will be sent to your email address. It may take up to 1-5 minutes before you receive it.
+    </div>
+
+    <div class="cBox1" id="sentToEmailInfoKindle" style="display:none;">
+        The file will be sent to your Kindle account. It may takes up to 1-5 minutes before you received it.
+        <br/>Please note you need to add our <b style="color:#EF404E">NEW</b> email <b>km729844@bookmail.org</b> to approved e-mail addresses.
+        <a target="blank" href="https://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=201974240">Read more</a>.
+    </div>
+
+    <script type="text/javascript">
+		var pubId=155949;
+		var siteId=580494;
+		var kadId=2152454;
+		var kadwidth=970;
+		var kadheight=250;
+		var kadtype=1;
+		var kadGdpr=""; <!-- set to 1 if inventory is GDPR compliant -->
+		var kadGdprConsent=""; <!-- Insert user GDPR consent string here for GDPR compliant inventory -->
+		var kadpageurl= "https%3A%2F%2Fb-ok.cc%2F";
+</script>
+<script type="text/javascript" src="https://ads.pubmatic.com/AdServer/js/showad.js"></script>
+    <div id="converterCurrentStatusesBox" class="cBox1" style="display:none;"></div>
+
+</div>
+
+<div class="modal fade modal-fullscreen-md-down" id="form-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" style="width: 1100px;">
+        <div class="modal-content" id="form-modal-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="scripts/jquery.lightbox-0.5.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+
+<script type="text/javascript">
+            const availableTags = [];
+            const CurrentBook = new Book({"id":"919236","title":"Reinforcement Learning and Dynamic Programming Using Function Approximators (Automation and Control Engineering)"})
+            const CurrentUser = new User({"id":"729844"})
+            const tags = new TagsInput($('#inputTags'), CurrentUser, CurrentBook.id, availableTags)
+
+                document.getElementById('btnOpenSuggestionModal').addEventListener('click', CurrentBook.suggestModal)
+                document.getElementById('btnOpenReportModal').addEventListener('click', CurrentBook.reportModal)
+
+            $(function () {
+                $('a.lightbox').lightBox({
+                    containerResizeSpeed: 1
+                });
+            });
+
+            $(function () {
+                // read more
+                var height = 300;
+                if ($('.termsCloud').height() > 0)
+                {
+                    height = height - $('.termsCloud').height();
+                }
+
+                if (height < 225) {
+                    height = 225; // min height
+                }
+
+                // prevent bad line-brake
+                height = Math.floor(height / parseFloat($('#bookDescriptionBox').css('line-height'))) * parseFloat($('#bookDescriptionBox').css('line-height')) + 10; //10 - padding-bottom of box
+
+                if ($('#bookDescriptionBox').height() > height)
+                {
+                    $('#bookDescriptionBox').css('overflow', 'hidden');
+                    $('#bookDescriptionBox').css('height', height);
+                    $('<div style="text-align:center; cursor:pointer;font-size: 12px; height:25px;" class="moreBtn"><div style="display:inline-block;border-top: 1px dashed #333; width:75%; margin-top: 15px;"><span style="display:inline-block;position:relative;top:-13px;padding:0 30px; background: #F6F6F6;">click to read more</span></div></div>').insertAfter("#bookDescriptionBox");
+                }
+
+                $('.moreBtn, #bookDescriptionBox').click(function () {
+                    $('#bookDescriptionBox').css('height', 'auto');
+                    $('#bookDescriptionBox').css('overflow', 'auto');
+                    $('.moreBtn').remove();
+                });
+
+                $('#btnSaveBook').click(function () {
+                    CurrentUser.saveReadLater(CurrentBook.id, "book")
+                })
+
+                $('#btnUnsaveBook').click(function () {
+                    CurrentUser
+                            .deleteReadLater(CurrentBook.id)
+                            .then(response => {
+                                $('#btnSaveBook').removeClass('hidden')
+                                $('#btnUnsaveBook').addClass('hidden')
+                                tags.clear()
+                            })
+                })
+            });
+
+            // converter links
+            $('.converterLink').click(function (e) {
+                $('#converterCurrentStatusesBox').show();
+                $('#converterCurrentStatusesBox').html('Refreshing..');
+
+                $.RPC('ConvertationTools::rpcConvert', {'book_id': $(this).data('book-id'), 'convertTo': $(this).data('convert-to')}).done(function (e) {
+                    convertationStatusesAutoupdaterObserver();
+                }).fail(function (a, b) {
+                    $('#converterCurrentStatusesBox').html('<span class="error">' + b.errors.message() + '</span>');
+                });
+            });
+
+            $('.sendToEmailButton').click(function () {
+                $.RPC('sendToKindle', {'book_id': $(this).data('id'), 'mode': $(this).data('mode')}).done(function (e) {
+                    if (e.response.status) {
+                        //alert('Sent to ' + e.response.email);
+                    }
+                }).fail(function (a, b) {
+                    $('#sentToEmailInfo').html(b.errors.message());
+                    $('#sentToEmailInfoKindle').html(b.errors.message());
+                });
+
+                if ($(this).data('kindle'))
+                {
+                    $('#sentToEmailInfoKindle').show('slow');
+                } else {
+                    $('#sentToEmailInfo').show('slow');
+                }
+                $('#sendToEmailButtonBox').hide('slow');
+            });
+
+            $(document).on("click", ".sendToEmailAfterConversion", function () {
+                $.RPC('sendToKindle', {'book_id': $(this).data('id'), 'mode': 'kindle', 'convertedTo': $(this).data('format')})
+                        .done(function (e) {
+                        })
+                        .fail(function (a, b) {
+                            $('#sentToEmailInfo').html(b.errors.message());
+                            $('#sentToEmailInfoKindle').html(b.errors.message());
+                        });
+
+                $('#sentToEmailInfoKindle').show('slow');
+                $(this).replaceWith('[sent to kindle]');
+            });
+
+            //$('[data-toggle="tooltip"]').tooltip({'html': true});
+            $(window).on("load", function () {
+                $('[data-toggle="tooltip"]').tooltip({'html': true});
+                $('[data-autoopen="true"]').tooltip('show');
+                $('.btn-savebook-disabled').tooltip({
+                    'html': true,
+                    'trigger': 'manual',
+                });
+
+                $('.btn-savebook-disabled').mouseover(function () {
+                    $(this).tooltip('show')
+                });
+
+                $('.btn-savebook-disabled').click(function () {
+                    $(this).tooltip('hide')
+                });
+            });
+
+            var convertationStatusesAutoupdaterRuned = false;
+            function convertationStatusesAutoupdaterObserver()
+            {
+                if (convertationStatusesAutoupdaterRuned)
+                {
+                    return;
+                } else {
+                    convertationStatusesAutoupdaterRuned = true;
+                    convertationStatusesAutoupdater();
+                }
+            }
+
+            function convertationStatusesAutoupdater()
+            {
+                rpcUrl = '/rpc/ConvertationTools::getCurrentJobsStatuses?clear=1&gg_text_mode=1&bookId=' + CurrentBook.id;
+                $.ajaxSetup({cache: false}); // This part addresses an IE bug.  without it, IE will only load the first number and will never refresh
+
+
+                $.ajax({
+                    url: rpcUrl,
+                    datatype: 'html'
+                }).done(function (response) {
+                    $('#converterCurrentStatusesBox').html(response);
+                    if (response.search('progress') === -1)
+                    {
+                        convertationStatusesAutoupdaterRuned = false;
+                        return;
+                    }
+                    setTimeout(convertationStatusesAutoupdater, 15000);
+                }).error(function () {
+                    setTimeout(convertationStatusesAutoupdater, 15000);
+                });
+            }
+
+            function iOSversion()
+            {
+                const isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/);
+                if (isSafari) {
+                    const version = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/)
+                    return [parseInt(version[1], 10), parseInt(version[2], 10), parseInt(version[3] || 0, 10)]
+                }
+
+                return [];
+            }
+
+                if (iOSversion()[0] >= 13) {
+                    $('.dlButton').click(function () {
+                        const iosNotify = $.notify('message', {
+                            template: '<div data-notify="container" class="col-xs-12 col-sm-3" style="padding: 5px;">' +
+                                    '<div data-notify="message" class="alert" style="background: #fff; border: 2px solid #fda8a8;">' +
+                                    '<img src="/img/safary-download-hint.png" style="width: 100%; margin-bottom: 8px;">' +
+                                    'Hint for Safari iOS 13 users: all your downloads are hidden under the arrow icon to the right of the browser address bar.<br>' +
+                                    '<div class="text-right"><a href="javascript://" id="btnIosNotifyClose" style="color: #337ab7;">Hide</a></div>' +
+                                    '</div>' +
+                                    '</div>',
+                            offset: {
+                                x: 0,
+                                y: 25,
+                            },
+                            delay: 0,
+                            onClose: function () {
+                                document.cookie = "ios_download_tooltip=1; expires=Tue, 19 Jan 2038 03:14:07 GMT"
+                            }
+                        })
+
+                        $('#btnIosNotifyClose').click(function () {
+                            document.cookie = "ios_download_tooltip=5; expires=Tue, 19 Jan 2038 03:14:07 GMT"
+                            iosNotify.close()
+                        })
+                    })
+                }
+
+            if ($('#converterCurrentStatusesBox').html().length)
+            {
+                convertationStatusesAutoupdaterObserver();
+                //$('#converterCurrentStatusesBox').css('display', 'block');
+                $('#converterCurrentStatusesBox').show();
+            }
+</script>
+
+<h2 class="color1" style="margin-top:20px;">You may be interested in</h2>
+<div style="background: #49AFD0; height:2px; width: 100%; margin-bottom: 20px;">&nbsp;</div>
+<script src="/scripts/freewall.js"></script><div id="bMosaicBox" style="display:none">
+        <div class="brick" style="width:14%;">
+            <a href="/book/458987/1fe266" title="Neuro-Dynamic Programming">
+                <img src="//dl181.zlibcdn.com/covers/books/bd/07/ca/bd07cac04bc742263c630c0cd757765c.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/539873/5d1785" title="Algorithm design">
+                <img src="//dl181.zlibcdn.com/covers/books/d4/81/4a/d4814aa3d906f41f3026bcb7ac4fc2d2.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/690982/5a5649" title="Motivated Reinforcement Learning: Curious Characters for Multiuser Games">
+                <img src="//dl181.zlibcdn.com/covers/books/87/aa/dd/87aadddf89c90fdc6f097b9bd780e7eb.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/695505/3bfcad" title="Neural Networks for Pattern Recognition">
+                <img src="//dl181.zlibcdn.com/covers/books/4e/2d/43/4e2d43e2beeb49144a1e237652e5c22f.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/776989/999d86" title="Dynamic Pricing and Automated Resource Allocation for Complex Information Services: Reinforcement Learning and Combinatorial Auctions">
+                <img src="//dl181.zlibcdn.com/covers/books/0a/d4/fc/0ad4fc29110c3cb4e5b5f1e2ecb2fda9.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/1023880/034070" title="Dynamic programming. Foundations and principles">
+                <img src="//dl181.zlibcdn.com/covers/books/88/41/f2/8841f221dff39b6c5ca8c8e21e0d62f0.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/1205971/10fd57" title="Algorithms for Reinforcement Learning  ">
+                <img src="//dl181.zlibcdn.com/covers/books/b6/b3/b3/b6b3b3aebbbfe8578bab8f9be356408b.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/2031354/22fce9" title="Machine Learning: The Art and Science of Algorithms that Make Sense of Data">
+                <img src="//dl181.zlibcdn.com/covers/books/de/1a/b7/de1ab76fcd279de458c4d16cda1fb6d7.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/2064227/bc74db" title="Reinforcement Learning and Approximate Dynamic Programming for Feedback Control">
+                <img src="//dl181.zlibcdn.com/covers/books/14/08/54/1408548782c5968b72a774ada5d86377.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/2074710/4d9e79" title="Optimal Adaptive Control and Differential Games by Reinforcement Learning Principles">
+                <img src="//dl181.zlibcdn.com/covers/books/6a/11/bc/6a11bc2f2ac34e654a0a2b9d86275d5b.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/2098024/3805c2" title="Reinforcement Learning: State-of-the-Art">
+                <img src="//dl181.zlibcdn.com/covers/books/b5/2a/99/b52a9923923ff555110ae81ad0d384a7.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/2324367/156f86" title="Principles of Artificial Neural Networks">
+                <img src="//dl181.zlibcdn.com/covers/books/b7/d3/0a/b7d30afb8e39b009216b49c538f466d1.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/2338677/0fb33f" title="Understanding Machine Learning: From Theory to Algorithms">
+                <img src="//dl181.zlibcdn.com/covers/books/0d/5b/a6/0d5ba670702d773f47545864fb5d7533.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/2464869/bf54b6" title="Simulation-Based Optimization: Parametric Optimization Techniques and Reinforcement Learning">
+                <img src="//dl181.zlibcdn.com/covers/books/eb/b3/12/ebb31228332dbf6f58c449c3645cd88f.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/2517389/42917f" title="Statistical Reinforcement Learning: Modern Machine Learning Approaches">
+                <img src="//dl181.zlibcdn.com/covers/books/ed/c5/39/edc539121d83c4acd4255431bb28a5ac.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/2533442/4e5f15" title="Statistical Reinforcement Learning: Modern Machine Learning Approaches">
+                <img src="//dl181.zlibcdn.com/covers/books/c8/4b/9e/c84b9eb09b6fc36a1c740e45c7bd1399.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/2543746/ef80cb" title="Machine Learning: An Algorithmic Perspective, Second Edition">
+                <img src="//dl181.zlibcdn.com/covers/books/a5/20/5b/a5205bd61addc523c7fbfe1d7eb0b3c6.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/2553839/2b6f32" title="Optimization in Practice with MATLAB®: For Engineering Students and Professionals">
+                <img src="//dl181.zlibcdn.com/covers/books/6e/94/d0/6e94d03559aeaaa3198d3ca625caf939.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3420300/0dd593" title=" Reinforcement Learning : With Open AI, TensorFlow and Keras Using Python">
+                <img src="//dl181.zlibcdn.com/covers/books/91/43/ab/9143abf85e8b67239d1e4972115319fe.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3525476/83453b" title="Python Tricks: A Buffet of Awesome Python Features">
+                <img src="//dl181.zlibcdn.com/covers/books/53/20/53/5320531166e422d6ea70e1c5ad9535c2.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3575022/921642" title="Reinforcement Learning for Optimal Feedback Control">
+                <img src="//dl181.zlibcdn.com/covers/books/df/8c/64/df8c6468a79510a1e467413dd8fdeb41.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3606405/f316a4" title="Machine Learning with Python Cookbook: Practical Solutions from Preprocessing to Deep Learning">
+                <img src="//dl181.zlibcdn.com/covers/books/1b/8a/00/1b8a00c4b487665f8c785761b3bb8f4b.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3609464/823957" title="Python Reinforcement Learning Projects">
+                <img src="//dl181.zlibcdn.com/covers/books/8a/22/cc/8a22ccc4f94e0a5a98e16b22a2b1f959.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3620695/cffdf0" title="Redes Neuronales &amp; Deep Learning">
+                <img src="//dl181.zlibcdn.com/covers/books/98/f1/f7/98f1f7a2aa3f4125bb3f356a8ccb413b.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3629127/aaf49e" title="Keras Reinforcement Learning Projects">
+                <img src="//dl181.zlibcdn.com/covers/books/52/f2/70/52f270dd8ac4f82da9bdf25ead92cab5.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3631866/caf032" title="Reinforcement Learning: An Introduction, 2nd Edition">
+                <img src="//dl181.zlibcdn.com/covers/books/65/02/b7/6502b74ce247c4cd4d4fb54747ad7c7e.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3679664/cd9dff" title="PyTorch Recipes: A Problem-Solution Approach">
+                <img src="//dl181.zlibcdn.com/covers/books/0c/13/3d/0c133d125cb4da84213ba2afb32f3ceb.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3695207/5a2496" title="Hands-On Reinforcement Learning with Python: Master reinforcement and deep reinforcement learning using OpenAI Gym and TensorFlow">
+                <img src="//dl181.zlibcdn.com/covers/books/50/01/6b/50016b13e3953957430bb3d4f9e91d2f.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div></div><script>
+    $('#bMosaicBox').css('display', 'block');
+
+    var wall = new Freewall('#bMosaicBox');
+    wall.reset({
+        selector: '.brick',
+        keepOrder: true,
+        //animate: true,
+        cellW: $($('.brick')[0]).outerWidth(),
+        cellH: 'auto',
+        gutterX: 8,
+        gutterY: 8,
+        fixSize: false,
+        onResize: function () {
+            wall.fitWidth();
+        }
+    });
+
+    wall.container.find('img').load(function () {
+        wall.fitWidth();
+    });
+
+    wall.fitWidth();
+
+</script><h2 class="color1" style="margin-top:20px;">Most frequently terms</h2>
+<div style="background: #49AFD0; height:2px; width: 100%; margin-bottom: 20px;">&nbsp;</div>
+<div class="termsCloud"><div class="termWrap "><a class="color1" href="/terms/?q=iteration" target="_blank">iteration</a><sup title="Frequency in the text">950</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=algorithm" target="_blank">algorithm</a><sup title="Frequency in the text">453</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=approximate" target="_blank">approximate</a><sup title="Frequency in the text">430</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=fuzzy" target="_blank">fuzzy</a><sup title="Frequency in the text">353</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=optimal" target="_blank">optimal</a><sup title="Frequency in the text">284</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=samples" target="_blank">samples</a><sup title="Frequency in the text">271</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=algorithms" target="_blank">algorithms</a><sup title="Frequency in the text">265</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=approximation" target="_blank">approximation</a><sup title="Frequency in the text">263</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=lspi" target="_blank">lspi</a><sup title="Frequency in the text">261</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=policy+iteration" target="_blank">policy iteration</a><sup title="Frequency in the text">219</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=discrete" target="_blank">discrete</a><sup title="Frequency in the text">213</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=parameter" target="_blank">parameter</a><sup title="Frequency in the text">206</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=policy+evaluation" target="_blank">policy evaluation</a><sup title="Frequency in the text">192</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=optimization" target="_blank">optimization</a><sup title="Frequency in the text">192</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=value+iteration" target="_blank">value iteration</a><sup title="Frequency in the text">177</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=vector" target="_blank">vector</a><sup title="Frequency in the text">173</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=rad" target="_blank">rad</a><sup title="Frequency in the text">171</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=approximator" target="_blank">approximator</a><sup title="Frequency in the text">167</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=reward" target="_blank">reward</a><sup title="Frequency in the text">166</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=parameters" target="_blank">parameters</a><sup title="Frequency in the text">164</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=mfs" target="_blank">mfs</a><sup title="Frequency in the text">158</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=bfs" target="_blank">bfs</a><sup title="Frequency in the text">157</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=stochastic" target="_blank">stochastic</a><sup title="Frequency in the text">156</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=approximate+policy" target="_blank">approximate policy</a><sup title="Frequency in the text">147</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=exploration" target="_blank">exploration</a><sup title="Frequency in the text">141</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=policies" target="_blank">policies</a><sup title="Frequency in the text">141</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=score" target="_blank">score</a><sup title="Frequency in the text">133</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=deterministic" target="_blank">deterministic</a><sup title="Frequency in the text">132</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=online+lspi" target="_blank">online lspi</a><sup title="Frequency in the text">119</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=convergence" target="_blank">convergence</a><sup title="Frequency in the text">119</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=probability" target="_blank">probability</a><sup title="Frequency in the text">115</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=bellman" target="_blank">bellman</a><sup title="Frequency in the text">110</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=computed" target="_blank">computed</a><sup title="Frequency in the text">102</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=density" target="_blank">density</a><sup title="Frequency in the text">101</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=grid" target="_blank">grid</a><sup title="Frequency in the text">100</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=approximators" target="_blank">approximators</a><sup title="Frequency in the text">100</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=equation" target="_blank">equation</a><sup title="Frequency in the text">100</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=mapping" target="_blank">mapping</a><sup title="Frequency in the text">100</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=parameter+vector" target="_blank">parameter vector</a><sup title="Frequency in the text">98</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=reinforcement+learning" target="_blank">reinforcement learning</a><sup title="Frequency in the text">98</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=representative" target="_blank">representative</a><sup title="Frequency in the text">94</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=finite" target="_blank">finite</a><sup title="Frequency in the text">93</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=max" target="_blank">max</a><sup title="Frequency in the text">92</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=greedy" target="_blank">greedy</a><sup title="Frequency in the text">92</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=squares" target="_blank">squares</a><sup title="Frequency in the text">90</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=trajectory" target="_blank">trajectory</a><sup title="Frequency in the text">89</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=approximate+value" target="_blank">approximate value</a><sup title="Frequency in the text">88</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=gradient" target="_blank">gradient</a><sup title="Frequency in the text">88</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=variables" target="_blank">variables</a><sup title="Frequency in the text">86</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=reward+function" target="_blank">reward function</a><sup title="Frequency in the text">85</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=iterations" target="_blank">iterations</a><sup title="Frequency in the text">85</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=linear" target="_blank">linear</a><sup title="Frequency in the text">85</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=offline" target="_blank">offline</a><sup title="Frequency in the text">84</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=entropy" target="_blank">entropy</a><sup title="Frequency in the text">83</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=fitted" target="_blank">fitted</a><sup title="Frequency in the text">81</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=xls" target="_blank">xls</a><sup title="Frequency in the text">81</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=approximate+value+iteration" target="_blank">approximate value iteration</a><sup title="Frequency in the text">79</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=spaces" target="_blank">spaces</a><sup title="Frequency in the text">79</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=parametrization" target="_blank">parametrization</a><sup title="Frequency in the text">76</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=uls" target="_blank">uls</a><sup title="Frequency in the text">76</sup></div></div>
+<link rel="stylesheet" type="text/css" href="css/jscomments/jscomments.css">
+
+<div style="background: #49AFD0; height:2px; width: 100%; margin:40px 0 40px 0;">&nbsp;</div>
+
+
+<div id="jscommentsRootBox">
+    <div class="jscommentsFormBox">
+        <div style="width:65%; float:left;">
+            <form id="jscommentsForm" target="uploader" action="rpc.php" method="POST">
+                <input type="hidden" name="book_id" value="919236">
+                <input type="hidden" name="action" value="addReview">
+                <input type="hidden" name="rx" value="0">
+                <input id="jscommentsNamefield" name="name" type="textfield" placeholder="Your Name" value="hba" onchange="if (this.value) {
+                            $(this).removeClass('error');
+                        }"/>
+                <textarea id="jscommentsTextarea" name="text" placeholder="Write a Review"  onchange="if (this.value) {
+                            $(this).removeClass('error');}"></textarea>
+                <br clear="all" />
+                <a href="#" onclick="onReviewSubmit();
+                        return false;" id="jscommentsButton">Post a Review</a><img id="jscommentsLoader" src="css/jscomments/loader.gif" style="position: relative; left: -35px; display: none;"/>
+            </form>
+        </div>
+        <div style="width:35%; float:left;" class="jscommentsFormHelp">
+            <div style="padding:10px 0 0 20px;  border-left:1px solid #ccc;">
+                You can write a book review and share your experiences. Other readers will always be interested in your opinion of the books you've read. Whether you've loved the book or not, if you give your honest and detailed thoughts then people will find new books that are right for them.
+            </div>
+        </div>
+    </div>
+    <div id="jscommentsCommentsBox"></div>
+</div>
+
+<script>
+    $('#jscommentsForm')[0].rx.value = 12;
+
+    function onReviewSubmit()
+    {
+        $('#jscommentsForm')[0].submit();
+
+        $('#jscommentsButton').css('width', $('#jscommentsButton').width() + 'px');
+        $('#jscommentsButton').data('originaltxt', $('#jscommentsButton')[0].innerHTML);
+        $('#jscommentsButton').text('Posting..'); // simulate server request
+        $('#jscommentsNamefield').attr("disabled", "disabled");
+        $('#jscommentsTextarea').attr("disabled", "disabled");
+        $('#jscommentsLoader').show();
+
+    }
+
+    function onReviewSubmitFailure()
+    {
+        $('#jscommentsButton').text($('#jscommentsButton').data('originaltxt'));
+        $('#jscommentsButton').css('width', '');
+        $('#jscommentsNamefield').removeAttr("disabled");
+        $('#jscommentsTextarea').removeAttr("disabled");
+        $('#jscommentsLoader').hide();
+    }
+
+</script><div style="display: none;">
+<div id="searchResultBox"><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" data-book_id="919237" itemscope itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">1</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td class="itemCover">
+                    <div style="min-height:130px;">
+                        <a href="/book/919237/6e9340"><img class="cover lazy" alt="" data-src="//dl181.zlibcdn.com/covers100/books/bd/95/f9/bd95f93400b22bf6d50c5e2b5842ea68.jpg" data-srcset="//dl181.zlibcdn.com/covers100/books/bd/95/f9/bd95f93400b22bf6d50c5e2b5842ea68.jpg 1x, //dl181.zlibcdn.com/covers200/books/bd/95/f9/bd95f93400b22bf6d50c5e2b5842ea68.jpg 2x" /></a>
+                    </div>
+                </td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/919237/6e9340" style="text-decoration: underline;">Animals Property &amp; The Law (Ethics And Action)</a></h3>
+                                <div class="authors"><a  itemprop="author" class="color1" title="Find all the author's book" href="/g/Gary Francione">Gary Francione</a></div>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td colspan="99" style="vertical-align: bottom;">
+                                <div class="tags-container"></div>
+                                
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    1995
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 959 KB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" data-book_id="919235" itemscope itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">2</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td class="itemCover">
+                    <div style="min-height:130px;">
+                        <a href="/book/919235/377731"><img class="cover lazy" alt="" data-src="//dl181.zlibcdn.com/covers100/books/bd/1b/89/bd1b896190e5ad19ff255b72c744b96b.jpg" data-srcset="//dl181.zlibcdn.com/covers100/books/bd/1b/89/bd1b896190e5ad19ff255b72c744b96b.jpg 1x, //dl181.zlibcdn.com/covers200/books/bd/1b/89/bd1b896190e5ad19ff255b72c744b96b.jpg 2x" /></a>
+                    </div>
+                </td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/919235/377731" style="text-decoration: underline;">Children of God Storybook Bible</a></h3>
+                                <div class="authors"><a  itemprop="author" class="color1" title="Find all the author's book" href="/g/Archbishop Desmond Tutu">Archbishop Desmond Tutu</a></div>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td colspan="99" style="vertical-align: bottom;">
+                                <div class="tags-container"></div>
+                                
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2010
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    EPUB, 10.62 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div><center></center></div><script type="text/javascript" src="/scripts/jquery.lazy.min.js"></script>
+<script>
+    $(function () {
+        $(".lazy").Lazy({
+            effect: "fadeIn",
+            effectTime: 1000,
+            beforeLoad: function(element) {
+                $(element).css({"border-width": "0px"});
+            },
+            afterLoad: function(element) {
+                $(element).css({"border-width": "1px"});
+            }
+        });
+    });
+</script><pre>Reinforcement Learning
+and Dynamic Programming
+Using Function Approximators
+
+K11117_FM.indd 1
+
+3/22/10 4:10:24 AM
+
+AUTOMATION AND CONTROL ENGINEERING
+A Series of Reference Books and Textbooks
+Series Editors
+FRANK L. LEWIS, Ph.D.,
+Fellow IEEE, Fellow IFAC
+
+Professor
+Automation and Robotics Research Institute
+The University of Texas at Arlington
+
+SHUZHI SAM GE, Ph.D.,
+Fellow IEEE
+
+Professor
+Interactive Digital Media Institute
+The National University of Singapore
+
+Reinforcement Learning and Dynamic Programming Using Function
+Approximators, Lucian Buşoniu, Robert Babuška, Bart De Schutter,
+and Damien Ernst
+Modeling and Control of Vibration in Mechanical Systems, Chunling Du
+and Lihua Xie
+Analysis and Synthesis of Fuzzy Control Systems: A Model-Based Approach,
+Gang Feng
+Lyapunov-Based Control of Robotic Systems, Aman Behal, Warren Dixon,
+Darren M. Dawson, and Bin Xian
+System Modeling and Control with Resource-Oriented Petri Nets, Naiqi Wu
+and MengChu Zhou
+Sliding Mode Control in Electro-Mechanical Systems, Second Edition,
+Vadim Utkin, Jürgen Guldner, and Jingxin Shi
+Optimal Control: Weakly Coupled Systems and Applications, Zoran Gajić,
+Myo-Taeg Lim, Dobrila Skatarić, Wu-Chung Su, and Vojislav Kecman
+Intelligent Systems: Modeling, Optimization, and Control, Yung C. Shin
+and Chengying Xu
+Optimal and Robust Estimation: With an Introduction to Stochastic Control
+Theory, Second Edition, Frank L. Lewis, Lihua Xie, and Dan Popa
+Feedback Control of Dynamic Bipedal Robot Locomotion, Eric R. Westervelt,
+Jessy W. Grizzle, Christine Chevallereau, Jun Ho Choi, and Benjamin Morris
+Intelligent Freight Transportation, edited by Petros A. Ioannou
+Modeling and Control of Complex Systems, edited by Petros A. Ioannou
+and Andreas Pitsillides
+Wireless Ad Hoc and Sensor Networks: Protocols, Performance, and Control,
+Jagannathan Sarangapani
+Stochastic Hybrid Systems, edited by Christos G. Cassandras
+and John Lygeros
+Hard Disk Drive: Mechatronics and Control, Abdullah Al Mamun,
+Guo Xiao Guo, and Chao Bi
+Autonomous Mobile Robots: Sensing, Control, Decision Making
+and Applications, edited by Shuzhi Sam Ge and Frank L. Lewis
+
+K11117_FM.indd 2
+
+3/22/10 4:10:24 AM
+
+Automation and Control
+Engineering Series
+
+Reinforcement Learning
+and Dynamic Programming
+Using Function Approximators
+
+Lucian Busoniu
+
+Delft University of Technology
+Delft, The Netherlands
+
+Robert
+Babuska
+Delft University of Technology
+Delft, The Netherlands
+
+Bart
+De Schutter
+Delft University of Technology
+Delft, The Netherlands
+
+Damien
+Ernst
+University of Liège
+Liège, Belgium
+
+Boca Raton London New York
+
+CRC Press is an imprint of the
+Taylor &amp; Francis Group, an informa business
+
+K11117_FM.indd 3
+
+3/22/10 4:10:24 AM
+
+MATLAB® is a trademark of The MathWorks, Inc. and is used with permission. The MathWorks does
+not warrant the accuracy of the text or exercises in this book. This book’s use or discussion of MATLAB® software or related products does not constitute endorsement or sponsorship by The MathWorks
+of a particular pedagogical approach or particular use of the MATLAB® software.
+
+CRC Press
+Taylor &amp; Francis Group
+6000 Broken Sound Parkway NW, Suite 300
+Boca Raton, FL 33487-2742
+© 2010 by Taylor and Francis Group, LLC
+CRC Press is an imprint of Taylor &amp; Francis Group, an Informa business
+No claim to original U.S. Government works
+Printed in the United States of America on acid-free paper
+10 9 8 7 6 5 4 3 2 1
+International Standard Book Number: 978-1-4398-2108-4 (Hardback)
+This book contains information obtained from authentic and highly regarded sources. Reasonable
+efforts have been made to publish reliable data and information, but the author and publisher cannot
+assume responsibility for the validity of all materials or the consequences of their use. The authors and
+publishers have attempted to trace the copyright holders of all material reproduced in this publication
+and apologize to copyright holders if permission to publish in this form has not been obtained. If any
+copyright material has not been acknowledged please write and let us know so we may rectify in any
+future reprint.
+Except as permitted under U.S. Copyright Law, no part of this book may be reprinted, reproduced,
+transmitted, or utilized in any form by any electronic, mechanical, or other means, now known or
+hereafter invented, including photocopying, microfilming, and recording, or in any information storage or retrieval system, without written permission from the publishers.
+For permission to photocopy or use material electronically from this work, please access www.copyright.com (http://www.copyright.com/) or contact the Copyright Clearance Center, Inc. (CCC), 222
+Rosewood Drive, Danvers, MA 01923, 978-750-8400. CCC is a not-for-profit organization that provides licenses and registration for a variety of users. For organizations that have been granted a photocopy license by the CCC, a separate system of payment has been arranged.
+Trademark Notice: Product or corporate names may be trademarks or registered trademarks, and are
+used only for identification and explanation without intent to infringe.
+Visit the Taylor &amp; Francis Web site at
+http://www.taylorandfrancis.com
+and the CRC Press Web site at
+http://www.crcpress.com
+
+K11117_FM.indd 4
+
+3/22/10 4:10:24 AM
+
+Preface
+Control systems are making a tremendous impact on our society. Though invisible
+to most users, they are essential for the operation of nearly all devices – from basic
+home appliances to aircraft and nuclear power plants. Apart from technical systems,
+the principles of control are routinely applied and exploited in a variety of disciplines
+such as economics, medicine, social sciences, and artificial intelligence.
+A common denominator in the diverse applications of control is the need to influence or modify the behavior of dynamic systems to attain prespecified goals. One
+approach to achieve this is to assign a numerical performance index to each state trajectory of the system. The control problem is then solved by searching for a control
+policy that drives the system along trajectories corresponding to the best value of the
+performance index. This approach essentially reduces the problem of finding good
+control policies to the search for solutions of a mathematical optimization problem.
+Early work in the field of optimal control dates back to the 1940s with the pioneering research of Pontryagin and Bellman. Dynamic programming (DP), introduced by Bellman, is still among the state-of-the-art tools commonly used to solve
+optimal control problems when a system model is available. The alternative idea of
+finding a solution in the absence of a model was explored as early as the 1960s. In
+the 1980s, a revival of interest in this model-free paradigm led to the development of
+the field of reinforcement learning (RL). The central theme in RL research is the design of algorithms that learn control policies solely from the knowledge of transition
+samples or trajectories, which are collected beforehand or by online interaction with
+the system. Most approaches developed to tackle the RL problem are closely related
+to DP algorithms.
+A core obstacle in DP and RL is that solutions cannot be represented exactly for
+problems with large discrete state-action spaces or continuous spaces. Instead, compact representations relying on function approximators must be used. This challenge
+was already recognized while the first DP techniques were being developed. However, it has only been in recent years – and largely in correlation with the advance
+of RL – that approximation-based methods have grown in diversity, maturity, and
+efficiency, enabling RL and DP to scale up to realistic problems.
+This book provides an accessible in-depth treatment of reinforcement learning
+and dynamic programming methods using function approximators. We start with a
+concise introduction to classical DP and RL, in order to build the foundation for
+the remainder of the book. Next, we present an extensive review of state-of-the-art
+approaches to DP and RL with approximation. Theoretical guarantees are provided
+on the solutions obtained, and numerical examples and comparisons are used to illustrate the properties of the individual methods. The remaining three chapters are
+v
+
+vi
+dedicated to a detailed presentation of representative algorithms from the three major classes of techniques: value iteration, policy iteration, and policy search. The
+properties and the performance of these algorithms are highlighted in simulation and
+experimental studies on a range of control applications.
+We believe that this balanced combination of practical algorithms, theoretical
+analysis, and comprehensive examples makes our book suitable not only for researchers, teachers, and graduate students in the fields of optimal and adaptive control, machine learning and artificial intelligence, but also for practitioners seeking
+novel strategies for solving challenging real-life control problems.
+This book can be read in several ways. Readers unfamiliar with the field are
+advised to start with Chapter 1 for a gentle introduction, and continue with Chapter 2 (which discusses classical DP and RL) and Chapter 3 (which considers
+approximation-based methods). Those who are familiar with the basic concepts of
+RL and DP may consult the list of notations given at the end of the book, and then
+start directly with Chapter 3. This first part of the book is sufficient to get an overview
+of the field. Thereafter, readers can pick any combination of Chapters 4 to 6, depending on their interests: approximate value iteration (Chapter 4), approximate policy
+iteration and online learning (Chapter 5), or approximate policy search (Chapter 6).
+Supplementary information relevant to this book, including a complete archive
+of the computer code used in the experimental studies, is available at the Web site:
+http://www.dcsc.tudelft.nl/rlbook/
+Comments, suggestions, or questions concerning the book or the Web site are welcome. Interested readers are encouraged to get in touch with the authors using the
+contact information on the Web site.
+The authors have been inspired over the years by many scientists who undoubtedly left their mark on this book; in particular by Louis Wehenkel, Pierre Geurts,
+Guy-Bart Stan, Rémi Munos, Martin Riedmiller, and Michail Lagoudakis. Pierre
+Geurts also provided the computer program for building ensembles of regression
+trees, used in several examples in the book. This work would not have been possible without our colleagues, students, and the excellent professional environments
+at the Delft Center for Systems and Control of the Delft University of Technology,
+the Netherlands, the Montefiore Institute of the University of Liège, Belgium, and at
+Supélec Rennes, France. Among our colleagues in Delft, Justin Rice deserves special
+mention for carefully proofreading the manuscript. To all these people we extend our
+sincere thanks.
+We thank Sam Ge for giving us the opportunity to publish our book with Taylor
+&amp; Francis CRC Press, and the editorial and production team at Taylor &amp; Francis for
+their valuable help. We gratefully acknowledge the financial support of the BSIKICIS project “Interactive Collaborative Information Systems” (grant no. BSIK03024)
+and the Dutch funding organizations NWO and STW. Damien Ernst is a Research
+Associate of the FRS-FNRS, the financial support of which he acknowledges. We
+appreciate the kind permission offered by the IEEE to reproduce material from our
+previous works over which they hold copyright.
+
+vii
+Finally, we thank our families for their continual understanding, patience, and
+support.
+Lucian Buşoniu
+Robert Babuška
+Bart De Schutter
+Damien Ernst
+November 2009
+
+MATLAB R is a trademark of The MathWorks, Inc.
+For product information, please contact:
+The MathWorks, Inc.
+3 Apple Hill Drive
+Natick, MA 01760-2098 USA
+Tel: 508 647 7000
+Fax: 508-647-7001
+E-mail: info@mathworks.com
+Web: www.mathworks.com
+
+About the authors
+Lucian Buşoniu is a postdoctoral fellow at the Delft Center for Systems and Control
+of Delft University of Technology, in the Netherlands. He received his PhD degree
+(cum laude ) in 2009 from the Delft University of Technology, and his MSc degree in
+2003 from the Technical University of Cluj-Napoca, Romania. His current research
+interests include reinforcement learning and dynamic programming with function
+approximation, intelligent and learning techniques for control problems, and multiagent learning.
+Robert Babuška is a full professor at the Delft Center for Systems and Control
+of Delft University of Technology in the Netherlands. He received his PhD degree
+(cum laude ) in Control in 1997 from the Delft University of Technology, and his
+MSc degree (with honors) in Electrical Engineering in 1990 from Czech Technical
+University, Prague. His research interests include fuzzy systems modeling and identification, data-driven construction and adaptation of neuro-fuzzy systems, modelbased fuzzy control and learning control. He is active in applying these techniques in
+robotics, mechatronics, and aerospace.
+Bart De Schutter is a full professor at the Delft Center for Systems and Control and
+at the Marine &amp; Transport Technology department of Delft University of Technology in the Netherlands. He received the PhD degree in Applied Sciences (summa
+cum laude with congratulations of the examination jury) in 1996 from K.U. Leuven,
+Belgium. His current research interests include multi-agent systems, hybrid systems
+control, discrete-event systems, and control of intelligent transportation systems.
+Damien Ernst received the MSc and PhD degrees from the University of Liège in
+1998 and 2003, respectively. He is currently a Research Associate of the Belgian
+FRS-FNRS and he is affiliated with the Systems and Modeling Research Unit of the
+University of Liège. Damien Ernst spent the period 2003–2006 with the University
+of Liège as a Postdoctoral Researcher of the FRS-FNRS and held during this period
+positions as visiting researcher at CMU, MIT and ETH. He spent the academic year
+2006–2007 working at Supélec (France) as professor. His main research interests are
+in the fields of power system dynamics, optimal control, reinforcement learning, and
+design of dynamic treatment regimes.
+
+ix
+
+Contents
+
+1 Introduction
+1.1 The dynamic programming and reinforcement learning problem . .
+1.2 Approximation in dynamic programming and reinforcement learning
+1.3 About this book . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+1
+2
+5
+8
+
+2 An introduction to dynamic programming and reinforcement learning
+2.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.2 Markov decision processes . . . . . . . . . . . . . . . . . . . . . .
+2.2.1 Deterministic setting . . . . . . . . . . . . . . . . . . . . .
+2.2.2 Stochastic setting . . . . . . . . . . . . . . . . . . . . . . .
+2.3 Value iteration . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.3.1 Model-based value iteration . . . . . . . . . . . . . . . . .
+2.3.2 Model-free value iteration and the need for exploration . . .
+2.4 Policy iteration . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.4.1 Model-based policy iteration . . . . . . . . . . . . . . . . .
+2.4.2 Model-free policy iteration . . . . . . . . . . . . . . . . . .
+2.5 Policy search . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.6 Summary and discussion . . . . . . . . . . . . . . . . . . . . . . .
+
+11
+11
+14
+14
+19
+23
+23
+28
+30
+31
+37
+38
+41
+
+3 Dynamic programming and reinforcement learning in large and continuous spaces
+3.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.2 The need for approximation in large and continuous spaces . . . . .
+3.3 Approximation architectures . . . . . . . . . . . . . . . . . . . . .
+3.3.1 Parametric approximation . . . . . . . . . . . . . . . . . .
+3.3.2 Nonparametric approximation . . . . . . . . . . . . . . . .
+3.3.3 Comparison of parametric and nonparametric approximation
+3.3.4 Remarks . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.4 Approximate value iteration . . . . . . . . . . . . . . . . . . . . .
+3.4.1 Model-based value iteration with parametric approximation
+3.4.2 Model-free value iteration with parametric approximation .
+3.4.3 Value iteration with nonparametric approximation . . . . . .
+3.4.4 Convergence and the role of nonexpansive approximation .
+3.4.5 Example: Approximate Q-iteration for a DC motor . . . . .
+3.5 Approximate policy iteration . . . . . . . . . . . . . . . . . . . . .
+3.5.1 Value iteration-like algorithms for approximate policy
+evaluation . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+43
+43
+47
+49
+49
+51
+53
+54
+54
+55
+58
+62
+63
+66
+71
+73
+xi
+
+xii
+3.5.2
+
+3.6
+
+3.7
+
+3.8
+3.9
+
+Model-free policy evaluation with linearly parameterized
+approximation . . . . . . . . . . . . . . . . . . . . . . . .
+3.5.3 Policy evaluation with nonparametric approximation . . . .
+3.5.4 Model-based approximate policy evaluation with rollouts . .
+3.5.5 Policy improvement and approximate policy iteration . . . .
+3.5.6 Theoretical guarantees . . . . . . . . . . . . . . . . . . . .
+3.5.7 Example: Least-squares policy iteration for a DC motor . .
+Finding value function approximators automatically . . . . . . . .
+3.6.1 Basis function optimization . . . . . . . . . . . . . . . . .
+3.6.2 Basis function construction . . . . . . . . . . . . . . . . . .
+3.6.3 Remarks . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Approximate policy search . . . . . . . . . . . . . . . . . . . . . .
+3.7.1 Policy gradient and actor-critic algorithms . . . . . . . . . .
+3.7.2 Gradient-free policy search . . . . . . . . . . . . . . . . . .
+3.7.3 Example: Gradient-free policy search for a DC motor . . . .
+Comparison of approximate value iteration, policy iteration, and policy search . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Summary and discussion . . . . . . . . . . . . . . . . . . . . . . .
+
+4 Approximate value iteration with a fuzzy representation
+4.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4.2 Fuzzy Q-iteration . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4.2.1 Approximation and projection mappings of fuzzy Q-iteration
+4.2.2 Synchronous and asynchronous fuzzy Q-iteration . . . . . .
+4.3 Analysis of fuzzy Q-iteration . . . . . . . . . . . . . . . . . . . . .
+4.3.1 Convergence . . . . . . . . . . . . . . . . . . . . . . . . .
+4.3.2 Consistency . . . . . . . . . . . . . . . . . . . . . . . . . .
+4.3.3 Computational complexity . . . . . . . . . . . . . . . . . .
+4.4 Optimizing the membership functions . . . . . . . . . . . . . . . .
+4.4.1 A general approach to membership function optimization . .
+4.4.2 Cross-entropy optimization . . . . . . . . . . . . . . . . . .
+4.4.3 Fuzzy Q-iteration with cross-entropy optimization of the
+membership functions . . . . . . . . . . . . . . . . . . . .
+4.5 Experimental study . . . . . . . . . . . . . . . . . . . . . . . . . .
+4.5.1 DC motor: Convergence and consistency study . . . . . . .
+4.5.2 Two-link manipulator: Effects of action interpolation, and
+comparison with fitted Q-iteration . . . . . . . . . . . . . .
+4.5.3 Inverted pendulum: Real-time control . . . . . . . . . . . .
+4.5.4 Car on the hill: Effects of membership function optimization
+4.6 Summary and discussion . . . . . . . . . . . . . . . . . . . . . . .
+
+74
+84
+84
+85
+88
+90
+95
+96
+98
+100
+101
+102
+107
+109
+113
+114
+117
+117
+119
+119
+123
+127
+127
+135
+140
+141
+141
+143
+144
+145
+146
+152
+157
+160
+164
+
+5 Approximate policy iteration for online learning and continuous-action
+control
+167
+5.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 167
+5.2 A recapitulation of least-squares policy iteration . . . . . . . . . . 168
+
+xiii
+5.3
+5.4
+
+5.5
+5.6
+
+5.7
+
+Online least-squares policy iteration . . . . . . . . . . . . . . . . .
+Online LSPI with prior knowledge . . . . . . . . . . . . . . . . . .
+5.4.1 Online LSPI with policy approximation . . . . . . . . . . .
+5.4.2 Online LSPI with monotonic policies . . . . . . . . . . . .
+LSPI with continuous-action, polynomial approximation . . . . . .
+Experimental study . . . . . . . . . . . . . . . . . . . . . . . . . .
+5.6.1 Online LSPI for the inverted pendulum . . . . . . . . . . .
+5.6.2 Online LSPI for the two-link manipulator . . . . . . . . . .
+5.6.3 Online LSPI with prior knowledge for the DC motor . . . .
+5.6.4 LSPI with continuous-action approximation for the inverted
+pendulum . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Summary and discussion . . . . . . . . . . . . . . . . . . . . . . .
+
+6 Approximate policy search with cross-entropy optimization of basis
+functions
+6.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6.2 Cross-entropy optimization . . . . . . . . . . . . . . . . . . . . .
+6.3 Cross-entropy policy search . . . . . . . . . . . . . . . . . . . . .
+6.3.1 General approach . . . . . . . . . . . . . . . . . . . . . . .
+6.3.2 Cross-entropy policy search with radial basis functions . . .
+6.4 Experimental study . . . . . . . . . . . . . . . . . . . . . . . . . .
+6.4.1 Discrete-time double integrator . . . . . . . . . . . . . . .
+6.4.2 Bicycle balancing . . . . . . . . . . . . . . . . . . . . . . .
+6.4.3 Structured treatment interruptions for HIV infection control
+6.5 Summary and discussion . . . . . . . . . . . . . . . . . . . . . . .
+
+170
+173
+174
+175
+177
+180
+180
+192
+195
+198
+201
+205
+205
+207
+209
+209
+213
+216
+216
+223
+229
+233
+
+Appendix A
+Extremely randomized trees
+235
+A.1 Structure of the approximator . . . . . . . . . . . . . . . . . . . . 235
+A.2 Building and using a tree . . . . . . . . . . . . . . . . . . . . . . . 236
+Appendix B
+The cross-entropy method
+239
+B.1 Rare-event simulation using the cross-entropy method . . . . . . . 239
+B.2 Cross-entropy optimization . . . . . . . . . . . . . . . . . . . . . 242
+Symbols and abbreviations
+
+245
+
+Bibliography
+
+249
+
+List of algorithms
+
+267
+
+Index
+
+269
+
+1
+Introduction
+
+Dynamic programming (DP) and reinforcement learning (RL) are algorithmic methods for solving problems in which actions (decisions) are applied to a system over
+an extended period of time, in order to achieve a desired goal. DP methods require
+a model of the system’s behavior, whereas RL methods do not. The time variable is
+usually discrete and actions are taken at every discrete time step, leading to a sequential decision-making problem. The actions are taken in closed loop, which means that
+the outcome of earlier actions is monitored and taken into account when choosing
+new actions. Rewards are provided that evaluate the one-step decision-making performance, and the goal is to optimize the long-term performance, measured by the
+total reward accumulated over the course of interaction.
+Such decision-making problems appear in a wide variety of fields, including automatic control, artificial intelligence, operations research, economics, and medicine.
+For instance, in automatic control, as shown in Figure 1.1(a), a controller receives
+output measurements from a process, and applies actions to this process in order to
+make its behavior satisfy certain requirements (Levine, 1996). In this context, DP
+and RL methods can be applied to solve optimal control problems, in which the behavior of the process is evaluated using a cost function that plays a similar role to
+the rewards. The decision maker is the controller, and the system is the controlled
+process.
+
+Controller
+
+action
+
+action
+Process
+
+output
+
+(a) Automatic control.
+
+Intelligent
+Agent
+
+Environment
+perception
+
+(b) Artificial intelligent agents.
+
+FIGURE 1.1
+Two application domains for dynamic programming and reinforcement learning.
+
+In artificial intelligence, DP and RL are useful to obtain optimal behavior for intelligent agents, which, as shown in Figure 1.1(b), monitor their environment through
+perceptions and influence it by applying actions (Russell and Norvig, 2003). The decision maker is now the agent, and the system is the agent’s environment.
+If a model of the system is available, DP methods can be applied. A key benefit
+1
+
+2
+
+Chapter 1. Introduction
+
+of DP methods is that they make few assumptions on the system, which can generally be nonlinear and stochastic (Bertsekas, 2005a, 2007). This is in contrast to,
+e.g., classical techniques from automatic control, many of which require restrictive
+assumptions on the system, such as linearity or determinism. Moreover, many DP
+methods do not require an analytical expression of the model, but are able to work
+with a simulation model instead. Constructing a simulation model is often easier than
+deriving an analytical model, especially when the system behavior is stochastic.
+However, sometimes a model of the system cannot be obtained at all, e.g., because the system is not fully known beforehand, is insufficiently understood, or obtaining a model is too costly. RL methods are helpful in this case, since they work
+using only data obtained from the system, without requiring a model of its behavior
+(Sutton and Barto, 1998). Offline RL methods are applicable if data can be obtained
+in advance. Online RL algorithms learn a solution by interacting with the system, and
+can therefore be applied even when data is not available in advance. For instance, intelligent agents are often placed in environments that are not fully known beforehand,
+which makes it impossible to obtain data in advance. Note that RL methods can, of
+course, also be applied when a model is available, simply by using the model instead
+of the real system to generate data.
+In this book, we primarily adopt a control-theoretic point of view, and hence
+employ control-theoretical notation and terminology, and choose control systems as
+examples to illustrate the behavior of DP and RL algorithms. We nevertheless also
+exploit results from other fields, in particular the strong body of RL research from the
+field of artificial intelligence. Moreover, the methodology we describe is applicable
+to sequential decision problems in many other fields.
+The remainder of this introductory chapter is organized as follows. In Section 1.1,
+an outline of the DP/RL problem and its solution is given. Section 1.2 then introduces
+the challenge of approximating the solution, which is a central topic of this book.
+Finally, in Section 1.3, the organization of the book is explained.
+
+1.1 The dynamic programming and reinforcement learning
+problem
+The main elements of the DP and RL problem, together with their flow of interaction,
+are represented in Figure 1.2: a controller interacts with a process by means of states
+and actions, and receives rewards according to a reward function. For the DP and RL
+algorithms considered in this book, an important requirement is the availability of
+a signal that completely describes the current state of the process (this requirement
+will be formalized in Chapter 2). This is why the process shown in Figure 1.2 outputs
+a state signal.
+To clarify the meaning of the elements of Figure 1.2, we use a conceptual robotic
+navigation example. Autonomous mobile robotics is an application domain where
+automatic control and artificial intelligence meet in a natural way, since a mobile
+
+1.1. The dynamic programming and reinforcement learning problem
+
+3
+
+Reward function
+reward
+action
+Process
+
+Controller
+state
+
+FIGURE 1.2
+The elements of DP and RL and their flow of interaction. The elements related to the reward
+are depicted in gray.
+
+robot and its environment comprise a process that must be controlled, while the robot
+is also an artificial agent that must accomplish a task in its environment. Figure 1.3
+presents the navigation example, in which the robot shown in the bottom region must
+navigate to the goal on the top-right, while avoiding the obstacle represented by a
+gray block. (For instance, in the field of rescue robotics, the goal might represent
+the location of a victim to be rescued.) The controller is the robot’s software, and
+the process consists of the robot’s environment (the surface on which it moves, the
+obstacle, and the goal) together with the body of the robot itself. It should be emphasized that in DP and RL, the physical body of the decision-making entity (if it has
+one), its sensors and actuators, as well as any fixed lower-level controllers, are all
+considered to be a part of the process, whereas the controller is taken to be only the
+decision-making algorithm.
+
+rk+1, reward
+
+next state xk+1
+action uk (step)
+state xk (position)
+
+FIGURE 1.3
+A robotic navigation example. An example transition is also shown, in which the current and
+next states are indicated by black dots, the action by a black arrow, and the reward by a gray
+arrow. The dotted silhouette represents the robot in the next state.
+
+In the navigation example, the state is the position of the robot on the surface,
+given, e.g., in Cartesian coordinates, and the action is a step taken by the robot, similarly given in Cartesian coordinates. As a result of taking a step from the current
+
+4
+
+Chapter 1. Introduction
+
+position, the next position is obtained, according to a transition function. In this example, because both the positions and steps are represented in Cartesian coordinates,
+the transitions are most often additive: the next position is the sum of the current
+position and the step taken. More complicated transitions are obtained if the robot
+collides with the obstacle. Note that for simplicity, most of the dynamics of the robot,
+such as the motion of the wheels, have not been taken into account here. For instance,
+if the wheels can slip on the surface, the transitions become stochastic, in which case
+the next state is a random variable.
+The quality of every transition is measured by a reward, generated according to
+the reward function. For instance, the reward could have a positive value such as 10 if
+the robot reaches the goal, a negative value such as −1, representing a penalty, if the
+robot collides with the obstacle, and a neutral value of 0 for any other transition. Alternatively, more informative rewards could be constructed, using, e.g., the distances
+to the goal and to the obstacle.
+The behavior of the controller is dictated by its policy: a mapping from states into
+actions, which indicates what action (step) should be taken in each state (position).
+In general, the state is denoted by x, the action by u, and the reward by r. These
+quantities may be subscripted by discrete time indices, where k denotes the current
+time index (see Figure 1.3). The transition function is denoted by f , the reward function by ρ , and the policy by h.
+In DP and RL, the goal is to maximize the return, consisting of the cumulative reward over the course of interaction. We mainly consider discounted infinite-horizon
+returns, which accumulate rewards obtained along (possibly) infinitely long trajectories starting at the initial time step k = 0, and weigh the rewards by a factor that
+decreases exponentially as the time step increases:
+
+γ 0 r1 + γ 1 r2 + γ 2 r3 + ...
+
+(1.1)
+
+The discount factor γ ∈ [0, 1) gives rise to the exponential weighting, and can be
+seen as a measure of how “far-sighted” the controller is in considering its rewards.
+Figure 1.4 illustrates the computation of the discounted return for the navigation
+problem of Figure 1.3.
+The rewards depend of course on the state-action trajectory followed, which in
+turn depends on the policy being used:
+x0 , u0 = h(x0 ), x1 , u1 = h(x1 ), x2 , u2 = h(x2 ), . . .
+In particular, each reward rk+1 is the result of the transition (xk , uk , xk+1 ). It is convenient to consider the return separately for every initial state x0 , which means the
+return is a function of the initial state. Note that, if state transitions are stochastic,
+the goal considered in this book is to maximize the expectation of (1.1) over all the
+realizations of the stochastic trajectory starting from x0 .
+The core challenge of DP and RL is therefore to arrive at a solution that optimizes
+the long-term performance given by the return, using only reward information that
+describes the immediate performance. Solving the DP/RL problem boils down to
+finding an optimal policy, denoted by h∗ , that maximizes the return (1.1) for every
+
+1.2. Approximation in dynamic programming and reinforcement learning
+γ2r3
+
+5
+
+γ3r4
+
+1
+
+γ r2
+γ0r1
+
+FIGURE 1.4
+The discounted return along a trajectory of the robot. The decreasing heights of the gray
+vertical bars indicate the exponentially diminishing nature of the discounting applied to the
+rewards.
+
+initial state. One way to obtain an optimal policy is to first compute the maximal
+returns. For example, the so-called optimal Q-function, denoted by Q∗ , contains for
+each state-action pair (x, u) the return obtained by first taking action u in state x and
+then choosing optimal actions from the second step onwards:
+Q∗ (x, u) = γ 0 r1 + γ 1 r2 + γ 2 r3 + ...
+when x0 = x, u0 = u, and optimal actions are taken for x1 , x2 , . . .
+
+(1.2)
+
+If transitions are stochastic, the optimal Q-function is defined instead as the expectation of the return on the right-hand side of (1.2) over the trajectory realizations.
+The optimal Q-function can be found using a suitable DP or RL algorithm. Then,
+an optimal policy can be obtained by choosing, at each state x, an action h∗ (x) that
+maximizes the optimal Q-function for that state:
+h∗ (x) ∈ arg max Q∗ (x, u)
+
+(1.3)
+
+u
+
+To see that an optimal policy is obtained, recall that the optimal Q-function already
+contains optimal returns starting from the second step onwards; in (1.3), an action is
+chosen that additionally maximizes the return over the first step, therefore obtaining
+a return that is maximal over the entire horizon, i.e., optimal.
+
+1.2 Approximation in dynamic programming and reinforcement
+learning
+Consider the problem of representing a Q-function, not necessarily the optimal one.
+Since no prior knowledge about the Q-function is available, the only way to guarantee an exact representation is to store distinct values of the Q-function (Q-values)
+
+6
+
+Chapter 1. Introduction
+
+for every state-action pair. This is schematically depicted in Figure 1.5 for the navigation example of Section 1.1: Q-values must be stored separately for each position
+of the robot, and for each possible step that it might take from every such position.
+However, because the position and step variables are continuous, they can both take
+uncountably many distinct values. Therefore, even in this simple example, storing
+distinct Q-values for every state-action pair is obviously impossible. The only feasible way to proceed is to use a compact representation of the Q-function.
+
+Goal
+Q(x2,u1)
+Q(x2,u2)
+
+Q(x1,u1)
+Q(x1,u2)
+Q(x1,u3)
+
+FIGURE 1.5
+Illustration of an exact Q-function representation for the navigation example. For every stateaction pair, there is a corresponding Q-value. The Q-values are not represented explicitly, but
+only shown symbolically near corresponding state-action pairs.
+
+One type of compact Q-function representation that will often be used in the sequel relies on state-dependent basis functions (BFs) and action discretization. Such
+a representation is illustrated in Figure 1.6 for the navigation problem. A finite number of BFs, φ1 , . . . , φN , are defined over the state space, and the action space is discretized into a finite number of actions, in this case 4: left, right, forward, and back.
+Instead of storing distinct Q-values for every state-action pair, such a representa-
+
+θ2,forward
+
+θ1,left
+
+θ1,forward
+θ1,right
+
+θ1,back
+
+θ2,left
+
+...
+
+θ2,right
+
+θ2,back
+
+fN
+
+f2
+
+f1
+state space
+
+FIGURE 1.6
+Illustration of a compact Q-function representation for the navigation example.
+
+1.2. Approximation in dynamic programming and reinforcement learning
+
+7
+
+tion stores parameters θ , one for each combination of a BF and a discrete action.
+To find the Q-value of a continuous state-action pair (x, u), the action is discretized
+(e.g., using nearest-neighbor discretization). Assume the result of discretization is the
+discrete action “forward”; then, the Q-value is computed by adding the parameters
+θ1,forward , . . . , θN,forward corresponding to this discrete action, where the parameters
+are weighted by the value of their corresponding BFs at x:
+N
+
+b forward) = ∑ φi (x)θi,forward
+Q(x,
+
+(1.4)
+
+i=1
+
+The DP/RL algorithm therefore only needs to remember the 4N parameters, which
+can easily be done when N is not too large. Note that this type of Q-function representation generalizes to any DP/RL problem. Even in problems with a finite number
+of discrete states and actions, compact representations can still be useful by reducing
+the number of values that must be stored.
+While not all DP and RL algorithms employ Q-functions, they all generally require compact representations, so the illustration above extends to the general case.
+Consider, e.g., the problem of representing a policy h. An exact representation would
+generally require storing distinct actions for every possible state, which is impossible when the state variables are continuous. Note that continuous actions are not
+problematic for policy representation.
+It should be emphasized at this point that, in general, a compact representation
+can only represent the target function up to a certain approximation error, which
+must be accounted for. Hence, in the sequel such representations are called “function
+approximators,” or “approximators” for short.
+Approximation in DP and RL is not only a problem of representation. Assume for
+instance that an approximation of the optimal Q-function is available. To obtain an
+approximately optimal policy, (1.3) must be applied, which requires maximizing the
+Q-function over the action variable. In large or continuous action spaces, this is a potentially difficult optimization problem, which can only be solved approximately in
+general. However, when a discrete-action Q-function of the form (1.4) is employed,
+it is sufficient to compute the Q-values of all the discrete actions and to find the
+maximum among these values using enumeration. This provides a motivation for
+using discretized actions. Besides approximate maximization, other approximation
+difficulties also arise, such as the estimation of expected values from samples. These
+additional challenges are outside the scope of this section, and will be discussed in
+detail in Chapter 3.
+The classical DP and RL algorithms are only guaranteed to obtain an optimal solution if they use exact representations. Therefore, the following important questions
+must be kept in mind when using function approximators:
+• If the algorithm is iterative, does it converge when approximation is employed?
+Or, if the algorithm is not iterative, does it obtain a meaningful solution?
+• If a meaningful solution is obtained, is it near optimal, and more specifically,
+how far is it from the optimal solution?
+
+8
+
+Chapter 1. Introduction
+• Is the algorithm consistent, i.e., does it asymptotically obtain the optimal solution as the approximation power grows?
+
+These questions will be taken into account when discussing algorithms for approximate DP and RL.
+Choosing an appropriate function approximator for a given problem is a highly
+nontrivial task. The complexity of the approximator must be managed, since it directly influences the memory and computational costs of the DP and RL algorithm.
+This is an important concern in both approximate DP and approximate RL. Equally
+important in approximate RL are the restrictions imposed by the limited amount of
+data available, since in general a more complex approximator requires more data to
+compute an accurate solution. If prior knowledge about the function of interest is
+available, it can be used in advance to design a lower-complexity, but still accurate,
+approximator. For instance, BFs with intuitive, relevant meanings could be defined
+(such as, in the navigation problem, BFs representing the distance between the robot
+and the goal or the obstacle). However, prior knowledge is often unavailable, especially in the model-free context of RL. In this book, we will therefore pay special
+attention to techniques that automatically find low-complexity approximators suited
+to the problem at hand, rather than relying on manual design.
+
+1.3 About this book
+This book focuses on approximate dynamic programming (DP) and reinforcement
+learning (RL) for control problems with continuous variables. The material is aimed
+at researchers, practitioners, and graduate students in the fields of systems and control
+(in particular optimal, adaptive, and learning control), computer science (in particular machine learning and artificial intelligence), operations research, and statistics.
+Although not primarily intended as a textbook, our book can nevertheless be used as
+support for courses that treat DP and RL methods.
+Figure 1.7 presents a road map for the remaining chapters of this book, which we
+will detail next. Chapters 2 and 3 are prerequisite for the remainder of the book and
+should be read in sequence. In particular, in Chapter 2 the DP and RL problem and
+its solution are formalized, representative classical algorithms are introduced, and the
+behavior of several such algorithms is illustrated in an example with discrete states
+and actions. Chapter 3 gives an extensive account of DP and RL methods with function approximation, which are applicable to large and continuous-space problems. A
+comprehensive selection of algorithms is introduced, theoretical guarantees are provided on the approximate solutions obtained, and numerical examples involving the
+control of a continuous-variable system illustrate the behavior of several representative algorithms.
+The material of Chapters 2 and 3 is organized along three major classes of DP
+and RL algorithms: value iteration, policy iteration, and policy search. In order to
+strengthen the understanding of these three classes of algorithms, each of the three
+
+9
+
+1.3. About this book
+Chapter 2.
+An introduction to DP and RL
+
+Chapter 3.
+DP and RL in
+large and continuous spaces
+
+Chapter 4.
+Approximate value iteration
+with a fuzzy representation
+
+Chapter 5.
+Approximate policy iteration
+for online learning
+and continuous-action control
+
+Chapter 6.
+Approximate policy search
+with cross-entropy optimization
+of basis functions
+
+FIGURE 1.7
+A road map for the remainder of this book, given in a graphical form. The full arrows indicate
+the recommended sequence of reading, whereas dashed arrows indicate optional ordering.
+
+final chapters of the book considers in detail an algorithm from one of these classes.
+Specifically, in Chapter 4, a value iteration algorithm with fuzzy approximation is
+discussed, and an extensive theoretical analysis of this algorithm illustrates how convergence and consistency guarantees can be developed for approximate DP. In Chapter 5, an algorithm for approximate policy iteration is discussed. In particular, an
+online variant of this algorithm is developed, and some important issues that appear
+in online RL are emphasized along the way. In Chapter 6, a policy search approach
+relying on the cross-entropy method for optimization is described, which highlights
+one possibility to develop techniques that scale to relatively high-dimensional state
+spaces, by focusing the computation on important initial states. The final part of each
+of these three chapters contains an experimental evaluation on a representative selection of control problems.
+Chapters 4, 5, and 6 can be read in any order, although, if possible, they should
+be read in sequence.
+Two appendices are included at the end of the book (these are not shown in
+Figure 1.7). Appendix A outlines the so-called ensemble of extremely randomized
+trees, which is used as an approximator in Chapters 3 and 4. Appendix B describes
+the cross-entropy method for optimization, employed in Chapters 4 and 6. Reading
+Appendix B before these two chapters is not mandatory, since both chapters include
+a brief, specialized introduction to the cross-entropy method, so that they can more
+easily be read independently.
+Additional information and material concerning this book, including the computer code used in the experimental studies, is available at the Web site:
+http://www.dcsc.tudelft.nl/rlbook/
+
+2
+An introduction to dynamic programming and
+reinforcement learning
+
+This chapter introduces dynamic programming and reinforcement learning techniques, and the formal model behind the problem they solve: the Markov decision
+process. Deterministic and stochastic Markov decision processes are discussed in
+turn, and their optimal solution is characterized. Three categories of dynamic programming and reinforcement learning algorithms are described: value iteration, policy iteration, and policy search.
+
+2.1 Introduction
+In dynamic programming (DP) and reinforcement learning (RL), a controller (agent,
+decision maker) interacts with a process (environment), by means of three signals: a
+state signal, which describes the state of the process, an action signal, which allows
+the controller to influence the process, and a scalar reward signal, which provides the
+controller with feedback on its immediate performance. At each discrete time step,
+the controller receives the state measurement and applies an action, which causes the
+process to transition into a new state. A reward is generated that evaluates the quality
+of this transition. The controller receives the new state measurement, and the whole
+cycle repeats. This flow of interaction is represented in Figure 2.1 (repeated from
+Figure 1.2).
+
+Reward function
+reward
+action
+Process
+
+Controller
+state
+
+FIGURE 2.1 The flow of interaction in DP and RL.
+
+The behavior of the controller is dictated by its policy, a function from states into
+actions. The behavior of the process is described by its dynamics, which determine
+11
+
+12
+
+Chapter 2. An introduction to DP and RL
+
+how the state changes as a result of the controller’s actions. State transitions can be
+deterministic or stochastic. In the deterministic case, taking a given action in a given
+state always results in the same next state, while in the stochastic case, the next state
+is a random variable. The rule according to which rewards are generated is described
+by the reward function. The process dynamics and the reward function, together with
+the set of possible states and the set of possible actions (respectively called state
+space and action space), constitute a so-called Markov decision process (MDP).
+In the DP/RL setting, the goal is to find an optimal policy that maximizes the
+(expected) return, consisting of the (expected) cumulative reward over the course
+of interaction. In this book, we will mainly consider infinite-horizon returns, which
+accumulate rewards along infinitely long trajectories. This choice is made because
+infinite-horizon returns have useful theoretical properties. In particular, they lead to
+stationary optimal policies, which means that for a given state, the optimal action
+choices will always be the same, regardless of the time when that state is encountered.
+The DP/RL framework can be used to address problems from a variety of fields,
+including, e.g., automatic control, artificial intelligence, operations research, and economics. Automatic control and artificial intelligence are arguably the most important
+fields of origin for DP and RL. In automatic control, DP can be used to solve nonlinear and stochastic optimal control problems (Bertsekas, 2007), while RL can alternatively be seen as adaptive optimal control (Sutton et al., 1992; Vrabie et al.,
+2009). In artificial intelligence, RL helps to build an artificial agent that learns how
+to survive and optimize its behavior in an unknown environment, without requiring
+prior knowledge (Sutton and Barto, 1998). Because of this mixed inheritance, two
+sets of equivalent names and notations are used in DP and RL, e.g., “controller” has
+the same meaning as “agent,” and “process” has the same meaning as “environment.”
+In this book, we will use the former, control-theoretical terminology and notation.
+A taxonomy of DP and RL algorithms is shown in Figure 2.2 and detailed in the
+remainder of this section.
+value iteration
+
+DP, model-based
+algorithms
+
+policy iteration
+
+policy search
+offline
+value iteration
+online
+
+RL, model-free
+algorithms
+
+offline
+policy iteration
+online
+offline
+policy search
+online
+
+FIGURE 2.2 A taxonomy of DP and RL algorithms.
+
+2.1. Introduction
+
+13
+
+DP algorithms require a model of the MDP, including the transition dynamics
+and the reward function, to find an optimal policy (Bertsekas, 2007; Powell, 2007).
+The model DP algorithms work offline, producing a policy which is then used to
+control the process.1 Usually, they do not require an analytical expression of the
+dynamics. Instead, given a state and an action, the model is only required to generate
+a next state and the corresponding reward. Constructing such a generative model is
+often easier than deriving an analytical expression of the dynamics, especially when
+the dynamics are stochastic.
+RL algorithms are model-free (Bertsekas and Tsitsiklis, 1996; Sutton and Barto,
+1998), which makes them useful when a model is difficult or costly to construct. RL
+algorithms use data obtained from the process, in the form of a set of samples, a set of
+process trajectories, or a single trajectory. So, RL can be seen as model-free, samplebased or trajectory-based DP, and DP can be seen as model-based RL. While DP
+algorithms can use the model to obtain any number of sample transitions from any
+state-action pair, RL algorithms must work with the limited data that can be obtained
+from the process – a greater challenge. Note that some RL algorithms build a model
+from the data; we call these algorithms “model-learning.”
+Both the DP and RL classes of algorithms can be broken down into three subclasses, according to the path taken to find an optimal policy. These three subclasses are value iteration, policy iteration, and policy search, and are characterized
+as follows.
+• Value iteration algorithms search for the optimal value function, which consists of the maximal returns from every state or from every state-action pair.
+The optimal value function is used to compute an optimal policy.
+• Policy iteration algorithms evaluate policies by constructing their value functions (instead of the optimal value function), and use these value functions to
+find new, improved policies.
+• Policy search algorithms use optimization techniques to directly search for an
+optimal policy.
+Note that, in this book, we use the name DP to refer to the class of all model-based
+algorithms that find solutions for MDPs, including model-based policy search. This
+class is larger than the category of algorithms traditionally called DP, which only
+includes model-based value iteration and policy iteration (Bertsekas and Tsitsiklis,
+1996; Sutton and Barto, 1998; Bertsekas, 2007).
+Within each of the three subclasses of RL algorithms, two categories can be further distinguished, namely offline and online algorithms. Offline RL algorithms use
+data collected in advance, whereas online RL algorithms learn a solution by interacting with the process. Online RL algorithms are typically not provided with any data
+1 There is also a class of model-based, DP-like online algorithms called model-predictive control (Maciejowski, 2002; Camacho and Bordons, 2004). In order to restrict the scope of the book, we do not discuss
+model-predictive control. For details about the relationship of DP/RL with model-predictive control, see,
+e.g., (Bertsekas, 2005b; Ernst et al., 2009).
+
+14
+
+Chapter 2. An introduction to DP and RL
+
+in advance, but instead have to rely only on the data they collect while learning, and
+thus are useful when it is difficult or costly to obtain data in advance. Most online
+RL algorithms work incrementally. For instance, an incremental, online value iteration algorithm updates its estimate of the optimal value function after each collected
+sample. Even before this estimate becomes accurate, it is used to derive estimates of
+an optimal policy, which are then used to collect new data.
+Online RL algorithms must balance the need to collect informative data (by exploring novel action choices or novel parts of the state space) with the need to control
+the process well (by exploiting the currently available knowledge). This explorationexploitation trade-off makes online RL more challenging than offline RL. Note that,
+although online RL algorithms are only guaranteed (under appropriate conditions) to
+converge to an optimal policy when the process does not change over time, in practice they are sometimes applied also to slowly changing processes, in which case
+they are expected to adapt the solution so that the changes are taken into account.
+The remainder of this chapter is structured as follows. Section 2.2 describes
+MDPs and characterizes the optimal solution for an MDP, in the deterministic as
+well as in the stochastic setting. The class of value iteration algorithms is introduced
+in Section 2.3, policy iteration in Section 2.4, and policy search in Section 2.5. When
+introducing value iteration and policy iteration, DP and RL algorithms are described
+in turn, while the introduction of policy search focuses on the model-based, DP setting. Section 2.6 concludes the chapter with a summary and discussion. Throughout
+the chapter, a simulation example involving a highly abstracted robotic task is employed to illustrate certain theoretical points, as well as the properties of several
+representative algorithms.
+
+2.2 Markov decision processes
+DP and RL problems can be formalized with the help of MDPs (Puterman, 1994).
+We first present the simpler case of MDPs with deterministic state transitions. Afterwards, we extend the theory to the stochastic case.
+
+2.2.1
+
+Deterministic setting
+
+A deterministic MDP is defined by the state space X of the process, the action space
+U of the controller, the transition function f of the process (which describes how
+the state changes as a result of control actions), and the reward function ρ (which
+evaluates the immediate control performance).2 As a result of the action uk applied
+in the state xk at the discrete time step k, the state changes to xk+1 , according to the
+2 As mentioned earlier, control-theoretic notation is used instead of artificial intelligence notation. For
+instance, in the artificial intelligence literature on DP and RL, the state space is usually denoted by S, the
+state by s, the action space by A, the action by a, and the policy by π .
+
+15
+
+2.2. Markov decision processes
+
+transition function f : X ×U → X:
+xk+1 = f (xk , uk )
+At the same time, the controller receives the scalar reward signal rk+1 , according to
+the reward function ρ : X ×U → R:
+rk+1 = ρ (xk , uk )
+where we assume that kρ k∞ = supx,u |ρ (x, u)| is finite.3 The reward evaluates the
+immediate effect of action uk , namely the transition from xk to xk+1 , but in general
+does not say anything about its long-term effects.
+The controller chooses actions according to its policy h : X → U, using:
+uk = h(xk )
+Given f and ρ , the current state xk and the current action uk are sufficient to
+determine both the next state xk+1 and the reward rk+1 . This is the Markov property,
+which is essential in providing theoretical guarantees about DP/RL algorithms.
+Some MDPs have terminal states that, once reached, can no longer be left; all
+the rewards received in terminal states are 0. The RL literature often uses “trials”
+or “episodes” to refer to trajectories starting from some initial state and ending in a
+terminal state.
+Example 2.1 The deterministic cleaning-robot MDP. Consider the deterministic
+problem depicted in Figure 2.3: a cleaning robot has to collect a used can and also
+has to recharge its batteries.
+r=1
+
+r=5
+u=1
+
+u=-1
+x=0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+FIGURE 2.3 The cleaning-robot problem.
+
+In this problem, the state x describes the position of the robot, and the action
+u describes the direction of its motion. The state space is discrete and contains six
+distinct states, denoted by integers 0 to 5: X = {0, 1, 2, 3, 4, 5}. The robot can move
+to the left (u = −1) or to the right (u = 1); the discrete action space is therefore
+U = {−1, 1}. States 0 and 5 are terminal, meaning that once the robot reaches either
+of them it can no longer leave, regardless of the action. The corresponding transition
+function is:
+(
+x + u if 1 ≤ x ≤ 4
+f (x, u) =
+x
+if x = 0 or x = 5 (regardless of u)
+3 To simplify the notation, whenever searching for extrema, performing summations, etc., over variables whose domains are obvious from the context, we omit these domains from the formulas. For instance, in the formula supx,u |ρ (x, u)|, the domains of x and u are clearly X and U, so they are omitted.
+
+16
+
+Chapter 2. An introduction to DP and RL
+
+In state 5, the robot finds a can and the transition into this state is rewarded with
+5. In state 0, the robot can recharge its batteries and the transition into this state is
+rewarded with 1. All other rewards are 0. In particular, taking any action while in a
+terminal state results in a reward of 0, which means that the robot will not accumulate
+(undeserved) rewards in the terminal states. The corresponding reward function is:
+
+
+5 if x = 4 and u = 1
+ρ (x, u) = 1 if x = 1 and u = −1
+
+
+0 otherwise
+
+
+Optimality in the deterministic setting
+In DP and RL, the goal is to find an optimal policy that maximizes the return from any
+initial state x0 . The return is a cumulative aggregation of rewards along a trajectory
+starting at x0 . It concisely represents the reward obtained by the controller in the
+long run. Several types of return exist, depending on the way in which the rewards
+are accumulated (Bertsekas and Tsitsiklis, 1996, Section 2.1; Kaelbling et al., 1996).
+The infinite-horizon discounted return is given by:
+Rh (x0 ) =
+
+∞
+
+∞
+
+k=0
+
+k=0
+
+∑ γ k rk+1 = ∑ γ k ρ (xk , h(xk ))
+
+(2.1)
+
+where γ ∈ [0, 1) is the discount factor and xk+1 = f (xk , h(xk )) for k ≥ 0. The discount
+factor can be interpreted intuitively as a measure of how “far-sighted” the controller
+is in considering its rewards, or as a way of taking into account increasing uncertainty
+about future rewards. From a mathematical point of view, discounting ensures that
+the return will always be bounded if the rewards are bounded. The goal is therefore
+to maximize the long-term performance (return), while only using feedback about
+the immediate, one-step performance (reward). This leads to the so-called challenge
+of delayed rewards (Sutton and Barto, 1998): actions taken in the present affect the
+potential to achieve good rewards far in the future, but the immediate reward provides
+no information about these long-term effects.
+Other types of return can also be defined. The undiscounted return, obtained by
+setting γ equal to 1 in (2.1), simply adds up the rewards, without discounting. Unfortunately, the infinite-horizon undiscounted return is often unbounded. An alternative
+is to use the infinite-horizon average return:
+1 K
+∑ ρ (xk , h(xk ))
+K→∞ K
+k=0
+lim
+
+which is bounded in many cases. Finite-horizon returns can be obtained by accumulating rewards along trajectories of a fixed, finite length K (the horizon), instead of
+along infinitely long trajectories. For instance, the finite-horizon discounted return
+can be defined as:
+K
+
+∑ γ k ρ (xk , h(xk ))
+k=0
+
+2.2. Markov decision processes
+
+17
+
+The undiscounted return (γ = 1) can be used more easily in the finite-horizon case,
+as it is bounded when the rewards are bounded.
+In this book, we will mainly use the infinite-horizon discounted return (2.1), because it has useful theoretical properties. In particular, for this type of return, under
+certain technical assumptions, there always exists at least one stationary, deterministic optimal policy h∗ : X → U (Bertsekas and Shreve, 1978, Chapter 9). In contrast,
+in the finite-horizon case, optimal policies depend in general on the time step k, i.e.,
+they are nonstationary (Bertsekas, 2005a, Chapter 1).
+While the discount factor γ can theoretically be regarded as a given part of the
+problem, in practice, a good value of γ has to be chosen. Choosing γ often involves a
+trade-off between the quality of the solution and the convergence rate of the DP/RL
+algorithm, for the following reasons. Some important DP/RL algorithms converge
+faster when γ is smaller (this is the case, e.g., for model-based value iteration, which
+will be introduced in Section 2.3). However, if γ is too small, the solution may be
+unsatisfactory because it does not sufficiently take into account rewards obtained
+after a large number of steps.
+There is no generally valid procedure for choosing γ . Consider however, as an
+example, a typical stabilization problem from automatic control, where from every
+initial state the process should reach a steady state and remain there. In such a problem, γ should be chosen large enough that the rewards received upon reaching the
+steady state and remaining there have a detectable influence on the returns from every initial state. For instance, if the number of steps taken by a reasonable policy to
+stabilize the system from an initial state x is K(x), then γ should be chosen so that
+γ Kmax is not too small, where Kmax = maxx K(x). However, finding Kmax is a difficult problem in itself, which could be solved using, e.g., domain knowledge, or a
+suboptimal policy obtained by other means.
+Value functions and the Bellman equations in the deterministic setting
+A convenient way to characterize policies is by using their value functions. Two
+types of value functions exist: state-action value functions (Q-functions) and state
+value functions (V-functions). Note that the name “value function” is often used for
+V-functions in the literature. We will use the names “Q-function” and “V-function” to
+clearly differentiate between the two types of value functions, and the name “value
+function” to refer to Q-functions and V-functions collectively. We will first define
+and characterize Q-functions, and then turn our attention to V-functions.
+The Q-function Qh : X × U → R of a policy h gives the return obtained when
+starting from a given state, applying a given action, and following h thereafter:
+Qh (x, u) = ρ (x, u) + γ Rh ( f (x, u))
+
+(2.2)
+
+Here, Rh ( f (x, u)) is the return from the next state f (x, u). This concise formula can
+be obtained by first writing Qh (x, u) explicitly as the discounted sum of rewards
+obtained by taking u in x and then following h:
+Qh (x, u) =
+
+∞
+
+∑ γ k ρ (xk , uk )
+k=0
+
+18
+
+Chapter 2. An introduction to DP and RL
+
+where (x0 , u0 ) = (x, u), xk+1 = f (xk , uk ) for k ≥ 0, and uk = h(xk ) for k ≥ 1. Then,
+the first term is separated from the sum:
+∞
+
+Qh (x, u) = ρ (x, u) + ∑ γ k ρ (xk , uk )
+k=1
+∞
+
+= ρ (x, u) + γ
+
+(2.3)
+
+∑ γ k−1 ρ (xk , h(xk ))
+
+k=1
+h
+
+= ρ (x, u) + γ R ( f (x, u))
+where the definition (2.1) of the return was used in the last step. So, (2.2) has been
+obtained.
+The optimal Q-function is defined as the best Q-function that can be obtained by
+any policy:
+Q∗ (x, u) = max Qh (x, u)
+(2.4)
+h
+
+Any policy h∗ that selects at each state an action with the largest optimal Q-value,
+i.e., that satisfies:
+h∗ (x) ∈ arg max Q∗ (x, u)
+(2.5)
+u
+
+is optimal (it maximizes the return). In general, for a given Q-function Q, a policy h
+that satisfies:
+h(x) ∈ arg max Q(x, u)
+(2.6)
+u
+
+is said to be greedy in Q. So, finding an optimal policy can be done by first finding
+Q∗ , and then using (2.5) to compute a greedy policy in Q∗ .
+Note that, for simplicity of notation, we implicitly assume that the maximum in
+(2.4) exists, and also in similar equations in the sequel. When the maximum does
+not exist, the “max” operator should be replaced by the supremum operator. For the
+computation of greedy actions in (2.5), (2.6), and in similar equations in the sequel,
+the maximum must exist to ensure the existence of a greedy policy; this can be guaranteed under certain technical assumptions (Bertsekas and Shreve, 1978, Chapter 9).
+The Q-functions Qh and Q∗ are recursively characterized by the Bellman equations, which are of central importance for value iteration and policy iteration algorithms. The Bellman equation for Qh states that the value of taking action u in state x
+under the policy h equals the sum of the immediate reward and the discounted value
+achieved by h in the next state:
+Qh (x, u) = ρ (x, u) + γ Qh ( f (x, u), h( f (x, u)))
+
+(2.7)
+
+This Bellman equation can be derived from the second step in (2.3), as follows:
+Qh (x, u) = ρ (x, u) + γ
+
+∞
+
+∑ γ k−1 ρ (xk , h(xk ))
+k=1
+
+
+= ρ (x, u) + γ ρ ( f (x, u), h( f (x, u))) + γ
+= ρ (x, u) + γ Qh ( f (x, u), h( f (x, u)))
+
+∞
+
+∑γ
+k=2
+
+k−2
+
+
+ρ (xk , h(xk ))
+
+19
+
+2.2. Markov decision processes
+
+where (x0 , u0 ) = (x, u), xk+1 = f (xk , uk ) for k ≥ 0, and uk = h(xk ) for k ≥ 1.
+The Bellman optimality equation characterizes Q∗ , and states that the optimal
+value of action u taken in state x equals the sum of the immediate reward and the
+discounted optimal value obtained by the best action in the next state:
+Q∗ (x, u) = ρ (x, u) + γ max Q∗ ( f (x, u), u′ )
+u′
+
+(2.8)
+
+The V-function V h : X → R of a policy h is the return obtained by starting from
+a particular state and following h. This V-function can be computed from the Qfunction of policy h:
+V h (x) = Rh (x) = Qh (x, h(x))
+(2.9)
+The optimal V-function is the best V-function that can be obtained by any policy, and
+can be computed from the optimal Q-function:
+V ∗ (x) = max V h (x) = max Q∗ (x, u)
+u
+
+h
+
+(2.10)
+
+An optimal policy h∗ can be computed from V ∗ , by using the fact that it satisfies:
+h∗ (x) ∈ arg max[ρ (x, u) + γ V ∗ ( f (x, u))]
+
+(2.11)
+
+u
+
+Using this formula is more difficult than using (2.5); in particular, a model of the
+MDP is required in the form of the dynamics f and the reward function ρ . Because
+the Q-function also depends on the action, it already includes information about the
+quality of transitions. In contrast, the V-function only describes the quality of the
+states; in order to infer the quality of transitions, they must be explicitly taken into
+account. This is what happens in (2.11), and this also explains why it is more difficult
+to compute policies from V-functions. Because of this difference, Q-functions will
+be preferred to V-functions throughout this book, even though they are more costly
+to represent than V-functions, as they depend both on x and u.
+The V-functions V h and V ∗ satisfy the following Bellman equations, which can
+be interpreted similarly to (2.7) and (2.8):
+V h (x) = ρ (x, h(x)) + γ V h ( f (x, h(x)))
+
+(2.12)
+
+V ∗ (x) = max[ρ (x, u) + γ V ∗ ( f (x, u))]
+
+(2.13)
+
+u
+
+2.2.2
+
+Stochastic setting
+
+In a stochastic MDP, the next state is not deterministically given by the current state
+and action. Instead, the next state is a random variable, and the current state and
+action give the probability density of this random variable.
+More formally, the deterministic transition function f is replaced by a transition
+probability function f˜ : X × U × X → [0, ∞). After action uk is taken in state xk , the
+probability that the next state, xk+1 , belongs to a region Xk+1 ⊆ X is:
+P (xk+1 ∈ Xk+1 | xk , uk ) =
+
+Z
+
+Xk+1
+
+f˜(xk , uk , x′ )dx′
+
+20
+
+Chapter 2. An introduction to DP and RL
+
+For any x and u, f˜(x, u, ·) must define a valid probability density function of the
+argument “·”, where the dot stands for the random variable xk+1 . Because rewards
+are associated with transitions, and the transitions are no longer fully determined by
+the current state and action, the reward function also has to depend on the next state,
+ρ̃ : X × U × X → R. After each transition to a state xk+1 , a reward rk+1 is received
+according to:
+rk+1 = ρ̃ (xk , uk , xk+1 )
+where we assume that kρ̃ k∞ = supx,u,x′ ρ̃ (x, u, x′ ) is finite. Note that ρ̃ is a deterministic function of the transition (xk , uk , xk+1 ). This means that, once xk+1 has been
+generated, the reward rk+1 is fully determined. In general, the reward can also depend
+stochastically on the entire transition (xk , uk , xk+1 ). If it does, to simplify notation, we
+assume that ρ̃ gives the expected reward after the transition.
+When the state space is countable (e.g., discrete), the transition function can also
+be given as f¯ : X ×U × X → [0, 1], where the probability of reaching x′ after taking
+uk in xk is:
+
+P xk+1 = x′ | xk , uk = f¯(xk , uk , x′ )
+(2.14)
+For any x and u, the function f¯ must satisfy ∑x′ f¯(x, u, x′ ) = 1. The function f˜ is a
+generalization of f¯ to uncountable (e.g., continuous) state spaces; in such spaces, the
+probability of ending up in a given state x′ is generally 0, making a description of the
+form f¯ inappropriate.
+In the stochastic case, the Markov property requires that xk and uk fully determine
+the probability density of the next state.
+Developing an analytical expression for the transition probability function f˜ is
+generally a difficult task. Fortunately, as previously noted in Section 2.1, most DP
+(model-based) algorithms can work with a generative model, which only needs to
+generate samples of the next state and corresponding rewards for any given pair of
+current state and action taken.
+Example 2.2 The stochastic cleaning-robot MDP. Consider again the cleaningrobot problem of Example 2.1. Assume that, due to uncertainties in the environment,
+such as a slippery floor, state transitions are no longer deterministic. When trying
+to move in a certain direction, the robot succeeds with a probability of 0.8. With a
+probability of 0.15 it remains in the same state, and it may even move in the opposite
+direction with a probability of 0.05 (see also Figure 2.4).
+P=0.15
+
+x=0
+
+1
+
+P=0.05
+
+u
+
+P=0.8
+
+2
+
+3
+
+4
+
+5
+
+FIGURE 2.4
+The stochastic cleaning-robot problem. The robot intends to move right, but it may instead end
+up standing still or moving left, with different probabilities.
+
+21
+
+2.2. Markov decision processes
+
+Because the state space is discrete, a transition model of the form (2.14) is appropriate. The transition function f¯ that models the probabilistic transitions described
+above is shown in Table 2.1. In this table, the rows correspond to combinations of
+current states and actions taken, while the columns correspond to future states. Note
+that the transitions from any terminal state still lead deterministically to the same
+terminal state, regardless of the action.
+TABLE 2.1 Dynamics of the stochastic, cleaning-robot MDP.
+(x, u)
+
+f¯(x, u, 0)
+
+f¯(x, u, 1)
+
+f¯(x, u, 2)
+
+f¯(x, u, 3)
+
+f¯(x, u, 4)
+
+f¯(x, u, 5)
+
+(0, −1)
+(1, −1)
+(2, −1)
+(3, −1)
+(4, −1)
+(5, −1)
+(0, 1)
+(1, 1)
+(2, 1)
+(3, 1)
+(4, 1)
+(5, 1)
+
+1
+0.8
+0
+0
+0
+0
+1
+0.05
+0
+0
+0
+0
+
+0
+0.15
+0.8
+0
+0
+0
+0
+0.15
+0.05
+0
+0
+0
+
+0
+0.05
+0.15
+0.8
+0
+0
+0
+0.8
+0.15
+0.05
+0
+0
+
+0
+0
+0.05
+0.15
+0.8
+0
+0
+0
+0.8
+0.15
+0.05
+0
+
+0
+0
+0
+0.05
+0.15
+0
+0
+0
+0
+0.8
+0.15
+0
+
+0
+0
+0
+0
+0.05
+1
+0
+0
+0
+0
+0.8
+1
+
+The robot receives rewards as in the deterministic case: upon reaching state 5, it is
+rewarded with 5, and upon reaching state 0, it is rewarded with 1. The corresponding
+reward function, in the form ρ̃ : X ×U × X → R, is:
+
+′
+
+5 if x 6= 5 and x = 5
+′
+ρ̃ (x, u, x ) = 1 if x 6= 0 and x′ = 0
+
+
+0 otherwise
+
+
+
+Optimality in the stochastic setting
+The expected infinite-horizon discounted return of an initial state x0 under a (deterministic) policy h is:4
+)
+(
+Rh (x0 ) = lim Exk+1 ∼ f˜(xk ,h(xk ),·)
+K→∞
+
+= lim Exk+1 ∼ f˜(xk ,h(xk ),·)
+K→∞
+
+K
+
+∑ γ k rk+1
+
+k=0
+
+(
+
+K
+
+∑γ
+
+k=0
+
+k
+
+)
+
+(2.15)
+
+ρ̃ (xk , h(xk ), xk+1 )
+
+4 We assume that the MDP and the policies h have suitable properties such that the expected return and
+the Bellman equations in the remainder of this section are well defined. See, e.g., (Bertsekas and Shreve,
+1978, Chapter 9) and (Bertsekas, 2007, Appendix A) for a discussion of these properties.
+
+22
+
+Chapter 2. An introduction to DP and RL
+
+where E denotes the expectation operator, and the notation xk+1 ∼ f˜(xk , h(xk ), ·)
+means that the random variable xk+1 is drawn from the density f˜(xk , h(xk ), ·) at each
+step k. The discussion of Section 2.2.1 regarding the interpretation and choice of
+the discount factor also applies to the stochastic case. For any stochastic or deterministic MDP, when using the infinite-horizon discounted return (2.15) or (2.1), and
+under certain technical assumptions on the elements of the MDP, there exists at least
+one stationary deterministic optimal policy (Bertsekas and Shreve, 1978, Chapter 9).
+Therefore, we will mainly consider stationary deterministic policies in the sequel.
+Expected undiscounted, average, and finite-horizon returns (see Section 2.2.1)
+can be defined analogously to (2.15).
+Value functions and the Bellman equations in the stochastic setting
+To obtain the Q-function of a policy h, the definition (2.2) is generalized to the
+stochastic case, as follows. The Q-function is the expected return under the stochastic transitions, when starting in a particular state, applying a particular action, and
+following the policy h thereafter:
+n
+o
+Qh (x, u) = Ex′ ∼ f˜(x,u,·) ρ̃ (x, u, x′ ) + γ Rh (x′ )
+(2.16)
+
+The definition of the optimal Q-function Q∗ remains unchanged from the deterministic case (2.4), and is repeated here for easy reference:
+Q∗ (x, u) = max Qh (x, u)
+h
+
+Similarly, optimal policies can still be computed from Q∗ as in the deterministic case,
+because they satisfy (2.5), also repeated here:
+h∗ (x) ∈ arg max Q∗ (x, u)
+u
+
+The Bellman equations for Qh and Q∗ are given in terms of expectations over the
+one-step stochastic transitions:
+n
+o
+Qh (x, u) = Ex′ ∼ f˜(x,u,·) ρ̃ (x, u, x′ ) + γ Qh (x′ , h(x′ ))
+(2.17)
+
+
+(2.18)
+Q∗ (x, u) = Ex′ ∼ f˜(x,u,·) ρ̃ (x, u, x′ ) + γ max Q∗ (x′ , u′ )
+u′
+
+The definition of the V-function V h of a policy h, as well as of the optimal Vfunction V ∗ , are the same as for the deterministic case (2.9), (2.10):
+V h (x) = Rh (x)
+V ∗ (x) = max V h (x)
+h
+
+However, the computation of optimal policies from V ∗ becomes more difficult, involving an expectation that did not appear in the deterministic case:
+
+h∗ (x) ∈ arg max Ex′ ∼ f˜(x,u,·) ρ̃ (x, u, x′ ) + γ V ∗ (x′ )
+(2.19)
+u
+
+2.3. Value iteration
+
+23
+
+In contrast, computing an optimal policy from Q∗ is as simple as in the deterministic
+case, which is yet another reason for using Q-functions in practice.
+The Bellman equations for V h and V ∗ are obtained from (2.12) and (2.13), by
+considering expectations over the one-step stochastic transitions:
+n
+o
+V h (x) = Ex′ ∼ f˜(x,h(x),·) ρ̃ (x, h(x), x′ ) + γ V h (x′ )
+
+V ∗ (x) = max Ex′ ∼ f˜(x,u,·) ρ̃ (x, u, x′ ) + γ V ∗ (x′ )
+u
+
+(2.20)
+(2.21)
+
+Note that in the Bellman equation for V ∗ (2.21), the maximization is outside the
+expectation operator, whereas in the Bellman equation for Q∗ (2.18), the order of the
+expectation and maximization is reversed.
+Clearly, all the equations for deterministic MDPs are a special case of the equations for stochastic MDPs. The deterministic case is obtained by using a degenerate
+density f˜(x, u, ·) that assigns all the probability mass to f (x, u). The deterministic
+reward function is obtained as ρ (x, u) = ρ̃ (x, u, f (x, u)).
+The entire class of value iteration algorithms, introduced in Section 2.3, revolves
+around solving the Bellman optimality equations (2.18) or (2.21) to find, respectively,
+the optimal Q-function or the optimal V-function (in the deterministic case, (2.8) or
+(2.13) are solved instead). Similarly, policy evaluation, which is a core component
+of the policy iteration algorithms introduced in Section 2.4, revolves around solving
+(2.17) or (2.20) to find, respectively, Qh or V h (in the deterministic case (2.7) or
+(2.12) are solved instead).
+
+2.3 Value iteration
+Value iteration techniques use the Bellman optimality equation to iteratively compute an optimal value function, from which an optimal policy is derived. We first
+present DP (model-based) algorithms for value iteration, followed by RL (modelfree) algorithms. DP algorithms like V-iteration (Bertsekas, 2007, Section 1.3) solve
+the Bellman optimality equation by using knowledge of the transition and reward
+functions. RL techniques either learn a model, e.g., Dyna (Sutton, 1990), or do not
+use an explicit model at all, e.g., Q-learning (Watkins and Dayan, 1992).
+
+2.3.1
+
+Model-based value iteration
+
+We will next introduce the model-based Q-iteration algorithm, as an illustrative example from the class of model-based value iteration algorithms. Let the set of all
+the Q-functions be denoted by Q. Then, the Q-iteration mapping T : Q → Q, computes the right-hand side of the Bellman optimality equation (2.8) or (2.18) for any
+
+24
+
+Chapter 2. An introduction to DP and RL
+
+Q-function.5 In the deterministic case, this mapping is:
+[T (Q)](x, u) = ρ (x, u) + γ max Q( f (x, u), u′ )
+u′
+
+(2.22)
+
+and in the stochastic case, it is:
+
+
+[T (Q)](x, u) = Ex′ ∼ f˜(x,u,·) ρ̃ (x, u, x′ ) + γ max Q(x′ , u′ )
+u′
+
+(2.23)
+
+Note that if the state space is countable (e.g., finite), a transition model of the form
+(2.14) is appropriate, and the Q-iteration mapping for the stochastic case (2.23) can
+be written as the simpler summation:
+
+
+′
+′ ′
+′
+¯
+(2.24)
+[T (Q)](x, u) = ∑ f (x, u, x ) ρ̃ (x, u, x ) + γ max Q(x , u )
+u′
+
+x′
+
+The same notation is used for the Q-iteration mapping both in the deterministic case
+and in the stochastic case, because the analysis given below applies to both cases,
+and the definition (2.22) of T is a special case of (2.23) (or of (2.24) for countable
+state spaces).
+The Q-iteration algorithm starts from an arbitrary Q-function Q0 and at each
+iteration ℓ updates the Q-function using:
+Qℓ+1 = T (Qℓ )
+
+(2.25)
+
+It can be shown that T is a contraction with factor γ &lt; 1 in the infinity norm, i.e., for
+any pair of functions Q and Q′ , it is true that:
+kT (Q) − T (Q′ )k∞ ≤ γ kQ − Q′ k∞
+Because T is a contraction, it has a unique fixed point (Istratescu, 2002). Additionally, when rewritten using the Q-iteration mapping, the Bellman optimality equation
+(2.8) or (2.18) states that Q∗ is a fixed point of T , i.e.:
+Q∗ = T (Q∗ )
+
+(2.26)
+
+Hence, the unique fixed point of T is actually Q∗ , and Q-iteration asymptotically
+converges to Q∗ as ℓ → ∞. Moreover, Q-iteration converges to Q∗ at a rate of γ , in
+the sense that kQℓ+1 − Q∗ k∞ ≤ γ kQℓ − Q∗ k∞ . An optimal policy can be computed
+from Q∗ with (2.5).
+Algorithm 2.1 presents Q-iteration for deterministic MDPs in an explicit, procedural form, wherein T is computed using (2.22). Similarly, Algorithm 2.2 presents
+Q-iteration for stochastic MDPs with countable state spaces, using the expression
+(2.24) for T .
+5 The term “mapping” is used to refer to functions that work with other functions as inputs and/or
+outputs; as well as to compositions of such functions. The term is used to differentiate mappings from
+ordinary functions, which only have numerical scalars, vectors, or matrices as inputs and/or outputs.
+
+2.3. Value iteration
+
+25
+
+ALGORITHM 2.1 Q-iteration for deterministic MDPs.
+
+Input: dynamics f , reward function ρ , discount factor γ
+1: initialize Q-function, e.g., Q0 ← 0
+2: repeat at every iteration ℓ = 0, 1, 2, . . .
+3:
+for every (x, u) do
+4:
+Qℓ+1 (x, u) ← ρ (x, u) + γ maxu′ Qℓ ( f (x, u), u′ )
+5:
+end for
+6: until Qℓ+1 = Qℓ
+Output: Q∗ = Qℓ
+
+ALGORITHM 2.2 Q-iteration for stochastic MDPs with countable state spaces.
+
+Input: dynamics f¯, reward function ρ̃ , discount factor γ
+1: initialize Q-function, e.g., Q0 ← 0
+2: repeat at every iteration ℓ = 0, 1, 2, . . .
+3:
+for every (x, u) do
+4:
+Qℓ+1 (x, u) ← ∑x′ f¯(x, u, x′ ) [ρ̃ (x, u, x′ ) + γ maxu′ Qℓ (x′ , u′ )]
+5:
+end for
+6: until Qℓ+1 = Qℓ
+Output: Q∗ = Qℓ
+
+The results given above only guarantee the asymptotic convergence of Qiteration, hence the stopping criterion of Algorithms 2.1 and 2.2 may only be satisfied asymptotically. In practice, it is also important to guarantee the performance
+of Q-iteration when the algorithm is stopped after a finite number of iterations. The
+following result holds both in the deterministic case and in the stochastic case. Given
+a suboptimality bound ςQI &gt; 0, where the subscript “QI” stands for “Q-iteration,” a
+finite number L of iterations can be (conservatively) chosen with:
+
+
+ςQI (1 − γ )2
+(2.27)
+L = logγ
+2kρ k∞
+so that the suboptimality of a policy hL that is greedy in QL is guaranteed to be at most
+ςQI , in the sense that kV hL −V ∗ k∞ ≤ ςQI . Here, ⌈·⌉ is the smallest integer larger than
+or equal to the argument (ceiling). Equation (2.27) follows from the bound (Ernst
+et al., 2005):
+γ L kρ k∞
+kV hL −V ∗ k∞ ≤ 2
+(1 − γ )2
+L
+
+kρ k∞
+on the suboptimality of hL , by requiring that 2 γ(1−
+≤ ςQI .
+γ )2
+Alternatively, Q-iteration could be stopped when the difference between two
+consecutive Q-functions decreases below a given threshold εQI &gt; 0, i.e., when
+kQℓ+1 − Qℓ k∞ ≤ εQI . This can also be guaranteed to happen after a finite number
+of iterations, due to the contracting nature of the Q-iteration updates.
+
+26
+
+Chapter 2. An introduction to DP and RL
+
+A V-iteration algorithm that computes the optimal V-function can be developed
+along similar lines, using the Bellman optimality equation (2.13) in the deterministic
+case, or (2.21) in the stochastic case. Note that the name “value iteration” is typically
+used for the V-iteration algorithm in the literature, whereas we use it to refer more
+generally to the entire class of algorithms that use the Bellman optimality equations
+to compute optimal value functions. (Recall that we similarly use “value function”
+to refer to Q-functions and V-functions collectively.)
+Computational cost of Q-iteration for finite MDPs
+Next, we investigate the computational cost of Q-iteration when applied to an MDP
+with a finite number of states and actions. Denote by |·| the cardinality of the argument set “·”, so that |X| denotes the finite number of states and |U| denotes the finite
+number of actions.
+Consider first the deterministic case, for which Algorithm 2.1 can be used. Assume that, when updating the Q-value for a given state-action pair (x, u), the maximization over the action space U is solved by enumeration over its |U| elements,
+and f (x, u) is computed once and then stored and reused. Updating the Q-value then
+requires 2 + |U| function evaluations, where the functions being evaluated are f , ρ ,
+and the current Q-function Qℓ . Since at every iteration, the Q-values of |X| |U| stateaction pairs have to be updated, the cost per iteration is |X| |U| (2 + |U|). So, the total
+cost of L Q-iterations for a deterministic, finite MDP is:
+L |X| |U| (2 + |U|)
+
+(2.28)
+
+The number L of iterations can be chosen, e.g., by imposing a suboptimality bound
+ςQI and using (2.27).
+In the stochastic case, because the state space is finite, Algorithm 2.2 can be used.
+Assuming that the maximization over u′ is implemented using enumeration, the cost
+of updating the Q-value for a given pair (x, u) is |X| (2 + |U|), where the functions
+being evaluated are f¯, ρ̃ , and Qℓ . The cost per iteration is |X|2 |U| (2 + |U|), and the
+total cost of L Q-iterations for a stochastic, finite MDP is thus:
+L |X|2 |U| (2 + |U|)
+
+(2.29)
+
+which is larger by a factor |X| than the cost (2.28) for the deterministic case.
+Example 2.3 Q-iteration for the cleaning robot. In this example, we apply Qiteration to the cleaning-robot problem of Examples 2.1 and 2.2. The discount factor
+γ is set to 0.5.
+Consider first the deterministic variant of Example 2.1. For this variant, Qiteration is implemented as Algorithm 2.1. Starting from an identically zero initial
+Q-function, Q0 = 0, this algorithm produces the sequence of Q-functions given in the
+first part of Table 2.2 (above the dashed line), where each cell shows the Q-values of
+the two actions in a certain state, separated by a semicolon. For instance:
+Q3 (2, 1) = ρ (2, 1)+ γ max Q2 ( f (2, 1), u) = 0+0.5 max Q2 (3, u) = 0+0.5·2.5 = 1.25
+u
+
+u
+
+27
+
+2.3. Value iteration
+TABLE 2.2
+Q-iteration results for the deterministic cleaning-robot problem.
+
+x=0
+
+x=1
+
+x=2
+
+x=3
+
+x=4
+
+x=5
+
+Q0 0 ; 0
+0; 0
+0; 0
+0; 0
+0; 0
+0; 0
+Q1 0 ; 0
+1; 0
+0.5 ; 0
+0.25 ; 0
+0.125 ; 5 0 ; 0
+Q2 0 ; 0
+1 ; 0.25 0.5 ; 0.125 0.25 ; 2.5
+1.25 ; 5
+0; 0
+Q3 0 ; 0
+1 ; 0.25
+0.5 ; 1.25 0.625 ; 2.5 1.25 ; 5
+0; 0
+Q4 0 ; 0 1 ; 0.625 0.5 ; 1.25 0.625 ; 2.5 1.25 ; 5
+0; 0
+Q5 0 ; 0 1 ; 0.625 0.5 ; 1.25 0.625 ; 2.5 1.25 ; 5
+0; 0
+---------------------------------------------h∗
+∗
+−1
+1
+1
+1
+∗
+V∗
+0
+1
+1.25
+2.5
+5
+0
+
+The algorithm converges after 5 iterations; Q5 = Q4 = Q∗ . The last two rows
+of the table (below the dashed line) also give the optimal policies, computed from
+Q∗ with (2.5), and the optimal V-function V ∗ , computed from Q∗ with (2.10). In the
+policy representation, the symbol “∗” means that any action can be taken in that state
+without changing the quality of the policy. The total number of function evaluations
+required by the algorithm in the deterministic case is:
+5 |X| |U| (2 + |U|) = 5 · 6 · 2 · 4 = 240
+Consider next the stochastic variant of the cleaning-robot problem, introduced in
+Example 2.2. For this variant, Q-iteration is implemented by using Algorithm 2.2,
+and produces the sequence of Q-functions illustrated in the first part of Table 2.3
+(not all the iterations are shown). The algorithm fully converges after 22 iterations.
+TABLE 2.3
+Q-iteration results for the stochastic cleaning-robot problem. Q-function and V-function values are rounded to 3 decimal places.
+
+x=0
+
+x=1
+
+x=2
+
+x=3
+
+x=4
+
+x=5
+
+Q0
+0; 0
+0; 0
+0; 0
+0; 0
+0; 0
+0; 0
+Q1
+0 ; 0 0.800 ; 0.110 0.320 ; 0.044 0.128 ; 0.018 0.301 ; 4.026 0 ; 0
+Q2
+0 ; 0 0.868 ; 0.243 0.374 ; 0.101 0.260 ; 1.639 1.208 ; 4.343 0 ; 0
+Q3
+0 ; 0 0.874 ; 0.265 0.419 ; 0.709 0.515 ; 1.878 1.327 ; 4.373 0 ; 0
+Q4
+0 ; 0 0.883 ; 0.400 0.453 ; 0.826 0.581 ; 1.911 1.342 ; 4.376 0 ; 0
+···
+···
+···
+···
+···
+···
+···
+Q12 0 ; 0 0.888 ; 0.458 0.467 ; 0.852 0.594 ; 1.915 1.344 ; 4.376 0 ; 0
+···
+···
+···
+···
+···
+···
+···
+Q22 0 ; 0 0.888 ; 0.458 0.467 ; 0.852 0.594 ; 1.915 1.344 ; 4.376 0 ; 0
+-------------------------------------------------------h∗
+∗
+−1
+1
+1
+1
+∗
+V∗
+0
+0.888
+0.852
+1.915
+4.376
+0
+
+28
+
+Chapter 2. An introduction to DP and RL
+
+The optimal policies and the optimal V-function obtained are also shown in Table 2.3
+(below the dashed line). While the optimal Q-function and the optimal V-function are
+different from those obtained in the deterministic case, the optimal policies remain
+the same. The total number of function evaluations required by the algorithm in the
+stochastic case is:
+22 |X|2 |U| (2 + |U|) = 22 · 62 · 2 · 4 = 6336
+which is considerably greater than in the deterministic case.
+If we impose a suboptimality bound ςQI = 0.01 and apply (2.27), we find that Qiteration should run for L = 12 iterations in order to guarantee this bound, where the
+maximum absolute reward kρ k∞ = 5 and the discount factor γ = 0.5 have also been
+used. So, in the deterministic case, the algorithm fully converges to its fixed point
+in fewer iterations than the conservative number given by (2.27). In the stochastic
+case, even though the algorithm does not fully converge after 12 iterations (instead
+requiring 22 iterations), the Q-function at iteration 12 (shown in Table 2.3) is already
+very accurate, and a policy that is greedy in this Q-function is fully optimal. The
+suboptimality of such a policy is 0, which is smaller than the imposed bound ςQI .
+In fact, for any iteration ℓ ≥ 3, the Q-function Qℓ would produce an optimal policy,
+which means that L = 12 is also conservative in the stochastic case.
+
+
+2.3.2
+
+Model-free value iteration and the need for exploration
+
+We have discussed until now model-based value iteration. We next consider RL,
+model-free value iteration algorithms, and discuss Q-learning, the most widely used
+algorithm from this class. Q-learning starts from an arbitrary initial Q-function Q0
+and updates it without requiring a model, using instead observed state transitions
+and rewards, i.e., data tuples of the form (xk , uk , xk+1 , rk+1 ) (Watkins, 1989; Watkins
+and Dayan, 1992). After each transition, the Q-function is updated using such a data
+tuple, as follows:
+Qk+1 (xk , uk ) = Qk (xk , uk ) + αk [rk+1 + γ max Qk (xk+1 , u′ ) − Qk (xk , uk )]
+u′
+
+(2.30)
+
+where αk ∈ (0, 1] is the learning rate. The term between square brackets is
+the temporal difference, i.e., the difference between the updated estimate rk+1 +
+γ maxu′ Qk (xk+1 , u′ ) of the optimal Q-value of (xk , uk ), and the current estimate
+Qk (xk , uk ). In the deterministic case, the new estimate is actually the Q-iteration mapping (2.22) applied to Qk in the state-action pair (xk , uk ), where ρ (xk , uk ) has been
+replaced by the observed reward rk+1 , and f (xk , uk ) by the observed next-state xk+1 .
+In the stochastic case, these replacements provide a single sample of the random
+quantity whose expectation is computed by the Q-iteration mapping (2.23), and thus
+Q-learning can be seen as a sample-based, stochastic approximation procedure based
+on this mapping (Singh et al., 1995; Bertsekas and Tsitsiklis, 1996, Section 5.6).
+As the number of transitions k approaches infinity, Q-learning asymptotically
+converges to Q∗ if the state and action spaces are discrete and finite, and under the
+following conditions (Watkins and Dayan, 1992; Tsitsiklis, 1994; Jaakkola et al.,
+1994):
+
+2.3. Value iteration
+
+29
+
+∞
+2
+• The sum ∑∞
+k=0 αk produces a finite value, whereas the sum ∑k=0 αk produces
+an infinite value.
+
+• All the state-action pairs are (asymptotically) visited infinitely often.
+The first condition is not difficult to satisfy. For instance, a satisfactory standard
+choice is:
+1
+(2.31)
+αk =
+k
+In practice, the learning rate schedule may require tuning, because it influences the
+number of transitions required by Q-learning to obtain a good solution. A good
+choice for the learning rate schedule depends on the problem at hand.
+The second condition can be satisfied if, among other things, the controller has a
+nonzero probability of selecting any action in every encountered state; this is called
+exploration. The controller also has to exploit its current knowledge in order to obtain good performance, e.g., by selecting greedy actions in the current Q-function.
+This is a typical illustration of the exploration-exploitation trade-off in online RL.
+A classical way to balance exploration with exploitation in Q-learning is ε -greedy
+exploration (Sutton and Barto, 1998, Section 2.2), which selects actions according
+to:
+(
+u ∈ arg maxū Qk (xk , ū)
+with probability 1 − εk
+uk =
+(2.32)
+a uniformly random action in U with probability εk
+where εk ∈ (0, 1) is the exploration probability at step k. Another option is to use
+Boltzmann exploration (Sutton and Barto, 1998, Section 2.3), which at step k selects
+an action u with probability:
+P (u | xk ) =
+
+eQk (xk ,u)/τk
+∑ū eQk (xk ,ū)/τk
+
+(2.33)
+
+where the temperature τk ≥ 0 controls the randomness of the exploration. When τk →
+0, (2.33) is equivalent to greedy action selection, while for τk → ∞, action selection
+is uniformly random. For nonzero, finite values of τk , higher-valued actions have a
+greater chance of being selected than lower-valued ones.
+Usually, the exploration diminishes over time, so that the policy used asymptotically becomes greedy and therefore (as Qk → Q∗ ) optimal. This can be achieved by
+making εk or τk approach 0 as k grows. For instance, an ε -greedy exploration schedule of the form εk = 1/k diminishes to 0 as k → ∞, while still satisfying the second
+convergence condition of Q-learning, i.e., while allowing infinitely many visits to
+all the state-action pairs (Singh et al., 2000). Notice the similarity of this exploration schedule with the learning rate schedule (2.31). For a schedule of the Boltzmann exploration temperature τk that decreases to 0 while satisfying the convergence
+conditions, see (Singh et al., 2000). Like the learning rate schedule, the exploration
+schedule has a significant effect on the performance of Q-learning.
+Algorithm 2.3 presents Q-learning with ε -greedy exploration. Note that an idealized, infinite-time online setting is considered for this algorithm, in which no termination condition is specified and no explicit output is produced. Instead, the result of
+
+30
+
+Chapter 2. An introduction to DP and RL
+
+the algorithm is the improvement of the control performance achieved while interacting with the process. A similar setting will be considered for other online learning
+algorithms described in this book, with the implicit understanding that, in practice,
+the algorithms will of course be stopped after a finite number of steps. When Qlearning is stopped, the resulting Q-function and the corresponding greedy policy
+can be interpreted as outputs and reused.
+ALGORITHM 2.3 Q-learning with ε -greedy exploration.
+
+Input: discount factor γ ,
+∞
+exploration schedule {εk }∞
+k=0 , learning rate schedule {αk }k=0
+1: initialize Q-function, e.g., Q0 ← 0
+2: measure initial state x0
+3: for every (
+time step k = 0, 1, 2, . . . do
+u ∈ arg maxū Qk (xk , ū)
+with probability 1 − εk (exploit)
+4:
+uk ←
+a uniformly random action in U with probability εk (explore)
+5:
+apply uk , measure next state xk+1 and reward rk+1
+6:
+Qk+1 (xk , uk ) ← Qk (xk , uk ) + αk [rk+1 + γ maxu′ Qk (xk+1 , u′ ) − Qk (xk , uk )]
+7: end for
+Note that this discussion has not been all-encompassing; the ε -greedy and Boltzmann exploration procedures can also be used in other online RL algorithms besides
+Q-learning, and a variety of other exploration procedures exist. For instance, the policy can be biased towards actions that have not recently been taken, or that may lead
+the system towards rarely visited areas of the state space (Thrun, 1992). The value
+function can also be initialized to be larger than the true returns, in a method known
+as “optimism in the face of uncertainty” (Sutton and Barto, 1998, Section 2.7). Because the return estimates have been adjusted downwards for any actions already
+taken, greedy action selection leads to exploring novel actions. Confidence intervals
+for the returns can be estimated, and the action with largest upper confidence bound,
+i.e., with the best potential for good returns, can be chosen (Kaelbling, 1993). Many
+authors have also studied the exploration-exploitation trade-off for specific types of
+problems, such as problems with linear transition dynamics (Feldbaum, 1961), and
+problems without any dynamics, for which the state space reduces to a single element
+(Auer et al., 2002; Audibert et al., 2007).
+
+2.4 Policy iteration
+Having introduced value iteration in Section 2.3, we now consider policy iteration,
+the second major class of DP/RL algorithms. Policy iteration algorithms evaluate
+policies by constructing their value functions, and use these value functions to find
+new, improved policies (Bertsekas, 2007, Section 1.3). As a representative example
+
+31
+
+2.4. Policy iteration
+
+of policy iteration, consider an offline algorithm that evaluates policies using their
+Q-functions. This algorithm starts with an arbitrary policy h0 . At every iteration ℓ,
+the Q-function Qhℓ of the current policy hℓ is determined; this step is called policy
+evaluation. Policy evaluation is performed by solving the Bellman equation (2.7) in
+the deterministic case, or (2.17) in the stochastic case. When policy evaluation is
+complete, a new policy hℓ+1 that is greedy in Qh is found:
+hℓ+1 (x) ∈ arg max Qhℓ (x, u)
+
+(2.34)
+
+u
+
+This step is called policy improvement. The entire procedure is summarized in Algorithm 2.4. The sequence of Q-functions produced by policy iteration asymptotically
+converges to Q∗ as ℓ → ∞. Simultaneously, an optimal policy h∗ is obtained.
+ALGORITHM 2.4 Policy iteration with Q-functions.
+
+initialize policy h0
+repeat at every iteration ℓ = 0, 1, 2, . . .
+find Qhℓ , the Q-function of hℓ
+hℓ+1 (x) ∈ arg maxu Qhℓ (x, u)
+5: until hℓ+1 = hℓ
+Output: h∗ = hℓ , Q∗ = Qhℓ
+1:
+
+2:
+3:
+4:
+
+⊲ policy evaluation
+⊲ policy improvement
+
+The crucial component of policy iteration is policy evaluation. Policy improvement can be performed by solving static optimization problems, e.g., of the form
+(2.34) when Q-functions are used – often an easier challenge.
+In the remainder of this section, we first discuss DP (model-based) policy iteration, followed by RL (model-free) policy iteration. We pay special attention to the
+policy evaluation component.
+
+2.4.1
+
+Model-based policy iteration
+
+In the model-based setting, the policy evaluation step employs knowledge of the transition and reward functions. A model-based iterative algorithm for policy evaluation
+can be given that is similar to Q-iteration, which will be called policy evaluation for
+Q-functions. Analogously to the Q-iteration mapping T (2.22), a policy evaluation
+mapping T h : Q → Q is defined, which computes the right-hand side of the Bellman
+equation for an arbitrary Q-function. In the deterministic case, this mapping is:
+[T h (Q)](x, u) = ρ (x, u) + γ Q( f (x, u), h( f (x, u)))
+
+(2.35)
+
+and in the stochastic case, it is:
+
+[T h (Q)](x, u) = Ex′ ∼ f˜(x,u,·) ρ̃ (x, u, x′ ) + γ Q(x′ , h(x′ ))
+
+(2.36)
+
+Note that when the state space is countable, the transition model (2.14) is appropriate,
+and the policy evaluation mapping for the stochastic case (2.36) can be written as the
+
+32
+
+Chapter 2. An introduction to DP and RL
+
+simpler summation:
+
+
+[T h (Q)](x, u) = ∑ f¯(x, u, x′ ) ρ̃ (x, u, x′ ) + γ Q(x′ , h(x′ ))
+
+(2.37)
+
+x′
+
+Policy evaluation for Q-functions starts from an arbitrary Q-function Qh0 and at
+each iteration τ updates the Q-function using:6
+Qτh+1 = T h (Qhτ )
+
+(2.38)
+
+Like the Q-iteration mapping T , the policy evaluation mapping T h is a contraction
+with a factor γ &lt; 1 in the infinity norm, i.e., for any pair of functions Q and Q′ :
+kT h (Q) − T h (Q′ )k∞ ≤ γ kQ − Q′ k∞
+So, T h has a unique fixed point. Written in terms of the mapping T h , the Bellman
+equation (2.7) or (2.17) states that this unique fixed point is actually Qh :
+Qh = T h (Qh )
+
+(2.39)
+
+Therefore, policy evaluation for Q-functions (2.38) asymptotically converges to Qh .
+Moreover, also because T h is a contraction with factor γ , this variant of policy evaluation converges to Qh at a rate of γ , in the sense that kQhτ +1 − Qh k∞ ≤ γ kQhτ − Qh k∞ .
+Algorithm 2.5 presents policy evaluation for Q-functions in deterministic MDPs,
+while Algorithm 2.6 is used for stochastic MDPs with countable state spaces. In
+Algorithm 2.5, T h is computed with (2.35), while in Algorithm 2.6, (2.37) is employed. Since the convergence condition of these algorithms is only guaranteed to
+be satisfied asymptotically, in practice they can be stopped, e.g., when the difference between consecutive Q-functions decreases below a given threshold, i.e., when
+kQhτ +1 − Qτh k∞ ≤ εPE , where εPE &gt; 0. Here, the subscript “PE” stands for “policy
+evaluation.”
+ALGORITHM 2.5 Policy evaluation for Q-functions in deterministic MDPs.
+
+Input: policy h to be evaluated, dynamics f , reward function ρ , discount factor γ
+1: initialize Q-function, e.g., Qh0 ← 0
+2: repeat at every iteration τ = 0, 1, 2, . . .
+3:
+for every (x, u) do
+4:
+Qhτ +1 (x, u) ← ρ (x, u) + γ Qτh ( f (x, u), h( f (x, u)))
+5:
+end for
+6: until Qhτ +1 = Qτh
+Output: Qh = Qhτ
+
+6 A different iteration index τ is used for policy evaluation, because it runs in the inner loop of every
+(offline) policy iteration ℓ.
+
+2.4. Policy iteration
+
+33
+
+ALGORITHM 2.6
+Policy evaluation for Q-functions in stochastic MDPs with countable state spaces.
+
+Input: policy h to be evaluated, dynamics f¯, reward function ρ̃ , discount factor γ
+1: initialize Q-function, e.g., Qh0 ← 0
+2: repeat at every iteration τ = 0, 1, 2, . . .
+3:
+for every (x, u) do
+
+
+4:
+Qhτ +1 (x, u) ← ∑x′ f¯(x, u, x′ ) ρ̃ (x, u, x′ ) + γ Qτh (x′ , h(x′ ))
+5:
+end for
+6: until Qhτ +1 = Qτh
+Output: Qh = Qhτ
+
+There are also other ways to compute Qh . For example, in the deterministic case,
+the mapping T h (2.35) and equivalently the Bellman equation (2.7) are obviously
+linear in the Q-values. In the stochastic case, because X has a finite cardinality, the
+policy evaluation mapping T h and equivalently the Bellman equation (2.39) can be
+written by using the summation (2.37), and are therefore also linear. Hence, when the
+state and action spaces are finite and the cardinality of X × U is not too large (e.g.,
+up to several thousands), Qh can be found by directly solving the linear system of
+equations given by the Bellman equation.
+The entire derivation can be repeated and similar algorithms can be given for Vfunctions instead of Q-functions. Such algorithms are more popular in the literature,
+see, e.g., (Sutton and Barto, 1998, Section 4.1) and (Bertsekas, 2007, Section 1.3).
+Recall however, that policy improvements are more problematic when V-functions
+are used, because a model is required to find greedy policies, as seen in (2.11). Additionally, in the stochastic case, expectations over the one-step stochastic transitions
+have to be computed to find greedy policies, as seen in (2.19).
+An important advantage of policy iteration over value iteration stems from the
+linearity of the Bellman equation for Qh in the Q-values. In contrast, the Bellman
+optimality equation (for Q∗ ) is highly nonlinear due to the maximization at the righthand side. This makes policy evaluation generally easier to solve than value iteration.
+Moreover, in practice, offline policy iteration algorithms often converge in a small
+number of iterations (Madani, 2002; Sutton and Barto, 1998, Section 4.3), possibly smaller than the number of iterations taken by offline value iteration algorithms.
+However, this does not mean that policy iteration is computationally less costly than
+value iteration. For instance, even though policy evaluation using Q-functions is generally less costly than Q-iteration, every single policy iteration requires a complete
+policy evaluation.
+Computational cost of policy evaluation for Q-functions in finite MDPs
+We next investigate the computational cost of policy evaluation for Q-functions
+(2.38) for an MDP with a finite number of states and actions. We also provide a comparison with the computational cost of Q-iteration. Note again that policy evaluation
+
+34
+
+Chapter 2. An introduction to DP and RL
+
+is only one component of policy iteration; for an illustration of the computational
+cost of the entire policy iteration algorithm, see the upcoming Example 2.4.
+In the deterministic case, policy evaluation for Q-functions can be implemented
+as in Algorithm 2.5. The computational cost of one iteration of this algorithm, measured by the number of function evaluations, is:
+4 |X</pre></div>                                                                    </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height:60px">
+                    <td id="footer" valign="top">
+                        <div class="container-fluid">
+<!-- footer begin -->
+<div class="row">
+    <div class="col-md-12">
+        <div style="float:left; color:#888; font-size:13px;">
+            <span style="font-style:italic;">Free ebooks since 2009. <a style="margin:0 5px 0 20px" href="mailto:support@bookmail.org">support@bookmail.org</a></span>
+            <span style="margin:0 0 0 15px;"> <a href="/faq.php">FAQ</a></span>
+            <span style="margin:0 0 0 15px;"> <a href="/blog/">Blog</a></span>
+        </div>
+        <div style="float: right;" role="navigation">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/privacy.php">Privacy</a></li>
+                <li><a href="/dmca.php">DMCA</a></li>
+                <li class="dropup">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">English <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a onclick="setLanguage('en'); return false;" href="//en.b-ok.cc/book/919236/969cc8/?_ir=1">English</a></li><li><a onclick="setLanguage('ru'); return false;" href="//ru.b-ok.cc/book/919236/969cc8/?_ir=1">Русский</a></li><li><a onclick="setLanguage('ua'); return false;" href="//ua.b-ok.cc/book/919236/969cc8/?_ir=1">Українська</a></li><li><a onclick="setLanguage('pl'); return false;" href="//pl.b-ok.cc/book/919236/969cc8/?_ir=1">Polski</a></li><li><a onclick="setLanguage('it'); return false;" href="//it.b-ok.cc/book/919236/969cc8/?_ir=1">Italiano</a></li><li><a onclick="setLanguage('es'); return false;" href="//es.b-ok.cc/book/919236/969cc8/?_ir=1">Español</a></li><li><a onclick="setLanguage('zh'); return false;" href="//zh.b-ok.cc/book/919236/969cc8/?_ir=1">汉语</a></li><li><a onclick="setLanguage('id'); return false;" href="//id.b-ok.cc/book/919236/969cc8/?_ir=1">Bahasa Indonesia</a></li><li><a onclick="setLanguage('in'); return false;" href="//in.b-ok.cc/book/919236/969cc8/?_ir=1">हिन्दी</a></li><li><a onclick="setLanguage('pt'); return false;" href="//pt.b-ok.cc/book/919236/969cc8/?_ir=1">Português</a></li><li><a onclick="setLanguage('jp'); return false;" href="//jp.b-ok.cc/book/919236/969cc8/?_ir=1">日本語</a></li><li><a onclick="setLanguage('de'); return false;" href="//de.b-ok.cc/book/919236/969cc8/?_ir=1">Deutsch</a></li><li><a onclick="setLanguage('fr'); return false;" href="//fr.b-ok.cc/book/919236/969cc8/?_ir=1">Français</a></li><li><a onclick="setLanguage('th'); return false;" href="//th.b-ok.cc/book/919236/969cc8/?_ir=1">ภาษาไทย</a></li><li><a onclick="setLanguage('el'); return false;" href="//el.b-ok.cc/book/919236/969cc8/?_ir=1">ελληνικά </a></li><li><a onclick="setLanguage('ar'); return false;" href="//ar.b-ok.cc/book/919236/969cc8/?_ir=1">اللغة العربية</a></li>                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <script type="text/javascript" src="/scripts/root.js?version=1x03"></script>
+        <script type="text/javascript" src="/ext/paginator3000/jquery.paginator.3000.js"></script>
+        <script>
+            if (typeof pagerOptions !== "undefined" && pagerOptions) {
+                $('div.paginator').paginator(pagerOptions);
+            }
+        </script>
+        <!-- ggAdditionalHtml -->
+        
+    <script>
+        var Config = {"currentLanguage":"en","L":{"90":"The file is located on an external resource","91":"It is a folder","92":"File from disk storage","93":"File is aviable by direct link","94":"Popular","95":"Limitation of downloading: no more than 2 files at same time","96":"Size","97":" Language","98":"Category","99":"Find all the author's book"}};
+    </script>
+    <!--LiveInternet counter--><script type="text/javascript">
+new Image().src = "//counter.yadro.ru/hit;bookzz?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();</script><!--/LiveInternet-->
+
+<iframe name="uploader" id="uploader" style="border:0px solid #ddd; width:90%; display:none;"></iframe>        <!-- /ggAdditionalHtml -->
+            </body>
+</html>

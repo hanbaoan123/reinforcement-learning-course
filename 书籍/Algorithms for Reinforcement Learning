@@ -1,0 +1,3136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Algorithms for Reinforcement Learning   | Csaba Szepesvári | download</title>
+<base href="/">
+
+                        <meta charset="utf-8">		                       
+                        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <meta name="title" content="Algorithms for Reinforcement Learning   | Csaba Szepesvári | download">
+			<meta name="description" content="Algorithms for Reinforcement Learning   | Csaba Szepesvári | download | B–OK. Download books for free. Find books">
+			<meta name="robots" content="index,all">
+			<meta name="distribution" content="global">
+			<meta http-equiv="cache-control" content="no-cache">
+			<meta http-equiv="pragma" content="no-cache">
+
+                        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+                        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+                        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+                        <link rel="manifest" href="/manifest.json">
+                        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+                        <meta name="apple-mobile-web-app-title" content="Z-Library">
+                        <meta name="application-name" content="Z-Library">
+                        <meta name="theme-color" content="#ffffff">
+
+                        <meta name="propeller" content="49c350d528ba144cace841cac74260ab">
+	
+<!-- CSS SET -->
+<link rel="stylesheet" type="text/css" href="/css/bootstrap/css/bootstrap.min.css?version=0.168" >
+<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css?version=0.168" >
+<link rel="stylesheet" type="text/css" href="/css/root.css?version=0.168" >
+<link rel="stylesheet" type="text/css" href="/ext/bootstrap-tagsinput/bootstrap-tagsinput.css?version=0.168" >
+<link rel="stylesheet" type="text/css" href="/ext/spin/spin.css?version=0.168" >
+<!-- JS SET --> 
+<script type="text/javascript" language="JavaScript" src="https://code.jquery.com/jquery-2.2.4.min.js?version=0.168"></script>
+<script type="text/javascript" language="JavaScript" src="https://cdnjs.cloudflare.com/ajax/libs/mouse0270-bootstrap-notify/3.1.7/bootstrap-notify.min.js?version=0.168"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/underscore.js?version=0.168"></script>
+<script type="text/javascript" language="JavaScript" src="/css/bootstrap/js/bootstrap.min.js?version=0.168"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/zlibrary/zlibrary-notify.js?version=0.168"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/zlibrary/user.js?version=0.168"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/typeahead.js?version=0.168"></script>
+<script type="text/javascript" language="JavaScript" src="/ext/bootstrap-tagsinput/bootstrap-tagsinput.min.js?version=0.168"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/zlibrary/tags-input.js?version=0.168"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/zlibrary/book.js?version=0.168"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/zlibrary/zlibrary-response.js?version=0.168"></script>
+<script type="text/javascript" language="JavaScript" src="/ext/spin/spin.js?version=0.168"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/zlibrary/zlibrary-spinner.js?version=0.168"></script>
+<link REL="SHORTCUT ICON" HREF="/favicon.ico">
+        <link rel="search" type="application/opensearchdescription+xml" href="/search.xml" title="Search for books in the library B-OK.org" />
+    </head>
+    <body style="margin:0px;padding:0px;" class="books/details">
+        <table border="0" height="100%" width="100%" style="height:100%;" cellpadding="0" cellspacing="0"><tbody>
+                <tr style="height:10px;">
+                    <td>
+                        <div class="container-fluid">
+                            
+<div class="row">
+    <div class="col-md-12">
+        <div id="colorBoxes" class="darkShadow">
+            <ul>
+                <li style="background: #49afd0;">
+                    <a href="/">
+                        4,876,035                        books                    </a>
+                </li>
+
+                <li style="background: #8ecd51;">
+                    <a href="http://booksc.xyz">
+                        75,840,600                        articles                    </a>
+                </li>
+
+                <li style="background: #90a5a8;">for free</li>
+            </ul>
+        </div>
+
+
+
+        <div role="navigation" class="navbar-default" style="background-color: transparent;">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" style="">
+                                            <li><a href="/profile.php" id="mainUserLink">hba</a></li>
+                    
+
+                    
+                    <li>
+                                                    <a href="/howtodonate.php" id="howToDonateMainLink" data-autoopen="true" data-placement="bottom"
+                                   title="Alipay is <span style='white-space: nowrap;'>available now</span>"
+                                   style="color:#8EB46A;">Donate</a>
+                                <script>
+                                    $(window).on("load", function () {
+                                        $('#howToDonateMainLink')
+                                                .tooltip({'html': true, 'trigger': 'manual'})
+                                                .tooltip('show')
+
+                                        $('#howToDonateMainLink').next('.tooltip').click(function () {
+                                            $('#howToDonateMainLink').tooltip('hide')
+                                            document.cookie = "donation_tooltip=50; expires=Tue, 19 Jan 2038 03:14:07 GMT"
+                                        });
+                                    });
+
+                                    document.cookie = "donation_tooltip=2; expires=Tue, 19 Jan 2038 03:14:07 GMT"
+                                </script>
+                                                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span style="font-size: 120%;" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                            <span style="position:relative; top:-9px; left:-6px;height: 10px;width: 10px; background-color: #8ECD51;border-radius: 50%;display: inline-block;"></span>                        </a>
+                        <ul class="dropdown-menu">
+                                                        <li class="dropdown-header">Books</li>
+                                                            <li><a href="/book-add.php">Add book</a></li>
+                                <li><a href="/categories">Categories</a></li>
+                                <li><a href="/popular.php">Most Popular</a></li>
+                                                        <li><a href="/recently.php">Recently Added</a></li>
+                                                            <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Profile</li>
+                                <li><a href="/profile.php">Profile</a></li>
+                                <li><a href="/profileEdit.php">Edit profile</a></li>
+                                <li><a href="/users/saved_books.php">Saved books</a></li>
+                                                                    <li><a href="/users/recommended.php">Recommended books</a></li>
+                                                                <li><a href="/users/zalerts.php">ZAlerts</a></li>
+                                <li><a href="/users/dstats.php">Download history</a></li>
+                                <li><a href="/users/suggested-corrections.php">Suggested corrections</a></li>
+                                <li><a href="/logout.php">Logout</a></li>
+                                                        <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Z-Library Project</li>
+                            <li><a href="/top-zlibrarians.php">Top Z-Librarians</a></li>
+                            <li><a href="/blog/"><span style="position:relative; margin:0 3px 0 -13px;height: 10px;width: 10px; background-color: #8ECD51;border-radius: 50%;display: inline-block;"></span>Blog</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script>
+        $(window).on("load", function () {
+            $('#mainUserLink').tooltip({
+                'html': true,
+                'title': 'Downloads: 0/10<br/>Will reset in 18h 00m',
+                'placement': 'bottom'
+            });
+        });
+
+    </script>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="container" style="max-width: 1000px;padding-bottom: 40px;">
+                            <div class="row">
+                                <div class="col-md-12 itemFullText">
+                                    
+
+<style>
+    .adFixW iframe{
+        width:100%;
+    }
+</style>
+
+<div class="bcNav">
+    <a href="/" title="Ebook library B-OK.org">Main</a> <i></i>
+        Algorithms for Reinforcement Learning</div>
+
+<div itemscope itemtype="http://schema.org/Book">
+    <div class="row cardBooks">
+        <div class="col-md-3">
+            <a itemprop="image"  class="lightbox details-book-cover" href="//dl181.zlibcdn.com/covers/books/b6/b3/b3/b6b3b3aebbbfe8578bab8f9be356408b.jpg">
+                <img src="//dl181.zlibcdn.com/covers/books/b6/b3/b3/b6b3b3aebbbfe8578bab8f9be356408b.jpg" alt="Book cover Algorithms for Reinforcement Learning  " />
+            </a>
+        </div>
+
+        <div class="col-md-9">
+            <h1 itemprop="name" style="color: #000; line-height: 140%;" class="moderatorPanelToggler">
+                Algorithms for Reinforcement Learning              </h1>
+
+            <i><a  itemprop="author" class="color1" title="Find all the author's book" href="/g/Csaba Szepesvári">Csaba Szepesvári</a></i>
+
+                            <div style="padding:10px 0; font-size:10pt" id="bookDescriptionBox"  itemprop="reviewBody">
+                    Reinforcement learning is a learning paradigm concerned with learning to control a system so as  to maximize a numerical performance measure that expresses a long-term objective.What distinguishes  reinforcement learning from supervised learning is that only partial feedback is given to the learner about the learner's predictions. Further, the predictions may have long term effects through  influencing the future state of the controlled system. Thus, time plays a special role. The goal in  reinforcement learning is to develop efficient learning algorithms, as well as to understand the algorithms' merits and limitations. Reinforcement learning is of great interest because of the large  number of practical applications that it can be used to address, ranging from problems in artificial  intelligence to operations research or control engineering. In this book, we focus on those algorithms of reinforcement learning that build on the powerful theory of dynamic programming.We give a fairly comprehensive catalog of learning problems, describe the core ideas, note a large number of state of the art algorithms, followed by the discussion of their theoretical properties and limitations.                </div>
+
+            <div style="overflow: hidden; zoom: 1; margin-top: 30px;">
+<div class="bookDetailsBox">
+                <div class="bookProperty property_categories">
+                    <span>Categories:</span>
+                    <a href="Cybernetics-Artificial-Intelligence-cat81" style="color:#000;">Computers\\Cybernetics: Artificial Intelligence</a>
+                </div>
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2010
+                </div>
+                <div class="bookProperty property_publisher">
+                    <span>Publisher:</span>
+                    Morgan &amp; Claypool
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property_pages">
+                    <span>Pages:</span>
+                    <span title="Pages paperback">103</span>
+                </div>
+                <div class="bookProperty property_isbn 10">
+                    <span>ISBN 10:</span>
+                    1608454924
+                </div>
+                <div class="bookProperty property_isbn 13">
+                    <span>ISBN 13:</span>
+                    9781608454921
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 1.60 MB
+                </div></div>            </div>
+        </div>
+    </div>
+
+    <div style="margin:30px 0 15px 0;">
+        
+<div class="btn-group">
+  <a class="btn btn-primary dlButton" href="/dl/1205971/49e650" target="" rel="nofollow"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download  (pdf, 1.60 MB)</a>
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="caret"></span>
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="javascript:void(0);" class="converterLink" data-book-id="1205971" data-convert-to="epub">Convert to EPUB</a></li><li><a href="javascript:void(0);" class="converterLink" data-book-id="1205971" data-convert-to="fb2">Convert to FB2</a></li><li><a href="javascript:void(0);" class="converterLink" data-book-id="1205971" data-convert-to="mobi">Convert to MOBI</a></li><li><a href="javascript:void(0);" class="converterLink" data-book-id="1205971" data-convert-to="txt">Convert to TXT</a></li><li><a href="javascript:void(0);" class="converterLink" data-book-id="1205971" data-convert-to="rtf">Convert to RTF</a></li>
+    <li role="separator" class="divider"></li>
+    <li><span style="color:#888; font-size: 90%;padding:5px 20px;display:inline-block;">Converted file can differ from the original. If possible, download the file in its original format.</span></li>
+  </ul>
+</div>
+                <a class="btn btn-default" href="ireader/1205971" target="_blank" rel="nofollow">Preview</a>        <div class="btn-group" id="sendToEmailButtonBox">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Send-to-Kindle or Email <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu"><li style="cursor: pointer;"><a class="sendToEmailButton" data-id="1205971" style="text-decoration:none;">Mail to: <span style="text-decoration: underline;">hanbaoan@buaa.edu.cn</span></a></li><li style="cursor: pointer;"><a target="blank" href="/plans.php" style="text-decoration:none;" rel="nofollow">Send-To-Kindle: <span style="text-decoration: underline;">please upgrade your account</span></a></li><li role="separator" class="divider"></li><li><div style="color:#888; font-size: 90%;padding:5px 20px;display:inline-block;"> Need help? Please read our short guide <a href="/info/howtokindle.php" target="_blank" style="text-decoration: underline;">how to send a book to Kindle</a>.<div></li></ul>
+</div>
+            <div class="btn-group book-tags-container">
+                <a href="javascript://" id="btnUnsaveBook" class="btn btn-default hidden">
+                    Unsave
+                </a>
+                <a href="javascript://" id="btnSaveBook" class="btn btn-default">
+                    Save for later
+                </a>
+
+                <button type="button" id="btnSaveBookDropdown" class="btn btn-default dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                    <span class="caret"></span>
+                    <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu" style="width: 500px;">
+                    <li style="padding: 12px;">
+                        <span style="font-size: 90%; color:#888;">
+                            You can input up to 30 tags in order to
+                            organize your saved books.<br/>
+                            Only letters and space are allowed.
+                        </span>
+                        <br>
+                        <input type="text" id="inputTags" value="" />
+                    </li>
+                </ul>
+            </div>
+            <script type="text/javascript">
+                $(document).click(function (event) {
+                    $target = $(event.target);
+
+                    if (!$target.closest('.book-tags-container').length && !$target.closest('[data-role="remove"]').length) {
+                        $('.book-tags-container').removeClass('open');
+                    }
+                })
+
+                $('#btnSaveBookDropdown').on('click', function (event) {
+                    $(this).parent().addClass('open');
+                    $('.bootstrap-tagsinput input').focus();
+                })
+            </script>
+
+                    <div id="suggestionDropdownContainer" style="position: relative; float: right;">
+                <span style="font-size: 90%; margin-left: 10px;float:right;line-height: 34px;">
+                    Wrong info? <a href="javascript://" class="plink">Suggest a correction</a>
+                    <span class="caret"></span>
+                </span>
+
+                <ul class="dropdown-menu" style="width: 250px; margin-top: -4px;">
+                    <li style="padding: 3px;"><a href="javascript://" id="btnOpenSuggestionModal">Suggest a correction</a></li>
+                    <li style="padding: 3px;"><a href="javascript://" id="btnOpenReportModal">Report a problem</a></li>
+                </ul>
+            </div>
+            <script type="text/javascript">
+                $('#suggestionDropdownContainer').on('mouseover', function (event) {
+                    $('#suggestionDropdownContainer').addClass('open')
+                })
+                $('#suggestionDropdownContainer').on('mouseleave', function (event) {
+                    $('#suggestionDropdownContainer').removeClass('open')
+                })
+            </script>
+    </div>
+
+    <div class="cBox1" id="sentToEmailInfo" style="display:none;">
+        The file will be sent to your email address. It may take up to 1-5 minutes before you receive it.
+    </div>
+
+    <div class="cBox1" id="sentToEmailInfoKindle" style="display:none;">
+        The file will be sent to your Kindle account. It may takes up to 1-5 minutes before you received it.
+        <br/>Please note you need to add our <b style="color:#EF404E">NEW</b> email <b>km729844@bookmail.org</b> to approved e-mail addresses.
+        <a target="blank" href="https://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=201974240">Read more</a>.
+    </div>
+
+    <script type="text/javascript">
+		var pubId=155949;
+		var siteId=580494;
+		var kadId=2152454;
+		var kadwidth=970;
+		var kadheight=250;
+		var kadtype=1;
+		var kadGdpr=""; <!-- set to 1 if inventory is GDPR compliant -->
+		var kadGdprConsent=""; <!-- Insert user GDPR consent string here for GDPR compliant inventory -->
+		var kadpageurl= "https%3A%2F%2Fb-ok.cc%2F";
+</script>
+<script type="text/javascript" src="https://ads.pubmatic.com/AdServer/js/showad.js"></script>
+    <div id="converterCurrentStatusesBox" class="cBox1" style="display:none;"></div>
+
+        <div id="converterStatusBox" class="cBox1" style="display:none"></div>
+</div>
+
+<div class="modal fade modal-fullscreen-md-down" id="form-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" style="width: 1100px;">
+        <div class="modal-content" id="form-modal-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="scripts/jquery.lightbox-0.5.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+
+<script type="text/javascript">
+            const availableTags = [];
+            const CurrentBook = new Book({"id":"1205971","title":"Algorithms for Reinforcement Learning  "})
+            const CurrentUser = new User({"id":"729844"})
+            const tags = new TagsInput($('#inputTags'), CurrentUser, CurrentBook.id, availableTags)
+
+                document.getElementById('btnOpenSuggestionModal').addEventListener('click', CurrentBook.suggestModal)
+                document.getElementById('btnOpenReportModal').addEventListener('click', CurrentBook.reportModal)
+
+            $(function () {
+                $('a.lightbox').lightBox({
+                    containerResizeSpeed: 1
+                });
+            });
+
+            $(function () {
+                // read more
+                var height = 300;
+                if ($('.termsCloud').height() > 0)
+                {
+                    height = height - $('.termsCloud').height();
+                }
+
+                if (height < 225) {
+                    height = 225; // min height
+                }
+
+                // prevent bad line-brake
+                height = Math.floor(height / parseFloat($('#bookDescriptionBox').css('line-height'))) * parseFloat($('#bookDescriptionBox').css('line-height')) + 10; //10 - padding-bottom of box
+
+                if ($('#bookDescriptionBox').height() > height)
+                {
+                    $('#bookDescriptionBox').css('overflow', 'hidden');
+                    $('#bookDescriptionBox').css('height', height);
+                    $('<div style="text-align:center; cursor:pointer;font-size: 12px; height:25px;" class="moreBtn"><div style="display:inline-block;border-top: 1px dashed #333; width:75%; margin-top: 15px;"><span style="display:inline-block;position:relative;top:-13px;padding:0 30px; background: #F6F6F6;">click to read more</span></div></div>').insertAfter("#bookDescriptionBox");
+                }
+
+                $('.moreBtn, #bookDescriptionBox').click(function () {
+                    $('#bookDescriptionBox').css('height', 'auto');
+                    $('#bookDescriptionBox').css('overflow', 'auto');
+                    $('.moreBtn').remove();
+                });
+
+                $('#btnSaveBook').click(function () {
+                    CurrentUser.saveReadLater(CurrentBook.id, "book")
+                })
+
+                $('#btnUnsaveBook').click(function () {
+                    CurrentUser
+                            .deleteReadLater(CurrentBook.id)
+                            .then(response => {
+                                $('#btnSaveBook').removeClass('hidden')
+                                $('#btnUnsaveBook').addClass('hidden')
+                                tags.clear()
+                            })
+                })
+            });
+
+            // converter links
+            $('.converterLink').click(function (e) {
+                $('#converterCurrentStatusesBox').show();
+                $('#converterCurrentStatusesBox').html('Refreshing..');
+
+                $.RPC('ConvertationTools::rpcConvert', {'book_id': $(this).data('book-id'), 'convertTo': $(this).data('convert-to')}).done(function (e) {
+                    convertationStatusesAutoupdaterObserver();
+                }).fail(function (a, b) {
+                    $('#converterCurrentStatusesBox').html('<span class="error">' + b.errors.message() + '</span>');
+                });
+            });
+
+            $('.sendToEmailButton').click(function () {
+                $.RPC('sendToKindle', {'book_id': $(this).data('id'), 'mode': $(this).data('mode')}).done(function (e) {
+                    if (e.response.status) {
+                        //alert('Sent to ' + e.response.email);
+                    }
+                }).fail(function (a, b) {
+                    $('#sentToEmailInfo').html(b.errors.message());
+                    $('#sentToEmailInfoKindle').html(b.errors.message());
+                });
+
+                if ($(this).data('kindle'))
+                {
+                    $('#sentToEmailInfoKindle').show('slow');
+                } else {
+                    $('#sentToEmailInfo').show('slow');
+                }
+                $('#sendToEmailButtonBox').hide('slow');
+            });
+
+            $(document).on("click", ".sendToEmailAfterConversion", function () {
+                $.RPC('sendToKindle', {'book_id': $(this).data('id'), 'mode': 'kindle', 'convertedTo': $(this).data('format')})
+                        .done(function (e) {
+                        })
+                        .fail(function (a, b) {
+                            $('#sentToEmailInfo').html(b.errors.message());
+                            $('#sentToEmailInfoKindle').html(b.errors.message());
+                        });
+
+                $('#sentToEmailInfoKindle').show('slow');
+                $(this).replaceWith('[sent to kindle]');
+            });
+
+            //$('[data-toggle="tooltip"]').tooltip({'html': true});
+            $(window).on("load", function () {
+                $('[data-toggle="tooltip"]').tooltip({'html': true});
+                $('[data-autoopen="true"]').tooltip('show');
+                $('.btn-savebook-disabled').tooltip({
+                    'html': true,
+                    'trigger': 'manual',
+                });
+
+                $('.btn-savebook-disabled').mouseover(function () {
+                    $(this).tooltip('show')
+                });
+
+                $('.btn-savebook-disabled').click(function () {
+                    $(this).tooltip('hide')
+                });
+            });
+
+            var convertationStatusesAutoupdaterRuned = false;
+            function convertationStatusesAutoupdaterObserver()
+            {
+                if (convertationStatusesAutoupdaterRuned)
+                {
+                    return;
+                } else {
+                    convertationStatusesAutoupdaterRuned = true;
+                    convertationStatusesAutoupdater();
+                }
+            }
+
+            function convertationStatusesAutoupdater()
+            {
+                rpcUrl = '/rpc/ConvertationTools::getCurrentJobsStatuses?clear=1&gg_text_mode=1&bookId=' + CurrentBook.id;
+                $.ajaxSetup({cache: false}); // This part addresses an IE bug.  without it, IE will only load the first number and will never refresh
+
+
+                $.ajax({
+                    url: rpcUrl,
+                    datatype: 'html'
+                }).done(function (response) {
+                    $('#converterCurrentStatusesBox').html(response);
+                    if (response.search('progress') === -1)
+                    {
+                        convertationStatusesAutoupdaterRuned = false;
+                        return;
+                    }
+                    setTimeout(convertationStatusesAutoupdater, 15000);
+                }).error(function () {
+                    setTimeout(convertationStatusesAutoupdater, 15000);
+                });
+            }
+
+            function iOSversion()
+            {
+                const isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/);
+                if (isSafari) {
+                    const version = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/)
+                    return [parseInt(version[1], 10), parseInt(version[2], 10), parseInt(version[3] || 0, 10)]
+                }
+
+                return [];
+            }
+
+                if (iOSversion()[0] >= 13) {
+                    $('.dlButton').click(function () {
+                        const iosNotify = $.notify('message', {
+                            template: '<div data-notify="container" class="col-xs-12 col-sm-3" style="padding: 5px;">' +
+                                    '<div data-notify="message" class="alert" style="background: #fff; border: 2px solid #fda8a8;">' +
+                                    '<img src="/img/safary-download-hint.png" style="width: 100%; margin-bottom: 8px;">' +
+                                    'Hint for Safari iOS 13 users: all your downloads are hidden under the arrow icon to the right of the browser address bar.<br>' +
+                                    '<div class="text-right"><a href="javascript://" id="btnIosNotifyClose" style="color: #337ab7;">Hide</a></div>' +
+                                    '</div>' +
+                                    '</div>',
+                            offset: {
+                                x: 0,
+                                y: 25,
+                            },
+                            delay: 0,
+                            onClose: function () {
+                                document.cookie = "ios_download_tooltip=1; expires=Tue, 19 Jan 2038 03:14:07 GMT"
+                            }
+                        })
+
+                        $('#btnIosNotifyClose').click(function () {
+                            document.cookie = "ios_download_tooltip=5; expires=Tue, 19 Jan 2038 03:14:07 GMT"
+                            iosNotify.close()
+                        })
+                    })
+                }
+
+            if ($('#converterCurrentStatusesBox').html().length)
+            {
+                convertationStatusesAutoupdaterObserver();
+                //$('#converterCurrentStatusesBox').css('display', 'block');
+                $('#converterCurrentStatusesBox').show();
+            }
+</script>
+
+<h2 class="color1" style="margin-top:20px;">You may be interested in</h2>
+<div style="background: #49AFD0; height:2px; width: 100%; margin-bottom: 20px;">&nbsp;</div>
+<script src="/scripts/freewall.js"></script><div id="bMosaicBox" style="display:none">
+        <div class="brick" style="width:14%;">
+            <a href="/book/458987/1fe266" title="Neuro-Dynamic Programming">
+                <img src="//dl181.zlibcdn.com/covers/books/bd/07/ca/bd07cac04bc742263c630c0cd757765c.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/539873/5d1785" title="Algorithm design">
+                <img src="//dl181.zlibcdn.com/covers/books/d4/81/4a/d4814aa3d906f41f3026bcb7ac4fc2d2.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/541182/bc2fc1" title="Reinforcement learning: an introduction">
+                <img src="//dl181.zlibcdn.com/covers/books/68/0b/ea/680beacfbc4cc36aeecc8a0ed59ca511.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/919236/969cc8" title="Reinforcement Learning and Dynamic Programming Using Function Approximators (Automation and Control Engineering)">
+                <img src="//dl181.zlibcdn.com/covers/books/bd/3e/d4/bd3ed46f4b81d058c270cf5d1a7afb5f.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/1270176/ff4dfa" title="Adaptive Representations for Reinforcement Learning">
+                <img src="//dl181.zlibcdn.com/covers/books/b0/55/24/b05524f68bfe5043bc3db3979c48bc3c.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/2098024/3805c2" title="Reinforcement Learning: State-of-the-Art">
+                <img src="//dl181.zlibcdn.com/covers/books/b5/2a/99/b52a9923923ff555110ae81ad0d384a7.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/2464869/bf54b6" title="Simulation-Based Optimization: Parametric Optimization Techniques and Reinforcement Learning">
+                <img src="//dl181.zlibcdn.com/covers/books/eb/b3/12/ebb31228332dbf6f58c449c3645cd88f.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/2517389/42917f" title="Statistical Reinforcement Learning: Modern Machine Learning Approaches">
+                <img src="//dl181.zlibcdn.com/covers/books/ed/c5/39/edc539121d83c4acd4255431bb28a5ac.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/2533442/4e5f15" title="Statistical Reinforcement Learning: Modern Machine Learning Approaches">
+                <img src="//dl181.zlibcdn.com/covers/books/c8/4b/9e/c84b9eb09b6fc36a1c740e45c7bd1399.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/2656379/0c16e3" title="Introduction to the Math of Neural Networks">
+                <img src="//dl181.zlibcdn.com/covers/books/50/e6/e4/50e6e4160a926a26189c7635915bbd92.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/2821495/b286ce" title="Reinforcement Learning with Python_ Master Reinforcemearning in Python Without Being an Expert - Bob Story">
+                <img src="//dl181.zlibcdn.com/covers/books/4a/fd/3c/4afd3cff7dd1f1c5a58b0d619477bde5.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/2826837/700f93" title="Master Machine Learning Algorithms - Discover how they work">
+                <img src="//dl181.zlibcdn.com/covers/books/30/c4/4a/30c44adad6f3ac0dec648e68ecf0c252.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3420300/0dd593" title=" Reinforcement Learning : With Open AI, TensorFlow and Keras Using Python">
+                <img src="//dl181.zlibcdn.com/covers/books/91/43/ab/9143abf85e8b67239d1e4972115319fe.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3511957/9f1dc3" title="Artificial Intelligence: With an Introduction to Machine Learning">
+                <img src="//dl181.zlibcdn.com/covers/books/66/37/23/663723830d5bcbf344d164b070abcd60.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3518286/40bbca" title="Algorithms Illuminated: Part 1: The Basics">
+                <img src="//dl181.zlibcdn.com/covers/books/f8/00/3c/f8003c78ec425f18cf485481752f95aa.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3525476/83453b" title="Python Tricks: A Buffet of Awesome Python Features">
+                <img src="//dl181.zlibcdn.com/covers/books/53/20/53/5320531166e422d6ea70e1c5ad9535c2.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3555108/d84346" title="Statistics for Machine Learning: Techniques for exploring supervised, unsupervised, and reinforcement learning models with Python and R">
+                <img src="//dl181.zlibcdn.com/covers/books/d6/6c/a1/d66ca13d06423c30b6bbd858c6cb744e.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3561897/fc6721" title="Deep Reinforcement Learning Hands-On: Apply modern RL methods, with deep Q-networks, value iteration, policy gradients, TRPO, AlphaGo Zero and more">
+                <img src="//dl181.zlibcdn.com/covers/books/ff/34/33/ff34332eeb273ac2b8ea0e4916260d9b.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3579949/d84a6d" title="Reinforcement Learning with TensorFlow: A beginner’s guide to designing self-learning systems with TensorFlow and OpenAI Gym">
+                <img src="//dl181.zlibcdn.com/covers/books/b8/c2/d0/b8c2d0b2a631b59526bc9b5ec421ddcf.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3581349/4a88e4" title="Algorithms Illuminated (Part 2): Graph Algorithms and Data Structures">
+                <img src="//dl181.zlibcdn.com/covers/books/18/90/0d/18900db8d8fdc1e72678a633a224f527.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3606405/f316a4" title="Machine Learning with Python Cookbook: Practical Solutions from Preprocessing to Deep Learning">
+                <img src="//dl181.zlibcdn.com/covers/books/1b/8a/00/1b8a00c4b487665f8c785761b3bb8f4b.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3609464/823957" title="Python Reinforcement Learning Projects">
+                <img src="//dl181.zlibcdn.com/covers/books/8a/22/cc/8a22ccc4f94e0a5a98e16b22a2b1f959.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3629127/aaf49e" title="Keras Reinforcement Learning Projects">
+                <img src="//dl181.zlibcdn.com/covers/books/52/f2/70/52f270dd8ac4f82da9bdf25ead92cab5.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3631438/4d11c9" title="Linear Models and Time-Series Analysis: Regression, ANOVA, ARMA and GARCH">
+                <img src="//dl181.zlibcdn.com/covers/books/55/bb/79/55bb7918d99e56d171ac7ee7c6dd2d4d.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3631866/caf032" title="Reinforcement Learning: An Introduction, 2nd Edition">
+                <img src="//dl181.zlibcdn.com/covers/books/65/02/b7/6502b74ce247c4cd4d4fb54747ad7c7e.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3675383/ffd6c9" title="Python Deep Learning: Exploring deep learning techniques, neural network architectures and GANs with PyTorch, Keras and TensorFlow">
+                <img src="//dl181.zlibcdn.com/covers/books/30/10/f2/3010f213b88a44c098381c91c6253532.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3676778/a61688" title="The Hundred-Page Machine Learning Book">
+                <img src="//dl181.zlibcdn.com/covers/books/21/14/4c/21144cb39b44fb657261dc78d46ee17e.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick" style="width:14%;">
+            <a href="/book/3695207/5a2496" title="Hands-On Reinforcement Learning with Python: Master reinforcement and deep reinforcement learning using OpenAI Gym and TensorFlow">
+                <img src="//dl181.zlibcdn.com/covers/books/50/01/6b/50016b13e3953957430bb3d4f9e91d2f.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div></div><script>
+    $('#bMosaicBox').css('display', 'block');
+
+    var wall = new Freewall('#bMosaicBox');
+    wall.reset({
+        selector: '.brick',
+        keepOrder: true,
+        //animate: true,
+        cellW: $($('.brick')[0]).outerWidth(),
+        cellH: 'auto',
+        gutterX: 8,
+        gutterY: 8,
+        fixSize: false,
+        onResize: function () {
+            wall.fitWidth();
+        }
+    });
+
+    wall.container.find('img').load(function () {
+        wall.fitWidth();
+    });
+
+    wall.fitWidth();
+
+</script><h2 class="color1" style="margin-top:20px;">Most frequently terms</h2>
+<div style="background: #49AFD0; height:2px; width: 100%; margin-bottom: 20px;">&nbsp;</div>
+<div class="termsCloud"><div class="termWrap "><a class="color1" href="/terms/?q=algorithm" target="_blank">algorithm</a><sup title="Frequency in the text">169</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=algorithms" target="_blank">algorithms</a><sup title="Frequency in the text">108</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=approximation" target="_blank">approximation</a><sup title="Frequency in the text">105</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=reinforcement+learning" target="_blank">reinforcement learning</a><sup title="Frequency in the text">84</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=doi" target="_blank">doi</a><sup title="Frequency in the text">80</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=optimal" target="_blank">optimal</a><sup title="Frequency in the text">76</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=mdp" target="_blank">mdp</a><sup title="Frequency in the text">67</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=reward" target="_blank">reward</a><sup title="Frequency in the text">66</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=function+approximation" target="_blank">function approximation</a><sup title="Frequency in the text">63</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=linear" target="_blank">linear</a><sup title="Frequency in the text">58</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=vector" target="_blank">vector</a><sup title="Frequency in the text">56</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=mdps" target="_blank">mdps</a><sup title="Frequency in the text">56</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=gradient" target="_blank">gradient</a><sup title="Frequency in the text">55</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=iteration" target="_blank">iteration</a><sup title="Frequency in the text">55</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=lstd" target="_blank">lstd</a><sup title="Frequency in the text">51</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=stochastic" target="_blank">stochastic</a><sup title="Frequency in the text">50</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=spaces" target="_blank">spaces</a><sup title="Frequency in the text">49</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=markov" target="_blank">markov</a><sup title="Frequency in the text">47</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=update" target="_blank">update</a><sup title="Frequency in the text">47</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=dynamic+programming" target="_blank">dynamic programming</a><sup title="Frequency in the text">44</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=sutton" target="_blank">sutton</a><sup title="Frequency in the text">43</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=finite" target="_blank">finite</a><sup title="Frequency in the text">43</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=greedy" target="_blank">greedy</a><sup title="Frequency in the text">43</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=editors" target="_blank">editors</a><sup title="Frequency in the text">41</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=approximate" target="_blank">approximate</a><sup title="Frequency in the text">40</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=bertsekas" target="_blank">bertsekas</a><sup title="Frequency in the text">40</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=critic" target="_blank">critic</a><sup title="Frequency in the text">40</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=convergence" target="_blank">convergence</a><sup title="Frequency in the text">40</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=parameter" target="_blank">parameter</a><sup title="Frequency in the text">40</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=policies" target="_blank">policies</a><sup title="Frequency in the text">40</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=probability" target="_blank">probability</a><sup title="Frequency in the text">38</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=actor" target="_blank">actor</a><sup title="Frequency in the text">37</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=stationary" target="_blank">stationary</a><sup title="Frequency in the text">36</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=proceedings" target="_blank">proceedings</a><sup title="Frequency in the text">36</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=parameters" target="_blank">parameters</a><sup title="Frequency in the text">36</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=temporal" target="_blank">temporal</a><sup title="Frequency in the text">35</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=exploration" target="_blank">exploration</a><sup title="Frequency in the text">35</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=tsitsiklis" target="_blank">tsitsiklis</a><sup title="Frequency in the text">32</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=squares" target="_blank">squares</a><sup title="Frequency in the text">29</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=carlo" target="_blank">carlo</a><sup title="Frequency in the text">29</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=monte" target="_blank">monte</a><sup title="Frequency in the text">29</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=bounds" target="_blank">bounds</a><sup title="Frequency in the text">29</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=rewards" target="_blank">rewards</a><sup title="Frequency in the text">28</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=markov+decision" target="_blank">markov decision</a><sup title="Frequency in the text">27</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=neural" target="_blank">neural</a><sup title="Frequency in the text">26</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=estimate" target="_blank">estimate</a><sup title="Frequency in the text">25</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=dimensional" target="_blank">dimensional</a><sup title="Frequency in the text">24</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=markov+decision+processes" target="_blank">markov decision processes</a><sup title="Frequency in the text">24</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=converges" target="_blank">converges</a><sup title="Frequency in the text">24</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=contraction" target="_blank">contraction</a><sup title="Frequency in the text">24</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=temporal+difference" target="_blank">temporal difference</a><sup title="Frequency in the text">23</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=theorem" target="_blank">theorem</a><sup title="Frequency in the text">23</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=updates" target="_blank">updates</a><sup title="Frequency in the text">23</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=linear+function" target="_blank">linear function</a><sup title="Frequency in the text">23</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=implementing" target="_blank">implementing</a><sup title="Frequency in the text">22</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=artificial+intelligence" target="_blank">artificial intelligence</a><sup title="Frequency in the text">22</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=norm" target="_blank">norm</a><sup title="Frequency in the text">22</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=state+spaces" target="_blank">state spaces</a><sup title="Frequency in the text">22</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=policy+iteration" target="_blank">policy iteration</a><sup title="Frequency in the text">21</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=nonparametric" target="_blank">nonparametric</a><sup title="Frequency in the text">21</sup></div></div>
+<link rel="stylesheet" type="text/css" href="css/jscomments/jscomments.css">
+
+<div style="background: #49AFD0; height:2px; width: 100%; margin:40px 0 40px 0;">&nbsp;</div>
+
+
+<div id="jscommentsRootBox">
+    <div class="jscommentsFormBox">
+        <div style="width:65%; float:left;">
+            <form id="jscommentsForm" target="uploader" action="rpc.php" method="POST">
+                <input type="hidden" name="book_id" value="1205971">
+                <input type="hidden" name="action" value="addReview">
+                <input type="hidden" name="rx" value="0">
+                <input id="jscommentsNamefield" name="name" type="textfield" placeholder="Your Name" value="hba" onchange="if (this.value) {
+                            $(this).removeClass('error');
+                        }"/>
+                <textarea id="jscommentsTextarea" name="text" placeholder="Write a Review"  onchange="if (this.value) {
+                            $(this).removeClass('error');}"></textarea>
+                <br clear="all" />
+                <a href="#" onclick="onReviewSubmit();
+                        return false;" id="jscommentsButton">Post a Review</a><img id="jscommentsLoader" src="css/jscomments/loader.gif" style="position: relative; left: -35px; display: none;"/>
+            </form>
+        </div>
+        <div style="width:35%; float:left;" class="jscommentsFormHelp">
+            <div style="padding:10px 0 0 20px;  border-left:1px solid #ccc;">
+                You can write a book review and share your experiences. Other readers will always be interested in your opinion of the books you've read. Whether you've loved the book or not, if you give your honest and detailed thoughts then people will find new books that are right for them.
+            </div>
+        </div>
+    </div>
+    <div id="jscommentsCommentsBox"></div>
+</div>
+
+<script>
+    $('#jscommentsForm')[0].rx.value = 12;
+
+    function onReviewSubmit()
+    {
+        $('#jscommentsForm')[0].submit();
+
+        $('#jscommentsButton').css('width', $('#jscommentsButton').width() + 'px');
+        $('#jscommentsButton').data('originaltxt', $('#jscommentsButton')[0].innerHTML);
+        $('#jscommentsButton').text('Posting..'); // simulate server request
+        $('#jscommentsNamefield').attr("disabled", "disabled");
+        $('#jscommentsTextarea').attr("disabled", "disabled");
+        $('#jscommentsLoader').show();
+
+    }
+
+    function onReviewSubmitFailure()
+    {
+        $('#jscommentsButton').text($('#jscommentsButton').data('originaltxt'));
+        $('#jscommentsButton').css('width', '');
+        $('#jscommentsNamefield').removeAttr("disabled");
+        $('#jscommentsTextarea').removeAttr("disabled");
+        $('#jscommentsLoader').hide();
+    }
+
+</script><div style="display: none;">
+<div id="searchResultBox"><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" data-book_id="1205972" itemscope itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">1</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td class="itemCover">
+                    <div style="min-height:130px;">
+                        <a href="/book/1205972/d5069e"><img class="cover lazy" alt="" data-src="//dl181.zlibcdn.com/covers100/books/b6/b6/04/b6b6041247fbfc653441526cd3a520da.jpg" data-srcset="//dl181.zlibcdn.com/covers100/books/b6/b6/04/b6b6041247fbfc653441526cd3a520da.jpg 1x, //dl181.zlibcdn.com/covers200/books/b6/b6/04/b6b6041247fbfc653441526cd3a520da.jpg 2x" /></a>
+                    </div>
+                </td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/1205972/d5069e" style="text-decoration: underline;">Ombres, tome V : Le Crâne  </a></h3>
+                                <div class="authors"><a  itemprop="author" class="color1" title="Find all the author's book" href="/g/Lucien Rollin">Lucien Rollin</a>, <a  itemprop="author" class="color1" title="Find all the author's book" href="/g/Jean Dufaux">Jean Dufaux</a></div>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td colspan="99" style="vertical-align: bottom;">
+                                <div class="tags-container"></div>
+                                
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2001
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    french
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 38.47 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" data-book_id="1205970" itemscope itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">2</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td class="itemCover">
+                    <div style="min-height:130px;">
+                        <a href="/book/1205970/3dfb48"><img class="cover lazy" alt="" data-src="//dl181.zlibcdn.com/covers100/books/b6/b3/51/b6b351bf7ec6fcbbdd32f085f54329ba.jpg" data-srcset="//dl181.zlibcdn.com/covers100/books/b6/b3/51/b6b351bf7ec6fcbbdd32f085f54329ba.jpg 1x, //dl181.zlibcdn.com/covers200/books/b6/b3/51/b6b351bf7ec6fcbbdd32f085f54329ba.jpg 2x" /></a>
+                    </div>
+                </td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/1205970/3dfb48" style="text-decoration: underline;">Building Scalable Web Sites: Building, Scaling, and Optimizing the Next Generation of Web Applications  </a></h3>
+                                <div class="authors"><a  itemprop="author" class="color1" title="Find all the author's book" href="/g/Cal Henderson">Cal Henderson</a></div>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td colspan="99" style="vertical-align: bottom;">
+                                <div class="tags-container"></div>
+                                
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2006
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    EPUB, 4.32 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div><center></center></div><script type="text/javascript" src="/scripts/jquery.lazy.min.js"></script>
+<script>
+    $(function () {
+        $(".lazy").Lazy({
+            effect: "fadeIn",
+            effectTime: 1000,
+            beforeLoad: function(element) {
+                $(element).css({"border-width": "0px"});
+            },
+            afterLoad: function(element) {
+                $(element).css({"border-width": "1px"});
+            }
+        });
+    });
+</script><pre>Algorithms for
+Reinforcement Learning
+
+Copyright © 2010 by Morgan &amp; Claypool
+
+All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in
+any form or by any means—electronic, mechanical, photocopy, recording, or any other except for brief quotations in
+printed reviews, without the prior permission of the publisher.
+
+Algorithms for Reinforcement Learning
+Csaba Szepesvári
+www.morganclaypool.com
+
+ISBN: 9781608454921
+ISBN: 9781608454938
+
+paperback
+ebook
+
+DOI 10.2200/S00268ED1V01Y201005AIM009
+
+A Publication in the Morgan &amp; Claypool Publishers series
+SYNTHESIS LECTURES ON ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING
+Lecture #9
+Series Editors: Ronald J. Brachman, Yahoo! Research
+Thomas Dietterich, Oregon State University
+Series ISSN
+Synthesis Lectures on Artificial Intelligence and Machine Learning
+Print 1939-4608 Electronic 1939-4616
+
+Synthesis Lectures on Artificial
+Intelligence and Machine
+Learning
+Editors
+Ronald J. Brachman, Yahoo! Research
+Thomas Dietterich, Oregon State University
+
+Algorithms for Reinforcement Learning
+Csaba Szepesvári
+2010
+
+Data Integration: The Relational Logic Approach
+Michael Genesereth
+2010
+
+Markov Logic: An Interface Layer for Artificial Intelligence
+Pedro Domingos and Daniel Lowd
+2009
+
+Introduction to Semi-Supervised Learning
+XiaojinZhu and Andrew B.Goldberg
+2009
+
+Action Programming Languages
+Michael Thielscher
+2008
+
+Representation Discovery using Harmonic Analysis
+Sridhar Mahadevan
+2008
+
+Essentials of Game Theory: A Concise Multidisciplinary Introduction
+Kevin Leyton-Brown and Yoav Shoham
+2008
+
+iv
+
+A Concise Introduction to Multiagent Systems and Distributed Artificial Intelligence
+Nikos Vlassis
+2007
+
+Intelligent Autonomous Robotics: A Robot Soccer Case Study
+Peter Stone
+2007
+
+Algorithms for
+Reinforcement Learning
+
+Csaba Szepesvári
+University of Alberta
+
+SYNTHESIS LECTURES ON ARTIFICIAL INTELLIGENCE AND MACHINE
+LEARNING #9
+
+M
+&amp;C
+
+Morgan
+
+&amp; cLaypool publishers
+
+ABSTRACT
+Reinforcement learning is a learning paradigm concerned with learning to control a system so as
+to maximize a numerical performance measure that expresses a long-term objective. What distinguishes reinforcement learning from supervised learning is that only partial feedback is given to the
+learner about the learner’s predictions. Further, the predictions may have long term effects through
+influencing the future state of the controlled system. Thus, time plays a special role. The goal in
+reinforcement learning is to develop efficient learning algorithms, as well as to understand the algorithms’ merits and limitations. Reinforcement learning is of great interest because of the large
+number of practical applications that it can be used to address, ranging from problems in artificial
+intelligence to operations research or control engineering. In this book, we focus on those algorithms
+of reinforcement learning that build on the powerful theory of dynamic programming. We give a
+fairly comprehensive catalog of learning problems, describe the core ideas, note a large number of
+state of the art algorithms, followed by the discussion of their theoretical properties and limitations.
+
+KEYWORDS
+reinforcement learning, Markov Decision Processes, temporal difference learning, stochastic approximation, two-timescale stochastic approximation, Monte-Carlo
+methods, simulation optimization, function approximation, stochastic gradient methods, least-squares methods, overfitting, bias-variance tradeoff, online learning, active
+learning, planning, simulation, PAC-learning, Q-learning, actor-critic methods, policy
+gradient, natural gradient
+
+vii
+
+Contents
+Preface . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ix
+Acknowledgments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . xiii
+
+1
+
+2
+
+Markov Decision Processes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+1.1
+
+Preliminaries . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+
+1.2
+
+Markov Decision Processes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+
+1.3
+
+Value functions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+
+1.4
+
+Dynamic programming algorithms for solving MDPs . . . . . . . . . . . . . . . . . . . . . . . . . 10
+
+Value Prediction Problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+2.1
+
+Temporal difference learning in finite state spaces . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+2.1.1 Tabular TD(0) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+2.1.2 Every-visit Monte-Carlo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+2.1.3 TD(λ): Unifying Monte-Carlo and TD(0) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+
+2.2
+
+Algorithms for large state spaces . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+2.2.1 TD(λ) with function approximation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+2.2.2 Gradient temporal difference learning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+2.2.3 Least-squares methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .27
+2.2.4 The choice of the function space . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+
+3
+
+Control . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+3.1
+
+A catalog of learning problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+
+3.2
+
+Closed-loop interactive learning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
+3.2.1 Online learning in bandits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .38
+3.2.2 Active learning in bandits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40
+3.2.3 Active learning in Markov Decision Processes . . . . . . . . . . . . . . . . . . . . . . . . . . 41
+
+viii
+
+CONTENTS
+
+3.2.4 Online learning in Markov Decision Processes . . . . . . . . . . . . . . . . . . . . . . . . . 42
+3.3
+
+Direct methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .47
+3.3.1 Q-learning in finite MDPs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47
+3.3.2 Q-learning with function approximation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .49
+
+3.4
+
+Actor-critic methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52
+3.4.1 Implementing a critic . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54
+3.4.2 Implementing an actor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56
+
+4
+
+A
+
+For Further Exploration . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63
+4.1
+
+Further reading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .63
+
+4.2
+
+Applications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63
+
+4.3
+
+Software . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 64
+
+The Theory of Discounted Markovian Decision Processes . . . . . . . . . . . . . . . . . . . . . 65
+A.1
+
+Contractions and Banach’s fixed-point theorem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 65
+
+A.2
+
+Application to MDPs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 69
+
+Bibliography . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73
+Author’s Biography . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 89
+
+Preface
+Reinforcement learning (RL) refers to both a learning problem and a subfield of machine
+learning. As a learning problem, it refers to learning to control a system so as to maximize some
+numerical value which represents a long-term objective. A typical setting where reinforcement
+learning operates is shown in Figure 1: A controller receives the controlled system’s state and a
+reward associated with the last state transition. It then calculates an action which is sent back to
+the system. In response, the system makes a transition to a new state and the cycle is repeated. The
+problem is to learn a way of controlling the system so as to maximize the total reward. The learning
+problems differ in the details of how the data is collected and how performance is measured.
+In this book, we assume that the system that we wish to control is stochastic. Further, we
+assume that the measurements available on the system’s state are detailed enough so that the controller can avoid reasoning about how to collect information about the state. Problems with these
+characteristics are best described in the framework of Markovian Decision Processes (MDPs). The
+standard approach to ‘solve’ MDPs is to use dynamic programming, which transforms the problem
+of finding a good controller into the problem of finding a good value function. However, apart from
+the simplest cases when the MDP has very few states and actions, dynamic programming is infeasible. The RL algorithms that we discuss here can be thought of as a way of turning the infeasible
+dynamic programming methods into practical algorithms so that they can be applied to large-scale
+problems.
+There are two key ideas that allow RL algorithms to achieve this goal. The first idea is to
+use samples to compactly represent the dynamics of the control problem. This is important for
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+Figure 1: The basic reinforcement learning scenario
+
+x
+
+PREFACE
+
+two reasons: First, it allows one to deal with learning scenarios when the dynamics is unknown.
+Second, even if the dynamics is available, exact reasoning that uses it might be intractable on its
+own. The second key idea behind RL algorithms is to use powerful function approximation methods
+to compactly represent value functions. The significance of this is that it allows dealing with large,
+high-dimensional state- and action-spaces. What is more, the two ideas fit nicely together: Samples
+may be focused on a small subset of the spaces they belong to, which clever function approximation
+techniques might exploit. It is the understanding of the interplay between dynamic programming,
+samples and function approximation that is at the heart of designing, analyzing and applying RL
+algorithms.
+The purpose of this book is to allow the reader to have a chance to peek into this beautiful field. However, certainly we are not the first to set out to accomplish this goal. In 1996,
+Kaelbling et al. have written a nice, compact survey about the approaches and algorithms available at the time (Kaelbling et al., 1996). This was followed by the publication of the book
+by Bertsekas and Tsitsiklis (1996), which detailed the theoretical foundations. A few years later
+Sutton and Barto, the ‘fathers’ of RL, published their book, where they presented their ideas on RL
+in a very clear and accessible manner (Sutton and Barto, 1998). A more recent and comprehensive
+overview of the tools and techniques of dynamic programming/optimal control criteria, as well as
+various classes of controlled systems is given in the two-volume book by Bertsekas (2007a,b) which
+devotes one chapter to RL methods.1 At times, when a field is rapidly developing, books can get out
+of date pretty quickly. In fact, to keep up with the growing body of new results, Bertsekas maintains
+an online version of his Chapter 6 of Volume II of his book, which, at the time of writing this
+survey counted as much as 160 pages (Bertsekas, 2010). Other recent books on the subject include
+the book of Gosavi (2003) who devotes 60 pages to reinforcement learning algorithms in Chapter
+9, concentrating on average cost problems, or that of Cao (2007) who focuses on policy gradient
+methods. Powell (2007) presents the algorithms and ideas from an operations research perspective
+and emphasizes methods that are capable of handling large control spaces, Chang et al. (2008) focuses on adaptive sampling (i.e., simulation-based performance optimization), while the center of
+the recent book by Busoniu et al. (2010) is function approximation.
+Thus, by no means do RL researchers lack a good body of literature. However, what seems to
+be missing is a self-contained and yet relatively short summary that can help newcomers to the field
+to develop a good sense of the state of the art, as well as existing researchers to broaden their overview
+of the field, an article, similar to that of Kaelbling et al. (1996), but with an updated contents. To fill
+this gap is the very purpose of this short book.
+Having the goal of keeping the text short, we had to make a few, hopefully, not too troubling
+compromises. The first compromise we made was to present results only for the total expected
+discounted reward criterion. This choice is motivated by that this is the criterion that is both widely
+used and the easiest to deal with mathematically. The next compromise is that the background
+1 In this book, RL is called neuro-dynamic programming or approximate dynamic programming. The term neuro-dynamic pro-
+
+gramming stems from the fact that, in many cases, RL algorithms are used with artificial neural networks.
+
+PREFACE
+
+on MDPs and dynamic programming is kept ultra-compact (although an appendix is added that
+explains these basic results. Apart from these, the book aims to cover a bit of all aspects of RL, up to
+the level that the reader should be able to understand the whats and hows, as well as to implement
+the algorithms presented. Naturally, we still had to be selective in what we present. Here, the decision
+was to focus on the basic algorithms, ideas, as well as the available theory. Special attention was paid
+to describing the choices of the user, as well as the trade offs that come with these. We tried to be
+impartial as much as possible, but some personal bias, as usual, surely remained. The pseudocode
+of almost twenty algorithms was included, hoping that this will make it easier for the practically
+inclined reader to implement the algorithms described.
+The target audience is advanced undergraduate and graduate students, as well as researchers
+and practitioners who want to get a good overview of the state of the art in RL quickly. Researchers
+who are already working on RL might also enjoy reading about parts of the RL literature that they
+are not so familiar with, thus broadening their perspective on RL. The reader is assumed to be
+familiar with the basics of linear algebra, calculus, and probability theory. In particular, we assume
+that the reader is familiar with the concepts of random variables, conditional expectations, and
+Markov chains. It is helpful, but not necessary, for the reader to be familiar with statistical learning
+theory, as the essential concepts will be explained as needed. In some parts of the book, knowledge
+of regression techniques of machine learning will be useful.
+This book has three parts. In the first part, in Section 1, we provide the necessary background.
+It is here where the notation is introduced, followed by a short overview of the theory of Markov Decision Processes and the description of the basic dynamic programming algorithms. Readers familiar
+with MDPs and dynamic programming should skim through this part to familiarize themselves with
+the notation used. Readers, who are less familiar with MDPs, must spend enough time here before
+moving on because the rest of the book builds heavily on the results and ideas presented here.
+The remaining two parts are devoted to the two basic RL problems (cf. Figure 2), one part
+devoted to each. In Section 2) the problem of learning to predict values associated with states is
+studied. We start by explaining the basic ideas for the so-called tabular case when the MDP is
+small enough so that one can store one value per state in an array allocated in a computer’s main
+memory. The first algorithm explained is TD(λ), which can be viewed as the learning analogue to
+value iteration from dynamic programming. After this, we consider the more challenging situation
+when there are more states than what fits into a computer’s memory. Clearly, in this case, one must
+compress the table representing the values. Abstractly, this can be done by relying on an appropriate
+function approximation method. First, we describe how TD(λ) can be used in this situation. This
+is followed by the description of some new gradient based methods (GTD2 and TDC), which can
+be viewed as improved versions of TD(λ) in that they avoid some of the convergence difficulties
+that TD(λ) faces. We then discuss least-squares methods (in particular, LSTD(λ) and λ-LSPE) and
+compare them to the incremental methods described earlier. Finally, we describe choices available
+for implementing function approximation and the trade offs that these choices come with.
+
+xi
+
+PREFACE
+
+
+ 
+ 
+
+xii
+
+  
+  
+
+Figure 2: Types of reinforcement problems and approaches.
+
+The second part (Section 3) is devoted to algorithms that are developed for control learning.
+First, we describe methods whose goal is optimizing online performance. In particular, we describe
+the “optimism in the face of uncertainty” principle and methods that explore their environment based
+on this principle. State of the art algorithms are given both for bandit problems and MDPs. The
+message here is that clever exploration methods make a large difference, but more work is needed to
+scale up the available methods to large problems. The rest of this section is devoted to methods that
+aim at developing methods that can be used in large-scale applications. As learning in large-scale
+MDPs is significantly more difficult than learning when the MDP is small, the goal of learning is
+relaxed to learning a good enough policy in the limit. First, direct methods are discussed which aim at
+estimating the optimal action-values directly. These can be viewed as the learning analogue of value
+iteration of dynamic programming.This is followed by the description of actor-critic methods, which
+can be thought of as the counterpart of the policy iteration algorithm of dynamic programming.
+Both methods based on direct policy improvement and policy gradient (i.e., which use parametric
+policy classes) are presented.
+The book is concluded in Section 4, which lists some topics for further exploration.
+
+Csaba Szepesvári
+June 2010
+
+Acknowledgments
+I am truly indebted to my family for their love, support and patience. Thank you Mom, Beáta,
+Dávid, Réka, Eszter, Csongor! Special thanks to Réka who has helped me drawing Figure 1.1. A
+number of individuals have read various versions of the manuscript, full or in parts and helped me
+to reduce the number of mistakes by sending corrections. They include Dimitri Bertsekas, Gábor
+Balázs, Bernardo Avila Pires,Warren Powell, Rich Sutton, Nikos Vlassis, Hengshuai Yao and Shimon
+Whiteson. Thank You! Of course, all the remaining mistakes are mine. If I have left out someone
+from the above list, this was by no means intentional. If this is the case, please remind me in an
+e-mail (better yet, send me some comments or suggestions). Independently of whether they have
+contacted me before or not, readers are encouraged to e-mail me if they find errors, typos or they
+just think that some topic should have been included (or left out). I plan to periodically update the
+text and I will try to accommodate all the requests. Finally, I wish to thank Remi Munos and Rich
+Sutton, my closest collaborators over the last few years, from whom I have learned and continue to
+learn a lot. I also wish to thank all my students, the members of RLAI group and all researchers of
+RL who continue to strive to push the boundaries of what we can do with reinforcement learning.
+This book is made possible by you.
+
+Csaba Szepesvári
+June 2010
+
+1
+
+CHAPTER
+
+1
+
+Markov Decision Processes
+The purpose of this section is to introduce the notation that will be used in the subsequent parts and
+the most essential facts that we will need from the theory of Markov Decision Processes (MDPs) in
+the rest of the book. Readers familiar with MDPs should skim through this section to familiarize
+themselves with the notation. Readers unfamiliar with MDPs are suggested to spend enough time
+with this section to understand the details. Proofs of most of the results (with some simplifications)
+are included in Appendix A. The reader who is interested in learning more about MDPs is suggested
+to consult one of the many excellent books on the subject, such as the books of Bertsekas and Shreve
+(1978), Puterman (1994), or the two-volume book by Bertsekas (2007a,b).
+
+1.1
+
+PRELIMINARIES
+
+We use N to denote the set of natural numbers: N = {0, 1, 2, . . .}, while R denotes the set of reals.
+By a vector v (unless it is transposed, v  ), we mean a column vector. The inner product of two finite
+dimensional vectors, u, v ∈ Rd is u, v = di=1 ui vi . The resulting 2-norm is u2 = u, u. The
+maximum norm for vectors is defined by u∞ = maxi=1,...,d |ui |, while for a function f : X → R,
+˙ ∞ is defined by f ∞ = supx∈X |f (x)|. A mapping T between the metric spaces (M1 , d1 ),
+(M2 , d2 ) is called Lipschitz with modulus L ∈ R if for any a, b ∈ M1 , d2 (T (a), T (b)) ≤ L d1 (a, b).
+If T is Lipschitz with a modulus L ≤ 1, it is called a non-expansion. If L &lt; 1, the mapping is called
+a contraction. The indicator function of event S will be denoted by I{S} (i.e., I{S} = 1 if S holds and
+∂
+I{S} = 0, otherwise). If v = v(θ, x), ∂θ
+v shall denote the partial derivative of v with respect to θ ,
+which, if θ , which is a d-dimensional row vector if θ ∈ Rd . The total derivative of some expression v
+d
+d
+with respect to θ will be denoted by dθ
+v (and will be treated as a row vector). Further, ∇θ v = ( dθ
+v) .
+If P is a distribution or a probability measure, then X ∼ P means that X is a random variable
+drawn from P .
+
+1.2
+
+MARKOV DECISION PROCESSES
+
+For ease of exposition, we restrict our attention to countable MDPs and the discounted total expected
+reward criterion. However, under some technical conditions, the results extend to continuous stateaction MDPs, too. This also holds true for the results presented in later parts of this book.
+A countable MDP is defined as a triplet M = (X , A, P0 ), where X is the countable nonempty set of states, A is the countable non-empty set of actions. The transition probability kernel
+P0 assigns to each state-action pair (x, a) ∈ X × A a probability measure over X × R, which we
+shall denote by P0 ( · |x, a). The semantics of P0 is the following: For U ⊂ X × R, P0 (U |x, a) gives
+
+2
+
+1. MARKOV DECISION PROCESSES
+
+the probability that the next state and the associated reward belongs to the set U provided that the
+current state is x and the action taken is a.1 We also fix a discount factor 0 ≤ γ ≤ 1 whose role will
+become clear soon.
+The transition probability kernel gives rise to the state transition probability kernel, P , which,
+for any (x, a, y) ∈ X × A × X triplet gives the probability of moving from state x to some other
+state y provided that action a was chosen in state x:
+
+P (x, a, y) = P0 ({y} × R | x, a).
+In addition to P , P0 also gives rise to the immediate reward function r : X × A → R, which gives
+the expected immediate reward received when action a is chosen in state x: If (Y(x,a) , R(x,a) ) ∼
+P0 ( · | x, a), then
+
+
+r(x, a) = E R(x,a) .
+In what follows, we shall assume that the rewards are bounded by some quantity R &gt; 0: for any
+(x, a) ∈ X × A, |R(x,a) | ≤ R almost surely. It is immediate that if the random rewards are bounded
+by R then r∞ = sup(x,a)∈X ×A |r(x, a)| ≤ R also holds. An MDP is called finite if both X and
+A are finite.
+Markov Decision Processes are a tool for modeling sequential decision-making problems
+where a decision maker interacts with a system in a sequential fashion. Given an MDP M, this
+interaction happens as follows: Let t ∈ N denote the current time (or stage), let Xt ∈ X and At ∈ A
+denote the random state of the system and the action chosen by the decision maker at time t,
+respectively. Once the action is selected, it is sent to the system, which makes a transition:
+(Xt+1 , Rt+1 ) ∼ P0 ( · | Xt , At ).
+
+(1.1)
+
+and P(Xt+1 = y|Xt = x, At = a) = P (x, a, y) holds for any x, y ∈
+In particular, Xt+1 is random
+
+X , a ∈ A. Further, E Rt+1 |Xt , At = r(Xt , At ). The decision maker then observes the next state
+Xt+1 and reward Rt+1 , chooses a new action At+1 ∈ A and the process is repeated. The goal of the
+decision maker is to come up with a way of choosing the actions so as to maximize the expected
+total discounted reward.
+The decision maker can select its actions at any stage based on the observed history. A
+rule describing the way the actions are selected is called a behavior. A behavior of the decision
+maker and some initial random state X0 together define a random state-action-reward sequence
+((Xt , At , Rt+1 ); t ≥ 0), where (Xt+1 , Rt+1 ) is connected to (Xt , At ) by (1.1) and At is the action
+prescribed by the behavior based on the history X0 , A0 , R1 , . . . , Xt−1 , At−1 , Rt , Xt .2
+1The probability P (U |x, a) is defined only when U is a Borel-measurable set. Borel-measurability is a technical notion whose
+0
+
+purpose is to prevent some pathologies. The collection of Borel-measurable subsets of X × R include practically all “interesting”
+subsets X × R. In particular, they include subsets of the form {x} × [a, b] and subsets which can be obtained from such subsets
+by taking their complement, or the union (intersection) of at most countable collections of such sets in a recursive fashion.
+2 Mathematically, a behavior is an infinite sequence of probability kernels π , π , . . . , π , . . ., where π maps histories of length t
+t
+t
+0 1
+to a probability distribution over the action space A: πt = πt ( · |x0 , a0 , r0 , . . . , xt−1 , at−1 , rt−1 , xt ).
+
+1.2. MARKOV DECISION PROCESSES
+
+The return underlying a behavior is defined as the total discounted sum of the rewards incurred:
+
+R=
+
+∞
+
+
+γ t Rt+1 .
+
+t=0
+
+Thus, if γ &lt; 1 then rewards far in the future worth exponentially less than the reward received at the
+first stage. An MDP when the return is defined by this formula is called a discounted reward MDP.
+When γ = 1, the MDP is called undiscounted.
+The goal of the decision-maker is to choose a behavior that maximizes the expected return,
+irrespectively of how the process is started. Such a maximizing behavior is said to be optimal.
+Example 1.1 Inventory control with lost sales
+
+Consider the problem of day-to-day control of
+an inventory of a fixed maximum size in the face of uncertain demand: Every evening, the decision
+maker must decide about the quantity to be ordered for the next day. In the morning, the ordered
+quantity arrives with which the inventory is filled up. During the day, some stochastic demand is
+realized, where the demands are independent with a common fixed distribution, see Figure 1.1. The
+goal of the inventory manager is to manage the inventory so as to maximize the present monetary
+value of the expected total future income.
+The payoff at time step t is determined as follows: The cost associated with purchasing At
+items is KI{At &gt;0} + cAt . Thus, there is a fixed entry cost K of ordering nonzero items and each
+item must be purchased at a fixed price c. Here K, c &gt; 0. In addition, there is a cost of holding an
+inventory of size x &gt; 0. In the simplest case, this cost is proportional to the size of the inventory with
+proportionality factor h &gt; 0. Finally, upon selling z units the manager is paid the monetary amount
+of p z, where p &gt; 0. In order to make the problem interesting, we must have p &gt; h, otherwise there
+is no incentive to order new items.
+This problem can be represented as an MDP as follows: Let the state Xt on day t ≥ 0 be
+the size of the inventory in the evening of that day. Thus, X = {0, 1, . . . , M}, where M ∈ N is the
+maximum inventory size. The action At gives the number of items ordered in the evening of day t.
+Thus, we can choose A = {0, 1, . . . , M} since there is no need to consider orders larger than the
+inventory size. Given Xt and At , the size of the next inventory is given by
+Xt+1 = ((Xt + At ) ∧ M − Dt+1 )+ ,
+
+(1.2)
+
+where a ∧ b is a shorthand notation for the minimum of the numbers a, b, (a)+ = a ∨ 0 =
+max(a, 0) is the positive part of a, and Dt+1 ∈ N is the demand on the (t + 1)th day. be higher
+than that of ∧ and ∨). By assumption, (Dt ; t &gt; 0) is a sequence of independent and identically
+distributed (i.i.d.) integer-valued random variables. The revenue made on day t + 1 is
+Rt+1 = −K I{At &gt;0} − c ((Xt + At ) ∧ M − Xt )+
+− h Xt
++ p ((Xt + At ) ∧ M − Xt+1 )+ .
+
+(1.3)
+
+3
+
+4
+
+1. MARKOV DECISION PROCESSES
+
+
+
+
+
+
+
+Figure 1.1: Illustration of the inventory management problem
+
+Equations (1.2)–(1.3) can be written in the compact form
+(Xt+1 , Rt+1 ) = f (Xt , At , Dt+1 ),
+
+(1.4)
+
+with an appropriately chosen function f . Then, P0 is given by
+
+P0 (U | x, a) = P (f (x, a, D) ∈ U ) =
+
+∞
+
+
+I{f (x,a,d)∈U } pD (d).
+
+d=0
+
+Here pD (·) is the probability mass function of the random demands and D ∼ pD (·). This finishes
+the definition of the MDP underlying the inventory optimization problem.
+Inventory control is just one of the many operations research problems that give rise to an MDP.
+Other problems include optimizing transportation systems, optimizing schedules or production.
+MDPs arise naturally in many engineering optimal control problems, too, such as the optimal control
+of chemical, electronic or mechanical systems (the latter class includes the problem of controlling
+robots). Quite a few information theory problems can also be represented as MDPs (e.g., optimal
+coding, optimizing channel allocation, or sensor networks). Another important class of problems
+comes from finance. These include, amongst others, optimal portfolio management and option
+pricing.
+In the case of the inventory control problem, the MDP was conveniently specified by a
+transition function f (cf., (1.4)). In fact, transition functions are as powerful as transition kernels:
+any MDP gives rise to some transition function f and any transition function f gives rise to some
+MDP.
+In some problems, not all actions are meaningful in all states. For example, ordering more
+items than what one has room for in the inventory does not make much sense. However, such
+meaningless actions (or forbidden actions) can always be remapped to other actions, just like it was
+done above. In some cases, this is unnatural and leads to a convoluted dynamics. Then, it might be
+better to introduce an additional mapping which assigns the set of admissible actions to each state.
+
+1.2. MARKOV DECISION PROCESSES
+
+In some MDPs, some states are impossible to leave: If x is such a state, Xt+s = x holds
+almost surely3 for any s ≥ 1 provided that Xt = x, no matter what actions are selected after time
+t. By convention, we will assume that no reward is incurred in such terminal or absorbing states.
+An MDP with such states is called episodic. An episode then is the (generally random) time period
+from the beginning of time until a terminal state is reached. In an episodic MDP, we often consider
+undiscounted rewards, i.e., when γ = 1.
+A gambler enters a game whereby she may stake any fraction At ∈ [0, 1]
+of his current wealth Xt ≥ 0. She wins his stake back and as much more with probability p ∈ [0, 1],
+while she loses his stake with probability 1 − p. Thus, the fortune of the gambler evolves according
+to
+Xt+1 = (1 + St+1 At )Xt .
+Example 1.2 Gambling
+
+Here (St ; t ≥ 1) is a sequence of independent random variables taking values in {−1, +1} with
+P (St+1 = 1) = p. The goal of the gambler is to maximize the probability that his wealth reaches
+an a priori given value w∗ &gt; 0. It is assumed that the initial wealth is in [0, w∗ ].
+This problem can be represented as an episodic MDP, where the state space is X = [0, w∗ ]
+and the action space is A = [0, 1].4 We define
+Xt+1 = (1 + St+1 At )Xt ∧ w ∗ ,
+
+(1.5)
+
+when 0 ≤ Xt &lt; w∗ and make w∗ a terminal state: Xt+1 = Xt if Xt = w∗ . The immediate reward
+is zero as long as Xt+1 &lt; w∗ and is one when the state reaches w ∗ for the first time:
+
+1, Xt &lt; w∗ and Xt+1 = w∗ ;
+Rt+1 =
+0, otherwise.
+If we set the discount factor to one, the total reward along any trajectory will be one or zero depending
+on whether the wealth reaches w ∗ . Thus, the expected total reward is just the probability that the
+gambler’s fortune reaches w ∗ .
+Based on the two examples presented so far, the reader unfamiliar with MDPs might believe
+that all MDPs come with handy finite, one-dimensional state- and action-spaces. If only this was true!
+In fact, in practical applications the state- and action-spaces are often very large, multidimensional
+spaces. For example, in a robot control application, the dimensionality of the state space can be
+3—6 times the number of joints the robot has. An industrial robot’s state space might easily be
+12—20 dimensional, while the state space of a humanoid robot might easily have 100 dimensions.
+In a real-world inventory control application, items would have multiple types, the prices and costs
+3 “Almost surely” means the same as “with probability one” and is used to refer to the fact that the statement concerned holds
+
+everywhere on the probability space with the exception of a set of events with measure zero.
+
+4 Hence, in this case the state and action spaces are continuous. Notice that our definition of MDPs is general enough to encompass
+
+this case, too.
+
+5
+
+6
+
+1. MARKOV DECISION PROCESSES
+
+would also change based on the state of the “market”, whose state would thus also become part of the
+MDP’s state. Hence, the state space in any such practical application would be very large and very
+high dimensional. The same holds for the action spaces. Thus, working with large, multidimensional
+state- and action-spaces should be considered the normal situation, while the examples presented in
+this section with their one-dimensional, small state spaces should be viewed as the exceptions.
+
+1.3
+
+VALUE FUNCTIONS
+
+The obvious way of finding an optimal behavior in some MDP is to list all behaviors and then
+identify the ones that give the highest possible value for each initial state. Since, in general, there are
+too many behaviors, this plan is not viable. A better approach is based on computing value functions.
+In this approach, one first computes the so-called optimal value function, which then allows one to
+determine an optimal behavior with relative easiness.
+The optimal value, V ∗ (x), of state x ∈ X gives the highest achievable expected return when
+the process is started from state x. The function V ∗ : X → R is called the optimal value function. A
+behavior that achieves the optimal values in all states is optimal.
+Deterministic stationary policies represent a special class of behaviors, which, as we shall see
+soon, play an important role in the theory of MDPs. They are specified by some mapping π , which
+maps states to actions (i.e., π : X → A). Following π means that at any time t ≥ 0 the action At is
+selected using
+At = π(Xt ).
+
+(1.6)
+
+More generally, a stochastic stationary policy (or just stationary policy) π maps states to distributions over the action space. When referring to such a policy π , we shall use π(a|x) to denote the
+probability of action a being selected by π in state x. Note that if a stationary policy is followed in
+an MDP, i.e., if
+At ∼ π( · | Xt ),
+
+t ∈ N,
+
+the state process (Xt ; t ≥ 0) will be a (time-homogeneous) Markov chain. We will use stat to
+denote the set of all stationary policies. For brevity, in what follows, we will often say just “policy”
+instead of “stationary policy”, hoping that this will not cause confusion.
+A stationary policy and an MDP induce what is called a Markov reward processes (MRP): An
+MRP is determined by the pair M = (X , P0 ), where now P0 assigns a probability measure over
+X × R to each state. An MRP M gives rise to the stochastic process ((Xt , Rt+1 ); t ≥ 0), where
+(Xt+1 , Rt+1 ) ∼ P0 ( · | Xt ). (Note that (Zt ; t ≥ 0), Zt = (Xt , Rt ) is a time-homogeneous Markov
+process, where R0 is an arbitrary random variable, while ((Xt , Rt+1 ); t ≥ 0) is a second-order Markov
+process.) Given a stationary policy π and the MDP M = (X , A, P0 ), the transition kernel of the
+
+MRP (X , P0π ) induced by π and M is defined using P0π ( · | x) = a∈A π(a|x)P0 ( · | x, a). An
+MRP is called finite if its state space is finite.
+
+1.3. VALUE FUNCTIONS
+
+Let us now define value functions underlying stationary policies.5 For this, let us fix some
+policy π ∈ stat . The value function, V π : X → R, underlying π is defined by
+∞
+
+
+
+π
+V (x) = E
+γ t Rt+1  X0 = x , x ∈ X ,
+(1.7)
+t=0
+
+with the understanding (i) that the process (Rt ; t ≥ 1) is the “reward-part” of the process
+((Xt , At , Rt+1 ); t ≥ 0) obtained when following policy π and (ii) X0 is selected at random such
+that P (X0 = x) &gt; 0 holds for all states x. This second condition makes the conditional expectation
+in (1.7) well-defined for every state. If the initial state distribution satisfies this condition, it has no
+influence on the definition of values.
+The value function underlying an MRP is defined the same way and is denoted by V :
+∞
+
+
+
+V (x) = E
+γ t Rt+1  X0 = x , x ∈ X .
+t=0
+
+It will also be useful to define the action-value function, Qπ : X × A → R, underlying a policy
+π ∈ stat in an MDP: Assume that the first action A0 is selected randomly such that P (A0 = a) &gt; 0
+holds for all a ∈ A, while for the subsequent stages of the decision process the actions are chosen
+by following policy π. Let ((Xt , At , Rt+1 ); t ≥ 0) be the resulting stochastic process, where X0 is
+as in the definition of V π . Then
+∞
+
+
+
+π
+Q (x, a) = E
+γ t Rt+1  X0 = x, A0 = a , x ∈ X , a ∈ A.
+t=0
+
+Similarly to V ∗ (x), the optimal action-value Q∗ (x, a) at the state-action pair (x, a) is defined
+as the maximum of the expected return under the constraints that the process starts at state x, and the
+first action chosen is a. The underlying function Q∗ : X × A → R is called the optimal action-value
+function.
+The optimal value- and action-value functions are connected by the following equations:
+V ∗ (x) =
+
+sup Q∗ (x, a),
+x ∈ X,
+
+P (x, a, y)V ∗ (y), x ∈ X , a ∈ A.
+Q∗ (x, a) = r(x, a) + γ
+a∈A
+
+y∈X
+
+In the class of MDPs considered here, an optimal stationary policy always exists:
+V ∗ (x) = sup V π (x),
+
+x ∈ X.
+
+π∈stat
+5 Value functions can also be defined underlying any behavior analogously to the definition given below.
+
+7
+
+8
+
+1. MARKOV DECISION PROCESSES
+
+In fact, any policy π ∈ stat which satisfies
+
+π(a|x) Q∗ (x, a) = V ∗ (x)
+
+(1.8)
+
+a∈A
+
+simultaneously for all states x ∈ X is optimal. Notice that in order (1.8) to hold, π(·|x) must be
+concentrated on the set of actions that maximize Q∗ (x, ·). In general, given some action-value
+function, Q : X × A → R, an action that maximizes Q(x, ·) for some state x is called greedy with
+respect to Q in state x. A policy that chooses greedy actions only with respect to Q in all states is
+called greedy w.r.t. Q.
+Thus, a greedy policy with respect to Q∗ is optimal, i.e., the knowledge of Q∗ alone is sufficient
+for finding an optimal policy. Similarly, knowing V ∗ , r and P also suffices to act optimally.
+The next question is how to find V ∗ or Q∗ . Let us start with the simpler question of how to
+find the value function of a policy:
+Fix an MDP M = (X , A, P0 ), a discount factor γ and deterministic policy π ∈ stat . Let r be the immediate reward function of M.
+Then V π satisfies
+
+P (x, π(x), y)V π (y),
+x ∈ X.
+(1.9)
+V π (x) = r(x, π(x)) + γ
+Fact 1.3 Bellman Equations for Deterministic Policies
+
+y∈X
+
+This system of equations is called the Bellman equation for V π . Define the Bellman operator underlying
+π, T π : RX → RX , by
+
+P (x, π(x), y)V (y), x ∈ X .
+(T π V )(x) = r(x, π(x)) + γ
+y∈X
+
+With the help of T π , Equation (1.9) can be written in the compact form
+T πV π = V π.
+
+(1.10)
+
+Note that this is a linear system of equations in V π and T π is an affine linear operator. If 0 &lt; γ &lt; 1
+then T π is a maximum-norm contraction and the fixed-point equation T π V = V has a unique
+solution. When the state space X is finite, say, it has D states, RX can be identified with the Ddimensional Euclidean space and V ∈ RX can be thought of as a D-dimensional vector: V ∈ RD .
+With this identification, T π V can also be written as r π + γ P π V with an appropriately defined
+vector r π ∈ RD and matrix P π ∈ RD×D . In this case, (1.10) can be written in the form
+rπ + γ P π V π = V π .
+
+(1.11)
+
+The above facts also hold true in MRPs, where the Bellman operator T : RX → RX is defined
+by
+(T V )(x) = r(x) + γ
+
+
+y∈X
+
+P (x, y)V (y),
+
+x ∈ X.
+
+1.3. VALUE FUNCTIONS
+
+The optimal value function is known to satisfy a certain fixed-point equation:
+
+Fact 1.4 Bellman Optimality Equations
+
+equation
+
+The optimal value function satisfies the fixed-point
+
+⎧
+⎨
+
+
+
+a∈A ⎩
+
+y∈X
+
+V ∗ (x) = sup
+
+r(x, a) + γ
+
+⎫
+⎬
+
+P (x, a, y)V ∗ (y) ,
+⎭
+
+x ∈ X.
+
+(1.12)
+
+x ∈ X.
+
+(1.13)
+
+Define the Bellman optimality operator operator, T ∗ : RX → RX , by
+⎧
+⎨
+
+
+
+a∈A ⎩
+
+y∈X
+
+(T ∗ V )(x) = sup
+
+r(x, a) + γ
+
+⎫
+⎬
+P (x, a, y)V (y) ,
+⎭
+
+Note that this is a nonlinear operator due to the presence of sup. With the help of T ∗ , Equation (1.12)
+can be written compactly as
+T ∗V ∗ = V ∗.
+If 0 &lt; γ &lt; 1, then T ∗ is a maximum-norm contraction, and the fixed-point equation T ∗ V = V
+has a unique solution. In order to minimize clutter, in what follows we will write expressions like
+(T π V )(x) as T π V (x), with the understanding that the application of operator T π takes precedence
+to the application of the point evaluation operator, “· (x)”.
+The action-value functions underlying a policy (or an MRP) and the optimal action-value
+function also satisfy some fixed-point equations similar to the previous ones:
+
+Fact 1.5 Bellman Operators and Fixed-point Equations for Action-value Functions With a
+slight abuse of notation, define T π : RX ×A → RX ×A and T ∗ : RX ×A → RX ×A as follows:
+
+T π Q(x, a) = r(x, a) + γ
+
+
+
+P (x, a, y)Q(y, π(x)),
+
+(x, a) ∈ X × A,
+
+P (x, a, y) sup Q(y, a  ),
+
+(x, a) ∈ X × A. (1.15)
+
+(1.14)
+
+y∈X
+
+T ∗ Q(x, a) = r(x, a) + γ
+
+
+
+y∈X
+
+a  ∈A
+
+Note that T π is again affine linear, while T ∗ is nonlinear. The operators T π and T ∗ are maximumnorm contractions. Further, the action-value function of π , Qπ , satisfies T π Qπ = Qπ and Qπ is
+the unique solution to this fixed-point equation. Similarly, the optimal action-value function, Q∗ ,
+satisfies T ∗ Q∗ = Q∗ and Q∗ is the unique solution to this fixed-point equation.
+
+9
+
+10
+
+1. MARKOV DECISION PROCESSES
+
+1.4
+
+DYNAMIC PROGRAMMING ALGORITHMS FOR
+SOLVING MDPS
+
+The above facts provide the basis for the value- and policy-iteration algorithms.
+Value iteration generates a sequence of value functions
+Vk+1 = T ∗ Vk ,
+
+k ≥ 0,
+
+where V0 is arbitrary. Thanks to Banach’s fixed-point theorem, (Vk ; k ≥ 0) converges to V ∗ at a
+geometric rate.
+Value iteration can also be used in conjunction with action-value functions; in which case, it
+takes the form
+Qk+1 = T ∗ Qk , k ≥ 0,
+which again converges to Q∗ at a geometric rate. The idea is that once Vk (or Qk ) is close to V ∗
+(resp., Q∗ ), a policy that is greedy with respect to Vk (resps., Qk ) will be close-to-optimal.
+In particular, the following bound is known to hold: Fix an action-value function Q and let
+π be a greedy policy w.r.t. Q. Then the value of policy π can be lower bounded as follows (e.g.,
+Singh and Yee, 1994, Corollary 2):
+V π (x) ≥ V ∗ (x) −
+
+2
+Q − Q∗ ∞ ,
+1−γ
+
+x ∈ X.
+
+(1.16)
+
+Policy iteration works as follows. Fix an arbitrary initial policy π0 . At iteration k &gt; 0, compute
+the action-value function underlying πk (this is called the policy evaluation step). Next, given Qπk ,
+define πk+1 as a policy that is greedy with respect to Qπk (this is called the policy improvement step).
+After k iterations, policy iteration gives a policy not worse than the policy that is greedy w.r.t. to the
+value function computed using k iterations of value iteration if the two procedures are started with
+the same initial value function. However, the computational cost of a single step in policy iteration
+is much higher (because of the policy evaluation step) than that of one update in value iteration.
+
+11
+
+CHAPTER
+
+2
+
+Value Prediction Problems
+In this section, we consider the problem of estimating the value function V underlying some Markov
+reward process (MRP). Value prediction problems arise in a number of ways: Estimating the probability of some future event, the expected time until some event occurs, or the (action-)value function
+underlying some policy in an MDP are all value prediction problems. Specific applications are estimating the failure probability of a large power grid (Frank et al., 2008) or estimating taxi-out times
+of flights on busy airports (Balakrishna et al., 2008), just to mention two of the many possibilities.
+Since the value of a state is defined as the expectation of the random return when the process
+is started from the given state, an obvious way of estimating this value is to compute an average over
+multiple independent realizations started from the given state. This is an instance of the so-called
+Monte-Carlo method. Unfortunately, the variance of the returns can be high, which means that the
+quality of the estimates will be poor. Also, when interacting with a system in a closed-loop fashion
+(i.e., when estimation happens while interacting with the system), it might be impossible to reset
+the state of the system to some particular state. In this case, the Monte-Carlo technique cannot be
+applied without introducing some additional bias. Temporal difference (TD) learning (Sutton, 1984,
+1988), which is without doubt one of the most significant ideas in reinforcement learning, is a
+method that can be used to address these issues.
+
+2.1
+
+TEMPORAL DIFFERENCE LEARNING IN FINITE STATE
+SPACES
+
+The unique feature of TD learning is that it uses bootstrapping: predictions are used as targets during
+the course of learning. In this section, we first introduce the most basic TD algorithm and explain
+how bootstrapping works. Next, we compare TD learning to (vanilla) Monte-Carlo methods, we and
+argue that both of them have their own merits. Finally, we present the TD(λ) algorithm that unifies
+the two approaches. Here we consider only the case of small, finite MRPs, when the value-estimates
+of all the states can be stored in the main memory of a computer in an array or table, which is known
+as the tabular case in the reinforcement learning literature. Extensions of the ideas presented here to
+large state spaces, when a tabular representations is not feasible, will be described in the subsequent
+sections.
+
+2.1.1
+
+TABULAR TD(0)
+
+Fix some finite Markov Reward Process M. We wish to estimate the value function V underlying
+M given a realization ((Xt , Rt+1 ); t ≥ 0) of M. Let V̂t (x) denote the estimate of state x at time t
+
+12
+
+2. VALUE PREDICTION PROBLEMS
+
+Algorithm 1 The function implementing the tabular TD(0) algorithm. This function must be called
+after each transition.
+function TD0(X, R, Y, V )
+Input: X is the last state, Y is the next state, R is the immediate reward associated with this transition,
+V is the array storing the current value estimates
+1: δ ← R + γ · V [Y ] − V [X]
+2: V [X] ← V [X] + α · δ
+3: return V
+(say, V̂0 ≡ 0). In the t th step TD(0) performs the following calculations:
+δt+1 = Rt+1 + γ V̂t (Xt+1 ) − V̂t (Xt ),
+V̂t+1 (x) = V̂t (x) + αt δt+1 I{Xt =x} ,
+x ∈ X.
+
+(2.1)
+
+Here the step-size sequence (αt ; t ≥ 0) consists of (small) nonnegative numbers chosen by the user.
+Algorithm 1 shows the pseudocode of this algorithm.
+A closer inspection of the update equation reveals that the only value changed is the one
+associated with Xt , i.e., the state just visited (cf. line 2 of the pseudocode). Further, when αt ≤ 1,
+the value of Xt is moved towards the “target” Rt+1 + γ V̂t (Xt+1 ). Since the target depends on the
+estimated value function, the algorithm uses bootstrapping. The term “temporal difference” in the
+name of the algorithm comes from that δt+1 is defined as the difference between values of states
+corresponding to successive time steps. In particular, δt+1 is called a temporal difference error.
+Just like many other algorithms in reinforcement learning, tabular TD(0) is a stochastic approximation (SA) algorithm. It is easy to see that if it converges, then it must converge to a function
+V̂ such that the expected temporal difference given V̂ ,
+
+
+
+def
+
+F V̂ (x) = E Rt+1 + γ V̂ (Xt+1 ) − V̂ (Xt )  Xt = x ,
+is zero for all states x, at least for all states that are sampled infinitely often. A simple calculation
+shows that F V̂ = T V̂ − V̂ , where T is the Bellman-operator underlying the MRP considered. By
+Fact 1.3, F V̂ = 0 has a unique solution, the value function V . Thus, if TD(0) converges (and all
+states are sampled infinitely often) then it must converge to V .
+To study the algorithm’s convergence properties, for simplicity, assume that (Xt ; t ∈ N)
+is a stationary, ergodic Markov chain.1 Further, identify the approximate value functions V̂t
+with D-dimensional vectors as before (e.g., V̂t,i = V̂t (xi ), i = 1, . . . , D, where D = |X | and
+X = {x1 , . . . , xD }). Then, assuming that the step-size sequence satisfies the Robbins-Monro (RM)
+1 Remember that a Markov chain (X ; t ∈ N) is ergodic it is irreducible, aperiodic and positive recurrent. Practically, this means
+t
+
+that the law of large number holds for sufficiently regular functions of the chain.
+
+2.1. TEMPORAL DIFFERENCE LEARNING IN FINITE STATE SPACES
+
+conditions,
+
+∞
+
+t=0
+
+the sequence (V̂t ∈
+
+RD ; t
+
+αt = ∞,
+
+∞
+
+
+13
+
+αt2 &lt; +∞,
+
+t=0
+
+∈ N) will track the trajectories of the ordinary differential equation (ODE)
+v̇(t) = c F (v(t)),
+
+t ≥ 0,
+
+(2.2)
+
+where c = 1/D and v(t) ∈ RD (e.g., Borkar, 1998). Borrowing the notation used in (1.11), the
+above ODE can be written as
+v̇ = r + (γ P − I )v.
+Note that this is a linear ODE. Since the eigenvalues of γ P − I all lie in the open left half complex
+plane, this ODE is globally asymptotically stable. From this, using standard results of SA it follows
+that V̂t converges almost surely to V .
+On step-sizes Since many of the algorithms that we will discuss use step-sizes, it is worthwhile
+spending some time on discussing their choice. A simple step-size sequence that satisfies the above
+conditions is αt = c/t, with c &gt; 0. More generally, any step-size sequence of the form αt = ct −η
+will work as long as 1/2 &lt; η ≤ 1. Of these step-size sequences, η = 1 gives the smallest step-sizes.
+Asymptotically, this choice will be the best, but from the point of view of the transient behavior of
+the algorithm, choosing η closer to 1/2 will work better (since with this choice the step-sizes are
+bigger and thus the algorithm will make larger moves). It is possible to do even better than this.
+In fact, a simple method, called iterate-averaging due to Polyak and Juditsky (1992), is known to
+achieve the best possible asymptotic rate of convergence. However, despite its appealing theoretical
+properties, iterate-averaging is rarely used in practice. In fact, in practice people often use constant
+step-sizes, which clearly violates the RM conditions. This choice is justified based on two grounds:
+First, the algorithms are often used in a non-stationary environment (i.e., the policy to be evaluated
+might change). Second, the algorithms are often used only in the small sample regime. (When a
+constant step-size is used, the parameters converge in distribution. The variance of the limiting
+distribution will be proportional to the step-size chosen.) There is also a great deal of work going
+into developing methods that tune step-sizes automatically, see (Sutton, 1992; Schraudolph, 1999;
+George and Powell, 2006) and the references therein. However, the jury is still out on which of these
+methods is the best.
+With a small change, the algorithm can also be used on an observation sequence of the
+form ((Xt , Rt+1 , Yt+1 ); t ≥ 0), where (Xt ; t ≥ 0) is an arbitrary ergodic Markov chain over X ,
+(Yt+1 , Rt+1 ) ∼ P0 ( · | Xt ). The change concerns the definition of temporal differences:
+δt+1 = Rt+1 + γ V̂ (Yt+1 ) − V̂ (Xt ).
+Then, with no extra conditions, V̂t still converges almost surely to the value function underlying the
+MRP (X , P0 ). In particular, the distribution of the states (Xt ; t ≥ 0) does not play a role here.
+
+14
+
+2. VALUE PREDICTION PROBLEMS
+
+This is interesting for multiple reasons. For example, if the samples are generated using a
+simulator, we may be able to control the distribution of the states (Xt ; t ≥ 0) independently of
+the MRP. This might be useful to counterbalance any unevenness in the stationary distribution
+underlying the Markov kernel P . Another use is to learn about some target policy in an MDP while
+following some other policy, often called the behavior policy. Assume for simplicity that the target
+policy is deterministic. Then ((Xt , Rt+1 , Yt+1 ), t ≥ 0) could be obtained by skipping all those stateaction-reward-next state quadruples in the trajectory generated by using the behavior policy, where
+the action taken does not match the action that would have been taken in the given state by the
+target policy, while keeping the rest. This technique might allow one to learn about multiple policies
+at the same time (more generally, about multiple long-term prediction problems). When learning
+about one policy, while following another is called off-policy learning. Because of this, we shall also
+call learning based on triplets ((Xt , Rt+1 , Yt+1 ); t ≥ 0) when Yt+1  = Xt+1 off-policy learning. A
+third, technical use is when the goal is to apply the algorithm to an episodic problem. In this case,
+the triplets (Xt , Rt+1 , Yt+1 ) are chosen as follows: First, Yt+1 is sampled from the transition kernel
+P (X, ·). If Yt+1 is not a terminal state, we let Xt+1 = Yt+1 ; otherwise, Xt+1 ∼ P0 (·), where P0 is
+a user-chosen distribution over X . In other words, when a terminal state is reached, the process is
+restarted from the initial state distribution P0 . The period between the time of a restart from P0
+and reaching a terminal state is called an episode (hence the name of episodic problems). This way
+of generating a sample shall be called continual sampling with restarts from P0 .
+Being a standard linear SA method, the rate of convergence of tabular TD(0) will be of
+√
+the usual order O(1/ t) (consult the paper by Tadić (2004) and the references therein for precise
+results). However, the constant factor in the rate will be largely influenced by the choice of the
+step-size sequence, the properties of the kernel P0 and the value of γ .
+
+2.1.2
+
+EVERY-VISIT MONTE-CARLO
+
+As mentioned before, one can also estimate the value of a state by computing sample means, giving
+rise to the so-called every visit Monte-Carlo method. Here we define more precisely what we mean
+by this and compare the resulting method to TD(0).
+To firm up the ideas, consider some episodic problem (otherwise, it is impossible to finitely
+compute the return of a given state since the trajectories are infinitely long). Let the underlying
+MRP be M = (X , P0 ) and let ((Xt , Rt+1 , Yt+1 ); t ≥ 0) be generated by continual sampling in M
+with restarts from some distribution P0 defined over X . Let (Tk ; k ≥ 0) be the sequence of times
+when an episode starts (thus, for each k, XTk is sampled from P0 ). For a given time t, let k(t) be the
+unique episode index such that t ∈ [Tk , Tk+1 ). Let
+Tk(t)+1 −1
+
+Rt =
+
+
+s=t
+
+γ s−t Rs+1
+
+(2.3)
+
+2.1. TEMPORAL DIFFERENCE LEARNING IN FINITE STATE SPACES
+
+15
+
+Algorithm 2 The function that implements the every-visit Monte-Carlo algorithm to estimate
+value functions in episodic MDPs. This routine must be called at the end of each episode with the
+state-reward sequence collected during the episode. Note that the algorithm as shown here has linear
+time- and space-complexity in the length of the episodes.
+function EveryVisitMC(X0 , R1 , X1 , R2 , . . . , XT −1 , RT , V )
+Input: Xt is the state at time t, Rt+1 is the reward associated with the t th transition, T is the length
+of the episode, V is the array storing the current value function estimate
+1: sum ← 0
+2: for t ← T − 1 downto 0 do
+3:
+sum ← Rt+1 + γ · sum
+4:
+target[Xt ] ← sum
+5:
+V [Xt ] ← V [Xt ] + α · (target[Xt ] − V [Xt ])
+6: end for
+7: return V
+
+
+denote the return from time t on until the end of the episode. Clearly, V (x) = E Rt |Xt = x , for
+any state x such that P (Xt = x) &gt; 0. Hence, a sensible way of updating the estimates is to use
+V̂t+1 (x) = V̂t (x) + αt (Rt − V̂t (x)) I{Xt =x} ,
+
+x ∈ X.
+
+Monte-Carlo methods such as the above one, since they use multi-step predictions of the return
+(cf. Equation (2.3)), are called multi-step methods. The pseudo-code of this update-rule is shown as
+Algorithm 2.
+This algorithm is again an instance of stochastic approximation. As such, its behavior is
+governed by the ODE v̇(t) = V − v(t). Since the unique globally asymptotically stable equilibrium
+of this ODE is V , V̂t again converges to V almost surely. Since both algorithms achieve the same
+goal, one may wonder which algorithm is better.
+TD(0) or Monte-Carlo? First, let us consider an example when TD(0) converges faster. Consider
+the undiscounted episodic MRP shown on Figure 2.1. The initial states are either 1 or 2. With high
+probability the process starts at state 1, while the process starts at state 2 less frequently. Consider
+now how TD(0) will behave at state 2. By the time state 2 is visited the k th time, on the average
+state 3 has already been visited 10 k times. Assume that αt = 1/(t + 1). At state 3 the TD(0) update
+th
+reduces
+ to averaging the Bernoulli rewards
+ incurred upon leaving state 3. At the k visit of state 2,
+Var V̂t (3) ≈ 1/(10 k) (clearly, E V̂t (3) = V (3) = 0.5). Thus, the target of the update of state 2
+will be an estimate of the true value of state 2 with accuracy increasing with k. Now, consider the
+Monte-Carlo method. The Monte-Carlo method ignores
+the estimate
+of the value of state 3 and
+
+
+uses the Bernoulli rewards directly. In particular, Var Rt |Xt = 2 = 0.25, i.e., the variance of the
+target does not change with time. On this example, this makes the Monte-Carlo method slower to
+converge, showing that sometimes bootstrapping might indeed help.
+
+16
+
+2. VALUE PREDICTION PROBLEMS
+
+
+
+
+
+    
+
+   
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+Figure 2.1: An episodic Markov reward process. In this example, all transitions are deterministic. The
+reward is zero, except when transitioning from state 3 to state 4, when it is given by a Bernoulli random
+variable with parameter 0.5. State 4 is a terminal state. When the process reaches the terminal state, it is
+reset to start at state 1 or 2. The probability of starting at state 1 is 0.9, while the probability of starting
+at state 2 is 0.1.
+
+To see an example when bootstrapping is not helpful, imagine that the problem is modified
+so that the reward associated with the transition from state 3 to state 4 is made deterministically
+equal to one. In this case, the Monte-Carlo method becomes faster since Rt = 1 is the true target
+value, while for the value of state 2 to get close to its true value, TD(0) has to wait until the estimate
+of the value at state 3 becomes close to its true value. This slows down the convergence of TD(0). In
+fact, one can imagine a longer chain of states, where state i + 1 follows state i, for i ∈ {1, . . . , N}
+and the only time a nonzero reward is incurred is when transitioning from state N − 1 to state N.
+In this example, the rate of convergence of the Monte-Carlo method is not impacted by the value
+of N, while TD(0) would get slower with N increasing (for an informal argument, see Sutton, 1988;
+for a formal one with exact rates, see Beleznay et al., 1999).
+
+2.1.3
+
+TD(λ): UNIFYING MONTE-CARLO AND TD(0)
+
+The previous examples show that both Monte-Carlo and TD(0) have their own merits. Interestingly,
+there is a way to unify these approaches. This is achieved by the so-called TD(λ) family of methods
+(Sutton, 1984, 1988). Here, λ ∈ [0, 1] is a parameter that allows one to interpolate between the
+Monte-Carlo and TD(0) updates: λ = 0 gives TD(0) (hence the name of TD(0)), while λ = 1, i.e.,
+TD(1) is equivalent to a Monte-Carlo method. In essence, given some λ &gt; 0, the targets in the
+
+2.1. TEMPORAL DIFFERENCE LEARNING IN FINITE STATE SPACES
+
+17
+
+TD(λ) update are given as some mixture of the multi-step return predictions
+
+Rt:k =
+
+t+k
+
+
+γ s−t Rs+1 + γ k+1 V̂t (Xt+k+1 ),
+
+s=t
+
+where the mixing coefficients are the exponential weights (1 − λ)λk , k ≥ 0. Thus, for λ &gt; 0 TD(λ)
+will be a multi-step method. The algorithm is made incremental by the introduction of the so-called
+eligibility traces.
+In fact, the eligibility traces can be defined in multiple ways and hence TD(λ) exists in
+correspondingly many multiple forms. The update rule of TD(λ) with the so-called accumulating
+traces is as follows:
+δt+1
+zt+1 (x)
+V̂t+1 (x)
+z0 (x)
+
+=
+=
+=
+=
+
+Rt+1 + γ V̂t (Xt+1 ) − V̂t (Xt ),
+I{x=Xt } + γ λ zt (x),
+V̂t (x) + αt δt+1 zt+1 (x),
+0,
+x ∈ X.
+
+Here zt (x) is the eligibility trace of state x. The rationale of the name is that the value of zt (x)
+modulates the influence of the TD error on the update of the value stored at state x. In another
+variant of the algorithm, the eligibility traces are updated according to
+zt+1 (x) = max(I{x=Xt } , γ λ zt (x)),
+
+x ∈ X.
+
+This is called the replacing traces update. In these updates, the trace-decay parameter λ controls the
+amount of bootstrapping: When λ = 0 the above algorithms become identical to TD(0) (since
+
+limλ→0+ (1 − λ) k≥0 λk Rt:k = Rt:0 = Rt+1 + γ V̂t (Xt+1 )). When λ = 1, we get the TD(1) algorithm, which with accumulating traces will simulate the previously described every-visit MonteCarlo algorithm in episodic problems. (For an exact equivalence, one needs to assume that the value
+updates happen only at the end of trajectories, up to which point the updates are just accumulated.
+The statement then follows because the discounted sum of temporal differences along a trajectory
+from a start state to a terminal state telescopes and gives the sum of rewards along the trajectory.)
+Replacing traces and λ = 1 correspond to a version of the Monte-Carlo algorithm where a state
+is updated only when it is encountered for the first time in a trajectory. The corresponding algorithm is called first-visit Monte-Carlo method. The formal correspondence between the first-visit
+Monte-Carlo method and TD(1) with replacing traces is known to hold for the undiscounted case
+only (Singh and Sutton, 1996). Algorithm 3 gives the pseudocode corresponding to the variant with
+replacing traces.
+In practice, the best value of λ is determined by trial and error. In fact, the value of λ can be
+changed even during the algorithm, without impacting convergence. This holds for a wide range
+of other possible eligibility trace updates (for precise conditions, see Bertsekas and Tsitsiklis, 1996,
+
+18
+
+2. VALUE PREDICTION PROBLEMS
+
+Algorithm 3 The function that implements the tabular TD(λ) algorithm with replacing traces. This
+function must be called after each transition.
+function TDLambda(X, R, Y, V , z)
+Input: X is the last state, Y is the next state, R is the immediate reward associated with this transition,
+V is the array storing the current value function estimate, z is the array storing the eligibility
+traces
+1: δ ← R + γ · V [Y ] − V [X]
+2: for all x ∈ X do
+3:
+z[x] ← γ · λ · z[x]
+4:
+if X = x then
+5:
+z[x] ← 1
+6:
+end if
+7:
+V [x] ← V [x] + α · δ · z[x]
+8: end for
+9: return (V , z)
+Section 5.3.3 and 5.3.6). The replacing traces version of the algorithm is believed to perform better
+in practice (for some examples when this happens, consult Sutton and Barto, 1998, Section 7.8). It
+has been noted that λ &gt; 0 is helpful when the learner has only partial knowledge of the state, or (in
+the related situation) when function approximation is used to approximate the value functions in a
+large state space – the topic of the next section.
+In summary, TD(λ) allows one to estimate value functions in MRPs. It generalizes MonteCarlo methods, it can be used in non-episodic problems, and it allows for bootstrapping. Further,
+by appropriately tuning λ it can converge significantly faster than Monte-Carlo methods or TD(0).
+
+2.2
+
+ALGORITHMS FOR LARGE STATE SPACES
+
+When the state space is large (or infinite), it is not feasible to keep a separate value for each state in
+the memory. In such cases, we often seek an estimate of the values in the form
+Vθ (x) = θ  ϕ(x),
+
+x ∈ X,
+
+where θ ∈ Rd is a vector of parameters and ϕ : X → Rd is a mapping of states to d-dimensional
+vectors. For state x, the components ϕi (x) of the vector ϕ(x) are called the features of state x and ϕ
+is called a feature extraction method. The individual functions ϕi : X → R defining the components
+of ϕ are called basis functions.
+Examples of function approximation methods Given access to the state, the features (or basis functions) can be constructed in a great many different ways. If x ∈ R (i.e., X ⊂ R) one may use a
+polynomial, Fourier, or wavelet basis up to some order. For example, in the case of a polynomial
+basis, ϕ(x) = (1, x, x 2 , . . . , x d−1 ) , or, an orthogonal system of polynomials if a suitable measure
+
+2.2. ALGORITHMS FOR LARGE STATE SPACES
+
+19
+
+(such as the stationary distribution) over the states is available.This latter choice may help to increase
+the convergence speed of the incremental algorithms that we will discuss soon.
+In the case of multidimensional state spaces, the tensor product construction is a commonly
+used way to construct features given features of the states’ individual components. The tensor product construction works as follows: Imagine that X ⊂ X1 × X2 × . . . × Xk . Let ϕ (i) :
+Xi → Rdi be a feature extractor defined for the i th state component. The tensor product ϕ =
+ϕ (1) ⊗ . . . ⊗ ϕ (k) feature extractor will have d = d1 d2 . . . dk components, which can be conveniently indexed using multi-indices of the form (i1 , . . . , ik ), 1 ≤ ij ≤ dj , j = 1, . . . , k. Then
+(1)
+(2)
+(k)
+ϕ(i1 ,...,ik ) (x) = ϕi1 (x1 )ϕi2 (x2 ) . . . ϕik (xk ). When X ⊂ Rk , one particularly popular choice is to
+
+use radial basis function (RBF) networks, when ϕ (i) (xi ) = (G(|xi − xi |), . . . , G(|xi − xi i |)) .
+(j )
+Here xi ∈ R (j = 1, . . . , di ) is fixed by the user and G is a suitable function. A typical choice
+for G is G(z) = exp(−η z2 ) where η &gt; 0 is a scale parameter. The tensor product construct in this
+cases places Gaussians at points of a regular grid and the i th basis function becomes
+(1)
+
+(d )
+
+ϕi (x) = exp(−ηx − x (i) 2 ),
+where x (i) ∈ X now denotes a point on a regular d1 × . . . × dk grid. A related method is to use
+kernel smoothing:
+d
+d
+(i)
+
+G(x − x (i) )
+i=1 θi G(x − x )
+Vθ (x) = d
+θi d
+=
+.
+(2.4)
+(j )
+(j )
+j =1 G(x − x )
+j =1 G(x − x )
+i=1
+
+
+More generally, one may use Vθ (x) = di=1 θi si (x), where si ≥ 0 and di=1 si (x) ≡ 1 holds
+for any x ∈ X . In this case, we say that Vθ is an averager. Averagers are important in reinforcement
+learning because the mapping θ  → Vθ is a non-expansion in the max-norm, which makes them
+“well-behaved” when used together with approximate dynamic programming.
+An alternative to the above is to use binary features, i.e., when ϕ(x) ∈ {0, 1}d . Binary
+features may be advantageous from a computational point of view: when ϕ(x) ∈ {0, 1}d then
+
+Vθ (x) = i:ϕi (x)=1 θi . Thus, the value of state x can be computed at the cost of s additions if
+ϕ(x) is s-sparse (i.e., if only s elements of ϕ(x) are non-zero), provided that there is a direct way of
+computing the index of the non-zero components of the feature vector.
+This is the case when the state aggregation is used to define the features. In this case, the
+coordinate functions of ϕ (the individual features) correspond to indicators of non-overlapping
+regions of the state space X whose union covers X (i.e., the regions form a partition of the state
+space). Clearly, in this case, θ  ϕ(x) will be constant over the individual regions, thus state aggregation
+essentially “discretizes” the state space. A state aggregator function approximator is also an averager.
+Another choice that leads to binary features is tile coding (originally called CMAC, Albus,
+1971, 1981). In the simplest version of tile coding, the basis functions of ϕ correspond to indicator
+functions of multiple shifted partitions (tilings) of the state space: if s tilings are used, ϕ will be
+s-sparse. To make tile coding an effective function approximation method, the offsets of the tilings
+corresponding to different dimensions should be different.
+
+20
+
+2. VALUE PREDICTION PROBLEMS
+
+The curse of dimensionality The issue with tensor product constructions, state aggregation and
+straightforward tile coding is that when the state space is high dimensional they quickly become
+intractable: For example, a tiling of [0, 1]D with cubical regions with side-lengths of ε gives rise to d =
+ε −D -dimensional feature- and parameter-vectors. If ε = 1/2 and D = 100, we get the enormous
+number d ≈ 1030 . This is problematic since state-representations with hundreds of dimensions are
+common in applications. At this stage, one may wonder if it is possible at all to successfully deal with
+applications when the state lives in a high dimensional space. What often comes at rescue is that
+the actual problem complexity might be much lower than what is predicted by merely counting the
+number of dimensions of the state variable (although, there is no guarantee that this happens). To
+see why sometimes this holds, note that the same problem can have multiple representations, some
+of which may come with low-dimensional state variables, some with high. Since, in many cases,
+the state-representation is chosen by the user in a conservative fashion, it may happen that in the
+chosen representation many of the state variables are irrelevant. It may also happen that the states
+that are actually encountered lie on (or lie close to) a low-dimensional submanifold of the chosen
+high dimensional “state-space”.
+To illustrate this, imagine an industrial robot arm with say 3 joints and 6 degrees of freedom.
+The intrinsic dimensionality of the state is then 12, twice the number of degrees of freedom of
+the arm since the dynamics is second-order. One (approximate) state representation is to take high
+resolution camera images of the arm in close succession (to account for the dynamics) from multiple
+angles (to account for occlusions). The dimensionality of the chosen state representation will easily
+be in the range of millions, yet the intrinsic dimensionality will still be 12. In fact, the more cameras we
+have, the higher the dimensionality will be. A simple-minded approach, which aims for minimizing
+the dimensionality would suggest to use as few cameras as possible. But more information should
+not hurt! Therefore, the quest should be for clever algorithms and function approximation methods
+that can deal with high-dimensional but low complexity problems.
+Possibilities include using strip-like tilings combined with hash functions, interpolators
+that use low-discrepancy grids (Lemieux, 2009, Chapter 5 and 6), or random projections
+(Dasgupta and Freund, 2008). Nonlinear function approximation methods (examples of which include neural networks with sigmoidal transfer functions in the hidden layers or RBF networks where
+the centers are also considered as parameters) and nonparametric techniques also hold great promise.
+Nonparametric methods In a nonparametric method, the user does not start with a fixed finitedimensional representation, such as in the previous examples, but allows for the representation to
+grow and change as needed. For example, in a k-nearest neighbor method for regression, given the
+data Dn = [(x1 , v1 ), . . . , (xn , vn )], where xi ∈ Rk , vi ∈ R, the value at location x is predicted using
+
+(k)
+
+VD (x) =
+
+n
+
+i=1
+
+(k)
+
+vi
+
+KD (x, xi )
+,
+k
+
+2.2. ALGORITHMS FOR LARGE STATE SPACES
+
+21
+
+(k)
+KD (x, x  )
+
+where
+is one when x  is closer to x then the k th closest neighbor of x in D and is zero
+
+(k)
+otherwise. Note that k = nj=1 KD (x, xj ). Replacing k in the above expression with this sum
+(k)
+
+and replacing KD (x, ·) with some other data based kernel KD (e.g., a Gaussian centered around
+x with standard deviation proportional to the distance to the k th nearest neighbor), we arrive at
+nonparametric kernel smoothing:
+(k)
+VD (x)
+
+=
+
+n
+
+i=1
+
+KD (x, xi )
+vi n
+,
+j =1 KD (x, xj )
+
+which should be compared to its parametric counterpart (2.4). Other examples include methods that
+work by finding an appropriate function in some large (infinite dimensional) function space that
+fits an empirical error. The function space is usually a Reproducing Kernel Hilbert space, which is a
+convenient choice from the point of view of optimization. In special cases, we get spline smoothers
+(Wahba, 2003) and Gaussian process regression (Rasmussen and Williams, 2005). Another idea is
+to split the input space recursively into finer regions using some heuristic criterion and then predict
+with some simple method the values in the leafs, leading to tree-based methods. The border between
+parametric and nonparametric methods is blurry. For example, a linear predictor when the number of
+basis functions is allowed to change (i.e., when new basis functions are introduced as needed) becomes
+a nonparametric method. Thus, when one experiments with different feature extraction methods,
+from the point of view of the overall tuning process, we can say that one really uses a nonparametric
+technique. In fact, if we take this viewpoint, it follows that in practice “true” parametric methods are
+rarely used if they are used at all.
+The advantage of nonparametric methods is their inherent flexibility. However, this comes
+usually at the price of increased computational complexity. Therefore, when using nonparametric
+methods, efficient implementations are important (e.g., one should use k-D trees when implementing nearest neighbor methods, or the Fast Gaussian Transform when implementing a Gaussian
+smoother). Also, nonparametric methods must be carefully tuned as they can easily overfit or underfit. For example, in a k-nearest neighbor method if k is too large, the method is going to introduce
+too much smoothing (i.e., it will underfit), while if k is too small, it will fit to the noise (i.e., overfit).
+Overfitting will be further discussed in Section 2.2.4. For more information about nonparametric
+regression, the reader is advised to consult the books by Härdle (1990); Györfi et al. (2002); Tsybakov
+(2009).
+Although our discussion below will assume a parametric function approximation method
+(and in many cases linear function approximation), many of the algorithms can be extended to
+nonparametric techniques. We will mention when such extensions exist as appropriate.
+Up to now, the discussion implicitly assumed that the state is accessible for measurement.
+This is, however, rarely the case in practical applications. Luckily, the methods that we will discuss
+below do not actually need to access the states directly, but they can perform equally well when some
+“sufficiently descriptive feature-based representation” of the states is available (such as the camera
+images in the robot-arm example). A common way of arriving at such a representation is to construct
+
+22
+
+2. VALUE PREDICTION PROBLEMS
+
+Algorithm 4 The function implementing the TD(λ) algorithm with linear function approximation.
+This function must be called after each transition.
+function TDLambdaLinFApp(X, R, Y, θ, z)
+Input: X is the last state, Y is the next state, R is the immediate reward associated with this
+transition, θ ∈ Rd is the parameter vector of the linear function approximation, z ∈ Rd is the
+vector of eligibility traces
+1: δ ← R + γ · θ  ϕ[Y ] − θ  ϕ[X]
+2: z ← ϕ[X] + γ · λ · z
+3: θ ← θ + α · δ · z
+4: return (θ, z)
+state estimators (or observers, in control terminology) based on the history of the observations, which
+has a large literature both in machine learning and control. The discussion of these techniques,
+however, lies outside of the scope of the present paper.
+
+2.2.1
+
+TD(λ) WITH FUNCTION APPROXIMATION
+
+Let us return to the problem of estimating a value function V of a Markov reward process M =
+(X , P0 ), but now assume that the state space is large (or even infinite). Let D = ((Xt , Rt+1 ); t ≥ 0)
+be a realization of M. The goal, as before, is to estimate the value function of M given D in an
+incremental manner.
+Choose a smooth parametric function-approximation method (Vθ ; θ ∈ Rd ) goal is to approximate the value function V underlying M. (i.e., for any θ ∈ Rd , Vθ : X → R is such that ∇θ Vθ (x)
+exists for any x ∈ X ). The generalization of tabular TD(λ) with accumulating eligibility traces to the
+case when the value functions are approximated using members of (Vθ ; θ ∈ Rd ) uses the following
+updates (Sutton, 1984, 1988):
+δt+1
+zt+1
+θt+1
+z0
+
+= Rt+1 + γ Vθt (Xt+1 ) − Vθt (Xt ),
+= ∇θ Vθt (Xt ) + γ λ zt ,
+= θt + αt δt+1 zt+1 ,
+= 0.
+
+(2.5)
+
+Here zt ∈ Rd . Algorithm 4 shows the pseudocode of this algorithm.
+To see that this algorithm is indeed a generalization of tabular TD(λ) assume that X =
+{x1 , . . . , xD } and let Vθ (x) = θ  ϕ(x) with ϕi (x) = I{x=xi } . Note that since Vθ is linear in the
+parameters (i.e., Vθ = θ  ϕ), it holds that ∇θ Vθ = ϕ. Hence, identifying zt,i (θt,i ) with zt (xi ) (resp.,
+V̂t (xi )) we see that the update (2.5), indeed, reduces to the previous one.
+In the off-policy version of TD(λ), the definition of δt+1 becomes
+δt+1 = Rt+1 + γ Vθt (Yt+1 ) − Vθt (Xt ).
+
+2.2. ALGORITHMS FOR LARGE STATE SPACES
+
+23
+
+Unlike the tabular case, under off-policy sampling, convergence is no longer be guaranteed, but, in
+fact, the parameters may diverge (see, e.g., Bertsekas and Tsitsiklis, 1996, Example 6.7, p. 307). This
+is true for linear function approximation when the distributions of (Xt ; t ≥ 0) do not match the
+stationary distribution of the MRP M. Another case when the algorithm may diverge is when it
+is used with a nonlinear function-approximation method (see, e.g., Bertsekas and Tsitsiklis, 1996,
+Example 6.6, p. 292). For further examples of instability, see Baird (1995); Boyan and Moore (1995).
+On the positive side, almost sure convergence can be guaranteed when (i) a linear functionapproximation method is used with ϕ : X → Rd ; (ii) the stochastic process (Xt ; t ≥ 0) is an ergodic
+Markov process whose stationary distribution μ is the same as the stationary distribution of the
+MRP M; and (iii) the step-size sequence satisfies the RM conditions (Tsitsiklis and Van Roy, 1997;
+Bertsekas and Tsitsiklis, 1996, p. 222, Section 5.3.7). In the results cited, it is also assumed that
+the components of ϕ (i.e., ϕ1 , . . . , ϕd ) are linearly independent. When this holds, the limit of
+the parameter vector will be unique. In the other case, i.e., when the features are redundant, the
+parameters will still converge, but the limit will depend on the parameter vector’s initial value.
+However, the limiting value function will be unique (Bertsekas, 2010).
+Assuming that TD(λ) converges, let θ (λ) . denote the limiting value of θt .
+Let
+F = {Vθ | θ ∈ Rd }
+be the space of functions that can be represented using Vθ . Note that F is a linear subspace of
+the vector space of all real-valued functions with domain X . The limit θ (λ) is known to satisfy the
+so-called projected fixed-point equation
+Vθ (λ) = F ,μ T (λ) Vθ (λ) ,
+
+(2.6)
+
+where the operators T (λ) and F ,μ are defined as follows: For m ∈ N let T [m] be the m-step lookahead
+Bellman operator:
+ m
+
+
+
+T [m] V̂ (x) = E
+γ t Rt+1 + γ m+1 V̂ (Xm+1 )  X0 = x .
+t=0
+
+Clearly, V , the value function to be estimated is a fixed point of T [m] for any m ≥ 0. Assume that
+λ &lt; 1. Then, operator T (λ) is defined as the exponentially weighted average of T [0] , T [1] , . . .:
+∞
+
+
+T (λ) V̂ (x) = (1 − λ)
+
+λm T [m] V̂ (x).
+
+m=0
+
+For λ = 1, we let T (1) V̂ = limλ→1− T (λ) V̂ = V . Notice that for λ = 0, T (0) = T . Operator F ,μ
+is a projection: It projects functions of states to the linear space F with respect to the weighted
+
+2-norm f 2μ = x∈X f 2 (x)μ(x):
+F ,μ V̂ = argmin V̂ − f μ .
+f ∈F
+
+24
+
+2. VALUE PREDICTION PROBLEMS
+
+The essence of the proof of convergence of TD(λ) is that the composite operator F ,μ T (λ) is
+a contraction with respect to the norm ·μ . This result heavily exploits that μ is the stationary
+distribution underlying M (which defines T (λ) ). For other distributions, the composite operator
+might not be a contraction; in which case, TD(λ) might diverge.
+As to the quality of the solution found, the following error bound holds for the fixed point
+of (2.6):
+
+
+
+
+V (λ) − V  ≤  1
+F ,μ V − V  .
+θ
+μ
+μ
+1 − γλ
+Here γλ = γ (1 − λ)/(1 − λγ ) is the contraction modulus of F ,μ T (λ) (Tsitsiklis and Van Roy,
+1999a; Bertsekas, 2007b). (For sharper bounds, see Yu and Bertsekas 2008; Scherrer 2010.) From
+the error bound we see that Vθ (1) is the best approximation to V within F with respect to the norm
+·μ (this should come at no surprise as TD(1) minimizes this mean-squared error by design). We
+also see that as we let λ → 0 the bound allows for larger errors. It is known that this is not an artifact
+of the analysis. In fact, in Example 6.5 of the book by Bertsekas and Tsitsiklis (1996) (p. 288), a
+simple MRP with n states and a one-dimensional feature extractor ϕ is given such that Vθ (0) is a
+very poor approximation to V , while Vθ (1) is a reasonable approximation. Thus, in order to get good
+accuracy when working with λ &lt; 1, it is not enough to choose the function space F so that the
+best approximation to V has small error. At this stage, however, one might wonder if using λ &lt; 1
+makes sense at all. A recent paper by Van Roy (2006) suggests that when considering performance
+loss bounds instead of approximation errors and the full control learning task (cf. Section 3), λ = 0
+will in general be at no disadvantage compared to using λ = 1, at least, when state-aggregation is
+considered. Thus, while the mean-squared error of the solution might be large, when the solution
+is used in control, the performance of the resulting policy will still be as good as that of one that
+is obtained by calculating the TD(1) solution. However, the major reason to prefer TD(λ) with
+λ &lt; 1 over TD(1) is because empirical evidence suggests that it converges much faster than TD(1),
+the latter of which, at least for practical sample sizes, often produces very poor estimates (e.g.,
+Sutton and Barto, 1998, Section 8.6).
+TD(λ) solves a model Sutton et al. (2008) and Parr et al. (2008) observed independently of each
+other that the solution obtained by TD(0) can be thought of as the solution of a deterministic MRP
+with a linear dynamics. In fact, as we will argue now this also holds in the case of TD(λ). This
+suggests that if the deterministic MRP captures the essential features of the original MRP, Vθ (λ) will
+be a good approximation to V . To firm up this statement, following Parr et al. (2008), let us study
+the Bellman error
+(λ)
+
+(V̂ ) = T (λ) V̂ − V̂
+
+(λ)
+(λ) (V̂ ) : X → R. A simple contraction argument shows that
+of
+ V̂ : X→ R under T . Note
+ that
+
+
+
+1  (λ)
+(V̂ ) . Hence, if (λ) (V̂ ) is small, V̂ is close to V .
+V − V̂  ≤ 1−γ
+
+∞
+
+∞
+
+2.2. ALGORITHMS FOR LARGE STATE SPACES
+
+hold:2
+
+The following error decomposition can be shown to
+⎧
+⎨
+
+
+(λ)
+(Vθ (λ) ) = (1 − λ)
+λm [r]
++
+γ
+(1 − λ)
+λm
+m
+⎩
+m≥0
+
+m≥0
+
+[ϕ]
+m
+
+⎫
+⎬
+⎭
+
+25
+
+θ (λ) .
+
+[ϕ]
+
+m+1 ϕ  − 
+m+1 ϕ  are the errors of modeling the
+Here [r]
+F ,μ P
+m = r m − F ,μ r m and m = P
+m-step rewards and transitions with respect to the features ϕ, respectively; r m : X → R is defined
+by r m (x) = E Rm+1 | X0 = x and P m+1 ϕ  denotes a function that maps states to d-dimensional
+row-vectors and which is defined by P m+1 ϕ  (x) = (P m+1 ϕ1 (x), . . . , P m+1 ϕd (x)). Here P m ϕi :
+X → R is the function defined by P m ϕi (x) = E [ϕi (Xm ) | X0 = x]. Thus, we see that the Bellman
+error will be small if the m-step immediate rewards and the m-step feature-expectations are well
+captured by the features. We can also see that as λ gets closer to 1, it becomes more important for
+the features to capture the structure of the value function, and as λ gets closer to 0, it becomes more
+important to capture the structure of the immediate rewards and the immediate feature-expectations.
+This suggests that the “best” value of λ (i.e., the one that minimizes  (λ) (Vθ (λ) )) may depend
+on whether the features are more successful at capturing the short-term or the long-term dynamics
+(and rewards).
+
+2.2.2
+
+GRADIENT TEMPORAL DIFFERENCE LEARNING
+
+In Section 2.2.3, we will see some methods using which the issue of divergence of TD(λ) can be
+avoided. However, the computational (time and storage) complexity of these methods is significantly
+larger than that of TD(λ). In this section, we present two recent algorithms introduced by Sutton et al.
+(2009b,a), which also overcome the instability issue, converge to the TD(λ) solutions in the on-policy
+case, and yet they are almost as efficient as TD(λ).
+For simplicity, we consider the case when λ = 0, ((Xt , Rt+1 , Yt+1 ); t ≥ 0) is a stationary
+process, Xt ∼ ν ( ν can be different from the stationary distribution of P ) and when linear function
+approximation is used with linearly independent features. Assume that θ (0) , the solution to (2.6),
+exists. Consider the objective function
+
+2
+(2.7)
+J (θ ) = Vθ − F ,ν T Vθ ν .
+Notice that all solutions to (2.6) are minimizers of J , and there are no other minimizers of J when
+(2.6) has solutions. Thus, minimizing J will give a solution to (2.6). Let θ∗ denote a minimizer of
+J . Since, by assumption, the features are linearly independent, the minimizer of J is unique, i.e., θ∗
+is well-defined. Introduce the shorthand notations
+δt+1 (θ ) =
+=
+ϕt =
+
+ϕt+1
+=
+
+Rt+1 + γ Vθ (Yt+1 ) − Vθ (Xt )
+
+Rt+1 + γ θ  ϕt+1
+− θ  ϕt ,
+ϕ(Xt ),
+ϕ(Yt+1 ).
+
+2 Parr et al. (2008) observed this for λ = 0. The extension to λ &gt; 0 is new.
+
+(2.8)
+
+26
+
+2. VALUE PREDICTION PROBLEMS
+
+Algorithm 5 The function implementing the GTD2 algorithm. This function must be called after
+each transition.
+function GTD2(X, R, Y, θ, w)
+Input: X is the last state, Y is the next state, R is the immediate reward associated with this transition,
+θ ∈ Rd is the parameter vector of the linear function approximation, w ∈ Rd is the auxiliary
+weight
+1: f ← ϕ[X]
+2: f  ← ϕ[Y ]
+3: δ ← R + γ · θ  f  − θ  f
+4: a ← f  w
+5: θ ← θ + α · (f − γ · f  ) · a
+6: w ← w + β · (δ − a) · f
+7: return (θ, w)
+A simple calculation allows us to rewrite J in the following form:
+−1 
+
+ 
+
+J (θ ) = E δt+1 (θ )ϕt E ϕt ϕt
+E δt+1 (θ )ϕt .
+Taking the gradient of the objective function we get
+
+
+
+∇θ J (θ ) = −2E (ϕt − γ ϕt+1
+)ϕt w(θ ),
+where
+
+(2.9)
+
+(2.10)
+
+−1 
+
+
+E δt+1 (θ )ϕt .
+w(θ ) = E ϕt ϕt
+
+Let us now introduce two sets of weights: θt to approximate θ∗ and wt to approximate w(θ∗ ). In
+GTD2 (“gradient temporal difference learning, version 2”), the update of θt is chosen to follow the
+negative stochastic gradient of J based on (2.10) assuming that wt ≈ w(θt ), while the update of wt
+is chosen so that for any fixed θ, wt would converge almost surely to w(θ ):
+θt+1
+wt+1
+
+
+= θt + αt (ϕt − γ ϕt+1
+) ϕt wt ,
+= wt + βt (δt+1 (θt ) − ϕt wt ) ϕt .
+
+Here (αt ; t ≥ 0), (βt ; t ≥ 0) are two step-size sequences. Note that the update equation for
+(wt ; t ≥ 0) is just the basic Least-Mean Square (LMS) rule, which is a widely used update rule
+in signal processing (Widrow and Stearns, 1985). Sutton et al. (2009a) have shown that under the
+standard RM conditions on the step-sizes and some other mild technical conditions (θt ) converges
+to the minimizer of J (θ), almost surely. However, unlike for TD(0), convergence is guaranteed
+independently of the distribution of (Xt ; t ≥ 0). At the same time, the update of GTD2 costs only
+twice as much as the cost of TD(0). Algorithm 5 shows the pseudocode of GTD2.
+
+2.2. ALGORITHMS FOR LARGE STATE SPACES
+
+27
+
+To arrive at the second algorithm called TDC (“temporal difference learning with corrections”), write the gradient as
+ 
+
+
+
+
+
+ϕt w(θ ) .
+∇θ J (θ) = −2 E δt+1 (θ )ϕt − γ E ϕt+1
+Leaving the update wt unchanged, we then arrive at,
+
+
+
+ϕt wt ,
+θt+1 = θt + αt δt+1 (θt )ϕt − γ ϕt+1
+
+
+wt+1 = wt + βt δt+1 (θt ) − ϕt wt ϕt .
+The pseudocode of this update is identical to that of GTD2 except that line 5 should be replaced by
+θ ← θ + α · (δ · f − γ · a · f  ).
+In TDC, the update of wt must use larger step-sizes than the update of θt : αt = o(βt ). This
+makes TDC a member of the family of the so-called two-timescale stochastic approximation algorithms
+(Borkar, 1997, 2008). If, in addition to this condition, the standard RM conditions are also satisfied
+by both step-size sequences, θt → θ∗ holds again almost surely (Sutton et al., 2009a). More recently,
+these algorithms have been extended to nonlinear function approximation (Maei et al., 2010a). Also,
+one can show that it suffices if αt  βt (Maei, 2010, personal communication). The algorithms can
+also be extended to use eligibility traces (Maei and Sutton, 2010).
+Note that although these algorithms are derived from the gradient of an objective function,
+they are not true stochastic gradient methods in the sense that the expected weight update direction
+can be different from the direction of the negative gradient of the objective function. In fact, these
+methods belong to the larger class of pseudo-gradient methods. The two methods differ in how they
+approximate the gradients, and it remains to be seen whether one of them is better than the other.
+
+2.2.3
+
+LEAST-SQUARES METHODS
+
+The methods discussed so far are similar to the LMS algorithm of adaptive filtering in that they
+are taking small steps in the parameter space following some noisy, gradient-like signal. As such,
+similarly to the LMS algorithm, they are sensitive to the choice of the step-sizes, the distance
+between the initial parameter and the limit point θ (λ) , or the eigenvalue
+structure of the matrix
+
+ ) ). Over the
+A that determines the dynamics of updates (e.g., for TD(0), A = E ϕt (ϕt − γ ϕt+1
+years, many ideas appeared in the literature to address these issues. These are essentially parallel to
+those available in the adaptive filtering literature. A non-exhaustive list includes the use of adaptive
+step-sizes (Sutton, 1992; George and Powell, 2006), normalizing the updates (Bradtke, 1994) or
+reusing previous samples (Lin, 1992). Although these techniques can indeed help, each have their
+own weaknesses. In adaptive filtering, the algorithm that is known to address all the deficiencies
+of LMS is known as the LS (“least-squares”) algorithm. In this section, we review the analogous
+methods of reinforcement learning.
+
+28
+
+2. VALUE PREDICTION PROBLEMS
+
+LSTD: Least-squares temporal difference learning In the limit of an infinite number of examples,
+TD(0) finds a parameter vector θ that satisfies
+
+
+(2.11)
+E ϕt δt+1 (θ ) = 0,
+where we used the notation of the previous section. Given a finite sample
+
+Dn = ((X0 , R1 , Y1 ), (X1 , R2 , Y2 ), . . . , (Xn−1 , Rn , Yn )),
+one can approximate (2.11) by
+1
+ϕt δt+1 (θ ) = 0.
+n
+n−1
+
+(2.12)
+
+t=0
+
+ ) θ , we see that this equation is linear in θ. In particular,
+Plugging in δt+1 (θ) = Rt+1 − (ϕt − γ ϕt+1
+1 n−1
+ ) is non-singular, the solution is simply
+if the matrix Ân = n t=0 ϕt (ϕt − γ ϕt+1
+
+θn = Â−1
+n b̂n ,
+
+(2.13)
+
+n−1
+Rt+1 ϕt . If inverting Ân can be afforded (i.e., the dimensionality of the features
+where b̂n = n1 t=0
+is not too large and the method is not called too many times) then this method can give a better
+approximation to the equilibrium solution than TD(0) or some other incremental first-order
+method
+ 
+
+since the latter are negatively impacted by the eigenvalue spread of the matrix E Ân .
+The idea of directly computing the solution of (2.12) is due to Bradtke and Barto (1996), who
+call the resulting algorithm least-squares temporal difference learning or LSTD. Using the terminology
+of stochastic programming, LSTD can be seen to use sample average approximation (Shapiro, 2003).
+In the terminology of statistics, it belongs to the so-called Z-estimation family of procedures (e.g.,
+Kosorok, 2008, Section 2.2.5). It is a simple observation that when the LSTD solution exists, LSTD
+
+2
+minimizes the empirical approximation to the projected squared Bellman error, F ,μ (T V − V )μ ,
+over the linear space F (Antos et al., 2008).
+Using the Sherman-Morrison formula, one can derive an incremental version of LSTD,
+analogously to how the recursive least-squares (RLS) method is derived in adaptive filtering
+Widrow and Stearns (1985). The resulting algorithm is called “recursive LSTD” (RLSTD) and
+works as follows (Bradtke and Barto, 1996): Choose θ0 ∈ Rd and let C0 ∈ Rd×d such that C0 is a
+“small” positive definite matrix (e.g., C0 = βI , for β &gt; 0 “small”). Then, for t ≥ 0,
+Ct+1
+θt+1
+
+= Ct −
+
+ ) C
+Ct ϕt (ϕt − γ ϕt+1
+t
+
+ ) C ϕ ,
+1 + (ϕt − γ ϕt+1
+t t
+Ct
+= θt +
+ ) C ϕ δt+1 (θt )ϕt .
+1 + (ϕt − γ ϕt+1
+t t
+
+The computational complexity of one update is O(d 2 ). Algorithm 6 shows the pseudocode of this
+algorithm.
+
+2.2. ALGORITHMS FOR LARGE STATE SPACES
+
+29
+
+Algorithm 6 The function implementing the RLSTD algorithm. This function must be called after
+each transition. Initially, C should be set to a diagonal matrix with small positive diagonal elements:
+C = β I , with β &gt; 0.
+function RLSTD(X, R, Y, C, θ)
+Input: X is the last state, Y is the next state, R is the immediate reward associated with this transition,
+C ∈ Rd×d , and θ ∈ Rd is the parameter vector of the linear function approximation
+1: f ← ϕ[X]
+2: f  ← ϕ[Y ]
+3: g ← (f − γf  ) C
+ g is a 1 × d row vector
+4: a ← 1 + gf
+5: v ← Cf
+6: δ ← R + γ · θ  f  − θ  f
+7: θ ← θ + δ / a · v
+8: C ← C − v g / a
+9: return (C, θ)
+Boyan (2002) extended LSTD to incorporate the λ parameter of TD(λ) and called the resulting algorithm LSTD(λ). (Note that for λ &gt; 0 to make sense one needs Xt+1 = Yt+1 ; otherwise,
+the TD errors do not telescope). The LSTD(λ) solution is derived from (2.5). It is defined as the
+parameter value that makes the cumulated updates zero:
+1
+δt+1 (θ )zt+1 = 0,
+n
+n−1
+
+(2.14)
+
+t=0
+
+t
+
+where zt+1 = s=0 (γ λ)t−s ϕs are the eligibility traces. This is again linear in θ and the previous
+comments apply. The recursive form of LSTD(λ), RLSTD(λ), has been studied by Xu et al. (2002)
+and (independently) by Nedič and Bertsekas (2003). (See Algorithm 16 for the pseudocode of a
+closely related algorithm.)
+One issue with LSTD(λ) as stated here that Equation (2.14) might fail to have a solution.
+In the on-policy case, for large enough sample sizes at least, a solution will always exist. When a
+solution does not exist, a commonly suggested trick is to add a small positive diagonal matrix to the
+matrix to be inverted (this corresponds to starting with a diagonal matrix in RLSTD). However,
+this trick is not guaranteed to work. A better approach is based on the observation that when the
+matrix is invertible then the LSTD parameter vector is a minimizer of the projected Bellman error.
+Since the minimizer of the projected Bellman error is always well defined, instead of the solving for
+the zero of (2.14) , one can aim for minimizing the projected Bellman error.
+Under standard assumptions on the sample, it follows from the law of large numbers and a
+simple continuity argument that LSTD(λ) (and its recursive variants) converge almost surely to the
+solution of the projected fixed-point equation (2.6) if this solution exists. This was formally shown
+
+30
+
+2. VALUE PREDICTION PROBLEMS
+
+for λ = 0 by Bradtke and Barto (1996), and for λ &gt; 0 by Xu et al. (2002) and Nedič and Bertsekas
+(2003). Although these results were shown only for the on-policy case, it is easy to see that they also
+hold in the off-policy case provided that the limiting solution exists.
+As promised, (R)LSTD(λ) avoids the difficulties associated with tuning the incremental
+algorithms: It neither relies on step-sizes, nor is it sensitive to the eigenvalue structure of A, or the
+choice of the initial value of θ . Experimental results by Bradtke and Barto (1996); Boyan (2002);
+Xu et al. (2002) and others have indeed confirmed that the parameters obtained using (R)LSTD(λ)
+converge faster than those obtained by TD(λ). However, their computational properties are quite
+different from those of TD(λ). We will discuss the implications of this after we have reviewed the
+LSPE algorithm.
+LSPE: Least-squares policy evaluation An alternative to LSTD (and LSTD(λ)) is λ-least squares
+policy evaluation (λ-LSPE for short) due to Bertsekas and Ioffe (1996). The basic idea of this algorithm is to mimic multi-step value iteration. Again, the method assumes that linear functionapproximation is used.
+It works as follows. Define the (n − s)-step prediction of the value of Xs as
+(λ)
+(θ ) = θ  ϕs +
+V̂s,n
+
+n−1
+
+(γ λ)q−s δq+1 (θ )
+q=s
+
+and define the loss
+
+2
+1  
+(λ)
+(θ ) .
+θ̂ ϕs − V̂s,n
+n
+n−1
+
+Jn (θ̂ , θ ) =
+
+s=0
+
+Then, λ-LSPE updates the parameters by
+θt+1 = θt + αt (argmin Jnt (θ̂ , θt ) − θt ),
+
+(2.15)
+
+θ̂
+
+where (αt ; t ≥ 0) is a step-size sequence and (nt ; t ≥ 0) is a non-decreasing sequence of integers.
+(Bertsekas and Ioffe (1996) only considered the case when nt = t, which is a logical choice when
+the algorithm is used in an online learning scenario. When the algorithm is used with a finite (say, n)
+observations, we can set nt = n or nt = min(n, t).) Note that Jn is quadratic in θ̂ , hence the solution
+to the minimization problem can be obtained in closed form. The resulting algorithm is shown as
+Algorithm 7. A recursive, incremental version of λ-LSPE is also available. Similarly to LSTD(λ),
+it requires O(d 2 ) operations per time step when nt = t.
+To get a sense of the behavior of λ-LSPE, consider the update in the special case when λ = 0
+and αt = 1:
+nt −1 
+2
+1 
+θ̂  ϕ(Xs ) − (Rs+1 + γ Vθt (Ys+1 )) .
+θt+1 = argmin
+nt
+θ̂
+s=0
+
+2.2. ALGORITHMS FOR LARGE STATE SPACES
+
+31
+
+Algorithm 7 The function implementing the batch-mode λ-LSPE update. This function must be
+called repeatedly until convergence.
+function LambdaLSPE(D, θ )
+Input: D = ((Xt , At , Rt+1 , Yt+1 ); t = 0, . . . , n − 1) is a list of transitions, θ ∈ Rd is the parameter
+vector
+1: A, b, δ ← 0
+ A ∈ Rd×d , b ∈ Rd , δ ∈ R
+2: for t = n − 1 downto 0 do
+3:
+f ← ϕ[Xt ]
+4:
+v ← θ f
+
+
+5:
+δ ← γ · λ · δ + Rt+1 + γ · θ  ϕ[Yt+1 ] − v
+6:
+b ← b + (v + δ) · f
+7:
+A ← A + f · f
+8: end for
+9: θ  ← A−1 b
+10: θ ← θ + α · (θ  − θ)
+11: return θ
+
+Thus, in this case, λ-LSPE solves a linear regression problem, implementing the so-called fitted
+value iteration algorithm for policy evaluation with linear function approximation. For a fixed, nonrandom
+value of θt , the true regression
+function underlying the above least-squares problem is
+
+
+E Rs+1 + γ Vθt (Ys+1 )|Xs = x , which is just T Vθt (x). Thus, if the function space F is rich enough
+ ϕ to be close to T V (x), and we see that the
+and the sample size nt is large, one may expect θt+1
+θt
+algorithm implements value iteration in an approximate manner. The case when λ &gt; 0 can be given
+a similar interpretation.
+When αt &lt; 1, the parameters are moved towards the minimizer of Jnt (·, θt ) in proportion to
+the size of αt . The role of smoothing the updates this way is (i) to stabilize the parameters for small
+sample sizes (i.e., when nt and d are in the same range) and (ii) to ensure that policies are changed
+gradually when the algorithm is used as a subroutine of a control algorithm (cf. Section 3). The idea
+of smoothing the parameter updates could also be used together with LSTD.
+Just like LSTD(λ), the multi-step version of λ-LSPE (i.e., when λ &gt; 0) requires Xt+1 = Yt+1 .
+The parameter λ plays a role similar to its role in other TD methods: Increasing λ is expected to
+reduce bias and increase variance, though unlike TD(λ), λ-LSPE bootstraps even when λ = 1.
+However, the effect of bootstrapping is diminishing with nt → ∞.
+Under standard assumptions on the sample and when nt = t, λ-LSPE is known to converge almost surely to the solution of the projected fixed-point equation (2.6), both for decreasing
+(Nedič and Bertsekas, 2003) and constant step-sizes (Bertsekas et al., 2004). In the latter case, convergence is guaranteed if 0 &lt; αt ≡ α &lt; (2 − 2γ λ)/(1 + γ − 2γ λ). Note that 1 is always included
+in this range.
+
+32
+
+2. VALUE PREDICTION PROBLEMS
+
+According to Bertsekas et al. (2004) λ-LSPE is competitive with LSTD in the sense that the
+distance between the parameters updated by LSTD(λ) and λ-LSPE becomes, very soon, smaller
+than the statistical inaccuracy, resulting from the use of a finite sample. Experimental results obtained
+by Bertsekas et al. (2004) and earlier by Bertsekas and Ioffe (1996) to train a Tetris playing program
+indicate that λ-LSPE is, indeed, a competitive algorithm. Moreover, λ-LSPE is always well-defined
+(all inverses involved exist in the limit or with appropriate i</pre></div>                                                                    </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height:60px">
+                    <td id="footer" valign="top">
+                        <div class="container-fluid">
+<!-- footer begin -->
+<div class="row">
+    <div class="col-md-12">
+        <div style="float:left; color:#888; font-size:13px;">
+            <span style="font-style:italic;">Free ebooks since 2009. <a style="margin:0 5px 0 20px" href="mailto:support@bookmail.org">support@bookmail.org</a></span>
+            <span style="margin:0 0 0 15px;"> <a href="/faq.php">FAQ</a></span>
+            <span style="margin:0 0 0 15px;"> <a href="/blog/">Blog</a></span>
+        </div>
+        <div style="float: right;" role="navigation">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/privacy.php">Privacy</a></li>
+                <li><a href="/dmca.php">DMCA</a></li>
+                <li class="dropup">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">English <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a onclick="setLanguage('en'); return false;" href="//en.b-ok.cc/book/1205971/10fd57/?_ir=1">English</a></li><li><a onclick="setLanguage('ru'); return false;" href="//ru.b-ok.cc/book/1205971/10fd57/?_ir=1">Русский</a></li><li><a onclick="setLanguage('ua'); return false;" href="//ua.b-ok.cc/book/1205971/10fd57/?_ir=1">Українська</a></li><li><a onclick="setLanguage('pl'); return false;" href="//pl.b-ok.cc/book/1205971/10fd57/?_ir=1">Polski</a></li><li><a onclick="setLanguage('it'); return false;" href="//it.b-ok.cc/book/1205971/10fd57/?_ir=1">Italiano</a></li><li><a onclick="setLanguage('es'); return false;" href="//es.b-ok.cc/book/1205971/10fd57/?_ir=1">Español</a></li><li><a onclick="setLanguage('zh'); return false;" href="//zh.b-ok.cc/book/1205971/10fd57/?_ir=1">汉语</a></li><li><a onclick="setLanguage('id'); return false;" href="//id.b-ok.cc/book/1205971/10fd57/?_ir=1">Bahasa Indonesia</a></li><li><a onclick="setLanguage('in'); return false;" href="//in.b-ok.cc/book/1205971/10fd57/?_ir=1">हिन्दी</a></li><li><a onclick="setLanguage('pt'); return false;" href="//pt.b-ok.cc/book/1205971/10fd57/?_ir=1">Português</a></li><li><a onclick="setLanguage('jp'); return false;" href="//jp.b-ok.cc/book/1205971/10fd57/?_ir=1">日本語</a></li><li><a onclick="setLanguage('de'); return false;" href="//de.b-ok.cc/book/1205971/10fd57/?_ir=1">Deutsch</a></li><li><a onclick="setLanguage('fr'); return false;" href="//fr.b-ok.cc/book/1205971/10fd57/?_ir=1">Français</a></li><li><a onclick="setLanguage('th'); return false;" href="//th.b-ok.cc/book/1205971/10fd57/?_ir=1">ภาษาไทย</a></li><li><a onclick="setLanguage('el'); return false;" href="//el.b-ok.cc/book/1205971/10fd57/?_ir=1">ελληνικά </a></li><li><a onclick="setLanguage('ar'); return false;" href="//ar.b-ok.cc/book/1205971/10fd57/?_ir=1">اللغة العربية</a></li>                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <script type="text/javascript" src="/scripts/root.js?version=1x03"></script>
+        <script type="text/javascript" src="/ext/paginator3000/jquery.paginator.3000.js"></script>
+        <script>
+            if (typeof pagerOptions !== "undefined" && pagerOptions) {
+                $('div.paginator').paginator(pagerOptions);
+            }
+        </script>
+        <!-- ggAdditionalHtml -->
+        
+    <script>
+        var Config = {"currentLanguage":"en","L":{"90":"The file is located on an external resource","91":"It is a folder","92":"File from disk storage","93":"File is aviable by direct link","94":"Popular","95":"Limitation of downloading: no more than 2 files at same time","96":"Size","97":" Language","98":"Category","99":"Find all the author's book"}};
+    </script>
+    <!--LiveInternet counter--><script type="text/javascript">
+new Image().src = "//counter.yadro.ru/hit;bookzz?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();</script><!--/LiveInternet-->
+
+<iframe name="uploader" id="uploader" style="border:0px solid #ddd; width:90%; display:none;"></iframe>        <!-- /ggAdditionalHtml -->
+            </body>
+</html>
